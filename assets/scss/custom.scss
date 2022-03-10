@@ -1,0 +1,316 @@
+// Override this file to add your own SCSS styling.
+
+/*************************************************
+ *  Blockquotes
+ **************************************************/
+
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+
+.quotation{
+  display:block;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  line-height: 1.2;
+  text-align: center;  
+  color: #222222 ;
+  
+  /*Borders - (Optional)*/
+  border-left: 0px solid #B31B1B;
+  border-right: 0px solid #B31B1B;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #F7F7F7;
+  -webkit-box-shadow: 2px 2px 15px #F7F7F7;
+  box-shadow: 2px 2px 15px #F7F7F7;
+}
+
+.quotation::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #9FAD9F ;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 20px;
+  top:5px;
+}
+
+.quotation::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+
+.markup-quote {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, rgba(233, 231, 245, 1), rgba(233, 231, 245, 1));
+}
+
+.space-below {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .space-below {
+    margin-bottom: 10px;
+  }
+}
+
+.universal-wrapper {
+  margin: 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.1rem;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1001px) {
+  .universal-wrapper {
+    width: 1000px;
+  }
+}
+
+small,
+.small {
+  font-size: .75em;
+}
+
+.responsive-wrap iframe {
+  max-width: 100%;
+}
+
+
+/*************************************************
+ *  About widget
+ **************************************************/
+
+#profile {
+  text-align: center;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+
+// Use smaller avatar size in About widget on small devices.
+@include media-breakpoint-down(sm) {
+  .wg-about .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 33%;
+    object-fit: cover;
+  }
+}
+
+
+.avatar-sidcustom {
+	border-radius: 33%;
+	object-fit: cover;
+}
+
+.avatar-circle {
+  border-radius: 50%;
+}
+
+.avatar-square {
+  border-radius: 3px;
+}
+
+
+.portrait-title h2 {
+  font-size: 1.75em;
+  font-weight: 300;
+  color: #000000;
+  margin: 20px 0 10px 0;
+}
+
+.portrait-title h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(0,0,0, 0.54);
+  margin: 0px 0 10px 0;
+}
+
+ul.network-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+#profile .network-icon {
+  margin-top: 30px;
+}
+
+.network-icon li {
+  margin-right: 10px;
+}
+
+.network-icon li:last-of-type {
+  margin-right: 0;
+}
+
+.network-icon li:hover {
+  transform: scale(1.2)
+}
+
+.big-icon {
+  font-size: 2rem;
+}
+
+ul.ul-interests li {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu {
+  list-style: none;
+}
+
+ul.ul-edu li {
+  position: relative;
+  padding: 0px 15px 4px 3px;
+}
+
+ul.ul-edu li .description p {
+  margin: 0;
+}
+
+ul.ul-edu li .description p.course {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
+
+/*************************************************
+ *  People widget
+ **************************************************/
+
+.people-widget {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.people-widget .portrait-title h2 {
+  font-size: 1rem;
+}
+
+.people-widget .portrait-title h3 {
+  font-size: 0.7rem;
+}
+
+.people-widget .portrait {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  .people-widget  .col-sm-auto {
+    max-width: 30% !important;
+  }
+}
+@media (min-width: 992px) {
+  .people-widget  .col-sm-auto {
+    max-width: 20% !important;
+  }
+}
+
+
+
+/*************************************************
+ *  Student widget
+ **************************************************/
+
+.ul-students{
+  /* font-family: 'Raleway', sans-serif; */
+  color: #073949;
+}
+
+.ul-students:after {
+  /*content: attr(title);*/
+  display: block;
+  text-align: center;
+  vertical-align: top;
+  padding: 0;
+}
+
+.ul-students ul {
+  text-align: center;
+  padding: 0;
+}
+
+.ul-students li {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1rem;
+}
+
+.ul-students li img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* STUDENT photos on index.html */
+.studentpic{
+  border-radius: 33%;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 75%;
+  vertical-align: top;
+}
+
+
+/* FOR CLASS LIST IN TEACHING */
+.teaching{
+  /* font-family: 'Raleway', sans-serif; */
+  font-size: .75rem;
+  color: #AAAAAA;
+  vertical-align: text-top;
+  padding: 0;
+}
+
+.smaller{
+  font-size: .6rem;
+}
+
+/* STUDENT photos on index.html */
+.teachingpic{
+  border-radius: 10px;
+  /* text-align: center; */
+  /* margin: 0 auto; */
+  max-width: 80%;
+  vertical-align: text-top;
+}
+

@@ -1,0 +1,49 @@
+<div class="pub-list-item" style="margin-bottom: 1rem">
+
+  {{ if in .Params.publication_types "1" }}
+  <!-- <i class="far fa-file-alt pub-icon" aria-hidden="true"></i> -->
+  <span style="font-size: 0.6rem; color:rgba(1,1,1,0.4)">[conf]</span>
+  {{ else if in .Params.publication_types "2" }}
+    <span style="font-size: 0.6rem; color:rgba(1,1,1,0.4)">[jour]</span>
+  {{ else if in .Params.publication_types "0" }}
+    <span style="font-size: 0.6rem; color:rgba(1,1,1,0.4)">[preprint]</span>
+  {{ else if in .Params.publication_types "6" }}
+    <span style="font-size: 0.6rem; color:rgba(1,1,1,0.4)">[chapter]</span>
+  {{ end }}
+	
+
+  {{/* APA Style */}}
+  {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
+
+  <a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{- .Date.Format "2006" -}})
+  <br>
+  <span style="font-size: 0.8rem; color:rgba(1,1,1,0.8)">
+  {{ if .Params.publication_short }}
+  {{- .Params.publication_short | markdownify -}}.
+  {{ else if .Params.publication }}
+  {{- .Params.publication | markdownify -}}
+  {{ end }}
+  </span>
+  <br>
+  <span class="article-metadata li-cite-author" style="font-size: 0.8rem;">
+    {{ partial "page_metadata_authors" . }}
+  </span>
+  <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
+
+  {{/* MLA Style */}}
+  {{ else }}
+
+  <span class="article-metadata li-cite-author">
+    {{ partial "page_metadata_authors" . }}.
+  </span>
+  <a href="{{ .RelPermalink }}">{{ .Title }}</a>.
+  {{ if .Params.publication_short }}
+  {{- .Params.publication_short | markdownify -}},
+  {{ else if .Params.publication }}
+  {{- .Params.publication | markdownify -}},
+  {{ end }}
+  {{- .Date.Format "2006" -}}.
+  <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
+
+  {{ end }}
+</div>

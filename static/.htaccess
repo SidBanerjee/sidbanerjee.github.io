@@ -1,0 +1,4 @@
+# .htaccess file
+
+# 404 redirect
+ErrorDocument 404 /sbanerjee/404.html

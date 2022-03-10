@@ -1,0 +1,21 @@
+# Theme metadata
+name = "cornell"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#006699"
+primary_light = "#006699"
+primary_dark = "#EF4035"
+
+# Menu
+menu_primary = "#B31B1B"
+menu_text = "#F7F7F7"
+menu_text_active = "#073949"
+menu_title = "#F7F7F7"
+
+# Backgrounds
+background = "#D8D2C9"
+home_section_odd = "#D8D2C9"
+home_section_even = "#C9D6A5"

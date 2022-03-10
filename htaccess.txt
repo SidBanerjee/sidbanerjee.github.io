@@ -1,0 +1,9 @@
+# .htaccess file
+
+# 404 redirect
+ErrorDocument 404 /sbanerjee/404.html
+
+# Old link redirect
+RewriteEngine on
+Redirect 301 /sbanerjee/teaching.html /sbanerjee/#courses
+Redirect 301 /sbanerjee/research.html /sbanerjee/publication/
