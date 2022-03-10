@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>0 | Sid Banerjee</title>
-    <link>https://sidbanerjee.github.io/publication_types/0/</link>
-      <atom:link href="https://sidbanerjee.github.io/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sidbanerjee.github.io/public/publication_types/0/</link>
+      <atom:link href="https://sidbanerjee.github.io/public/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Wed, 01 Sep 2021 00:00:00 -0400</lastBuildDate>
     <image>
-      <url>https://sidbanerjee.github.io/img/sid.jpg</url>
+      <url>https://sidbanerjee.github.io/public/img/sid.jpg</url>
       <title>0</title>
-      <link>https://sidbanerjee.github.io/publication_types/0/</link>
+      <link>https://sidbanerjee.github.io/public/publication_types/0/</link>
     </image>
     
     <item>
       <title>Pseudo-Competitive Games and Algorithmic Price Competition</title>
-      <link>https://sidbanerjee.github.io/publication/hssaine-21-satisficing/</link>
+      <link>https://sidbanerjee.github.io/public/publication/hssaine-21-satisficing/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 -0400</pubDate>
-      <guid>https://sidbanerjee.github.io/publication/hssaine-21-satisficing/</guid>
+      <guid>https://sidbanerjee.github.io/public/publication/hssaine-21-satisficing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Limits of an Information Intermediary in Auction Design</title>
-      <link>https://sidbanerjee.github.io/publication/alijani-20-bbm/</link>
+      <link>https://sidbanerjee.github.io/public/publication/alijani-20-bbm/</link>
       <pubDate>Thu, 20 Aug 2020 00:00:00 -0400</pubDate>
-      <guid>https://sidbanerjee.github.io/publication/alijani-20-bbm/</guid>
+      <guid>https://sidbanerjee.github.io/public/publication/alijani-20-bbm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamic Assignment Control of a Closed Queueing Network under Complete Resource Pooling</title>
-      <link>https://sidbanerjee.github.io/publication/qian-20/</link>
+      <link>https://sidbanerjee.github.io/public/publication/qian-20/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 -0400</pubDate>
-      <guid>https://sidbanerjee.github.io/publication/qian-20/</guid>
-      <description>&lt;p&gt;Earlier conference version: &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/qian-17-conf/&#34;&gt;Banerjee et al. (2018)&lt;/a&gt;&lt;/p&gt;
+      <guid>https://sidbanerjee.github.io/public/publication/qian-20/</guid>
+      <description>&lt;p&gt;Earlier conference version: &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/qian-17-conf/&#34;&gt;Banerjee et al. (2018)&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>When Bribes are Harmless: The Power and Limits of Collusion-Resilient Mechanism Design</title>
-      <link>https://sidbanerjee.github.io/publication/gorokh-18-bribes/</link>
+      <link>https://sidbanerjee.github.io/public/publication/gorokh-18-bribes/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0400</pubDate>
-      <guid>https://sidbanerjee.github.io/publication/gorokh-18-bribes/</guid>
+      <guid>https://sidbanerjee.github.io/public/publication/gorokh-18-bribes/</guid>
       <description></description>
     </item>
     

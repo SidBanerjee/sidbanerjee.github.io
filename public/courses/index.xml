@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses | Sid Banerjee</title>
-    <link>https://sidbanerjee.github.io/courses/</link>
-      <atom:link href="https://sidbanerjee.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sidbanerjee.github.io/public/courses/</link>
+      <atom:link href="https://sidbanerjee.github.io/public/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sidbanerjee.github.io/img/sid.jpg</url>
+      <url>https://sidbanerjee.github.io/public/img/sid.jpg</url>
       <title>Courses</title>
-      <link>https://sidbanerjee.github.io/courses/</link>
+      <link>https://sidbanerjee.github.io/public/courses/</link>
     </image>
     
     <item>
       <title>Online Decision-Making and Market Design</title>
-      <link>https://sidbanerjee.github.io/courses/orie6180f21/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie6180f21/</link>
       <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie6180f21/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie6180f21/</guid>
       <description>
 
 &lt;p&gt;&lt;embed src=&#34;https://drive.google.com/viewerng/
@@ -223,9 +223,9 @@ Send me a mail if you are concerned about having the appropriate prerequisites.&
     
     <item>
       <title>Information Theory &amp; Bayesian ML</title>
-      <link>https://sidbanerjee.github.io/courses/orie4742s21/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie4742s21/</link>
       <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie4742s21/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie4742s21/</guid>
       <description>
 
 &lt;table&gt;
@@ -478,9 +478,9 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     
     <item>
       <title>Simulation Modeling and Analysis</title>
-      <link>https://sidbanerjee.github.io/courses/orie4580f20/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie4580f20/</link>
       <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie4580f20/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie4580f20/</guid>
       <description>
 
 &lt;p&gt;&lt;a class=&#34;btn-lg btn-outline-primary&#34; role=&#34;button&#34; href=&#34;../../docs/ORIE4580F20/files/syllabus_4580_F20.pdf&#34;&gt;
@@ -622,9 +622,9 @@ These will be uploaded on Piazza  before the class. Students are encouraged to a
     
     <item>
       <title>Information Theory and Bayesian ML</title>
-      <link>https://sidbanerjee.github.io/courses/orie4742s20/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie4742s20/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie4742s20/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie4742s20/</guid>
       <description>
 
 &lt;p&gt;&lt;embed src=&#34;https://drive.google.com/viewerng/
@@ -722,9 +722,9 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     
     <item>
       <title>Applied Stochastic Processes</title>
-      <link>https://sidbanerjee.github.io/courses/orie6500/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie6500/</link>
       <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie6500/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie6500/</guid>
       <description>
 
 &lt;p&gt;&lt;embed src=&#34;https://drive.google.com/viewerng/
@@ -794,7 +794,7 @@ An e-copy of the book is available on the Cornell library website, which also gi
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Set 1&lt;/strong&gt;: Probability basics &lt;a href=&#34;../../docs/ORIE6500/files/Set1-ProbabilityBasics.pdf&#34;&gt;[notes]&lt;/a&gt;&lt;br /&gt;
-&lt;!--    &lt;iframe src=&#34;https://sidbanerjee.github.io/docs/ORIE6500/files/Set1-ProbabilityBasics.pdf#toolbar=0&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt; --&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;!--    &lt;iframe src=&#34;https://sidbanerjee.github.io/public/docs/ORIE6500/files/Set1-ProbabilityBasics.pdf#toolbar=0&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt; --&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Set 2&lt;/strong&gt;: Conditional expectation &lt;a href=&#34;../../docs/ORIE6500/files/Set2-ConditionalExpectation.pdf&#34;&gt;[notes]&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
@@ -817,9 +817,9 @@ An e-copy of the book is available on the Cornell library website, which also gi
     
     <item>
       <title>Simulation Modeling and Analysis</title>
-      <link>https://sidbanerjee.github.io/courses/orie4580f18/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie4580f18/</link>
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie4580f18/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie4580f18/</guid>
       <description>
 
 &lt;p&gt;&lt;embed src=&#34;https://drive.google.com/viewerng/
@@ -915,9 +915,9 @@ Recitation and office hours schedule available on Piazza.&lt;br /&gt;&lt;/li&gt;
     
     <item>
       <title>Markov Chain Mixing and Applications</title>
-      <link>https://sidbanerjee.github.io/courses/orie7591/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie7591/</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie7591/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie7591/</guid>
       <description>
 
 &lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
@@ -964,7 +964,7 @@ Recitation and office hours schedule available on Piazza.&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Set 1&lt;/strong&gt;: Markov chains, ergodic theorem and convergence &lt;a href=&#34;../../docs/ORIE7591/files/Lec2-Notes.pdf&#34;&gt;[notes]&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;!--    &lt;iframe src=&#34;https://sidbanerjee.github.io/docs/ORIE7591/files/Set1-ProbabilityBasics.pdf#toolbar=0&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt; --&gt;
+&lt;!--    &lt;iframe src=&#34;https://sidbanerjee.github.io/public/docs/ORIE7591/files/Set1-ProbabilityBasics.pdf#toolbar=0&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt; --&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Set 2&lt;/strong&gt;: Coupling and mixing times &lt;a href=&#34;../../docs/ORIE7591/files/Lec3-Notes.pdf&#34;&gt;[notes]&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -988,9 +988,9 @@ Recitation and office hours schedule available on Piazza.&lt;br /&gt;&lt;/li&gt;
     
     <item>
       <title>Simulation Modeling and Analysis</title>
-      <link>https://sidbanerjee.github.io/courses/orie4580f17/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie4580f17/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie4580f17/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie4580f17/</guid>
       <description>
 
 &lt;p&gt;&lt;embed src=&#34;https://drive.google.com/viewerng/
@@ -1097,9 +1097,9 @@ For the second half of semester, we will use a commercial simulation package, &l
     
     <item>
       <title>Pricing and Market Design</title>
-      <link>https://sidbanerjee.github.io/courses/orie4154/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie4154/</link>
       <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie4154/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie4154/</guid>
       <description>
 
 &lt;p&gt;&lt;embed src=&#34;https://drive.google.com/viewerng/
@@ -1209,9 +1209,9 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     
     <item>
       <title>Revenue Management</title>
-      <link>https://sidbanerjee.github.io/courses/orie6154/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie6154/</link>
       <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie6154/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie6154/</guid>
       <description>
 
 &lt;p&gt;&lt;embed src=&#34;https://drive.google.com/viewerng/
@@ -1363,9 +1363,9 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     
     <item>
       <title>The Design of Online Marketplaces</title>
-      <link>https://sidbanerjee.github.io/courses/orie6180/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie6180/</link>
       <pubDate>Wed, 20 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie6180/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie6180/</guid>
       <description>
 
 &lt;p&gt;&lt;embed src=&#34;https://drive.google.com/viewerng/
@@ -1501,9 +1501,9 @@ Another great set of related courses are Tim Roughgarden&amp;rsquo;s &lt;a href=
     
     <item>
       <title>Stochastics at Scale</title>
-      <link>https://sidbanerjee.github.io/courses/orie4520/</link>
+      <link>https://sidbanerjee.github.io/public/courses/orie4520/</link>
       <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.github.io/courses/orie4520/</guid>
+      <guid>https://sidbanerjee.github.io/public/courses/orie4520/</guid>
       <description>
 
 &lt;p&gt;&lt;embed src=&#34;https://drive.google.com/viewerng/
