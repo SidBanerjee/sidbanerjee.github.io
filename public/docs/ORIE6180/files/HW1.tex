@@ -1,0 +1,263 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{amsmath}
+\usepackage{amsthm,amsfonts,mathtools,enumitem}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\usepackage{listings,xcolor}
+%\usepackage{mnsymbol}
+\usepackage[top=1.5in, bottom=1.5in, left=1in, right=1in]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+ 
+\usepackage{listings,xcolor}
+
+\usepackage[colorlinks,
+            linkcolor=blue,
+            citecolor=blue,
+            urlcolor=magenta,
+            linktocpage,
+            plainpages=false,
+			pdftex]{hyperref}
+\usepackage{url}
+
+%\newcommand{email}[1]{\href{mailto:#1}{\nolinkurl{#1}}}
+
+
+\lstset{language=Matlab}
+\lstset{basicstyle={\sffamily\footnotesize},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  numbersep=5pt,
+  breaklines=true,
+  captionpos={t},
+  frame={lines},
+  rulecolor=\color{black},
+  framerule=0.5pt,
+  columns=flexible,
+  tabsize=2
+  }
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\newtheorem*{theorem*}{Theorem}
+\newtheorem*{lemma*}{Lemma}
+\newtheorem*{proposition*}{Proposition}
+\newtheorem*{corollary*}{Corollary}
+
+\def\PP{\mathbf{P}}
+\def\EE{\mathbf{E}}
+
+%\lhead{\textbf{ORIE 6180: Design of Online Marketplaces}\\Spring 2016}
+\lhead{\textbf{ORIE 6180}\\Spring 2016}
+\rhead{{\large \bf Homework 1: Due March 7th (10am)}\\
+%\rhead{{\large \bf Homework 1: Solutions}\\
+Sid Banerjee (\href{mailto:sbanerjee@cornell.edu}{\nolinkurl{sbanerjee@cornell.edu}})}
+
+\begin{document}
+
+
+
+
+\subsection*{Problem 1: (The Sponsored-Search auction - 20 points)}
+
+In class, we discussed the sponsored-search auction: 
+There are $k$ slots with known click-through rates (CTR) of $\alpha_1\geq\alpha_2\geq\ldots\geq\alpha_k$, and $n$ bidders with known qualities $\beta_1\geq\beta_2\geq\ldots\geq\beta_n$.
+The payoff of bidder $i$ in slot $j$ is $\alpha_j\beta_i(v_i - p_{ij})$, where $v_i$ is the (private) value-per-click of the bidder $i$ and $p_{ij}$ is the price charged per-click in that slot. 
+\subsubsection*{Part (a)} 
+Assuming we use a sealed-bid direct revelation mechanism, compute the VCG slot allocations and \emph{per-click prices} in this setting.
+
+
+
+\subsubsection*{Part (b)} 
+We henceforth assume, without loss of generality, that the bids made by bidders are sorted, i.e., $b_1 \geq b_2 \geq \ldots \geq b_n$. We also assume that $\beta_i=1\,\forall\,i\in[n]$, and that $k = n$ (we can always ensure this by adding dummy slots with $\alpha=0$ or dummy bidders with zero valuation). 
+
+For historical reasons, modern search engines do not use the VCG mechanism, but rather, use the \emph{Generalized Second-Price} (GSP) auction: for slots $\{1,2,\ldots,k\}$, assign bidder $i$ bidder to slot $i$, and charge bidder $i$ a price of $b_{i+1}$ per click. Prove that for every $k\geq 2$ and sequence $\alpha_1 \geq \ldots \geq \alpha_k > 0$ of CTRs, there exist bidders with the same quality (say $\beta_i=1$) and appropriate valuations such that the GSP auction is not truthful.\\ \\
+
+
+A bid vector $b$ is defined to be an \emph{equilibrium} of the GSP auction if no bidder can increase its payoff by changing its bid. 
+Formally, $b$ is an equilibrium if for every $i$ we have:
+\begin{align*}
+\alpha_i(v_i - b_{i+1}) \geq 
+\begin{dcases*}
+\alpha_j (v_i - b_j) & for every higher slot $j < i$\\
+\alpha_j (v_i - b_{j+1}) & for every lower slot $j>i$
+\end{dcases*}
+\end{align*}
+We now want to show that the GSP auction always has an \emph{efficient equilibrium}, i.e., one which maximizes social welfare.
+
+\subsubsection*{Part (c)} 
+A bid vector $b$ is defined to be \emph{envy-free} if every bidder $i$ is as happy getting its current slot at its \emph{current price} as it would be getting any other slot and that slot’s current price. Write down conditions for a bid vector $v$ to be envy-free, and show that being envy-free is a sufficient condition for a bid-vector to be an equilibrium. 
+
+\subsubsection*{Part (d)} 
+A bid vector is \emph{locally envy-free} if every bidder $i$ is as happy getting its current slot at its current price as it would be getting \emph{its neighboring slots} (i.e., slots $i-1$ or $i+1$) at their current price.. Prove that, as long as the $\alpha_i$ are strictly decreasing, a locally envy-free bid vector is envy-free.
+%\paragraph*{\bf Solution:} Something something
+
+\subsubsection*{Part (e)} 
+Prove that for every set of strictly-decreasing CTRs $\{\alpha_i\}$ and values $\{v_i\}$, there is an equilibrium of the GSP auction for which the allocation and prices precisely match the VCG outcome. (This result actually holds more generally, for non-decreasing CTRs/different qualities $\beta_i$.)
+
+\noindent\emph{Hint: Note that you have freedom to choose bids appropriately -- how would you choose them to try and match VCG? How can you check if these bids are an equilibrium?} 
+
+
+\subsection*{Problem 2: (The Knapsack Auction, and approximate efficiency) - 20 points}
+
+While discussing welfare maximization in single parameter environments, and more generally, using the VCG auction, we have not given any consideration to the complexity of computing the allocation and prices. We now consider one situation where welfare maximization is indeed computationally intractable, and use it to introduce the idea of approximate welfare maximization.
+
+In class, we discussed the \emph{knapsack auction} as a model for allocating fixed-length video advertisement slots to advertisers. Formally, we have an advertisement break slot of length at most $C$ (i.e., the `knapsack capacity') which needs to be allocated among $n$ bidders. Bidder $i$ wants to display an ad of known size $c_i\leq C$ and private valuation $v_i$. The feasible allocations $\mathcal{X}$ thus correspond to subsets $S\subseteq [n]$ of bidders for which $\sum_{i\in S}c_i\leq C$. Assuming we knew the valuations, then computing the surplus-maximizing feasible allocation is precisely the Knapsack problem, which is NP-hard
+
+\subsubsection*{Part (a)} 
+Suppose we have a routine $(\mathbf{x}^*,w^*) = KNAPSACK(C,\{(c_i,v_i)\}_{i\in[n]})$, which given total capacity $C$, and the size and value $(c_i,v_i)$ for each individual agent $i$, returns the optimal allocation $\mathbf{x}^*$ and its value $w^*$. Describe how you can use this to compute the VCG allocation and prices.\\
+
+In case of the knapsack problem, it can be solved in pseudo-polynomial time using dynamic programming (see \href{http://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/06DynamicProgrammingI-2x2.pdf}{slides from K\&T}). However, in other problems, we often need to relax the welfare maximization objective in order to ensure computational complexity. The field of \emph{algorithmic mechanism design} is concerned with such problems, using ideas from approximation algorithms in order to design approximate welfare-maximizing mechanisms. We now see how to do this for the knapsack auction.
+
+\subsubsection*{Part (b)} 
+One popular technique for approximating the knapsack problem is via a greedy heuristic. Assume we are given agent bids and sizes $(b_i,c_i)$, and define the maximum welfare $W^* = \max_{S\subseteq[n]}\sum_{i\in S}b_i$ over all $S\in\mathcal{X}$. Now suppose the sizes of every agent obeys $c_i\leq\alpha C$ for some $\alpha\in (0,1/2]$. Moreover, WLOG assume the agents are sorted in order of their bid-per-unit-length, i.e., $b_1/c_1\geq b_2/c_2\geq \ldots\geq b_n/c_n$, and define the threshold $i_{th}$ to be the smallest $i$ such that $\sum_{k=1}^{i_{th}} c_k >C$. 
+Prove that the allocation $\mathbf{x}_{Greedy} = \{x(i)=1\,\forall\, i< i_{th}\}$ is feasible (i.e., in $\mathcal{X}$), and that:
+$$\sum_{i<i_{th}}b_i \geq (1-\alpha)W^*$$
+Also argue that the allocation $\mathbf{x}_{Greedy}$ is \emph{monotone}, and find the DSIC payment rule (as per Myerson's lemma) for this allocation.
+
+\subsubsection*{Part (c)} 
+Suppose now that for each bidder $i$, both valuation $v_i$ \emph{and size} $c_i$ are private (you can assume that it is known that $c_i<\alpha C$ for all $i$). The mechanism now needs to decide allocations $y_i$ and payments $p_i$ for each bidder, subject to $\sum_i y_i \leq C$. The utility obtained by bidder $i$ is $v_i-p_i$ if $y_i\geq c_i$, $0$ if $y_i=0$ and $-p_i$ if $y_i<c_i$ (i.e., it gets less than its required capacity).
+
+Consider the following sealed-bid direct-revelation auction: first we accept bids consisting of a reported value $b_i$ and size $a_i$ from each bidder $i$. Next, we sort bidders based on $b_i/a_i$, and use the greedy algorithm select a subset $S$ of winning bidders whose reported sizes fit in the knapsack (i.e., $\sum_{i\in S}a_i\leq C$). Finally, the mechanism awards capacity $a_i$ to each winner $i\in S$ and capacity 0 to each losing bidder, and charges payments $p_i$ as if the reported sizes were known a priori (i.e., the payment of a winning bidder $i\in S$ is the DSIC payment from part (b)).
+
+Is this extended mechanism DSIC? Prove it or give an explicit counterexample.\\
+
+
+\noindent An alternate approximation scheme for the knapsack problem is based on a `discretized' variant of the dynamic program. In particular, this approach results in a \emph{fully polynomial-time approximation scheme} (FPTAS), as follows: 
+\begin{itemize}[nosep]
+\item Given parameters $V$ and $\epsilon >0$, compute `rounded' values $v_i'=\lceil nv_i/V\epsilon\rceil$.
+\item Solve the Knapsack problem for the $v_i'$ exactly using dynamic programing on the values
+\end{itemize}
+Observe that if we set $V= \max_i v_i$, then the rounded values lie in $\{0,1,2,\ldots,\lceil n/\epsilon\rceil\}$ -- consequently, the dynamic program can be solved in time $poly(n/\epsilon)$ to give a $(1-\epsilon)$-approximation for the Knapsack problem (see \href{http://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/11ApproximationAlgorithms.pdf}{slides from K\&T}).
+
+\subsubsection*{Part (d)} 
+Assume we fix $\epsilon$ up front. Prove or disprove that the above algorithm defines a monotone allocation rule if we set $V$ to be: $(i)$ Fixed (i.e., $V$ is independent of bids $\mathbf{b}$)\quad,\quad$(ii)$ $V = \max_i b_i$.
+
+\subsubsection*{Part (e)} 
+Modify the above to get a truthful FPTAS for the Knapsack problem with
+private valuations. The running time of your algorithm should be polynomial in both $n$ and $\epsilon$
+
+\noindent\emph{Hint: Under what conditions does taking the better of two monotone allocation rules yield another monotone allocation rule?}
+
+
+\subsection*{Problem 3: (Computing VCG allocations and prices) - 10 points}
+
+In the previous problem, we saw that maximizing welfare may be computationally difficult even in single-parameter environments. In contrast, in this question, we will consider a few multi-parameter settings where computing the VCG outcome is computationally feasible. 
+
+\subsubsection*{Part (a)} 
+Consider an auction for $m$ \emph{identical} items, where every bidder $i$ has a private \emph{marginal} valuation $\mu_i(j)$ for being allocated a $j^{th}$ item -- in other words, bidder $i$’s total valuation for $\ell$ units is $v_i(\ell) =\sum_{j=1}^{\ell}\mu_i(j)$. Moreover, every bidders marginal valuations are \emph{downward-sloping}, i.e., for every bidder $i$ we have$\mu_i(1)\geq \mu_i(2)\geq\ldots\geq \mu_i(m)$. In other words, additional units provide diminishing returns.
+
+Suppose we collect bids $\{\mu_i(1),\mu_i(2),\ldots,\mu_i(m)\}$ from each bidder, and then sort the entire vector $\{\mu_i(j)\}_{i\in[n],j\in[m]}$. Describe the VCG allocation rule, and the VCG payments for any bidder $i$ in terms of the sorted marginal payments.
+
+\subsubsection*{Part (b)} 
+Consider instead an auction for $m$ \emph{distinct} items, where bidders have different values for different item, but we know a priori that every bidder has \emph{unit demand}, i.e., on being allocated a subset of items, derives utility only from the highest valued item in the allocation. Formally, the valuation of a bidder $i$ can be described by $m$ private parameters $\{v_{i,1},\ldots,v_{i,m}\}$ (one per good), and bidder $i$'s valuation for an arbitrary set $S$ of goods is $\max_{j\in S} v_{i,j}$.
+
+Prove that the VCG mechanism can be implemented in polynomial time for unit-demand bidders -- in particular, show that the allocation and payments can be computed via a polynomial number of calls to a subroutine which solves a problem in P.
+
+
+
+
+\subsection*{Problem 4: (Equilibrium bidding in simple Bayesian auctions) - 20 points}
+
+In this problem, we'll consider a single-good auction, with $n$ bidders, each of whom draw an i.i.d value $v_i\sim F$. We want to study the Bayes-Nash equilibrium bidding strategies in two simple sealed-bid non-DSIC auctions -- the first-price and all-pay auctions -- and compare the revenue achieved in these auctions to the second-price auction.
+
+In all three auctions, bidder $i$ needs to submit a bid $b_i$ for the item; the item is awarded to the highest bidder $i^*=\arg\max_ib_i$. Bidder $i^*$ pays $b_{i^*}$ in the first-price auction, $\max_{i\neq i^*}b_i$ in the second-price auction, while all other bidders pay $0$. In the all-pay auction, however, all bidders must pay $b_i$, whether or not they are awarded the item.
+
+A strategy for a bidder $i$ in each auction is a function $b_i(\cdot)$ that maps valuation $v_i$ to a bid $b_i(v_i)$. Conceptually we can think of this strategy as being announced to all of the other bidders in advance; they do not however know $v_i$ (and hence the actual bid $b_i(v_i)$). A family $\mathbf{b} = \{b_1(\cdot),\ldots,b_n(\cdot)\}$ of bidding functions is said to be a Bayes-Nash equilibrium if for every bidder $i$ and every valuation $v_i$, the bid $b_i(v_i)$ maximizes $i$’s \emph{expected utility}, where the expectation is with respect to the random draws of the other
+bidders' valuations (which, via their strategies induce a distribution over their bids). For a more formal definition and details of Bayes-Nash equilibria in auctions, read \href{http://jasonhartline.com/MDnA/MDnA-ch2.pdf}{chapter 2} from Hartline.
+
+\subsubsection*{Part (a)} 
+Suppose the valuations are drawn from $F\sim Uniform[0, 1]$ distribution. Moreover, assume that all bidders adopt the same strategy $b(\cdot)$ (referred to as a symmetric strategy), where the function $b(v)$ is \emph{increasing, differentiable} and has $b(0)=0$.
+
+We already know that in the second-price auction, there is a unique symmetric equilibrium strategy wherein every agent $i$ bids $b_i(v_i) = v_i$ for every $v_i$ (i.e., the \emph{truth-telling strategy}). Prove that the first-price and all-pay auctions have a similar unique symmetric equilibrium strategy corresponding to: 
+\begin{itemize}[nosep]
+\item First-price auction: $b_i(v_i) = v_i (1 -1/n)$ for every $v_i$.
+\item All-pay auction: $b_i(v_i) = v_i^n (1 -1/n)$ for every $v_i$.
+\end{itemize}
+
+\noindent\emph{Hint: Observe that if every agent plays the symmetric increasing strategy $b(v_i)$, then the winner of the auction is the agent with the highest $v_i$. Also, since $b(\cdot)$ is increasing, it is invertible -- thus any deviation from playing $b(v_i)$ is equivalent to bidding $b(x)$ for some $x$.
+Now write the utility $u_i(x)$ obtained by agent $i$ by pretending to have value $x$, and enforce that this is maximized at $x=v_i$.}
+
+\subsubsection*{Part (b)} 
+Suppose the valuations are drawn i.i.d from some general distribution $F$ (assume that $F$ has support $[0,v_{\max}]$ and distribution $f$). For any positive integer $k$, let $Y_{1,k}$ denote the maximum of $k$ i.i.d random variables sampled from $F$.
+Prove that the first-price and all-pay auctions have unique symmetric increasing equilibrium strategy $b(\cdot)$ with $b(0) = 0$, corresponding to: 
+\begin{itemize}[nosep]
+\item First-price auction: $b_i(v_i) = \mathbb{E}[Y_{1,n-1}|Y_{1,n-1}<v_i]$ for every $v_i$.
+\item All-pay auction: $b_i(v_i) =  \mathbb{E}[Y_{1,n-1}|Y_{1,n-1}<v_i]\mathbb{P}[Y_{1,n-1}<v_i]$ for every $v_i$.
+\end{itemize}
+
+\noindent\emph{Hint: Assume $b(\cdot)$ is differentiable - note that this is true of the claimed result, since we assumed $F$ has density $f$ in $[0,v_{\max}]$, and $v_i\sim F$ i.i.d.}
+
+
+\subsubsection*{Part (c)} 
+Assuming valuations are drawn i.i.d from $F$ with support $[0,v_{\max}]$ and distribution $f$, show that in the first-price and all-pay auctions, the expected revenue of the seller assuming all agents play the symmetric increasing equilibrium strategies derived in part $(b)$ is exactly the same as the expected revenue of the seller in the second-price auction with truthful bidding.
+
+\noindent\emph{Hint: For $n$ bidders with i.i.d. values from $F$, define $Y_{2,n}$ to be the second-highest value - observe that for any $x\in[0,v_{\max}]$, we have $\mathbb{P}[Y_{2,n}< x]=n(1-F(x))F(x)^{n-1}+F(x)^n$. Moreover, the revenue of the second-price auction is given by $\mathbb{E}[R_{SP}]=\mathbb{E}[Y_{2,n}]$.}\\
+
+
+\noindent\textbf{Note:} The above `revenue-equivalence principle' holds in much greater generality for Bayes-Nash equilibria of auctions which realize the same allocation. See \href{http://jasonhartline.com/MDnA/MDnA-ch2.pdf}{Chapter 2} of Hartline for more details.
+
+
+\subsection*{Problem 5: (Quantile spaces and virtual valuations) - 10 points}
+
+Recall in class, while considering revenue maximization in settings where agents have independently drawn values $v\sim F$, we defined an agent's virtual valuation:
+$$\phi_F(v) = v -\frac{1-F(v)}{f(v)}$$
+We also defined $F$ to be regular if $\phi_F(v)$ is increasing. 
+
+We now derive an alternate interpretation for $\phi_F(\cdot)$. Consider a strictly increasing distribution function F with a strictly positive density $f$ on the interval $[0, v_{\max}]$ (with $v_{\max}<\infty$). We define the \emph{quantile} $q$ of an agent with value $v\sim F$ to be the measure with respect to $F$ of agents with stronger values, i.e., $q(v) =1- F(v)$; the \emph{inverse demand curve} maps the quantile back to the value space, i.e., $V(q) = F^{-1}(1-q)$. 
+
+\subsubsection*{Part (a)} 
+For a single bidder with valuation drawn from $F$, what is the distribution of the quantile $q$ of the bidder? Also, for any $q \in [0, 1]$, what is the posted price resulting in a probability $q$ of a sale? 
+
+\subsubsection*{Part (b)} 
+We now want to study allocation and payment rules on the quantile space. We define the the expected revenue obtained from a single bidder when the probability of a sale is $q$ as the \emph{posted-price revenue curve} $R(q) = q \cdot V (q)$. Note that $R(0) = R(1) = 0$. 
+
+Prove that the slope of the revenue curve at $q$ is precisely $\phi_F(V(q))$, where $\phi_F$ is the virtual valuation function for $F$. 
+
+\subsubsection*{Part (c)} 
+Prove that a distribution is regular if and only if its revenue curve is concave. 
+
+\subsubsection*{Part (d)} 
+Prove that, for a regular distribution, the median price $V(1/2)$ (i.e., the price set to guarantee a probability $1/2$ of purchase) is a $1/2$-approximation of the optimal posted price. Formally, show that $R(\frac{1}{2})\geq \frac{1}{2}\max_{q\in[0,1]}R(q)$.
+
+
+\subsection*{Problem 6: (Virtual Valuations and hazard rate) - 20 points}
+
+The \emph{hazard rate} $h(t)$ for a distribution $F$ is defined as $h(t)=\frac{f(t)}{1-F(t)}$ -- moreover, a distribution $F$ is said to satisfy the \emph{monotone hazard rate} (MHR) condition if $h(t)$ is non-decreasing in $t$. One way to understand $h(t)$ is to consider a setting where $F$ is the probability that a given machine will fail in the time-interval $[0,t]$ -- then $h(t)$ represents the probability that the machine will fail at the current time $t$ given that it has not failed till now. The MHR condition corresponds to this probability increasing over time.
+
+\subsubsection*{Part (a)} 
+Prove that for any random variable $X\in\mathbb{R}$ with distribution $F$ and hazard rate $h$, we have:
+$$\mathbb{P}\left[\left.X\in[a,b]\right|X\geq a\right] = 1 - \exp{\left(-\int_a^bh(y)dy\right)}$$
+In particular, if $X$ takes only positive values, then $F(x)=1-\exp{\left(-\int_0^xh(y)dy\right)}$. Using this, characterize all distributions on $[0,x_{\max}]$ with constant hazard-rate $h(t)$.
+
+\subsubsection*{Part (b)} 
+Show that any distribution $F$ satisfying the MHR condition is regular. Is the converse true?
+
+\noindent\emph{Hint: Consider the family of Pareto distributions: $F(x) = 1- x^{1-\alpha}$ for $x\in[1,\infty)$ and $\alpha\geq 1$.}
+
+\subsubsection*{Part (c)} 
+For any (MHR) distribution $F_i$, let $\phi_i$ be its virtual valuation function, and $r_i=\arg\max_{r\geq 0}\left(r\cdot(1 - F_i(r))\right)$ be the monopoly price. Prove that, for every $v_i\geq r_i, r_i + \phi_i(v_i)\geq v_i$.\\
+
+\noindent Now we want to use the MHR property to design a `simple near-optimal auction' for the following single-parameter auction with $n$ bidders: the feasible allocations $\mathcal{X}$ correspond to \emph{downward-closed subsets} of $[n]$. In other words, every feasible vector $\mathbf{x}=(x_1,\ldots, x_n)$ is the indicator of some subset $S$ (i.e., $x_i=1$ if $i\in S$, else $x_i=0$), and for every feasible set $S$ of winning bidders, every subset $T\subseteq S$ is also a feasible set of winning bidders. We will use $\mathcal{X}$ to both denote the set of feasible subsets and also feasible allocation vectors.
+Now consider the following allocation rule $\mathbf{x}$ for a sealed-bid direct-revelation auction:
+\begin{itemize}[nosep]
+\item Given bids $\mathbf{b}$, let $A(\mathbf{b})\subseteq [n]$ denote the bidders $i$ that satisfy $b_i \geq r_i$, and define $\mathcal{A}(\mathbf{b}) = \{S\in\mathcal{X}|S\subseteq A(\mathbf{b})\}$ to be the set of feasible subsets of $A(\mathbf{b})$.
+\item Pick $S^*(\mathbf{b}) = \arg\max_{S\in\mathcal{A}(\mathbf{b})} \sum_{i\in S}b_i$ and set $x_i((\mathbf{b}))=1$ for all $i\in S^*(\mathbf{b})$ and $0$ otherwise. 
+\end{itemize}
+Verify that this allocation rule is monotone and always outputs a feasible outcome. 
+
+\subsubsection*{Part (d)} 
+Let $\mathcal{M}$ denote the DSIC mechanism induced by the allocation rule in $(c)$, and let $\mathcal{M}^*$ denote the mechanism that maximizes expected revenue in the given setting. Prove that the expected welfare of $\mathcal{M}$ is at least that of $\mathcal{M}^*$
+
+\noindent\emph{Hint: Use the downward-closure assumption to reason about the bidders selected by $\mathcal{M}^*$.}
+
+\subsubsection*{Part (e)} 
+Prove that the expected revenue of $\mathcal{M}$ is at least half of its expected welfare. Consequently, argue that the expected revenue of $\mathcal{M}$ is at least half the expected revenue of $\mathcal{M}^*$.
+
+\noindent\emph{Hint:  Use the inequality from part (c).}
+
+\end{document}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>market design | Sid Banerjee</title>
+    <link>https://sidbanerjee.github.io/tags/market-design/</link>
+      <atom:link href="https://sidbanerjee.github.io/tags/market-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>market design</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sun, 03 Oct 2021 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://sidbanerjee.github.io/img/sid.jpg</url>
+      <title>market design</title>
+      <link>https://sidbanerjee.github.io/tags/market-design/</link>
+    </image>
+    
+    <item>
+      <title>Online Nash Social Welfare with Predictions</title>
+      <link>https://sidbanerjee.github.io/publication/gkatzelis-22/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/gkatzelis-22/</guid>
+      <description>&lt;p&gt;Earlier version titled &lt;a href=&#34;https://arxiv.org/abs/2008.03564v1&#34; target=&#34;_blank&#34;&gt;Online Nash Social Welfare via Promised Utilities&lt;/a&gt; used normalized valuations instead of predicted valuations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Threshold Tests as Quality Signals: Optimal Strategies, Equilibria, and Price of Anarchy</title>
+      <link>https://sidbanerjee.github.io/publication/kempe-21-testing/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/kempe-21-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Remarkable Robustness of the Repeated Fisher Market</title>
+      <link>https://sidbanerjee.github.io/publication/gorokh-21-scrip/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/gorokh-21-scrip/</guid>
+      <description>&lt;p&gt;Earlier version: &lt;a href=&#34;https://www.researchgate.net/publication/334385028_Scrip_Economies_Are_Fair_and_Approximately_Efficient&#34; target=&#34;_blank&#34;&gt;Scrip Economies are Fair and (Approximately) Efficient&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pricing and Optimization in Shared Vehicle Systems: An Approximation Framework</title>
+      <link>https://sidbanerjee.github.io/publication/freund-21/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/freund-21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Limits of an Information Intermediary in Auction Design</title>
+      <link>https://sidbanerjee.github.io/publication/alijani-20-bbm/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/alijani-20-bbm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Monetary to Non-Monetary Mechanism Design via Artificial Currencies</title>
+      <link>https://sidbanerjee.github.io/publication/gorokh-20/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/gorokh-20/</guid>
+      <description>&lt;p&gt;Combines results from &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-17-monetary/&#34;&gt;Gorokh et al. (2017)&lt;/a&gt; and &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-17-monetary/&#34;&gt;Gorokh et al. (2017)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Segmentation-Thickness Tradeoff in Online Marketplaces</title>
+      <link>https://sidbanerjee.github.io/publication/alijani-19-pomacs/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/alijani-19-pomacs/</guid>
+      <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/alijani-19-conf/&#34;&gt;Alijani et al. (2019)&lt;/a&gt;. Earlier preprint: &lt;a href=&#34;https://arxiv.org/abs/1711.11392&#34; target=&#34;_blank&#34;&gt;Two-sided facility location&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Segmenting Two-Sided Markets</title>
+      <link>https://sidbanerjee.github.io/publication/munagala-17/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/munagala-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Monetary to Non-Monetary Mechanism Design via Artificial Currencies</title>
+      <link>https://sidbanerjee.github.io/publication/gorokh-17-monetary/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/gorokh-17-monetary/</guid>
+      <description>&lt;p&gt;Results merged with &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-16-near/&#34;&gt;earlier paper&lt;/a&gt; into &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-20/&#34;&gt;journal article&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pricing and Optimization in Shared Vehicle Systems: An Approximation Framework</title>
+      <link>https://sidbanerjee.github.io/publication/freund-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/freund-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Near-Efficient Allocation Using Artificial Currency in Repeated Settings</title>
+      <link>https://sidbanerjee.github.io/publication/gorokh-16-near/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/gorokh-16-near/</guid>
+      <description>&lt;p&gt;Results merged with &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-17-monetary/&#34;&gt;follow-up paper&lt;/a&gt; into &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-20/&#34;&gt;journal article&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Importance of Exploration in Online Marketplaces</title>
+      <link>https://sidbanerjee.github.io/publication/zhou-16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/zhou-16/</guid>
+      <description>&lt;p&gt;Invited article based on &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/zhou-14-conf/&#34;&gt;Banerjee 2014&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Importance of Exploration in Online Marketplaces</title>
+      <link>https://sidbanerjee.github.io/publication/zhou-14-conf/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/zhou-14-conf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-incentivizing discovery: Mechanisms for partial-progress sharing in research</title>
+      <link>https://sidbanerjee.github.io/publication/anilesh-14/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/anilesh-14/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
