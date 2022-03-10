@@ -12,10 +12,10 @@ title = "Sid Banerjee"
 
 # To create public folder, uncomment below and run the following in terminal
 # hugo --theme="academic" --buildDrafts
-baseurl = "https://sidbanerjee.github.io/"
+baseurl = "https://sidbanerjee.github.io/public/"
 #relativeURLS=true
 #CanonifyURLs=true
-publishDir = "" # relative to project root
+publishDir = "public" # relative to project root
 
 
 # Enter a copyright notice to display in the site footer.

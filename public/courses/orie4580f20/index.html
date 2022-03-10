@@ -1,0 +1,1083 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Siddhartha Banerjee">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Course Syllabus
+           Random Spanning Tree via Wilson&rsquo;s Algorithm    Course Description Intro to Monte Carlo techniques and stochastic simulation. We will cover two topics:
+ Monte Carlo simulation: Using randomness to aid complex computations.             Buffon&rsquo;s Needle simulation for computing $\pi$     Discrete-event simulation: Using stochastic models for counter-factual analysis (i.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://sidbanerjee.github.io/public/courses/orie4580f20/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#006699">
+  
+
+  
+  
+  
+  <script src="/public/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen Sans:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/public/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174226000-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-174226000-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/public/index.webmanifest">
+  <link rel="icon" type="image/png" href="/public/images/icon_hu0a4abc24b746267d1c0a611494e730ff_74202_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/public/images/icon_hu0a4abc24b746267d1c0a611494e730ff_74202_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://sidbanerjee.github.io/public/courses/orie4580f20/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@banerjee_sid">
+  <meta property="twitter:creator" content="@banerjee_sid">
+  
+  <meta property="og:site_name" content="Sid Banerjee">
+  <meta property="og:url" content="https://sidbanerjee.github.io/public/courses/orie4580f20/">
+  <meta property="og:title" content="Simulation Modeling and Analysis | Sid Banerjee">
+  <meta property="og:description" content="Course Syllabus
+           Random Spanning Tree via Wilson&rsquo;s Algorithm    Course Description Intro to Monte Carlo techniques and stochastic simulation. We will cover two topics:
+ Monte Carlo simulation: Using randomness to aid complex computations.             Buffon&rsquo;s Needle simulation for computing $\pi$     Discrete-event simulation: Using stochastic models for counter-factual analysis (i."><meta property="og:image" content="https://sidbanerjee.github.io/public/img/sid.jpg">
+  <meta property="twitter:image" content="https://sidbanerjee.github.io/public/img/sid.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-08-20T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-08-17T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Simulation Modeling and Analysis | Sid Banerjee</title>
+
+</head>
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/public/">Sid Banerjee</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/public/">Sid Banerjee</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/public/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/public/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/public/#students"><span>Collaborators</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/public/#courses"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/public/#CV"><span>Bio</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Simulation Modeling and Analysis</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span class="font-weight-bold">Siddhartha Banerjee</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Aug 17, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+
+<p><a class="btn-lg btn-outline-primary" role="button" href="../../docs/ORIE4580F20/files/syllabus_4580_F20.pdf">
+Course Syllabus</a></p>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="../../docs/ORIE4580F20/files/WilsonsAlg.gif" alt="WilsonsAlgo.gif" width="1024"/></td>
+</tr>
+
+<tr>
+<td align="center"><em>Random Spanning Tree via <a href="https://en.wikipedia.org/wiki/Loop-erased_random_walk#Uniform_spanning_tree" target="_blank">Wilson&rsquo;s Algorithm</a></em></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="course-description">Course Description</h2>
+
+<p>Intro to Monte Carlo techniques and stochastic simulation. We will cover two topics:</p>
+
+<ul>
+<li><strong>Monte Carlo simulation</strong>: Using randomness to aid complex computations.</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="../../docs/ORIE4580F20/files/BuffonsNeedle.gif" alt="BuffonsNeedle.gif" width="1024"/></td>
+</tr>
+
+<tr>
+<td align="center"><em><a href="https://en.wikipedia.org/wiki/Buffon%27s_needle_problem" target="_blank">Buffon&rsquo;s Needle</a> simulation for computing $\pi$</em></td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li><strong>Discrete-event simulation</strong>: Using stochastic models for <em>counter-factual analysis</em> (i.e., answering `what-if questions&rsquo;) in complex real-world systems.</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="../../docs/ORIE4580F20/files/SISepidemic.gif" alt="SISepidemic.gif" width="1024"/></td>
+</tr>
+
+<tr>
+<td align="center"><em><a href="https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIS_model" target="_blank">SIS epidemic model</a> below and above $R_0=1$</em></td>
+</tr>
+</tbody>
+</table>
+
+<p>Topics include: random variable and process generation; data-driven distribution learning; input and output analysis; modeling and optimization of complex systems under uncertainty. Emphasis on $i.$ understanding how to use simulation to answer &ldquo;what-if&rdquo; questions, and $ii.$ tools and techniques needed in practice, in particular, modeling and simulation in Python.</p>
+
+<h2 id="course-information">Course Information</h2>
+
+<ul>
+<li><strong>Lectures</strong>: TR 11:30am-12:45pm, Statler auditorium (room 185), <a href="../../docs/ORIE4580F20/files/STL185_COVID_Instruction_diag.pdf">seating chart</a></li>
+<li><strong>Instructor</strong>: <a href="http://people.orie.cornell.edu/sbanerjee" target="_blank">Sid Banerjee</a>, 229 Rhodes Hall, <a href="mailto:sbanerjee@cornell.edu" target="_blank">email</a></li>
+<li><strong>Teaching Assistants</strong>:
+
+<ul>
+<li><a href="mailto:bss99@cornell.edu" target="_blank">Brittany Stenekes</a></li>
+<li><a href="mailto:hl2362@cornell.edu" target="_blank">Gary Li</a></li>
+<li><a href="mailto:ry298@cornell.edu" target="_blank">Ruifan Yang</a></li>
+<li><a href="mailto:sl3243@cornell.edu" target="_blank">Shuwen Lu</a></li>
+<li><a href="mailto:yl2999@cornell.edu" target="_blank">Yuxuan Liu</a>
+<br /></li>
+</ul></li>
+</ul>
+
+<p>Recitation and office hours schedule available on Piazza.</p>
+
+<ul>
+<li><p><a href="../../docs/ORIE4580F20/files/syllabus_4580_F20.pdf">Course Syllabus</a></p></li>
+
+<li><p><strong>Course Logistics</strong>:</p>
+
+<p>This semester, the course combines a hybrid class (ORIE 4580), a full semester online class (ORIE 5580) and a half semester online class (ORIE 5581). We will try our best to ensure things run smoothly, but really depend on (and appreciate!) your help in this.</p>
+
+<ul>
+<li><strong>Zoom</strong>: Main <a href="https://cornell.zoom.us/j/96721588095" target="_blank">lecture meeting link</a> (passwd and OH/recitation links on Piazza)</li>
+<li><strong>Canvas</strong>: We have a <a href="https://canvas.cornell.edu/courses/22758/" target="_blank">combined Canvas page</a> (please join if not added).</li>
+<li><strong>Piazza</strong>: All announcements and resources will be posted on a <a href="https://piazza.com/cornell/fall2020/orie458055805581combined" target="_blank">Combined Piazza page</a>. Please join the site immediately if not automatically added.</li>
+<li><strong>CMSx</strong>: Homework submissions must be done electronically via <a href="https://cmsx.cs.cornell.edu/web/auth/?action=viewCUmemb&amp;courseid=689" target="_blank">CMSx</a>. You should be automatically signed up for this (please tell us immediately if not).</li>
+<li><strong>iClicker</strong>: Students must use the REEF Polling app for in-class tests. Please see the following <a href="../../docs/ORIE4580F20/files/iClicker-REEF-Student-Info.pdf">instructions</a>.
+<br /></li>
+</ul></li>
+</ul>
+
+<h2 id="course-material">Course Material</h2>
+
+<!-- * <embed src="https://drive.google.com/viewerng/
+viewer?embedded=true&url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE4580F18/files/ORIE4580F18-IntroClass.pdf" width="480" height="360">
+-->
+
+<ul>
+<li><p><strong>Course notes</strong>:
+These will be uploaded on Piazza  before the class. Students are encouraged to annotate them.</p></li>
+
+<li><p><strong>Textbook</strong>:  <em><a href="https://newcatalog.library.cornell.edu/catalog/8738175" target="_blank">Simulation</a></em> by Ross; This is the suggested textbook for the course. An e-copy is available online on the Cornell library website.</p></li>
+
+<li><p><strong>Coding Resources</strong>:</p>
+
+<p>The assignments in the first half of semester can be done in any high-level language; our recommendation is for using <a href="https://www.python.org/" target="_blank">Python</a> (in particular, we will use Python 3.6 for our solutions) and <a href="http://jupyter.org/" target="_blank">Jupyter notebooks</a>.</p>
+
+<ul>
+<li>For desktop use, we recommend installing a package manager like <a href="https://www.continuum.io/downloads" target="_blank">Anaconda</a>, which installs Python, the Jupyter Notebook, and other commonly used packages. <em>For coding online, we highly recommend <a href="https://colab.research.google.com/" target="_blank">Google Colab</a> (this is also great for collaboration with teammates).</em></li>
+<li>The <a href="https://docs.python.org/3.6/tutorial/index.html" target="_blank">python tutorial</a> is a good place to look up basic and advanced syntax. It should help you map other programming knowledge you have to Python.</li>
+<li>The power of Python lies in its many packages - use <a href="https://docs.python.org/3.6/library/index.html" target="_blank">library reference</a> to find standard library modules to help get your work done quickly.</li>
+<li>Additional packages we will use extensively are NumPy, SciPy (and also SimPy for DES). There are many more functions in scipy and numpy than you can remember, so for a given task look at the <a href="http://docs.scipy.org/doc/scipy/reference/" target="_blank">scipy reference</a> or <a href="http://docs.scipy.org/doc/numpy/reference/" target="_blank">numpy reference</a> to find the tool you are looking for. Also, read <a href="http://wiki.scipy.org/NumPy_for_Matlab_Users" target="_blank">numpy for MATLAB users</a> if you are familiar with MATLAB.</li>
+<li>For visualization, we will use Matplotlib and Seaborn. Matplotlib has many built-in plotting capabilities, and the <a href="http://matplotlib.org/gallery.html" target="_blank">matplotlib gallery</a> is a good way to find code snippets for tasks similar to what you need. <a href="https://seaborn.pydata.org/index.html" target="_blank">Seaborn</a> is another great visualization package for data analysis -  less powerful in general, but easier to use for standard tasks.</li>
+<li>Finally, searching online for a task often brings up excellent suggestions in sites like <a href="https://stackexchange.com/" target="_blank">StackExchange</a>. Get used to using this!</li>
+</ul>
+
+<p>In the second half of semester, we will briefly look at a commercial simulation package, <a href="https://www.simio.com/index.php" target="_blank">Simio</a>. This only operates on PCs, or on Macs running Windows. Simio is available in 571 Rhodes Hall and 453 Rhodes Hall. Students may consider obtaining the student version of Simio ($25, available <a href="https://www.simio.com/academics/student-resources.php" target="_blank">here</a>) - this imposes limits on the size of the models, but should be sufficient for our course.</p></li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/public/authors/admin/avatar_hu7688e16c4615c7f6d55f1d88bc6dab17_18493_270x270_fill_q90_lanczos_center.jpg" alt="Siddhartha Banerjee">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://sidbanerjee.github.io/public/">Siddhartha Banerjee</a></h5>
+        <h6 class="card-subtitle">Associate Professor</h6>
+        <p class="card-text">Sid Banerjee is an associate professor in the <a href="http://www.orie.cornell.edu/" target="_blank">School of Operations Research</a> at Cornell, working on topics at the intersection of data-driven decision-making, market design, and algorithms for large-scale networks.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:sbanerjee@cornell.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/banerjee_sid_" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=_kqpoHIAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/SidBanerjee" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0002-8954-4578" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/public/files/SidBanerjeeCV.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/public/js/academic.min.cbb55fd8eafa574bce72dcb94f65cd2c.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; <a href="mailto:sbanerjee@cornell.edu" target="_blank">Sid Banerjee</a> 2020&ensp;&ensp;&middot; &ensp;&ensp;&ensp;229 Rhodes Hall &ensp;&ensp; 
+
+    &middot;&ensp;&ensp; 
+	Based on
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>
+
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

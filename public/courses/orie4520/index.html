@@ -1,0 +1,1111 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Siddhartha Banerjee">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Course Description We will study a collection of interesting stochastic algorithms and models, that serve to illustrate the following idea:
+Size is a critical consideration in the design of useful stochastic models and algorithms.
+A formal way to express this is through the notion of scaling - given a model/algorithm for some system, how does it behave when we grow some aspect of the system. This course will try to build intuition behind the importance of scaling by presenting examples where understanding scaling is crucial for good system design.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://sidbanerjee.github.io/public/courses/orie4520/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#006699">
+  
+
+  
+  
+  
+  <script src="/public/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen Sans:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/public/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174226000-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-174226000-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/public/index.webmanifest">
+  <link rel="icon" type="image/png" href="/public/images/icon_hu0a4abc24b746267d1c0a611494e730ff_74202_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/public/images/icon_hu0a4abc24b746267d1c0a611494e730ff_74202_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://sidbanerjee.github.io/public/courses/orie4520/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@banerjee_sid">
+  <meta property="twitter:creator" content="@banerjee_sid">
+  
+  <meta property="og:site_name" content="Sid Banerjee">
+  <meta property="og:url" content="https://sidbanerjee.github.io/public/courses/orie4520/">
+  <meta property="og:title" content="Stochastics at Scale | Sid Banerjee">
+  <meta property="og:description" content="Course Description We will study a collection of interesting stochastic algorithms and models, that serve to illustrate the following idea:
+Size is a critical consideration in the design of useful stochastic models and algorithms.
+A formal way to express this is through the notion of scaling - given a model/algorithm for some system, how does it behave when we grow some aspect of the system. This course will try to build intuition behind the importance of scaling by presenting examples where understanding scaling is crucial for good system design."><meta property="og:image" content="https://sidbanerjee.github.io/public/img/sid.jpg">
+  <meta property="twitter:image" content="https://sidbanerjee.github.io/public/img/sid.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2015-08-20T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2015-12-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Stochastics at Scale | Sid Banerjee</title>
+
+</head>
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/public/">Sid Banerjee</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/public/">Sid Banerjee</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/public/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/public/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/public/#students"><span>Collaborators</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/public/#courses"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/public/#CV"><span>Bio</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Stochastics at Scale</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span class="font-weight-bold">Siddhartha Banerjee</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Dec 1, 2015
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+
+<p><embed src="https://drive.google.com/viewerng/
+viewer?embedded=true&url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE4520/files/ORIE4520F15_IntroClass.pdf" width="480" height="360"></p>
+
+<h2 id="course-description">Course Description</h2>
+
+<p>We will study a collection of interesting stochastic algorithms and models, that serve to illustrate the following idea:</p>
+
+<p><em>Size is a critical consideration in the design of useful stochastic models and algorithms.</em></p>
+
+<p>A formal way to express this is through the notion of <em>scaling</em> - given a model/algorithm for some system, how does it behave when we grow some aspect of the system. This course will try to build intuition behind the importance of scaling by presenting examples where understanding scaling is crucial for good system design.</p>
+
+<ul>
+<li><a href="../../docs/ORIE4520/files/syllabus_4520_F15.pdf">Course Syllabus</a></li>
+</ul>
+
+<h2 id="course-information">Course Information</h2>
+
+<ul>
+<li><p><strong>Lectures</strong>: MWF 1.25pm-2.15pm, Phillips 403, Map](<a href="https://www.google.com/maps/place/Phillips+Hall,+Ithaca,+NY+14850/" target="_blank">https://www.google.com/maps/place/Phillips+Hall,+Ithaca,+NY+14850/</a>)</p></li>
+
+<li><p><strong>Instructor</strong>: <a href="http://people.orie.cornell.edu/sbanerjee" target="_blank">Sid Banerjee</a>, 229 Rhodes Hall, <a href="mailto:sbanerjee@cornell.edu" target="_blank">email</a></p></li>
+
+<li><p><strong>Teaching Assistants</strong>:</p>
+
+<ul>
+<li><a href="mailto:as3348@cornell.edu" target="_blank">Anna Srapionyan</a></li>
+</ul></li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<p>There is no required textbook for the course. Different topics will be covered from different sources, and notes and links to the relevant material will be periodically posted here. In particular, the course will cover selected topics from the following textbooks:</p>
+
+<ul>
+<li>There are two good textbooks for the first unit of the course:
+
+<ol>
+<li><em><a href="https://newcatalog.library.cornell.edu/catalog/6175423" target="_blank">Randomized Algorithms</a></em> by Rajeev Motwani and Prabhakar Raghavan</li>
+<li><em><a href="https://newcatalog.library.cornell.edu/catalog/6177047" target="_blank">Probability and Computing</a></em> by Michael Mitzenmacher and Eli UpfalThe Cornell library (see links above) has access to online versions of both books.</li>
+</ol></li>
+<li>A good introduction for the material in the second unit is <em><a href="http://www.mmds.org/" target="_blank">Mining of Massive Datasets</a></em> by Jure Leskovec, Anand Rajaraman and Jeff Ullman. An online version is freely available on the book&rsquo;s webpage.</li>
+<li>A good introduction for some of the material in the third unit is <em><a href="http://www.cs.cornell.edu/home/kleinber/networks-book/" target="_blank">Networks, Crowds and Markets</a></em> (Sections V, VI) by David Easley and Jon Kleinberg. For a more technical treatment, see _<a href="http://www.cambridge.org/us/academic/subjects/statistics-probability/applied-probability-and-stochastic-networks/epidemics-and-rumours-complex-networks" target="_blank">Epidemics and Rumours in Complex Networks</a> _by Moez Draief and Laurent Massoulie. Online versions are again available.</li>
+</ul>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>Knowledge of basic probability (at the level of <a href="http://courses.cornell.edu/preview_course_nopop.php?catoid=12&amp;coid=95035" target="_blank">ORIE 3500</a>): in particular, random variables, conditional probability and expectation, common probability distributions and their properties (binomial, geometric, exponential, Poisson, Gaussian). The latter part of the course (after the prelim) will require knowledge of stochastic processes, in particular, Markov chains (at the level of <a href="http://courses.cornell.edu/preview_course_nopop.php?catoid=12&amp;coid=95036" target="_blank">ORIE 3510</a>). There will be a recitation session covering the essentials, and students may be able to manage without the required background. Prior exposure to algorithms and graph theory will also be useful, but not essential. Send a mail to the instructor if you are concerned about having the appropriate prerequisites.</p>
+
+<h2 id="lectures">Lectures</h2>
+
+<ul>
+<li><p>Unit 1: Basic probability and randomized algorithms (<a href="Notes2-5.pdf" target="_blank">Notes</a>)</p>
+
+<ul>
+<li>Lecture 1: Introduction, linearity of expectation, indicator random variables, coupon collector</li>
+<li>Lecture 2: Birthday paradox, law of total probability and deferred decisions, verifying matrix multiplication (Freivald&rsquo;s algorithm)</li>
+<li>Recitation 1: More applications of linearity of expectation - Fixed points of random permutations (derangements), triangles in random graphs, k-length runs in DNA sequences</li>
+<li>Lecture 3: Quicksort, introduction to graph cuts</li>
+<li>Lecture 4: Simple randomized Max-cut, Min-cut (the CONTRACT algorithm)</li>
+<li>Lecture 5: Analysis of CONTRACT, the Karger-Stein algorithm</li>
+</ul></li>
+
+<li><p>Unit 2: Concentration inequalities</p>
+
+<ul>
+<li>Lecture 6: Markov&rsquo;s and Chebyshev&rsquo;s inequalities, union bound, concentration for coupon collector</li>
+<li>Lecture 7: Randomized selection</li>
+<li>Lecture 8: The Chernoff bound, basic “sampling theorem”</li>
+<li>Recitation 2: Completed analysis of randomized sampling, concentration for Quicksort</li>
+<li>Lecture 9: Chernoff bound for Rademacher variables (random walk on a line), randomized set balancing</li>
+<li>Lecture 10: Maximum loaded bin</li>
+</ul></li>
+
+<li><p>Unit 3: Randomized algorithms for big data</p>
+
+<ul>
+<li>Lecture 11: Hashing - introduction, chaining, fingerprinting, the Bloom filter</li>
+<li>Lecture 12: Hashing (contd) - Bloom filter analysis, perfect hashing, the FKS hashing scheme</li>
+<li>Lecture 13: Consistent Hashing, intro to distributed hash tables<br />
+-<a href="https://en.wikipedia.org/wiki/Bloom_filter" target="_blank">Bloom filter</a><br />
+-<a href="https://en.wikipedia.org/wiki/Static_hashing#FKS_Hashing" target="_blank">FKS scheme</a><br />
+-<a href="https://en.wikipedia.org/wiki/Consistent_hashing" target="_blank">Consistent hashing</a></li>
+<li>Lecture 14: Locality Sensitive Hashing - introduction and similarity metrics, LSH for Hamming distance</li>
+<li>Lecture 15: Locality Sensitive Hashing - Jaccard similarity, MinHash, probability amplification</li>
+<li>Lecture 16: Locality Sensitive Hashing for L<sup>2</sup> distance, the Johnson-Lindenstrauss Lemma<br />
+-The <a href="http://i.stanford.edu/~ullman/mmds/ch3.pdf" target="_blank">chapter on similar items</a> in the MMDS textbook has a good introduction to the topic - Section 3.6 onwards covers LSH. You can also see the slides from <a href="http://cs.stanford.edu/people/jure/" target="_blank">Jure Leskovec&rsquo;s</a> course - <a href="http://web.stanford.edu/class/cs246/slides/03-lsh.pdf" target="_blank">part 1</a>, <a href="http://web.stanford.edu/class/cs246/slides/04-lsh_theory.pdf" target="_blank">part 2</a>.<br />
+-Wikipedia articles: <a href="https://en.wikipedia.org/wiki/Locality-sensitive_hashing" target="_blank">LSH</a>; <a href="https://en.wikipedia.org/wiki/MinHash" target="_blank">MinHash</a>; <a href="https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma" target="_blank">JL Lemma</a>.<br />
+-For the most recent information on LSH, see Alex Andoni&rsquo;s <a href="http://www.mit.edu/~andoni/LSH/" target="_blank">website</a> on LSH and its applications.</li>
+<li>Lecture 17: Streaming - Reservoir sampling, Morris&rsquo; approximate counting</li>
+<li>Lecture 18: Streaming - Frequency estimation, heavy-hitters (the Count-Min sketch)</li>
+<li>Lecture 19: Streaming - Moment estimation (the AMS sketch), distinct elements (Flajolet-Martin sketch)<br />
+-The <a href="http://i.stanford.edu/~ullman/mmds/ch4.pdf" target="_blank">chapter on streaming</a> in the MMDS textbook, and associated slides - <a href="http://web.stanford.edu/class/cs246/slides/15-streams.pdf" target="_blank">part 1</a>, <a href="http://web.stanford.edu/class/cs246/slides/16-streams.pdf" target="_blank">part 2</a>. These are a great introduction, although there is some mismatch between the topics covered.<br />
+-Wikipedia articles: <a href="https://en.wikipedia.org/wiki/Streaming_algorithm" target="_blank">Streaming algorithms</a>; <a href="https://en.wikipedia.org/wiki/Reservoir_sampling" target="_blank">Reservoir sampling</a>; <a href="https://en.wikipedia.org/wiki/Approximate_counting_algorithm" target="_blank">Morris counter</a>; <a href="https://en.wikipedia.org/wiki/Count%E2%80%93min_sketch" target="_blank">Count-Min sketch</a>.<br />
+-<a href="https://sites.google.com/site/countminsketch/" target="_blank">Website</a> on the Count-Min sketch and its applications.</li>
+<li>Lecture 20: F2 estimation via linear sketches. Introduced graph sketches</li>
+<li>Lecture 21: All-pairs distance sketch (from the <a href="http://research.microsoft.com/apps/pubs/default.aspx?id=115785" target="_blank">Das Sarma et al.</a> paper)</li>
+</ul></li>
+
+<li><p>Prelim exam (<a href="../../docs/ORIE4520/files/midterm_solns.pdf">Solutions</a>)</p></li>
+
+<li><p>Unit 4: Large-scale stochastic models and phase transitions</p>
+
+<ul>
+<li>Lecture 22: The Galton-Watson branching process</li>
+<li>Lecture 23: Phase transition in the GW branching process</li>
+<li>Lecture 24: DFS in the GW branching process. The giant component in the G(n,p) random graph</li>
+<li>Lecture 25: Revision of discrete-time Markov Chains. The Gambler&rsquo;s Ruin problem</li>
+<li>Lecture 26: Revision of the Poisson process and continuous-time Markov Chains</li>
+<li>Lecture 27: Rumor spreading in a clique (the SI epidemic model)</li>
+<li>Lecture 28: The SIS epidemic: introduction</li>
+<li>Lecture 29: The SIS epidemic: phase-transition on the clique</li>
+<li>Lecture 30: The SIS epidemic: phase-transition on general graphs (via coupling and graph conductance)</li>
+<li>Lecture 31-32: CTMC transition-rate matrix and Kolmogorov equations</li>
+<li>Lecture 33: Diff-eqn approximations to MCs (Phase transition in the G(n,N) graph)</li>
+<li>Lecture 34: Diff-eqn approximations to MCs (SIS epidemic threshold and network spectral radius)</li>
+<li>Lecture 35: The power of two choices</li>
+<li>Lecture 36: Oblivious routing on hypercubes - the Valiant scheme</li>
+<li>Lecture 37: Review
+<br /></li>
+</ul></li>
+</ul>
+
+<h2 id="homeworks">Homeworks</h2>
+
+<ul>
+<li><a href="../../docs/ORIE4520/files/HW1.pdf">Homework 1</a> (Due at 12 noon on Tuesday, 8th September)
+
+<ul>
+<li><a href="../../docs/ORIE4520/files/HW1_solns.pdf">Homework 1 Solutions</a></li>
+</ul></li>
+<li><a href="../../docs/ORIE4520/files/HW2.pdf">Homework 2</a> (Due at 12 noon on Friday, 18th September)
+
+<ul>
+<li><a href="../../docs/ORIE4520/files/HW2_solns.pdf">Homework 2 Solutions</a></li>
+</ul></li>
+<li><a href="../../docs/ORIE4520/files/HW3.pdf">Homework 3</a> (Due at 12 noon on Monday, 28th September)
+
+<ul>
+<li><a href="../../docs/ORIE4520/files/HW3_solns.pdf">Homework 3 Solutions</a></li>
+</ul></li>
+<li><a href="../../docs/ORIE4520/files/HW4.pdf">Homework 4</a> (Due at 12 noon on Wednesday, 7th October)
+
+<ul>
+<li><a href="../../docs/ORIE4520/files/HW4_solns.pdf">Homework 4 Solutions</a></li>
+</ul></li>
+<li><a href="../../docs/ORIE4520/files/HW5.pdf">Homework 5</a> (Due at 12 noon on Tuesday, 20th October)
+
+<ul>
+<li><a href="../../docs/ORIE4520/files/HW5_solns.pdf">Homework 5 Solutions</a></li>
+</ul></li>
+<li><a href="../../docs/ORIE4520/files/HW6.pdf">Homework 6</a> (Due at 12 noon on Wednesday, 18th November)
+
+<ul>
+<li><a href="../../docs/ORIE4520/files/HW6_solns.pdf">Homework 6 Solutions</a></li>
+</ul></li>
+<li><a href="../../docs/ORIE4520/files/HW7.pdf">Homework 7</a> (Due at 12 noon on Friday, 4th December)
+
+<ul>
+<li><a href="../../docs/ORIE4520/files/HW7_solns.pdf">Homework 7 Solutions</a>
+<br /></li>
+</ul></li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/public/authors/admin/avatar_hu7688e16c4615c7f6d55f1d88bc6dab17_18493_270x270_fill_q90_lanczos_center.jpg" alt="Siddhartha Banerjee">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://sidbanerjee.github.io/public/">Siddhartha Banerjee</a></h5>
+        <h6 class="card-subtitle">Associate Professor</h6>
+        <p class="card-text">Sid Banerjee is an associate professor in the <a href="http://www.orie.cornell.edu/" target="_blank">School of Operations Research</a> at Cornell, working on topics at the intersection of data-driven decision-making, market design, and algorithms for large-scale networks.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:sbanerjee@cornell.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/banerjee_sid_" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=_kqpoHIAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/SidBanerjee" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0002-8954-4578" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/public/files/SidBanerjeeCV.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/public/js/academic.min.cbb55fd8eafa574bce72dcb94f65cd2c.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; <a href="mailto:sbanerjee@cornell.edu" target="_blank">Sid Banerjee</a> 2020&ensp;&ensp;&middot; &ensp;&ensp;&ensp;229 Rhodes Hall &ensp;&ensp; 
+
+    &middot;&ensp;&ensp; 
+	Based on
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>
+
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

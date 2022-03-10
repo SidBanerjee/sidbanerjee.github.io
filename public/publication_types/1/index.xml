@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Sid Banerjee</title>
+    <link>https://sidbanerjee.github.io/public/publication_types/1/</link>
+      <atom:link href="https://sidbanerjee.github.io/public/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sun, 03 Oct 2021 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://sidbanerjee.github.io/public/img/sid.jpg</url>
+      <title>1</title>
+      <link>https://sidbanerjee.github.io/public/publication_types/1/</link>
+    </image>
+    
+    <item>
+      <title>Online Nash Social Welfare with Predictions</title>
+      <link>https://sidbanerjee.github.io/public/publication/gkatzelis-22/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/gkatzelis-22/</guid>
+      <description>&lt;p&gt;Earlier version titled &lt;a href=&#34;https://arxiv.org/abs/2008.03564v1&#34; target=&#34;_blank&#34;&gt;Online Nash Social Welfare via Promised Utilities&lt;/a&gt; used normalized valuations instead of predicted valuations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sequential Fair Allocation: Achieving the Optimal Envy-Efficiency Tradeoff Curve</title>
+      <link>https://sidbanerjee.github.io/public/publication/sinclair-22-sigmetrics/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/sinclair-22-sigmetrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Threshold Tests as Quality Signals: Optimal Strategies, Equilibria, and Price of Anarchy</title>
+      <link>https://sidbanerjee.github.io/public/publication/kempe-21-testing/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/kempe-21-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Remarkable Robustness of the Repeated Fisher Market</title>
+      <link>https://sidbanerjee.github.io/public/publication/gorokh-21-scrip/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/gorokh-21-scrip/</guid>
+      <description>&lt;p&gt;Earlier version: &lt;a href=&#34;https://www.researchgate.net/publication/334385028_Scrip_Economies_Are_Fair_and_Approximately_Efficient&#34; target=&#34;_blank&#34;&gt;Scrip Economies are Fair and (Approximately) Efficient&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Real-Time Approximate Routing for Smart Transit Systems</title>
+      <link>https://sidbanerjee.github.io/public/publication/perivier-21-sigmetrics/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/perivier-21-sigmetrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Discretization for Model-Based Reinforcement Learning</title>
+      <link>https://sidbanerjee.github.io/public/publication/sinclair-20-neurips/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/sinclair-20-neurips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Discretization for Episodic Reinforcement Learning in Metric Spaces</title>
+      <link>https://sidbanerjee.github.io/public/publication/sinclair-20-sigmetrics/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/sinclair-20-sigmetrics/</guid>
+      <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/sinclair-19-pomacs/&#34;&gt;Sinclair et al. (2020)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predict and Match: Prophet Inequalities with Uncertain Supply</title>
+      <link>https://sidbanerjee.github.io/public/publication/alijani-20-sigmetrics/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/alijani-20-sigmetrics/</guid>
+      <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/alijani-20/&#34;&gt;Alijani et al. (2020)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Uniform Loss Algorithms for Online Stochastic Decision-Making With Applications to Bin Packing</title>
+      <link>https://sidbanerjee.github.io/public/publication/freund-20/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/freund-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Segmentation-Thickness Tradeoff in Online Marketplaces</title>
+      <link>https://sidbanerjee.github.io/public/publication/alijani-19-sigmetrics/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/alijani-19-sigmetrics/</guid>
+      <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/alijani-19/&#34;&gt;Alijani et al. (2019)&lt;/a&gt;. Earlier version: &lt;a href=&#34;https://arxiv.org/abs/1711.11392&#34; target=&#34;_blank&#34;&gt;Two-sided Facility Location&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Bayesian Prophet: A Low-Regret Framework for Online Decision Making</title>
+      <link>https://sidbanerjee.github.io/public/publication/vera-19-conf/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/vera-19-conf/</guid>
+      <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/vera-19/&#34;&gt;Vera and Banerjee (2020)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Information signal design for incentivizing team formation</title>
+      <link>https://sidbanerjee.github.io/public/publication/hssaine-18-team/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/hssaine-18-team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State Dependent Control of Closed Queueing Networks</title>
+      <link>https://sidbanerjee.github.io/public/publication/qian-17-conf/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/qian-17-conf/</guid>
+      <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/qian-20/&#34;&gt;Banerjee et al. (2020)&lt;/a&gt; (under submission).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Price of Fragmentation in Mobility-on-Demand Services</title>
+      <link>https://sidbanerjee.github.io/public/publication/sejourne-17-conf/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/sejourne-17-conf/</guid>
+      <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/sejourne-17/&#34;&gt;Sejourne et al. (2018)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Segmenting Two-Sided Markets</title>
+      <link>https://sidbanerjee.github.io/public/publication/munagala-17/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/munagala-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Monetary to Non-Monetary Mechanism Design via Artificial Currencies</title>
+      <link>https://sidbanerjee.github.io/public/publication/gorokh-17-monetary/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/gorokh-17-monetary/</guid>
+      <description>&lt;p&gt;Results merged with &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/gorokh-16-near/&#34;&gt;earlier paper&lt;/a&gt; into &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/gorokh-20/&#34;&gt;journal article&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pricing and Optimization in Shared Vehicle Systems: An Approximation Framework</title>
+      <link>https://sidbanerjee.github.io/public/publication/freund-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/freund-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Near-Efficient Allocation Using Artificial Currency in Repeated Settings</title>
+      <link>https://sidbanerjee.github.io/public/publication/gorokh-16-near/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/gorokh-16-near/</guid>
+      <description>&lt;p&gt;Results merged with &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/gorokh-17-monetary/&#34;&gt;follow-up paper&lt;/a&gt; into &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/gorokh-20/&#34;&gt;journal article&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sublinear estimation of a single element in sparse linear systems</title>
+      <link>https://sidbanerjee.github.io/public/publication/shyamkumar-16/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/shyamkumar-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personalized pagerank estimation and search: A bidirectional approach</title>
+      <link>https://sidbanerjee.github.io/public/publication/lofgren-16-bidirectional/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/lofgren-16-bidirectional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bidirectional PageRank Estimation: From Average-Case to Worst-Case</title>
+      <link>https://sidbanerjee.github.io/public/publication/lofgren-16-worstcase/</link>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/lofgren-16-worstcase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Bidirectional Probability Estimation in Markov Models</title>
+      <link>https://sidbanerjee.github.io/public/publication/lofgren-15-mc/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/lofgren-15-mc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pricing in Ride-Sharing Platforms: A Queueing-Theoretic Approach</title>
+      <link>https://sidbanerjee.github.io/public/publication/riquelme-16/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/riquelme-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Importance of Exploration in Online Marketplaces</title>
+      <link>https://sidbanerjee.github.io/public/publication/zhou-14-conf/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/zhou-14-conf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-incentivizing discovery: Mechanisms for partial-progress sharing in research</title>
+      <link>https://sidbanerjee.github.io/public/publication/anilesh-14/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/anilesh-14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAST-PPR: scaling personalized pagerank estimation for large graphs</title>
+      <link>https://sidbanerjee.github.io/public/publication/lofgren-14-ppr/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/lofgren-14-ppr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The behavior of epidemics under bounded susceptibility</title>
+      <link>https://sidbanerjee.github.io/public/publication/krishnasamy-14/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/krishnasamy-14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Epidemic thresholds with external agents</title>
+      <link>https://sidbanerjee.github.io/public/publication/chatterjee-14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/chatterjee-14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linear network coding for multiple groupcast sessions: An interference alignment approach</title>
+      <link>https://sidbanerjee.github.io/public/publication/das-13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/das-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greedy Sensor Selection: Leveraging Submodularity</title>
+      <link>https://sidbanerjee.github.io/public/publication/shamaiah-10-conf/</link>
+      <pubDate>Mon, 04 Jun 2012 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/shamaiah-10-conf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Price of Privacy in Untrusted Recommendation Engines</title>
+      <link>https://sidbanerjee.github.io/public/publication/massoulie-12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/massoulie-12/</guid>
+      <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/massoulie-15/&#34;&gt;Banerjee et al. (2015)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greedy learning of Markov network structure</title>
+      <link>https://sidbanerjee.github.io/public/publication/netrapalli-10/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/netrapalli-10/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

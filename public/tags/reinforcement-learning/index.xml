@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reinforcement learning | Sid Banerjee</title>
+    <link>https://sidbanerjee.github.io/public/tags/reinforcement-learning/</link>
+      <atom:link href="https://sidbanerjee.github.io/public/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>reinforcement learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Wed, 27 May 2020 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://sidbanerjee.github.io/public/img/sid.jpg</url>
+      <title>reinforcement learning</title>
+      <link>https://sidbanerjee.github.io/public/tags/reinforcement-learning/</link>
+    </image>
+    
+    <item>
+      <title>Adaptive Discretization for Episodic Reinforcement Learning in Metric Spaces</title>
+      <link>https://sidbanerjee.github.io/public/publication/sinclair-20-sigmetrics/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.github.io/public/publication/sinclair-20-sigmetrics/</guid>
+      <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/public/sbanerjee/publication/sinclair-19-pomacs/&#34;&gt;Sinclair et al. (2020)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
