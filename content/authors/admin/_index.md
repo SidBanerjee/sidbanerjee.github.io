@@ -114,5 +114,5 @@ I work on topics at the intersection of data-driven decision-making and stochast
 
 I was a technical consultant at [Lyft](http://lyft.com/) in 2014-18, where I helped develop and implement Lyft's primetime pricing; the following [tutorial](https://simons.berkeley.edu/talks/banerjee-ridesharing) and [book chapter](publication/ridesharechapter-19) give an overview of my work on ridesharing platforms. 
 
-<span style="color:red">Teaching Fall '21: </span> <a class="btn-sm btn-outline-primary" role="button" href="courses/orie6180f21/">ORIE 6180 - Online Decision-Making and Market Design</a>
+<span style="color:red">Teaching Spring '22: </span> <a class="btn-sm btn-outline-primary" role="button" href="courses/orie5582s22/">ORIE 5582 - Monte Carlo Methods in Financial Engineering</a>
 
