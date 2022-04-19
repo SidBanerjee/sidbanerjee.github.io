@@ -55,7 +55,7 @@ subtitle = ""
   program = "CAM"
   start = "2019"
   photo = "matt.jpg"
-  website = "https://www.cam.cornell.edu/research/grad-students/matthew-eichhorn"
+  website = "https://maeichho.github.io/"
 
 #[[mygroup.students]]
 #  name = "Spencer Peters"
