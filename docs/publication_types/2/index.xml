@@ -5,7 +5,7 @@
     <link>https://sidbanerjee.github.io/publication_types/2/</link>
       <atom:link href="https://sidbanerjee.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Thu, 01 Apr 2021 00:00:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Thu, 01 Apr 2021 00:00:00 -0700</lastBuildDate>
     <image>
       <url>https://sidbanerjee.github.io/img/sid.jpg</url>
       <title>2</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Pricing and Optimization in Shared Vehicle Systems: An Approximation Framework</title>
       <link>https://sidbanerjee.github.io/publication/freund-21/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 -0700</pubDate>
       <guid>https://sidbanerjee.github.io/publication/freund-21/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>Real-Time Approximate Routing for Smart Transit Systems</title>
       <link>https://sidbanerjee.github.io/publication/perivier-21-pomacs/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
       <guid>https://sidbanerjee.github.io/publication/perivier-21-pomacs/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>Computing Constrained Shortest-Paths at Scale</title>
       <link>https://sidbanerjee.github.io/publication/vera-18/</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 -0700</pubDate>
       <guid>https://sidbanerjee.github.io/publication/vera-18/</guid>
       <description></description>
     </item>
@@ -39,7 +39,7 @@
     <item>
       <title>Online Allocation and Pricing: Constant Regret via Bellman Inequalities</title>
       <link>https://sidbanerjee.github.io/publication/vera-20/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 -0700</pubDate>
       <guid>https://sidbanerjee.github.io/publication/vera-20/</guid>
       <description></description>
     </item>
@@ -47,7 +47,7 @@
     <item>
       <title>Predict and Match: Prophet Inequalities with Uncertain Supply</title>
       <link>https://sidbanerjee.github.io/publication/alijani-20-pomacs/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 01 May 2020 00:00:00 -0700</pubDate>
       <guid>https://sidbanerjee.github.io/publication/alijani-20-pomacs/</guid>
       <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/alijani-20-conf/&#34;&gt;Alijani et al. (2020)&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -56,7 +56,7 @@
     <item>
       <title>From Monetary to Non-Monetary Mechanism Design via Artificial Currencies</title>
       <link>https://sidbanerjee.github.io/publication/gorokh-20/</link>
-      <pubDate>Thu, 20 Feb 2020 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 -0800</pubDate>
       <guid>https://sidbanerjee.github.io/publication/gorokh-20/</guid>
       <description>&lt;p&gt;Combines results from &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-17-monetary/&#34;&gt;Gorokh et al. (2017)&lt;/a&gt; and &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-17-monetary/&#34;&gt;Gorokh et al. (2017)&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -65,7 +65,7 @@
     <item>
       <title>The Bayesian Prophet: A Low-Regret Framework for Online Decision Making</title>
       <link>https://sidbanerjee.github.io/publication/vera-19/</link>
-      <pubDate>Wed, 15 Jan 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 -0800</pubDate>
       <guid>https://sidbanerjee.github.io/publication/vera-19/</guid>
       <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/vera-19-conf/&#34;&gt;Vera and Banerjee (2019)&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -74,7 +74,7 @@
     <item>
       <title>Adaptive Discretization for Episodic Reinforcement Learning in Metric Spaces</title>
       <link>https://sidbanerjee.github.io/publication/sinclair-19-pomacs/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 -0800</pubDate>
       <guid>https://sidbanerjee.github.io/publication/sinclair-19-pomacs/</guid>
       <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/sinclair-20-sigmetrics/&#34;&gt;Sinclair et al. (2020)&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -83,7 +83,7 @@
     <item>
       <title>The Segmentation-Thickness Tradeoff in Online Marketplaces</title>
       <link>https://sidbanerjee.github.io/publication/alijani-19-pomacs/</link>
-      <pubDate>Wed, 27 Mar 2019 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 -0700</pubDate>
       <guid>https://sidbanerjee.github.io/publication/alijani-19-pomacs/</guid>
       <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/alijani-19-conf/&#34;&gt;Alijani et al. (2019)&lt;/a&gt;. Earlier preprint: &lt;a href=&#34;https://arxiv.org/abs/1711.11392&#34; target=&#34;_blank&#34;&gt;Two-sided facility location&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -92,7 +92,7 @@
     <item>
       <title>The Price of Fragmentation in Mobility-on-Demand Services</title>
       <link>https://sidbanerjee.github.io/publication/sejourne-17/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
       <guid>https://sidbanerjee.github.io/publication/sejourne-17/</guid>
       <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/sejourne-17-conf/&#34;&gt;Sejourne et al. (2018)&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -101,7 +101,7 @@
     <item>
       <title>Online Collaborative-Filtering on Graphs</title>
       <link>https://sidbanerjee.github.io/publication/sanghavi-14/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
       <guid>https://sidbanerjee.github.io/publication/sanghavi-14/</guid>
       <description></description>
     </item>
@@ -109,7 +109,7 @@
     <item>
       <title>The Importance of Exploration in Online Marketplaces</title>
       <link>https://sidbanerjee.github.io/publication/zhou-16/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
       <guid>https://sidbanerjee.github.io/publication/zhou-16/</guid>
       <description>&lt;p&gt;Invited article based on &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/zhou-14-conf/&#34;&gt;Banerjee 2014&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -118,7 +118,7 @@
     <item>
       <title>The Price of Privacy in Untrusted Recommendation Engines</title>
       <link>https://sidbanerjee.github.io/publication/massoulie-15/</link>
-      <pubDate>Thu, 01 Oct 2015 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
       <guid>https://sidbanerjee.github.io/publication/massoulie-15/</guid>
       <description>&lt;p&gt;Earlier conference version: &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/massoulie-12/&#34;&gt;Banerjee et al. (2012)&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -127,7 +127,7 @@
     <item>
       <title>Epidemic Spreading With External Agents</title>
       <link>https://sidbanerjee.github.io/publication/gopalan-14/</link>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 -0700</pubDate>
       <guid>https://sidbanerjee.github.io/publication/gopalan-14/</guid>
       <description></description>
     </item>
@@ -135,7 +135,7 @@
     <item>
       <title>Greedy Sensor Selection under Channel Uncertainty</title>
       <link>https://sidbanerjee.github.io/publication/shamaiah-10/</link>
-      <pubDate>Mon, 04 Jun 2012 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 04 Jun 2012 00:00:00 -0700</pubDate>
       <guid>https://sidbanerjee.github.io/publication/shamaiah-10/</guid>
       <description></description>
     </item>
@@ -143,7 +143,7 @@
     <item>
       <title>Towards a queueing-based framework for in-network function computation</title>
       <link>https://sidbanerjee.github.io/publication/piyush-12/</link>
-      <pubDate>Wed, 25 Apr 2012 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 25 Apr 2012 00:00:00 -0700</pubDate>
       <guid>https://sidbanerjee.github.io/publication/piyush-12/</guid>
       <description></description>
     </item>
@@ -151,7 +151,7 @@
     <item>
       <title>Feedback Allocation for OFDMA Systems With Slow Frequency-Domain Scheduling</title>
       <link>https://sidbanerjee.github.io/publication/ganapathy-12/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 -0800</pubDate>
       <guid>https://sidbanerjee.github.io/publication/ganapathy-12/</guid>
       <description></description>
     </item>
@@ -159,7 +159,7 @@
     <item>
       <title>On distributed scheduling with heterogeneously delayed network-state information</title>
       <link>https://sidbanerjee.github.io/publication/reddy-12/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 -0800</pubDate>
       <guid>https://sidbanerjee.github.io/publication/reddy-12/</guid>
       <description></description>
     </item>
