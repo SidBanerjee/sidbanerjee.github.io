@@ -5,7 +5,7 @@
     <link>https://sidbanerjee.github.io/</link>
       <atom:link href="https://sidbanerjee.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Sid Banerjee</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sun, 03 Oct 2021 00:00:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sun, 03 Oct 2021 00:00:00 -0400</lastBuildDate>
     <image>
       <url>https://sidbanerjee.github.io/img/sid.jpg</url>
       <title>Sid Banerjee</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Online Nash Social Welfare with Predictions</title>
       <link>https://sidbanerjee.github.io/publication/gkatzelis-22/</link>
-      <pubDate>Sun, 03 Oct 2021 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/gkatzelis-22/</guid>
       <description>&lt;p&gt;Earlier version titled &lt;a href=&#34;https://arxiv.org/abs/2008.03564v1&#34; target=&#34;_blank&#34;&gt;Online Nash Social Welfare via Promised Utilities&lt;/a&gt; used normalized valuations instead of predicted valuations.&lt;/p&gt;
 </description>
@@ -24,7 +24,7 @@
     <item>
       <title>Sequential Fair Allocation: Achieving the Optimal Envy-Efficiency Tradeoff Curve</title>
       <link>https://sidbanerjee.github.io/publication/sinclair-22-sigmetrics/</link>
-      <pubDate>Sun, 03 Oct 2021 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/sinclair-22-sigmetrics/</guid>
       <description></description>
     </item>
@@ -32,7 +32,7 @@
     <item>
       <title>Pseudo-Competitive Games and Algorithmic Price Competition</title>
       <link>https://sidbanerjee.github.io/publication/hssaine-21-satisficing/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/hssaine-21-satisficing/</guid>
       <description></description>
     </item>
@@ -249,7 +249,7 @@ Send me a mail if you are concerned about having the appropriate prerequisites.&
     <item>
       <title>Threshold Tests as Quality Signals: Optimal Strategies, Equilibria, and Price of Anarchy</title>
       <link>https://sidbanerjee.github.io/publication/kempe-21-testing/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/kempe-21-testing/</guid>
       <description></description>
     </item>
@@ -257,7 +257,7 @@ Send me a mail if you are concerned about having the appropriate prerequisites.&
     <item>
       <title>The Remarkable Robustness of the Repeated Fisher Market</title>
       <link>https://sidbanerjee.github.io/publication/gorokh-21-scrip/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/gorokh-21-scrip/</guid>
       <description>&lt;p&gt;Earlier version: &lt;a href=&#34;https://www.researchgate.net/publication/334385028_Scrip_Economies_Are_Fair_and_Approximately_Efficient&#34; target=&#34;_blank&#34;&gt;Scrip Economies are Fair and (Approximately) Efficient&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -266,7 +266,7 @@ Send me a mail if you are concerned about having the appropriate prerequisites.&
     <item>
       <title>Pricing and Optimization in Shared Vehicle Systems: An Approximation Framework</title>
       <link>https://sidbanerjee.github.io/publication/freund-21/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/freund-21/</guid>
       <description></description>
     </item>
@@ -274,7 +274,7 @@ Send me a mail if you are concerned about having the appropriate prerequisites.&
     <item>
       <title>Real-Time Approximate Routing for Smart Transit Systems</title>
       <link>https://sidbanerjee.github.io/publication/perivier-21-pomacs/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/perivier-21-pomacs/</guid>
       <description></description>
     </item>
@@ -282,7 +282,7 @@ Send me a mail if you are concerned about having the appropriate prerequisites.&
     <item>
       <title>Real-Time Approximate Routing for Smart Transit Systems</title>
       <link>https://sidbanerjee.github.io/publication/perivier-21-sigmetrics/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/perivier-21-sigmetrics/</guid>
       <description></description>
     </item>
@@ -545,7 +545,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Computing Constrained Shortest-Paths at Scale</title>
       <link>https://sidbanerjee.github.io/publication/vera-18/</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/vera-18/</guid>
       <description></description>
     </item>
@@ -553,7 +553,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>The Limits of an Information Intermediary in Auction Design</title>
       <link>https://sidbanerjee.github.io/publication/alijani-20-bbm/</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/alijani-20-bbm/</guid>
       <description></description>
     </item>
@@ -705,7 +705,7 @@ These will be uploaded on Piazza  before the class. Students are encouraged to a
     <item>
       <title>Dynamic Assignment Control of a Closed Queueing Network under Complete Resource Pooling</title>
       <link>https://sidbanerjee.github.io/publication/qian-20/</link>
-      <pubDate>Thu, 25 Jun 2020 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/qian-20/</guid>
       <description>&lt;p&gt;Earlier conference version: &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/qian-17-conf/&#34;&gt;Banerjee et al. (2018)&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -714,7 +714,7 @@ These will be uploaded on Piazza  before the class. Students are encouraged to a
     <item>
       <title>Adaptive Discretization for Model-Based Reinforcement Learning</title>
       <link>https://sidbanerjee.github.io/publication/sinclair-20-neurips/</link>
-      <pubDate>Wed, 10 Jun 2020 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/sinclair-20-neurips/</guid>
       <description></description>
     </item>
@@ -722,7 +722,7 @@ These will be uploaded on Piazza  before the class. Students are encouraged to a
     <item>
       <title>Online Allocation and Pricing: Constant Regret via Bellman Inequalities</title>
       <link>https://sidbanerjee.github.io/publication/vera-20/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/vera-20/</guid>
       <description></description>
     </item>
@@ -730,7 +730,7 @@ These will be uploaded on Piazza  before the class. Students are encouraged to a
     <item>
       <title>Adaptive Discretization for Episodic Reinforcement Learning in Metric Spaces</title>
       <link>https://sidbanerjee.github.io/publication/sinclair-20-sigmetrics/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 27 May 2020 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/sinclair-20-sigmetrics/</guid>
       <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/sinclair-19-pomacs/&#34;&gt;Sinclair et al. (2020)&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -739,7 +739,7 @@ These will be uploaded on Piazza  before the class. Students are encouraged to a
     <item>
       <title>Predict and Match: Prophet Inequalities with Uncertain Supply</title>
       <link>https://sidbanerjee.github.io/publication/alijani-20-sigmetrics/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 27 May 2020 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/alijani-20-sigmetrics/</guid>
       <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/alijani-20/&#34;&gt;Alijani et al. (2020)&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -748,7 +748,7 @@ These will be uploaded on Piazza  before the class. Students are encouraged to a
     <item>
       <title>Uniform Loss Algorithms for Online Stochastic Decision-Making With Applications to Bin Packing</title>
       <link>https://sidbanerjee.github.io/publication/freund-20/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 27 May 2020 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/freund-20/</guid>
       <description></description>
     </item>
@@ -756,7 +756,7 @@ These will be uploaded on Piazza  before the class. Students are encouraged to a
     <item>
       <title>Predict and Match: Prophet Inequalities with Uncertain Supply</title>
       <link>https://sidbanerjee.github.io/publication/alijani-20-pomacs/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 May 2020 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/alijani-20-pomacs/</guid>
       <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/alijani-20-conf/&#34;&gt;Alijani et al. (2020)&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -765,7 +765,7 @@ These will be uploaded on Piazza  before the class. Students are encouraged to a
     <item>
       <title>From Monetary to Non-Monetary Mechanism Design via Artificial Currencies</title>
       <link>https://sidbanerjee.github.io/publication/gorokh-20/</link>
-      <pubDate>Thu, 20 Feb 2020 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/gorokh-20/</guid>
       <description>&lt;p&gt;Combines results from &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-17-monetary/&#34;&gt;Gorokh et al. (2017)&lt;/a&gt; and &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-17-monetary/&#34;&gt;Gorokh et al. (2017)&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -874,7 +874,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>The Bayesian Prophet: A Low-Regret Framework for Online Decision Making</title>
       <link>https://sidbanerjee.github.io/publication/vera-19/</link>
-      <pubDate>Wed, 15 Jan 2020 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/vera-19/</guid>
       <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/vera-19-conf/&#34;&gt;Vera and Banerjee (2019)&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -883,7 +883,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Adaptive Discretization for Episodic Reinforcement Learning in Metric Spaces</title>
       <link>https://sidbanerjee.github.io/publication/sinclair-19-pomacs/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/sinclair-19-pomacs/</guid>
       <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/sinclair-20-sigmetrics/&#34;&gt;Sinclair et al. (2020)&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -987,7 +987,7 @@ An e-copy of the book is available on the Cornell library website, which also gi
     <item>
       <title>The Segmentation-Thickness Tradeoff in Online Marketplaces</title>
       <link>https://sidbanerjee.github.io/publication/alijani-19-sigmetrics/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/alijani-19-sigmetrics/</guid>
       <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/alijani-19/&#34;&gt;Alijani et al. (2019)&lt;/a&gt;. Earlier version: &lt;a href=&#34;https://arxiv.org/abs/1711.11392&#34; target=&#34;_blank&#34;&gt;Two-sided Facility Location&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -996,7 +996,7 @@ An e-copy of the book is available on the Cornell library website, which also gi
     <item>
       <title>The Segmentation-Thickness Tradeoff in Online Marketplaces</title>
       <link>https://sidbanerjee.github.io/publication/alijani-19-pomacs/</link>
-      <pubDate>Wed, 27 Mar 2019 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/alijani-19-pomacs/</guid>
       <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/alijani-19-conf/&#34;&gt;Alijani et al. (2019)&lt;/a&gt;. Earlier preprint: &lt;a href=&#34;https://arxiv.org/abs/1711.11392&#34; target=&#34;_blank&#34;&gt;Two-sided facility location&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -1005,7 +1005,7 @@ An e-copy of the book is available on the Cornell library website, which also gi
     <item>
       <title>The Bayesian Prophet: A Low-Regret Framework for Online Decision Making</title>
       <link>https://sidbanerjee.github.io/publication/vera-19-conf/</link>
-      <pubDate>Tue, 15 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/vera-19-conf/</guid>
       <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/vera-19/&#34;&gt;Vera and Banerjee (2020)&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -1022,7 +1022,7 @@ An e-copy of the book is available on the Cornell library website, which also gi
     <item>
       <title>Information signal design for incentivizing team formation</title>
       <link>https://sidbanerjee.github.io/publication/hssaine-18-team/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/hssaine-18-team/</guid>
       <description></description>
     </item>
@@ -1128,7 +1128,7 @@ Recitation and office hours schedule available on Piazza.&lt;br /&gt;&lt;/li&gt;
     <item>
       <title>State Dependent Control of Closed Queueing Networks</title>
       <link>https://sidbanerjee.github.io/publication/qian-17-conf/</link>
-      <pubDate>Fri, 01 Jun 2018 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/qian-17-conf/</guid>
       <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/qian-20/&#34;&gt;Banerjee et al. (2020)&lt;/a&gt; (under submission).&lt;/p&gt;
 </description>
@@ -1137,7 +1137,7 @@ Recitation and office hours schedule available on Piazza.&lt;br /&gt;&lt;/li&gt;
     <item>
       <title>The Price of Fragmentation in Mobility-on-Demand Services</title>
       <link>https://sidbanerjee.github.io/publication/sejourne-17-conf/</link>
-      <pubDate>Fri, 01 Jun 2018 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/sejourne-17-conf/</guid>
       <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/sejourne-17/&#34;&gt;Sejourne et al. (2018)&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -1146,7 +1146,7 @@ Recitation and office hours schedule available on Piazza.&lt;br /&gt;&lt;/li&gt;
     <item>
       <title>When Bribes are Harmless: The Power and Limits of Collusion-Resilient Mechanism Design</title>
       <link>https://sidbanerjee.github.io/publication/gorokh-18-bribes/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/gorokh-18-bribes/</guid>
       <description></description>
     </item>
@@ -1227,7 +1227,7 @@ Recitation and office hours schedule available on Piazza.&lt;br /&gt;&lt;/li&gt;
     <item>
       <title>The Price of Fragmentation in Mobility-on-Demand Services</title>
       <link>https://sidbanerjee.github.io/publication/sejourne-17/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/sejourne-17/</guid>
       <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/sejourne-17-conf/&#34;&gt;Sejourne et al. (2018)&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -1236,7 +1236,7 @@ Recitation and office hours schedule available on Piazza.&lt;br /&gt;&lt;/li&gt;
     <item>
       <title>Segmenting Two-Sided Markets</title>
       <link>https://sidbanerjee.github.io/publication/munagala-17/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/munagala-17/</guid>
       <description></description>
     </item>
@@ -1353,7 +1353,7 @@ For the second half of semester, we will use a commercial simulation package, &l
     <item>
       <title>From Monetary to Non-Monetary Mechanism Design via Artificial Currencies</title>
       <link>https://sidbanerjee.github.io/publication/gorokh-17-monetary/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/gorokh-17-monetary/</guid>
       <description>&lt;p&gt;Results merged with &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-16-near/&#34;&gt;earlier paper&lt;/a&gt; into &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-20/&#34;&gt;journal article&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -1474,7 +1474,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Pricing and Optimization in Shared Vehicle Systems: An Approximation Framework</title>
       <link>https://sidbanerjee.github.io/publication/freund-17/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/freund-17/</guid>
       <description></description>
     </item>
@@ -1482,7 +1482,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Near-Efficient Allocation Using Artificial Currency in Repeated Settings</title>
       <link>https://sidbanerjee.github.io/publication/gorokh-16-near/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/gorokh-16-near/</guid>
       <description>&lt;p&gt;Results merged with &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-17-monetary/&#34;&gt;follow-up paper&lt;/a&gt; into &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/gorokh-20/&#34;&gt;journal article&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -1491,7 +1491,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Sublinear estimation of a single element in sparse linear systems</title>
       <link>https://sidbanerjee.github.io/publication/shyamkumar-16/</link>
-      <pubDate>Sat, 01 Oct 2016 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/shyamkumar-16/</guid>
       <description></description>
     </item>
@@ -1791,7 +1791,7 @@ Another great set of related courses are Tim Roughgarden&amp;rsquo;s &lt;a href=
     <item>
       <title>Online Collaborative-Filtering on Graphs</title>
       <link>https://sidbanerjee.github.io/publication/sanghavi-14/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/sanghavi-14/</guid>
       <description></description>
     </item>
@@ -1799,7 +1799,7 @@ Another great set of related courses are Tim Roughgarden&amp;rsquo;s &lt;a href=
     <item>
       <title>Personalized pagerank estimation and search: A bidirectional approach</title>
       <link>https://sidbanerjee.github.io/publication/lofgren-16-bidirectional/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/lofgren-16-bidirectional/</guid>
       <description></description>
     </item>
@@ -1807,7 +1807,7 @@ Another great set of related courses are Tim Roughgarden&amp;rsquo;s &lt;a href=
     <item>
       <title>The Importance of Exploration in Online Marketplaces</title>
       <link>https://sidbanerjee.github.io/publication/zhou-16/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/zhou-16/</guid>
       <description>&lt;p&gt;Invited article based on &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/zhou-14-conf/&#34;&gt;Banerjee 2014&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -1816,7 +1816,7 @@ Another great set of related courses are Tim Roughgarden&amp;rsquo;s &lt;a href=
     <item>
       <title>The Price of Privacy in Untrusted Recommendation Engines</title>
       <link>https://sidbanerjee.github.io/publication/massoulie-15/</link>
-      <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/massoulie-15/</guid>
       <description>&lt;p&gt;Earlier conference version: &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/massoulie-12/&#34;&gt;Banerjee et al. (2012)&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -1997,7 +1997,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Bidirectional PageRank Estimation: From Average-Case to Worst-Case</title>
       <link>https://sidbanerjee.github.io/publication/lofgren-16-worstcase/</link>
-      <pubDate>Tue, 30 Jun 2015 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/lofgren-16-worstcase/</guid>
       <description></description>
     </item>
@@ -2005,7 +2005,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Fast Bidirectional Probability Estimation in Markov Models</title>
       <link>https://sidbanerjee.github.io/publication/lofgren-15-mc/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/lofgren-15-mc/</guid>
       <description></description>
     </item>
@@ -2013,7 +2013,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Pricing in Ride-Sharing Platforms: A Queueing-Theoretic Approach</title>
       <link>https://sidbanerjee.github.io/publication/riquelme-16/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/riquelme-16/</guid>
       <description></description>
     </item>
@@ -2021,7 +2021,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>The Importance of Exploration in Online Marketplaces</title>
       <link>https://sidbanerjee.github.io/publication/zhou-14-conf/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/zhou-14-conf/</guid>
       <description></description>
     </item>
@@ -2029,7 +2029,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Epidemic Spreading With External Agents</title>
       <link>https://sidbanerjee.github.io/publication/gopalan-14/</link>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/gopalan-14/</guid>
       <description></description>
     </item>
@@ -2037,7 +2037,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Re-incentivizing discovery: Mechanisms for partial-progress sharing in research</title>
       <link>https://sidbanerjee.github.io/publication/anilesh-14/</link>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/anilesh-14/</guid>
       <description></description>
     </item>
@@ -2045,7 +2045,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>FAST-PPR: scaling personalized pagerank estimation for large graphs</title>
       <link>https://sidbanerjee.github.io/publication/lofgren-14-ppr/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/lofgren-14-ppr/</guid>
       <description></description>
     </item>
@@ -2053,7 +2053,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>The behavior of epidemics under bounded susceptibility</title>
       <link>https://sidbanerjee.github.io/publication/krishnasamy-14/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/krishnasamy-14/</guid>
       <description></description>
     </item>
@@ -2061,7 +2061,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Epidemic thresholds with external agents</title>
       <link>https://sidbanerjee.github.io/publication/chatterjee-14/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/chatterjee-14/</guid>
       <description></description>
     </item>
@@ -2069,7 +2069,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Linear network coding for multiple groupcast sessions: An interference alignment approach</title>
       <link>https://sidbanerjee.github.io/publication/das-13/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/das-13/</guid>
       <description></description>
     </item>
@@ -2077,7 +2077,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Greedy Sensor Selection under Channel Uncertainty</title>
       <link>https://sidbanerjee.github.io/publication/shamaiah-10/</link>
-      <pubDate>Mon, 04 Jun 2012 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 04 Jun 2012 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/shamaiah-10/</guid>
       <description></description>
     </item>
@@ -2085,7 +2085,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Greedy Sensor Selection: Leveraging Submodularity</title>
       <link>https://sidbanerjee.github.io/publication/shamaiah-10-conf/</link>
-      <pubDate>Mon, 04 Jun 2012 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 04 Jun 2012 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/shamaiah-10-conf/</guid>
       <description></description>
     </item>
@@ -2093,7 +2093,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Towards a queueing-based framework for in-network function computation</title>
       <link>https://sidbanerjee.github.io/publication/piyush-12/</link>
-      <pubDate>Wed, 25 Apr 2012 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 25 Apr 2012 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/piyush-12/</guid>
       <description></description>
     </item>
@@ -2101,7 +2101,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Feedback Allocation for OFDMA Systems With Slow Frequency-Domain Scheduling</title>
       <link>https://sidbanerjee.github.io/publication/ganapathy-12/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/ganapathy-12/</guid>
       <description></description>
     </item>
@@ -2109,7 +2109,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>On distributed scheduling with heterogeneously delayed network-state information</title>
       <link>https://sidbanerjee.github.io/publication/reddy-12/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/reddy-12/</guid>
       <description></description>
     </item>
@@ -2117,7 +2117,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>The Price of Privacy in Untrusted Recommendation Engines</title>
       <link>https://sidbanerjee.github.io/publication/massoulie-12/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/massoulie-12/</guid>
       <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.github.io/sbanerjee/publication/massoulie-15/&#34;&gt;Banerjee et al. (2015)&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -2126,7 +2126,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
     <item>
       <title>Greedy learning of Markov network structure</title>
       <link>https://sidbanerjee.github.io/publication/netrapalli-10/</link>
-      <pubDate>Fri, 01 Jan 2010 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 -0500</pubDate>
       <guid>https://sidbanerjee.github.io/publication/netrapalli-10/</guid>
       <description></description>
     </item>
