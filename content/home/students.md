@@ -33,39 +33,70 @@ subtitle = ""
 
 
 [[mygroup.students]]
-  name = "Chamsi Hssaine"
-  start = "2016"
+  name = "Ram Deo-Campo Vuong"
+  start = "2024"
   position = "PhD"
-  program = "ORIE"
-  photo = "chamsi.jpg"
-  website = "https://chamsihssaine.github.io/"
+  program = "CS"
+  photo = "ram.jpg"
+  coadvisor = "[Bobby Kleinberg](https://www.cs.cornell.edu/~rdk/)"
+  website = "https://ramirodcv.github.io/"
+
 
 [[mygroup.students]]
-  name = "Sean Sinclair"
+  name = "Ruijia Cao"
+  start = "2024"
   position = "PhD"
-  program = "ORIE"
-  start = "2018"
-  photo = "sean.jpg"
-  coadvisor = "[Christina Yu](https://people.orie.cornell.edu/cleeyu/)"
-  website = "https://people.orie.cornell.edu/srs429/"
-  
+  program = "CAM"
+  photo = "ruijia.jpg"
+  coadvisor = "[Yuchen Wu](https://wuyc0114.github.io/), [Christina Yu](https://people.orie.cornell.edu/cleeyu/)"
+  website = "https://ruijiacao.github.io/"
+
+
 [[mygroup.students]]
+  name = "David Lin"
+  start = "2024"
+  position = "MS"
+  program = "CS"
+  photo = "david.jpg"
+  coadvisor = "[Éva Tardos](https://www.cs.cornell.edu/~eva/)"
+  website = "https://davidxlin.github.io/"
+
+
+
+
+[[mygroup.oldstudents]]
   name = "Matthew Eichhorn"
   position = "PhD"
   program = "CAM"
   start = "2019"
+  end = "2024"
+  current = "Lecturer, Cornell Computer Science"	
   photo = "matt.jpg"
   website = "https://maeichho.github.io/"
+  
+  
+[[mygroup.oldstudents]]
+  name = "Sean Sinclair"
+  position = "PhD"
+  program = "ORIE"
+  start = "2018"
+  end = "2023"
+  current = "Assistant Professor, Northwestern IEMS"
+  photo = "sean.jpg"
+  coadvisor = "[Christina Yu](https://people.orie.cornell.edu/cleeyu/)"
+  website = "https://seanrsinclair.github.io/"
 
-#[[mygroup.students]]
-#  name = "Spencer Peters"
-#  position = "PhD"
-#  program = "CS"
-#  start = "2019"
-#  photo = "spencer.jpg"
-#  coadvisor = "[Joe Halpern](https://www.cs.cornell.edu/home/halpern/)"
-#  website = "https://www.cs.cornell.edu/~speters/"
 
+
+[[mygroup.oldstudents]]
+  name = "Chamsi Hssaine"
+  start = "2016"
+  end = "2022"
+  position = "PhD"
+  program = "ORIE"
+  current = "Assistant Professor, USC Marshall"
+  photo = "chamsi.jpg"
+  website = "https://sites.google.com/usc.edu/chamsi-hssaine"
 
   [[mygroup.oldstudents]]
     name = "Alberto Vera"
@@ -84,8 +115,8 @@ subtitle = ""
     position = "PhD"
     program = "CAM"
     photo = "artur.jpg"
-    coadvisor = "[Kris Iyer](https://people.orie.cornell.edu/kriyer/)"
-	current = "Research Scientist, Facebook"
+    coadvisor = "[Kris Iyer](https://cse.umn.edu/isye/krishnamurthy-iyer)"
+	current = "Quantitative Researcher, TwoSigma"
     website = "https://people.cam.cornell.edu/ag2282/"
   
   [[mygroup.oldstudents]]
@@ -106,12 +137,74 @@ subtitle = ""
     photo = "qi.jpeg"
     website = "https://qi-luo-or.com/"
 
+
+  [[mygroup.others]]
+    name = "Chidozie Onyeze"
+    start = "2023"
+    end = ""
+    position = "Cornell CS PhD"
+    website = "https://chidoaonyeze.github.io/"
+
+
+  [[mygroup.others]]
+    name = "Giannis Fikioris"
+    start = "2020"
+    end = ""
+    position = "Cornell CS PhD"
+    website = "https://giannisfikioris.org/"
+
+
+
+  [[mygroup.others]]
+    name = "Billy Jin"
+    start = "2018"
+    end = "2024"
+    position = "Cornell ORIE PhD"
+	current = "Assistant Professor @ Purdue Business School"
+    website = "https://billyzjin.github.io/"
+
+
+  [[mygroup.others]]
+    name = "Yiheng Shen"
+    start = "2022"
+    end = ""
+    position = "Duke CS PhD"
+    website = "https://sites.google.com/view/yiheng-shen/"
+
+
+  [[mygroup.others]]
+    name = "Kangning Wang"
+    start = "2019"
+    end = "2022"
+    position = "Duke CS PhD"
+	current = "Assistant Professor @ Rutgers CS"
+    website = "https://www.kangning.info/"
+
+
+  [[mygroup.others]]
+    name = "Alankrita Bhatt"
+    start = "2022"
+    end = ""
+    position = "Simons Institute Research Fellow"
+    website = "https://alankritabhatt.github.io/"
+
+
+  [[mygroup.others]]
+    name = "Kangning Wang"
+    start = "2020"
+    end = ""
+    position = "Duke CS PhD"
+	current = "Assistant Professor @ Rutgers"
+    website = "https://www.kangning.info/"
+
+
+
   [[mygroup.others]]
     name = "Cristopher Archer"
     start = "2021"
-    end = ""
+    end = "2022"
     position = "ORIE undergraduate"
-    current = ""
+    current = "PhD student @ Berkeley EECS"
     website = "https://www.linkedin.com/in/christopher-archer-756156182/"
 
   [[mygroup.others]]
