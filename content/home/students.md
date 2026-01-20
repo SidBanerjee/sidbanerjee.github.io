@@ -154,6 +154,15 @@ subtitle = ""
     website = "https://giannisfikioris.org/"
 
 
+  [[mygroup.others]]
+    name = "Marios Papachristou"
+    start = "2020"
+    end = "2024"
+    position = "Cornell ORIE PhD"
+	current = "Assistant Professor @ Arizona State University"
+    website = "https://papachristoumarios.github.io/"
+
+
 
   [[mygroup.others]]
     name = "Billy Jin"
@@ -172,13 +181,24 @@ subtitle = ""
     website = "https://sites.google.com/view/yiheng-shen/"
 
 
+
   [[mygroup.others]]
-    name = "Kangning Wang"
-    start = "2019"
-    end = "2022"
-    position = "Duke CS PhD"
-	current = "Assistant Professor @ Rutgers CS"
-    website = "https://www.kangning.info/"
+    name = "Christopher Martin"
+    start = "2023"
+    end = "2024"
+    position = "ORIE undergraduate"
+    current = "PhD student at Yale SOM"
+    website = "https://www.linkedin.com/in/chris-r-martin/"
+
+
+  [[mygroup.others]]
+    name = "Reevu Adakroy"
+    start = "2023"
+    end = "2025"
+    position = "ORIE undergraduate"
+    current = "Founding Engineer @ Gallopify"
+    website = "https://reevuadakroy.com/"
+
 
 
   [[mygroup.others]]
@@ -196,7 +216,6 @@ subtitle = ""
     position = "Duke CS PhD"
 	current = "Assistant Professor @ Rutgers"
     website = "https://www.kangning.info/"
-
 
 
   [[mygroup.others]]
