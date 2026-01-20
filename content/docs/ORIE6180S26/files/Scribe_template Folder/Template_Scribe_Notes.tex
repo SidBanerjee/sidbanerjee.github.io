@@ -1,0 +1,149 @@
+% -----------------------------*- LaTeX -*------------------------------
+\documentclass[12pt]{report}
+
+
+\usepackage{scribe_template}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=magenta,
+	filecolor=magenta,
+	citecolor = magenta,      
+	urlcolor=magenta,
+}
+\usepackage[capitalize]{cleveref}
+
+
+\begin{document}
+
+\course{ORIE 6180}			% optional
+\coursetitle{Design of Online Marketplaces} % optional
+\semester{Fall 2021}			% optional
+\lecturer{Sid Banerjee}		% optional
+\scribe{Wolfgang Doeblin}		% required
+\lecturenumber{3}			% required, must be a number
+\lecturedate{August 31}		% required, omit year
+
+\maketitle
+
+% ----------------------------------------------------------------------
+
+
+\begin{danger}
+This is the danger environment.
+\end{danger}
+
+\section{Overview of the last lecture}
+
+\section{Overview of this lecture}
+
+\section{My first section heading}
+
+
+A result from \cite{Hartline2013}, Chapter $1$. Also see \cite{Nisan2007}.
+
+\begin{theorem}
+
+\label{ThmNeat}
+This is a neat theorem.
+\end{theorem}
+
+\begin{proof}
+Lengthy and technical proof.
+\begin{equation*}
+\sum_{i=1}^n x_i = y.
+\end{equation*}
+\end{proof}
+
+
+
+\subsection{A subsection heading}
+
+
+Here is how to typeset an array of equations.
+
+\begin{align}
+	x & = y + z \nonumber \\
+     E & = mc^2 \label{eq:relative}
+\end{align}
+You can reference equations as \cref{eq:relative}.
+
+
+Here's a table.
+
+\begin{table}[h]
+\centerline{
+    \begin{tabular}{|c|cc|}
+	\hline
+	\textbf{Method} & Cost & Iterations \\
+	\hline
+	Naive descent       & 12 & 200 \\
+	Newton's method & 500 & 30 \\
+	\hline
+    \end{tabular}}
+\caption{Comparison of different methods.}
+\end{table}
+
+
+
+\subsection{Yet another subsection}
+
+
+\begin{corollary}
+\label{CorThmNeat}
+A corollary of Theorem~\ref{ThmNeat}.
+\qed
+\end{corollary}
+
+\section{Some notation macros}
+
+Use $\prn{\frac{1}{2}}$, $\crl{X|X>e^2}$ and $\brk{1-\prn{1-\frac{1}{n}}^n}$ for different braces (in order to auto-size them).
+
+Probability notation: $\EE\brk{X\Ind_{\crl{X>y}}}$ and $\PP\brk{X>Y|Y=y}$
+
+Typesetting linear programs:
+\begin{LP}[eqn:primal-lp]{Maximize}{\sum_v r_tx_t}
+  x_t \leq x_{t'} + y_{t'} + \delta_t
+  & \mbox{ for all } t' \qquad\mbox{(First constraint)}\\
+  x_t \leq M_t
+  & \mbox{ for all } t
+  \qquad\mbox{(Second constraint)}\\
+  \sum_t x_t = 1 & \qquad\qquad\qquad\mbox{ (normalization)}\\
+  x_t \geq 0 & \mbox{ for all } t.
+\end{LP}
+
+
+
+For figures, I would recommend coding them in a separate file in TikZ (either directly or using \href{https://www.mathcha.io/}{Mathcha} to generate TikZ code), and then importing it as in \cref{fig:bipartite}.
+
+
+\begin{figure}[!tb]
+	\centering
+	\resizebox{0.5\textwidth}{!}{
+		\input{examplefig}
+	}
+	\caption{\em A friendly weighted bipartite graph}
+	\label{fig:bipartite}
+\end{figure}
+
+
+
+
+
+\begin{thebibliography}{1}
+
+\bibitem{Hartline2013}
+{\sc Hartline, J.~D.}
+\newblock Mechanism design and approximation.
+
+\bibitem{Nisan2007}
+{\sc Nisan, N., Roughgarden, T., Tardos, E., and Vazirani, V.~V.}
+\newblock {\em Algorithmic game theory}, vol.~1.
+\newblock Cambridge University Press Cambridge, 2007.
+
+\end{thebibliography}
+
+\end{document}
+
+

@@ -17,7 +17,7 @@ role = "Associate Professor"
 organizations = [ { name = "Operations Research and Information Engineering", url = "https://www.orie.cornell.edu/orie" },{ name = "Cornell University", url = "http://www.cornell.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Sid Banerjee is an associate professor in the [School of Operations Research](http://www.orie.cornell.edu/) at Cornell, working on topics at the intersection of data-driven decision-making and stochastic control, economics and computation, and large-scale network algorithms."
+bio = "Sid Banerjee is an associate professor in the [School of Operations Research](http://www.orie.cornell.edu/) at Cornell, working on topics at the intersection of data-driven decision-making, market design, and algorithms for large-scale networks."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
@@ -95,13 +95,11 @@ user_groups = []
    icon_pack = "ai"
    link = "files/SidBanerjeeCV.pdf"
 
-
-
 +++
 <blockquote class=quotation>
-Beyond knowing how things are, <br>
-There is no other understanding.<br><br>
-<a href="https://lekshe.typepad.com/lekshes_mistake/2004/07/a_song_on_the_s.html">A Song on the Six Perfections</a>, Milarepa
+For wisdom, nothing to do, <br>
+Other than know directly how things are.<br><br>
+<a href="http://unfetteredmind.org/the-six-perfections/">A Song on the Six Perfections</a>, Milarepa
 </blockquote>
 
 
@@ -111,14 +109,10 @@ I work on topics at the intersection of data-driven decision-making and stochast
 
 * New data-driven approaches for online decision-making [[seminar]](https://sites.google.com/view/snappseminar/past-seminars/spring-2021#h.1d7o5iajoo6j) 
 * Non-monetary mechanisms and information design [[seminar]](https://www.youtube.com/watch?v=lccoYzqmsAU)
-* Equity and fairness in online decision-making [[seminar]](https://vod.video.cornell.edu/media/3.12.21+Sid+Banerjee%2C+Cornell+University/1_clje1p9x)
+* Equity and fairness in decision-making [[seminar]](https://vod.video.cornell.edu/media/3.12.21+Sid+Banerjee%2C+Cornell+University/1_clje1p9x)
 * Stochastic coupling techniques in control (tutorial: [[part 1]](https://www.youtube.com/watch?v=3GB7I6-lym8), [[part 2]](https://www.youtube.com/watch?v=7Kbr2N49-Bo))
 
+I was a technical consultant at [Lyft](http://lyft.com/) in 2014-18, where I helped develop and implement Lyft's primetime pricing; the following [tutorial](https://simons.berkeley.edu/talks/banerjee-ridesharing) and [book chapter](publication/ridesharechapter-19) give an overview of my work on ridesharing platforms. 
 
-Prior to Cornell, I received my PhD from the [ECE Department](http://www.ece.utexas.edu/) at UT Austin, and was a postdoctoral researcher at [Stanford MS&E](http://web.stanford.edu/group/soal/). I also served as technical consultant at [Lyft](http://lyft.com/) in 2014-18, where I helped develop and implement Lyft's primetime pricing; the following [tutorial](https://simons.berkeley.edu/talks/banerjee-ridesharing) and [book chapter](publication/ridesharechapter-19) give an overview of my work on ridesharing platforms. 
+<span style="color:red">Teaching Spring '26: </span> <a class="btn-sm btn-outline-primary" role="button" href="courses/orie6180s26/">ORIE 6180 - Online Decision-Making and Market Design</a>
 
-
-I am currently on sabbatical at the [Simons Institute](https://simons.berkeley.edu/) in Berkeley as a co-organizer of the program on [Data-Driven Decision-Making](https://simons.berkeley.edu/programs/DataDriven2022).
-<!--
-<span style="color:red">Teaching Spring '22: </span> <a class="btn-sm btn-outline-primary" role="button" href="courses/orie5582s22/">ORIE 5582 - Monte Carlo Methods in Financial Engineering</a>
--->
