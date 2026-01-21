@@ -5,12 +5,268 @@
     <link>https://sidbanerjee.github.io/publication/</link>
       <atom:link href="https://sidbanerjee.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sun, 03 Oct 2021 00:00:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sidbanerjee.github.io/img/sid.jpg</url>
       <title>Publications</title>
       <link>https://sidbanerjee.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Robust Resource Allocation via Competitive Subsidies</title>
+      <link>https://sidbanerjee.github.io/publication/lin-25-itcs-subsidies/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/lin-25-itcs-subsidies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust equilibria in shared resource allocation via strengthening Border&#39;s theorem</title>
+      <link>https://sidbanerjee.github.io/publication/lin-26-soda-robust/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/lin-26-soda-robust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Allocation of Public Goods with Approximate Core Equilibria</title>
+      <link>https://sidbanerjee.github.io/publication/onyeze-25-core/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/onyeze-25-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequential Fair Allocation With Replenishments: A Little Envy Goes An Exponentially Long Way</title>
+      <link>https://sidbanerjee.github.io/publication/onyeze-25-replenishments/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/onyeze-25-replenishments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Worst-Case Online Allocation via Dynamic Max-min Fairness</title>
+      <link>https://sidbanerjee.github.io/publication/fikioris-25-ec/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/fikioris-25-ec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Good prophets know when the end is near</title>
+      <link>https://sidbanerjee.github.io/publication/freund-25-ms/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/freund-25-ms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Resource Sharing: Better Robust Guarantees via Randomized Strategies</title>
+      <link>https://sidbanerjee.github.io/publication/lin-25-ijcai/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/lin-25-ijcai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Price of Competitive Information Disclosure</title>
+      <link>https://sidbanerjee.github.io/publication/shen-25-disclosure/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/shen-25-disclosure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria</title>
+      <link>https://sidbanerjee.github.io/publication/onyeze-25-pomacs/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/onyeze-25-pomacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Correction to Online Allocation and Pricing: Constant Regret via Bellman Inequalities</title>
+      <link>https://sidbanerjee.github.io/publication/vera-25-correction/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/vera-25-correction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Majorized Bayesian Persuasion and Fair Selection</title>
+      <link>https://sidbanerjee.github.io/publication/shen-25-soda/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/shen-25-soda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plan your system and price for free: Fast algorithms for multimodal transit operations</title>
+      <link>https://sidbanerjee.github.io/publication/samaranayake-25-ts/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/samaranayake-25-ts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Price Competition Under A Consider-Then-Choose Model With Lexicographic Choice</title>
+      <link>https://sidbanerjee.github.io/publication/hssaine-24-lexicographic/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/hssaine-24-lexicographic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal resource allocation for remediating networked contagions</title>
+      <link>https://sidbanerjee.github.io/publication/papachristou-24-contagions/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/papachristou-24-contagions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The SMART approach to instance-optimal online learning</title>
+      <link>https://sidbanerjee.github.io/publication/bhatt-24-colt/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/bhatt-24-colt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair price discrimination</title>
+      <link>https://sidbanerjee.github.io/publication/shen-24-soda/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/shen-24-soda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online resource sharing via dynamic max-min fairness: efficiency, robustness and non-stationarity</title>
+      <link>https://sidbanerjee.github.io/publication/fikioris-23-arxiv/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/fikioris-23-arxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive discretization in online reinforcement learning</title>
+      <link>https://sidbanerjee.github.io/publication/sinclair-23-or-adaptive/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/sinclair-23-or-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Allocating with priorities and quotas: Algorithms, complexity, and dynamics</title>
+      <link>https://sidbanerjee.github.io/publication/eichhorn-23-ec/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/eichhorn-23-ec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online fair allocation of perishable resources</title>
+      <link>https://sidbanerjee.github.io/publication/sinclair-23-sigmetrics-perishable/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/sinclair-23-sigmetrics-perishable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic interventions for networked contagions</title>
+      <link>https://sidbanerjee.github.io/publication/papachristou-23-www/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/papachristou-23-www/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust pseudo-markets for reusable public resources</title>
+      <link>https://sidbanerjee.github.io/publication/banerjee-23-ec-robust/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/banerjee-23-ec-robust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph searching with predictions</title>
+      <link>https://sidbanerjee.github.io/publication/gupta-22-itcs/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/gupta-22-itcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online team formation under different synergies</title>
+      <link>https://sidbanerjee.github.io/publication/eichhorn-22-wine/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/eichhorn-22-wine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial replay: a meta-algorithm for harnessing historical data in bandits</title>
+      <link>https://sidbanerjee.github.io/publication/sinclair-22-artificial/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/sinclair-22-artificial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proportionally fair online allocation of public goods with predictions</title>
+      <link>https://sidbanerjee.github.io/publication/hossain-22-ijcai/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/hossain-22-ijcai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The limits of an information intermediary in auction design</title>
+      <link>https://sidbanerjee.github.io/publication/alijani-22-ec/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/alijani-22-ec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ORSuite: Benchmarking suite for sequential operations models</title>
+      <link>https://sidbanerjee.github.io/publication/archer-22-orsuite/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/archer-22-orsuite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequential fair allocation: Achieving the optimal envy-efficiency tradeoff curve</title>
+      <link>https://sidbanerjee.github.io/publication/sinclair-22-sigmetrics/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/sinclair-22-sigmetrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair and efficient allocation with quotas</title>
+      <link>https://sidbanerjee.github.io/publication/eichhorn-22-quotas/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/eichhorn-22-quotas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing constrained shortest-paths at scale</title>
+      <link>https://sidbanerjee.github.io/publication/vera-22-or/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/vera-22-or/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online nash social welfare maximization with predictions</title>
+      <link>https://sidbanerjee.github.io/publication/gkatzelis-22-soda/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/gkatzelis-22-soda/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Online Nash Social Welfare with Predictions</title>
@@ -19,14 +275,6 @@
       <guid>https://sidbanerjee.github.io/publication/gkatzelis-22/</guid>
       <description>&lt;p&gt;Earlier version titled &lt;a href=&#34;https://arxiv.org/abs/2008.03564v1&#34; target=&#34;_blank&#34;&gt;Online Nash Social Welfare via Promised Utilities&lt;/a&gt; used normalized valuations instead of predicted valuations.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Sequential Fair Allocation: Achieving the Optimal Envy-Efficiency Tradeoff Curve</title>
-      <link>https://sidbanerjee.github.io/publication/sinclair-22-sigmetrics/</link>
-      <pubDate>Sun, 03 Oct 2021 00:00:00 -0400</pubDate>
-      <guid>https://sidbanerjee.github.io/publication/sinclair-22-sigmetrics/</guid>
-      <description></description>
     </item>
     
     <item>

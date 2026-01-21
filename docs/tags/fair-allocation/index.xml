@@ -5,12 +5,28 @@
     <link>https://sidbanerjee.github.io/tags/fair-allocation/</link>
       <atom:link href="https://sidbanerjee.github.io/tags/fair-allocation/index.xml" rel="self" type="application/rss+xml" />
     <description>fair allocation</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sun, 03 Oct 2021 00:00:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sidbanerjee.github.io/img/sid.jpg</url>
       <title>fair allocation</title>
       <link>https://sidbanerjee.github.io/tags/fair-allocation/</link>
     </image>
+    
+    <item>
+      <title>Robust Resource Allocation via Competitive Subsidies</title>
+      <link>https://sidbanerjee.github.io/publication/lin-25-itcs-subsidies/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/lin-25-itcs-subsidies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria</title>
+      <link>https://sidbanerjee.github.io/publication/onyeze-25-pomacs/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/onyeze-25-pomacs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Online Nash Social Welfare with Predictions</title>
@@ -19,14 +35,6 @@
       <guid>https://sidbanerjee.github.io/publication/gkatzelis-22/</guid>
       <description>&lt;p&gt;Earlier version titled &lt;a href=&#34;https://arxiv.org/abs/2008.03564v1&#34; target=&#34;_blank&#34;&gt;Online Nash Social Welfare via Promised Utilities&lt;/a&gt; used normalized valuations instead of predicted valuations.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Sequential Fair Allocation: Achieving the Optimal Envy-Efficiency Tradeoff Curve</title>
-      <link>https://sidbanerjee.github.io/publication/sinclair-22-sigmetrics/</link>
-      <pubDate>Sun, 03 Oct 2021 00:00:00 -0400</pubDate>
-      <guid>https://sidbanerjee.github.io/publication/sinclair-22-sigmetrics/</guid>
-      <description></description>
     </item>
     
     <item>

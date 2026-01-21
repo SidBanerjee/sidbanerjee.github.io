@@ -5,12 +5,60 @@
     <link>https://sidbanerjee.github.io/publication_types/2/</link>
       <atom:link href="https://sidbanerjee.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Thu, 01 Apr 2021 00:00:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sidbanerjee.github.io/img/sid.jpg</url>
       <title>2</title>
       <link>https://sidbanerjee.github.io/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>Good prophets know when the end is near</title>
+      <link>https://sidbanerjee.github.io/publication/freund-25-ms/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/freund-25-ms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria</title>
+      <link>https://sidbanerjee.github.io/publication/onyeze-25-pomacs/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/onyeze-25-pomacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Correction to Online Allocation and Pricing: Constant Regret via Bellman Inequalities</title>
+      <link>https://sidbanerjee.github.io/publication/vera-25-correction/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/vera-25-correction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plan your system and price for free: Fast algorithms for multimodal transit operations</title>
+      <link>https://sidbanerjee.github.io/publication/samaranayake-25-ts/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/samaranayake-25-ts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive discretization in online reinforcement learning</title>
+      <link>https://sidbanerjee.github.io/publication/sinclair-23-or-adaptive/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/sinclair-23-or-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing constrained shortest-paths at scale</title>
+      <link>https://sidbanerjee.github.io/publication/vera-22-or/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.github.io/publication/vera-22-or/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Pricing and Optimization in Shared Vehicle Systems: An Approximation Framework</title>
