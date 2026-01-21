@@ -1,7 +1,7 @@
 +++
 
 tags = ["online decision-making"]
-featured = true
+featured = false
 
 title = "Online Allocation and Pricing: Constant Regret via Bellman Inequalities"
 date = 2020-06-01

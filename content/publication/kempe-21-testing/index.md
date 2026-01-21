@@ -1,6 +1,6 @@
 +++
 tags = ["information structures","market design"]
-featured = true
+featured = false
 
 
 title = "Threshold Tests as Quality Signals: Optimal Strategies, Equilibria, and Price of Anarchy"

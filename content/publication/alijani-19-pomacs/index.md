@@ -1,6 +1,6 @@
 +++
 tags = ["market design"]
-featured = true
+featured = false
 
 title = "The Segmentation-Thickness Tradeoff in Online Marketplaces"
 date = 2019-03-27

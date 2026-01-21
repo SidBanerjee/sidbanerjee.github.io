@@ -1,7 +1,7 @@
 +++
 
 tags = ["market design","fair allocation"]
-featured = true
+featured = false
 
 title = "From Monetary to Non-Monetary Mechanism Design via Artificial Currencies"
 date = 2020-02-20

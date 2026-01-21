@@ -1,6 +1,6 @@
 +++
 tags = ["online decision-making"]
-featured = true
+featured = false
 
 title = "Predict and Match: Prophet Inequalities with Uncertain Supply"
 date = 2020-05-01

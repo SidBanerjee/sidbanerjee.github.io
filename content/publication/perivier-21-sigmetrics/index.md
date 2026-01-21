@@ -1,6 +1,6 @@
 +++
 tags = ["large-scale-algorithms"]
-featured = true
+featured = false
 
 title = "Real-Time Approximate Routing for Smart Transit Systems"
 date = 2021-03-01

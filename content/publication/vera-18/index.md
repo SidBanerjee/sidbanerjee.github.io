@@ -1,7 +1,7 @@
 +++
 
 tags = ["large-scale-algorithms"]
-featured = true
+featured = false
 
 title = "Computing Constrained Shortest-Paths at Scale"
 date = 2020-08-20

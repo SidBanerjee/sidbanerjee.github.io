@@ -1,6 +1,6 @@
 +++
 tags = ["online decision-making","market-design"]
-featured = true
+featured = false
 
 title = "Pricing and Optimization in Shared Vehicle Systems: An Approximation Framework"
 date = 2021-04-01

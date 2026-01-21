@@ -1,7 +1,7 @@
 +++
 
 tags = ["market design","fair allocation"]
-featured = true
+featured = false
 
 title = "Online Nash Social Welfare with Predictions"
 date = 2021-10-03

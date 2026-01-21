@@ -1,6 +1,6 @@
 +++
 tags = ["online decision-making"]
-featured = true
+featured = false
 
 title = "Epidemic Spreading With External Agents"
 date = 2014-07-01

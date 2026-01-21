@@ -1,6 +1,6 @@
 +++
 tags = ["market design","fair allocation"]
-featured = true
+featured = false
 
 
 title = "Near-Efficient Allocation Using Artificial Currency in Repeated Settings"

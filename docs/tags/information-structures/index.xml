@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>information-structures | Sid Banerjee</title>
+    <title>information structures | Sid Banerjee</title>
     <link>https://sidbanerjee.github.io/tags/information-structures/</link>
       <atom:link href="https://sidbanerjee.github.io/tags/information-structures/index.xml" rel="self" type="application/rss+xml" />
-    <description>information-structures</description>
+    <description>information structures</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Thu, 01 Jul 2021 00:00:00 -0400</lastBuildDate>
     <image>
       <url>https://sidbanerjee.github.io/img/sid.jpg</url>
-      <title>information-structures</title>
+      <title>information structures</title>
       <link>https://sidbanerjee.github.io/tags/information-structures/</link>
     </image>
     
@@ -17,14 +17,6 @@
       <link>https://sidbanerjee.github.io/publication/kempe-21-testing/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.github.io/publication/kempe-21-testing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Limits of an Information Intermediary in Auction Design</title>
-      <link>https://sidbanerjee.github.io/publication/alijani-20-bbm/</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 -0400</pubDate>
-      <guid>https://sidbanerjee.github.io/publication/alijani-20-bbm/</guid>
       <description></description>
     </item>
     

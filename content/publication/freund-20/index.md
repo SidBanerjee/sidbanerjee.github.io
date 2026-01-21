@@ -1,6 +1,6 @@
 +++
 tags = ["online decision-making"]
-featured = true
+featured = false
 
 title = "Uniform Loss Algorithms for Online Stochastic Decision-Making With Applications to Bin Packing"
 date = 2020-05-27
