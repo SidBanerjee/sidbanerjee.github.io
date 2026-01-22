@@ -99,20 +99,27 @@ Send me a mail if you are concerned about having the appropriate prerequisites.&
 
 &lt;h2 id=&#34;lectures&#34;&gt;Lectures&lt;/h2&gt;
 
-&lt;!--
-*   **Introduction**: [[slides]](../../docs/ORIE6180F21/files/ORIE6180F21_IntroClass.pdf)
-    - The Parisi and Coppersmith-Sorkin conjectures
-        - [[Sid&#39;s notes]](../../docs/ORIE6180F21/files/Parisi_Conjecture.pdf) 
-        - [An easy proof of the $\zeta(2)$ limit in the random assignment problem](https://projecteuclid.org/journals/electronic-communications-in-probability/volume-14/issue-none/An-easy-proof-of-the-zeta2-limit-in-the-random/10.1214/ECP.v14-1475.full) by Johan W&amp;auml;stlund
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Overture&lt;/strong&gt;: The Parisi and Coppersmith-Sorkin conjectures
 
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../../docs/ORIE6180S26/files/Parisi_Conjecture.pdf&#34;&gt;[Sid&amp;rsquo;s notes]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://projecteuclid.org/journals/electronic-communications-in-probability/volume-14/issue-none/An-easy-proof-of-the-zeta2-limit-in-the-random/10.1214/ECP.v14-1475.full&#34; target=&#34;_blank&#34;&gt;An easy proof of the $\zeta(2)$ limit in the random assignment problem&lt;/a&gt; by Johan W&amp;auml;stlund&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-### Unit 1: Introduction to Decision-Making under Uncertainty
+&lt;h3 id=&#34;unit-1-introduction-to-decision-making-under-uncertainty&#34;&gt;Unit 1: Introduction to Decision-Making under Uncertainty&lt;/h3&gt;
 
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lecture 1&lt;/strong&gt;: Markov Decision-Processes, state-action frequency LP, HJB equations
 
-*   **Lecture 1**: Markov Decision-Processes, state-action frequency LP, HJB equations
-    * [[Sid&#39;s notes]](../../docs/ORIE6180F21/files/MDPs-Basics.pdf)
-     
-        
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../../docs/ORIE6180F21/files/MDPs-Basics.pdf&#34;&gt;[Sid&amp;rsquo;s notes]&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--        
 *   **Lecture 2**: LPs for infinite horizon MDPs, mechanism design basics 
      * [Mechanism design basics](https://timroughgarden.org/f13/l/l2.pdf) by Tim Roughgarden
      * [[Sid&#39;s notes]](../../docs/ORIE6180F21/files/Intro_to_Mech_Design.pdf) 

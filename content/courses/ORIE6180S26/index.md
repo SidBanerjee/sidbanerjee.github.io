@@ -89,20 +89,19 @@ Send me a mail if you are concerned about having the appropriate prerequisites.
 
 ## Lectures
 
-<!--
-*   **Introduction**: [[slides]](../../docs/ORIE6180F21/files/ORIE6180F21_IntroClass.pdf)
-	- The Parisi and Coppersmith-Sorkin conjectures
-		- [[Sid's notes]](../../docs/ORIE6180F21/files/Parisi_Conjecture.pdf) 
-		- [An easy proof of the $\zeta(2)$ limit in the random assignment problem](https://projecteuclid.org/journals/electronic-communications-in-probability/volume-14/issue-none/An-easy-proof-of-the-zeta2-limit-in-the-random/10.1214/ECP.v14-1475.full) by Johan W&auml;stlund
+
+*   **Overture**: The Parisi and Coppersmith-Sorkin conjectures
+	* [[Sid's notes]](../../docs/ORIE6180S26/files/Parisi_Conjecture.pdf) 
+	* [An easy proof of the $\zeta(2)$ limit in the random assignment problem](https://projecteuclid.org/journals/electronic-communications-in-probability/volume-14/issue-none/An-easy-proof-of-the-zeta2-limit-in-the-random/10.1214/ECP.v14-1475.full) by Johan W&auml;stlund
 
 
 ### Unit 1: Introduction to Decision-Making under Uncertainty
 
 
 *   **Lecture 1**: Markov Decision-Processes, state-action frequency LP, HJB equations
-	* [[Sid's notes]](../../docs/ORIE6180F21/files/MDPs-Basics.pdf)
+	- [[Sid's notes]](../../docs/ORIE6180F21/files/MDPs-Basics.pdf)
 	 
-		
+<!--		
 *   **Lecture 2**: LPs for infinite horizon MDPs, mechanism design basics 
      * [Mechanism design basics](https://timroughgarden.org/f13/l/l2.pdf) by Tim Roughgarden
 	 * [[Sid's notes]](../../docs/ORIE6180F21/files/Intro_to_Mech_Design.pdf) 
