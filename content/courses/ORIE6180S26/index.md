@@ -99,7 +99,7 @@ Send me a mail if you are concerned about having the appropriate prerequisites.
 
 
 *   **Lecture 1**: Markov Decision-Processes, state-action frequency LP, HJB equations
-	- [[Sid's notes]](../../docs/ORIE6180F21/files/MDPs-Basics.pdf)
+	- [[Sid's notes]](../../docs/ORIE6180S26/files/MDPs-Basics.pdf)
 	 
 <!--		
 *   **Lecture 2**: LPs for infinite horizon MDPs, mechanism design basics 
