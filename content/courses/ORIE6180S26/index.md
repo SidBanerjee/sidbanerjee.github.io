@@ -101,11 +101,11 @@ Send me a mail if you are concerned about having the appropriate prerequisites.
 *   **Lecture 1**: Markov Decision-Processes, state-action frequency LP, HJB equations
 	- [[Sid's notes]](../../docs/ORIE6180S26/files/MDPs-Basics.pdf)
 	 
-<!--		
 *   **Lecture 2**: LPs for infinite horizon MDPs, mechanism design basics 
      * [Mechanism design basics](https://timroughgarden.org/f13/l/l2.pdf) by Tim Roughgarden
-	 * [[Sid's notes]](../../docs/ORIE6180F21/files/Intro_to_Mech_Design.pdf) 
+	 * [[Sid's notes]](../../docs/ORIE6180S26/files/Intro_to_Mech_Design.pdf) 
 		
+<!--		
 		
 *   **Lecture 3**: LP formulation for mechanism design, revelation principle, IC/IR constraints
 

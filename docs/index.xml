@@ -111,19 +111,23 @@ Send me a mail if you are concerned about having the appropriate prerequisites.&
 &lt;h3 id=&#34;unit-1-introduction-to-decision-making-under-uncertainty&#34;&gt;Unit 1: Introduction to Decision-Making under Uncertainty&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Lecture 1&lt;/strong&gt;: Markov Decision-Processes, state-action frequency LP, HJB equations
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 1&lt;/strong&gt;: Markov Decision-Processes, state-action frequency LP, HJB equations&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;../../docs/ORIE6180S26/files/MDPs-Basics.pdf&#34;&gt;[Sid&amp;rsquo;s notes]&lt;/a&gt;
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 2&lt;/strong&gt;: LPs for infinite horizon MDPs, mechanism design basics&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://timroughgarden.org/f13/l/l2.pdf&#34; target=&#34;_blank&#34;&gt;Mechanism design basics&lt;/a&gt; by Tim Roughgarden&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../docs/ORIE6180S26/files/Intro_to_Mech_Design.pdf&#34;&gt;[Sid&amp;rsquo;s notes]&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!--        
-*   **Lecture 2**: LPs for infinite horizon MDPs, mechanism design basics 
-     * [Mechanism design basics](https://timroughgarden.org/f13/l/l2.pdf) by Tim Roughgarden
-     * [[Sid&#39;s notes]](../../docs/ORIE6180F21/files/Intro_to_Mech_Design.pdf) 
-        
         
 *   **Lecture 3**: LP formulation for mechanism design, revelation principle, IC/IR constraints
 
