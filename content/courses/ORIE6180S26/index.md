@@ -101,29 +101,36 @@ Send me a mail if you are concerned about having the appropriate prerequisites.
 *   **Lecture 1**: Markov Decision-Processes, state-action frequency LP, HJB equations
 	- [[Sid's notes]](../../docs/ORIE6180S26/files/MDPs-Basics.pdf)
 	 
-*   **Lecture 2**: LPs for infinite horizon MDPs, mechanism design basics 
+*   **Lecture 2**: LPs for infinite horizon MDPs, sufficiency of deterministic policies
+		
+		
+*   **Lecture 3**: Intro to mechanism design, revelation principle
      * [Mechanism design basics](https://timroughgarden.org/f13/l/l2.pdf) by Tim Roughgarden
 	 * [[Sid's notes]](../../docs/ORIE6180S26/files/Intro_to_Mech_Design.pdf) 
-		
-<!--		
-		
-*   **Lecture 3**: LP formulation for mechanism design, revelation principle, IC/IR constraints
 
-*   **Lecture 4**: LP for BIC mechanism design, Intro to non-Bayesian decision-making
+*   **Lecture 4**: Mechanisms with transfers (auctions), IC/IR constraints, LP for DSIC mechanism design, Rochet's Theorem
+
+*   **Lecture 5**: Single parameter settings, Myerson's lemma, Efficiency and the VCG mechanism
 
 
 ### Unit 2: Bayesian Online Decision-Making
 
-*   **Lecture 5**: The von Neumann Minimax Theorem, Yao's Lemma, Intro to Optimal Stopping
-	* [[Sid notes-Minimax Theorem]](../../docs/ORIE6180F21/files/MinimaxThm.pdf)
+
+*   **Lecture 6**: Value function-policy dual pairs: bang-bang control, LQR and linear policies, convexity and threshold policies
+	* [[Sid notes-Dual VF-Policy pairs]](../../docs/ORIE6180S26/files/Value-Function-Policy-Pairs.pdf)
 
 
-*   **Lecture 6**: Optimal Stopping, Monotone stopping rules, Bruss' Odds algorithm, sequential hypothesis testing
+*   **Lecture 7**: Optimal Stopping, Monotone stopping rules, Bruss' Odds algorithm, sequential hypothesis testing
 	* [[Sid notes-Optimal Stopping]](../../docs/ORIE6180F21/files/Optimal-Stopping.pdf)
 
 
-*   **Lecture 7**: Value function-policy dual pairs: bang-bang control, LQR and linear policies, convexity and threshold policies
-	* [[Sid notes-Dual VF-Policy pairs]](../../docs/ORIE6180F21/files/Value-Function-Policy-Pairs.pdf)
+
+
+<!--		
+
+*   **Lecture 6**: The von Neumann Minimax Theorem, Yao's Lemma, Intro to Optimal Stopping
+	* [[Sid notes-Minimax Theorem]](../../docs/ORIE6180F21/files/MinimaxThm.pdf)
+
 
 *   **Lecture 8**: Multi-armed bandits and the Gittins Index, the prevailing-cost technique
 	* [[Sid notes-Index Policies]](../../docs/ORIE6180F21/files/Index-Policies.pdf)

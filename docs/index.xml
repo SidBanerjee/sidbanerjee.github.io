@@ -118,34 +118,41 @@ Send me a mail if you are concerned about having the appropriate prerequisites.&
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 2&lt;/strong&gt;: LPs for infinite horizon MDPs, mechanism design basics&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 2&lt;/strong&gt;: LPs for infinite horizon MDPs, sufficiency of deterministic policies&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 3&lt;/strong&gt;: Intro to mechanism design, revelation principle&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://timroughgarden.org/f13/l/l2.pdf&#34; target=&#34;_blank&#34;&gt;Mechanism design basics&lt;/a&gt; by Tim Roughgarden&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../../docs/ORIE6180S26/files/Intro_to_Mech_Design.pdf&#34;&gt;[Sid&amp;rsquo;s notes]&lt;/a&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../docs/ORIE6180S26/files/Intro_to_Mech_Design.pdf&#34;&gt;[Sid&amp;rsquo;s notes]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 4&lt;/strong&gt;: Mechanisms with transfers (auctions), IC/IR constraints, LP for DSIC mechanism design, Rochet&amp;rsquo;s Theorem&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 5&lt;/strong&gt;: Single parameter settings, Myerson&amp;rsquo;s lemma, Efficiency and the VCG mechanism&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;unit-2-bayesian-online-decision-making&#34;&gt;Unit 2: Bayesian Online Decision-Making&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 6&lt;/strong&gt;: Value function-policy dual pairs: bang-bang control, LQR and linear policies, convexity and threshold policies&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../../docs/ORIE6180S26/files/Value-Function-Policy-Pairs.pdf&#34;&gt;[Sid notes-Dual VF-Policy pairs]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 7&lt;/strong&gt;: Optimal Stopping, Monotone stopping rules, Bruss&amp;rsquo; Odds algorithm, sequential hypothesis testing&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../../docs/ORIE6180F21/files/Optimal-Stopping.pdf&#34;&gt;[Sid notes-Optimal Stopping]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!--        
-        
-*   **Lecture 3**: LP formulation for mechanism design, revelation principle, IC/IR constraints
 
-*   **Lecture 4**: LP for BIC mechanism design, Intro to non-Bayesian decision-making
-
-
-### Unit 2: Bayesian Online Decision-Making
-
-*   **Lecture 5**: The von Neumann Minimax Theorem, Yao&#39;s Lemma, Intro to Optimal Stopping
+*   **Lecture 6**: The von Neumann Minimax Theorem, Yao&#39;s Lemma, Intro to Optimal Stopping
     * [[Sid notes-Minimax Theorem]](../../docs/ORIE6180F21/files/MinimaxThm.pdf)
 
-
-*   **Lecture 6**: Optimal Stopping, Monotone stopping rules, Bruss&#39; Odds algorithm, sequential hypothesis testing
-    * [[Sid notes-Optimal Stopping]](../../docs/ORIE6180F21/files/Optimal-Stopping.pdf)
-
-
-*   **Lecture 7**: Value function-policy dual pairs: bang-bang control, LQR and linear policies, convexity and threshold policies
-    * [[Sid notes-Dual VF-Policy pairs]](../../docs/ORIE6180F21/files/Value-Function-Policy-Pairs.pdf)
 
 *   **Lecture 8**: Multi-armed bandits and the Gittins Index, the prevailing-cost technique
     * [[Sid notes-Index Policies]](../../docs/ORIE6180F21/files/Index-Policies.pdf)
