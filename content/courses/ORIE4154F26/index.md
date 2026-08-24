@@ -16,6 +16,14 @@ date: "2026-08-24T00:00:00Z"
 lastmod: "2026-08-24T00:00:00Z"
 featured: false
 draft: false
+
+# Featured image
+# The page bundle includes `featured.png`.
+image:
+  placement: 2
+  caption: 'Course illustration generated with OpenAI.'
+  focal_point: "Center"
+  preview_only: false
 ---
 
 <!--
@@ -24,8 +32,7 @@ The archival source is stored under `ORIE4154F17`, but its front matter says
 `semester: Sp 2017`. This discrepancy has not been silently corrected or used
 to infer the term in which that version of the course was taught.
 
-No banner image is proposed in this version. One can be added later if an
-appropriate course-specific image and credit are selected.
+The featured course illustration was generated with OpenAI.
 -->
 
 ## Course Description
