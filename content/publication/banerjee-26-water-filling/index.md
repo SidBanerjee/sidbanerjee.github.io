@@ -5,8 +5,8 @@ authors:
 - Ramiro N. Deo-Campo Vuong
 - Robert Kleinberg
 date: "2026-03-27"
-publication_types: ["0"]
-publication: "*Preprint*"
+publication_types: ["1"]
+publication: "*EC '26*"
 abstract: ""
 
 links:
