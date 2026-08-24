@@ -14,6 +14,8 @@ date: "2017-01-20T00:00:00Z"
 lastmod: "2017-06-01T00:00:00Z"
 featured: false
 draft: false
+aliases:
+- /courses/orie4154/
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

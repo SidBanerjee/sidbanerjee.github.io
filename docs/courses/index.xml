@@ -5,12 +5,20 @@
     <link>https://sidbanerjee.orie.cornell.edu/courses/</link>
       <atom:link href="https://sidbanerjee.orie.cornell.edu/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sidbanerjee.orie.cornell.edu/img/sid.jpg</url>
       <title>Courses</title>
       <link>https://sidbanerjee.orie.cornell.edu/courses/</link>
     </image>
+    
+    <item>
+      <title>Pricing and Market Design</title>
+      <link>https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/</link>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Online Decision-Making and Market Design</title>
@@ -1296,9 +1304,9 @@ For the second half of semester, we will use a commercial simulation package, &l
     
     <item>
       <title>Pricing and Market Design</title>
-      <link>https://sidbanerjee.orie.cornell.edu/courses/orie4154/</link>
+      <link>https://sidbanerjee.orie.cornell.edu/courses/orie4154f17/</link>
       <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.orie.cornell.edu/courses/orie4154/</guid>
+      <guid>https://sidbanerjee.orie.cornell.edu/courses/orie4154f17/</guid>
       <description>
 
 &lt;p&gt;&lt;embed src=&#34;https://drive.google.com/viewerng/
