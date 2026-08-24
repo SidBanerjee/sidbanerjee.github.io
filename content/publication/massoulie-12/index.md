@@ -33,6 +33,4 @@ links = [{name = "arXiv", url = "https://arxiv.org/abs/1207.3269"}]
 
 +++
 
-Journal version: [Banerjee et al. (2015)](/sbanerjee/publication/massoulie-15/). 
-
-
+Journal version: [Banerjee et al. (2015)](/publication/massoulie-15/).

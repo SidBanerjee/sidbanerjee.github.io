@@ -22,4 +22,4 @@ links = [{name = "ArXiv", url = "https://arxiv.org/abs/1803.04959"}]
 
 +++
 
-Earlier conference version: [Banerjee et al. (2018)](/sbanerjee/publication/qian-17-conf/) 
+Earlier conference version: [Banerjee et al. (2018)](/publication/qian-17-conf/)

@@ -13,7 +13,7 @@ abstract = "Nearly all online marketplaces face the challenge of ensuring the qu
 url_pdf = "https://ieeexplore.ieee.org/iel7/7027307/7039338/07039932.pdf?casa_token=925g2ZAMrVYAAAAA:Gy3GZshtmSVO-1i_dhUjqDHybjHwbmbTG4pGkbbAANXKlUxxPDEVPgAk7aiM9C93ni4Op6CI"
 
 
-links= [{name="link",url="https://ieeexplore.ieee.org/abstract/document/7852323"}]
+links= [{name="link",url="https://ieeexplore.ieee.org/abstract/document/7039932"}]
 
 
 publication = "*IEEE Conference on Decision and Control, 2014*"

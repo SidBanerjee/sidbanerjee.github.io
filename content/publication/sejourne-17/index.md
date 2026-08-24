@@ -22,4 +22,4 @@ links = [{name="Link", url="https://dl.acm.org/doi/10.1145/3224425"},{name = "Ar
 
 +++
 
-Journal version of [Sejourne et al. (2018)](/sbanerjee/publication/sejourne-17-conf/). 
+Journal version of [Sejourne et al. (2018)](/publication/sejourne-17-conf/).

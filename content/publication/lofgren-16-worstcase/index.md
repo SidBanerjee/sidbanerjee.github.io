@@ -1,4 +1,5 @@
 +++
+
 tags = ["large-scale algorithms"]
 featured = false
 
@@ -13,7 +14,6 @@ abstract = "We present a new algorithm for estimating the Personalized PageRank 
 publication = "*Workshop on Algorithms and Models for the Web-Graph (WAW) 2015*"
 publication_short= "WAW '15"
 
-links= [{name="link",url="https://link.springer.com/chapter/10.1007/978-3-319-26784-5_13"},{name="arXiv",url="https://arxiv.org/abs/1507.05999"},{name="PDF",url="https://arxiv.org/pdf/1507.08705.pdf"}]
+links= [{name="link",url="https://link.springer.com/chapter/10.1007/978-3-319-26784-5_13"},{name="arXiv",url="https://arxiv.org/abs/1507.08705"},{name="PDF",url="https://arxiv.org/pdf/1507.08705.pdf"}]
 
 +++
-

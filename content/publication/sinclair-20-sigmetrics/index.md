@@ -30,5 +30,4 @@ links = [{name = "Link", url = "https://dl.acm.org/doi/abs/10.1145/3366703"},{na
 
 +++
 
-Journal version: [Sinclair et al. (2020)](/sbanerjee/publication/sinclair-19-pomacs/).
-
+Journal version: [Sinclair et al. (2020)](/publication/sinclair-19-pomacs/).

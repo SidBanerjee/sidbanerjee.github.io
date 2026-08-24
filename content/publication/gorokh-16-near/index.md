@@ -39,4 +39,4 @@ projects= []
 #slides: example
 +++
 
-Results merged with [follow-up paper](/sbanerjee/publication/gorokh-17-monetary/) into [journal article](/sbanerjee/publication/gorokh-20/).
+Results merged with [follow-up paper](/publication/gorokh-17-monetary/) into [journal article](/publication/gorokh-20/).

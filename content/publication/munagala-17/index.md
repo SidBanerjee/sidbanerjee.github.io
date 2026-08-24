@@ -1,4 +1,5 @@
 +++
+
 tags = ["market design","fair allocation"]
 featured = true
 
@@ -13,7 +14,7 @@ publication_short= "WWW '17"
 abstract = "Recent years have witnessed the rise of many successful e-commerce marketplaces like the Amazon marketplace, Uber, AirBnB, and Upwork, where a central platform mediates economic transactions between buyers and sellers. A common feature of many of these two-sided marketplaces is that the platform has full control over search and discovery, but prices are determined by the buyers and sellers. Motivated by this, we study the algorithmic aspects of market segmentation via directed discovery in two-sided markets with endogenous prices. We consider a model where an online platform knows each buyer/seller's characteristics, and associated demand/supply elasticities. Moreover, the platform can use discovery mechanisms (search/recommendation/etc.) to control which buyers/sellers are visible to each other. This leads to a segmentation of the market into pools, following which buyers and sellers endogenously determine market-clearing transaction prices within each pool. The aim of the platform is to maximize the resulting volume of transactions/welfare in the market. We develop efficient algorithms with provable guarantees under a variety of assumptions on the demand and supply functions. We also test the validity of our assumptions on demand curves inferred from NYC taxicab log-data, as well as show the performance of our algorithms on synthetic experiments."
 
 # Links (optional).
-url_pdf = "https://ssrn.com/id=2920035"
+url_pdf = "https://ssrn.com/id=2920034"
 
 
 links= [{name="link",url="https://dl.acm.org/doi/abs/10.1145/3144722.3144726"},{name="SSRN",url="https://ssrn.com/id=2920034"}]
@@ -39,4 +40,3 @@ projects= []
 #   Otherwise, set `slides: ""`.
 #slides: example
 +++
-

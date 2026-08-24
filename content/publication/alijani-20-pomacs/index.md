@@ -31,4 +31,4 @@ links = [{name = "Link", url = "https://dl.acm.org/doi/abs/10.1145/3379470"},{na
 
 +++
 
-Journal version of [Alijani et al. (2020)](/sbanerjee/publication/alijani-20-conf/)
+Journal version of [Alijani et al. (2020)](/publication/alijani-20-sigmetrics/)

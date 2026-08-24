@@ -26,9 +26,9 @@ url_pdf = "https://arxiv.org/pdf/2001.06779"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Link", url = "https://dl.acm.org/doi/abs/10.1145/3393691.3394224"},{name = "arXiv", url = "https://arxiv.org/abs/2001.06779"}]
+links = [{name = "Link", url = "https://dl.acm.org/doi/abs/10.1145/3393691.3394212"},{name = "arXiv", url = "https://arxiv.org/abs/2001.06779"}]
 
 
 +++
 
-Journal version: [Alijani et al. (2020)](/sbanerjee/publication/alijani-20/)
+Journal version: [Alijani et al. (2020)](/publication/alijani-20-pomacs/)

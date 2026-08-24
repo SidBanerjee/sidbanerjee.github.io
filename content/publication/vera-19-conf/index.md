@@ -31,5 +31,4 @@ links = [{name = "Link", url = "https://dl.acm.org/doi/abs/10.1145/3309697.33315
 
 +++
 
-Journal version: [Vera and Banerjee (2020)](/sbanerjee/publication/vera-19/)
-
+Journal version: [Vera and Banerjee (2020)](/publication/vera-19/)

@@ -31,4 +31,4 @@ links = [{name = "Link", url = "https://arxiv.org/abs/1901.05028"},{name = "arXi
 
 +++
 
-Journal version of [Vera and Banerjee (2019)](/sbanerjee/publication/vera-19-conf/)
+Journal version of [Vera and Banerjee (2019)](/publication/vera-19-conf/)

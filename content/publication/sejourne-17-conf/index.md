@@ -23,4 +23,4 @@ links = [{name = "ArXiv", url = "https://arxiv.org/abs/1711.10963"}]
 
 +++
 
-Journal version: [Sejourne et al. (2018)](/sbanerjee/publication/sejourne-17/). 
+Journal version: [Sejourne et al. (2018)](/publication/sejourne-17/).

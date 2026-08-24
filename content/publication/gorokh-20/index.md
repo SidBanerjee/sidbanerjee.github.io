@@ -31,4 +31,4 @@ links = [{name = "SSRN", url = "https://ssrn.com/abstract_id=2964082"}]
 
 +++
 
-Combines results from [Gorokh et al. (2017)](/sbanerjee/publication/gorokh-17-monetary/) and [Gorokh et al. (2017)](/sbanerjee/publication/gorokh-17-monetary/).
+Combines results from [Gorokh et al. (2017)](/publication/gorokh-17-monetary/) and [Gorokh et al. (2017)](/publication/gorokh-17-monetary/).

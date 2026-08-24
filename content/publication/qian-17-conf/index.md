@@ -23,4 +23,4 @@ links = [{name="Link",url="https://dl.acm.org/doi/abs/10.1145/3219617.3219619"},
 
 +++
 
-Journal version: [Banerjee et al. (2020)](/sbanerjee/publication/qian-20/) (under submission).
+Journal version: [Banerjee et al. (2020)](/publication/qian-20/) (under submission).

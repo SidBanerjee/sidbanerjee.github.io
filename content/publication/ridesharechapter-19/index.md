@@ -1,5 +1,6 @@
 +++
 
+
 tags = ["online decision-making"]
 featured = false
 
@@ -26,7 +27,7 @@ abstract= "Ridesharing platforms such as Didi, Lyft, Ola and Uber are increasing
 # links:
 # - name: ""
 #   url: ""
-url_pdf= "RideshareChapterDraft.pdf"
+url_pdf= "/publication/ridesharechapter-19/RideshareChapterDraft.pdf"
 
 links= [{name = "link", url = "https://link.springer.com/chapter/10.1007/978-3-030-01863-4_5"}]
 
@@ -53,4 +54,3 @@ projects= []
 #   Otherwise, set `slides: ""`.
 #slides: example
 +++
-

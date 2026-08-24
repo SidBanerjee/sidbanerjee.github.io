@@ -15,4 +15,4 @@ publication_short = "*EC '17*"
 +++
 
 
-Results merged with [earlier paper](/sbanerjee/publication/gorokh-16-near/) into [journal article](/sbanerjee/publication/gorokh-20/).
+Results merged with [earlier paper](/publication/gorokh-16-near/) into [journal article](/publication/gorokh-20/).

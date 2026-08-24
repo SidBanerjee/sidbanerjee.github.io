@@ -19,4 +19,4 @@ links= [{name="link",url="https://www.computer.org/csdl/magazine/ic/2016/01/mic2
 publication = "*Internet Computing*"
 +++
 
-Invited article based on [Banerjee 2014](/sbanerjee/publication/zhou-14-conf/)
+Invited article based on [Banerjee 2014](/publication/zhou-14-conf/)

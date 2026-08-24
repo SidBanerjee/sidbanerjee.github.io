@@ -13,7 +13,7 @@ publication = "*Operations Research*"
 publication_short = ""
 
 # Links (optional).
-url_pdf = "CSPTechReport.pdf"
+url_pdf = "/publication/vera-18/CSPTechReport.pdf"
 
 #url_preprint = "#"
 #url_code = "#"

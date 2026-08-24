@@ -31,4 +31,4 @@ links = [{name = "Link", url = "https://dl.acm.org/doi/abs/10.1145/3322205.33110
 
 +++
 
-Journal version of [Alijani et al. (2019)](/sbanerjee/publication/alijani-19-conf/). Earlier preprint: [Two-sided facility location](https://arxiv.org/abs/1711.11392).
+Journal version of [Alijani et al. (2019)](/publication/alijani-19-sigmetrics/). Earlier preprint: [Two-sided facility location](https://arxiv.org/abs/1711.11392).

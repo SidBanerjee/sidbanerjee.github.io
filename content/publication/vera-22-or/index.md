@@ -9,7 +9,7 @@ publication_types: ["2"]
 publication: "*Operations Research*"
 abstract: ""
 
-url_pdf: /CSPTechReport.pdf
+url_pdf: /publication/vera-18/CSPTechReport.pdf
 
 featured: false
 ---

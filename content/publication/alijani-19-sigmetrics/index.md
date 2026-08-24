@@ -29,4 +29,4 @@ links = [{name = "Link", url = "https://dl.acm.org/doi/abs/10.1145/3309697.33315
 
 +++
 
-Journal version: [Alijani et al. (2019)](/sbanerjee/publication/alijani-19/). Earlier version: [Two-sided Facility Location](https://arxiv.org/abs/1711.11392)
+Journal version: [Alijani et al. (2019)](/publication/alijani-19-pomacs/). Earlier version: [Two-sided Facility Location](https://arxiv.org/abs/1711.11392)

@@ -34,6 +34,4 @@ links = [{name = "Link", url = "https://ieeexplore.ieee.org/abstract/document/70
 
 +++
 
-Earlier conference version: [Banerjee et al. (2012)](/sbanerjee/publication/massoulie-12/). 
-
-
+Earlier conference version: [Banerjee et al. (2012)](/publication/massoulie-12/).

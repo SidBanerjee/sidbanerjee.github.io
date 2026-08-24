@@ -31,5 +31,4 @@ links = [{name = "Link", url = "https://dl.acm.org/doi/abs/10.1145/3366703"},{na
 
 +++
 
-Journal version of [Sinclair et al. (2020)](/sbanerjee/publication/sinclair-20-sigmetrics/).
-
+Journal version of [Sinclair et al. (2020)](/publication/sinclair-20-sigmetrics/).
