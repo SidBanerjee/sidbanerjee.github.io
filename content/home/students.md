@@ -52,16 +52,16 @@ subtitle = ""
   website = "https://ruijiacao.github.io/"
 
 
-[[mygroup.students]]
+[[mygroup.oldstudents]]
   name = "David Lin"
-  start = "2024"
   position = "MS"
   program = "CS"
+  start = "2024"
+  end = "2026"
+  current = "PhD student in Computer Science at UT Austin"
   photo = "david.jpg"
   coadvisor = "[Éva Tardos](https://www.cs.cornell.edu/~eva/)"
   website = "https://davidxlin.github.io/"
-
-
 
 
 [[mygroup.oldstudents]]
