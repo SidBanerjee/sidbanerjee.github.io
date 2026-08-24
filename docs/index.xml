@@ -25,137 +25,120 @@ The archival source is stored under `ORIE4154F17`, but its front matter says
 `semester: Sp 2017`. This discrepancy has not been silently corrected or used
 to infer the term in which that version of the course was taught.
 
+The current syllabus is titled `ORIE 4154/5154`, but the distinction between the
+two course numbers remains unresolved there. This page therefore retains ORIE 4154.
+
 The featured course illustration was generated with OpenAI.
 --&gt;
 
 &lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
 
-&lt;p&gt;This course studies pricing, allocation, and market-design decisions through two related themes:&lt;/p&gt;
+&lt;p&gt;Every market must decide &lt;strong&gt;who gets what, and on what terms&lt;/strong&gt;. This course asks: &lt;strong&gt;When do simple prices work, when do they fail, and what replaces them?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We approach this question through two connected perspectives:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Revenue management:&lt;/strong&gt; How should a firm offer the right product to the right customer at the right time and at the right price?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Market design:&lt;/strong&gt; How should a marketplace determine who gets what, why, and at what price?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Revenue management:&lt;/strong&gt; How should firms price and allocate scarce resources when demand is uncertain and must be learned?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Market design:&lt;/strong&gt; How should markets allocate resources when participants interact strategically or have private information?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Digital platforms make these decisions repeatedly and at scale. Drawing on operations management, economics, and computer science, we will use dynamic programming, linear programming, choice models, simulation, and incentive analysis to study revenue management and modern marketplaces.&lt;/p&gt;
+&lt;p&gt;Drawing on operations research, economics, and computer science, we will study pricing, learning, scarce capacity, customer choice, auctions, matching, and platforms. Throughout the course, we will move between exact models and tractable approximations for large markets.&lt;/p&gt;
 
 &lt;h2 id=&#34;course-information&#34;&gt;Course Information&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/&#34; target=&#34;_blank&#34;&gt;Sid Banerjee&lt;/a&gt;, &lt;a href=&#34;mailto:sbanerjee@cornell.edu&#34; target=&#34;_blank&#34;&gt;email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lectures:&lt;/strong&gt; Tuesday/Thursday, 1:25–2:40 p.m., CIS 142&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Office:&lt;/strong&gt; 229 Rhodes Hall&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Logistics, dates, assessment details, and course policies will be posted when finalized.&lt;/p&gt;
+&lt;p&gt;Detailed dates, assessment information, and course policies will be posted when finalized.&lt;/p&gt;
 
 &lt;h2 id=&#34;learning-goals&#34;&gt;Learning Goals&lt;/h2&gt;
 
 &lt;p&gt;By the end of the course, students should be able to:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;formulate single-resource revenue-management problems as dynamic programs and derive booking or protection policies;&lt;/li&gt;
-&lt;li&gt;model network revenue management, construct LP bounds, and interpret dual variables as bid prices;&lt;/li&gt;
-&lt;li&gt;use choice models to optimize assortments and understand bias from policy-dependent sales data;&lt;/li&gt;
-&lt;li&gt;analyze incentive compatibility, welfare, and revenue in auctions and mechanisms; and&lt;/li&gt;
-&lt;li&gt;model participation and pricing in two-sided marketplaces.&lt;/li&gt;
+&lt;li&gt;formulate and solve basic pricing and allocation models using buyer values, demand, choice, and resource constraints;&lt;/li&gt;
+&lt;li&gt;interpret LP dual variables and dynamic marginal values as prices or opportunity costs;&lt;/li&gt;
+&lt;li&gt;analyze demand learning using concentration bounds, regret, optimism, and the feedback between decisions and observations;&lt;/li&gt;
+&lt;li&gt;distinguish exact, fluid, and clairvoyant benchmarks, and explain how scale affects performance and tractability;&lt;/li&gt;
+&lt;li&gt;model substitution using random-utility and multinomial-logit models and optimize simple assortments; and&lt;/li&gt;
+&lt;li&gt;analyze strategic and informational problems and compare prices, auctions, mechanisms, reputation, and matching as market-design interventions.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;prerequisites-and-background&#34;&gt;Prerequisites and Background&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Required background&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Students should be comfortable with undergraduate probability (random variables, conditioning, expectation, and common distributions) and introductory optimization (linear programming, duality, and basic combinatorial optimization).&lt;/p&gt;
+&lt;p&gt;Students should be comfortable with linear optimization, basic probability, calculus, and mathematical modeling, approximately at the level of ORIE 3300 and ORIE 3500 (or equivalent). We will use LP duality and complementary slackness; random variables, expectation, conditional probability, and common distributions; and elementary calculus.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Helpful but not required&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Prior exposure to stochastic processes, algorithms, statistics, microeconomics, or game theory is useful but not required. Some assignments may involve computation or simulation, so familiarity with Python or a comparable language will be helpful.&lt;/p&gt;
+&lt;p&gt;Prior exposure to economics, game theory, stochastic processes, or algorithms is useful but not required. Some assignments may involve computation or simulation, so familiarity with Python or a comparable language will be helpful.&lt;/p&gt;
 
-&lt;h2 id=&#34;course-structure-and-assessment&#34;&gt;Course Structure and Assessment&lt;/h2&gt;
+&lt;h2 id=&#34;assessment&#34;&gt;Assessment&lt;/h2&gt;
 
 &lt;p&gt;Assessment details and course policies will be posted in the syllabus.&lt;/p&gt;
 
-&lt;h2 id=&#34;tentative-schedule-and-course-materials&#34;&gt;Tentative Schedule and Course Materials&lt;/h2&gt;
+&lt;h2 id=&#34;tentative-course-outline&#34;&gt;Tentative Course Outline&lt;/h2&gt;
 
-&lt;p&gt;The five-unit outline below is tentative; topics may be added, removed, reordered, or combined.&lt;/p&gt;
+&lt;p&gt;The outline below is tentative. The precise balance of topics may shift with pace.&lt;/p&gt;
 
-&lt;h3 id=&#34;unit-1-revenue-management-foundations&#34;&gt;Unit 1: Revenue Management Foundations&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Tentative topics&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Single-resource capacity allocation and Littlewood&amp;rsquo;s rule&lt;/li&gt;
-&lt;li&gt;Stochastic dynamic-programming formulations&lt;/li&gt;
-&lt;li&gt;Multiple fare classes, booking limits, and protection levels&lt;/li&gt;
-&lt;li&gt;Dynamic pricing as an allocation problem&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--
-**Materials**
-
-Course notes and slides on Littlewood&#39;s rule, dynamic programming, and protection levels will be posted as the course progresses.
---&gt;
-
-&lt;!--
-PROMISING ARCHIVAL MATERIALS:
-- `Lecture2.pdf`, `Lecture3.pdf`, and `Lecture4.pdf` contain the core model sequence,
-  but should be updated to remove Spring 2017 logistics and refresh examples and design.
-- `ProtectionLevelComputation.pdf` is the strongest near-direct reuse candidate: it is
-  typeset, self-contained, and could be retained after checking notation and accessibility.
-- `ProtectionLevels.pdf` contains useful derivations but is handwritten and should be
-  transcribed or rebuilt rather than reposted unchanged.
---&gt;
-
-&lt;!--
-**Tentative problem-set focus:** Capacity allocation, dynamic programming, and protection levels
---&gt;
-
-&lt;h3 id=&#34;unit-2-network-revenue-management-and-approximation&#34;&gt;Unit 2: Network Revenue Management and Approximation&lt;/h3&gt;
+&lt;h3 id=&#34;unit-1-pricing-demand-and-learning&#34;&gt;Unit 1: Pricing, Demand, and Learning&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Tentative topics&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Multi-resource products and the network revenue-management dynamic program&lt;/li&gt;
-&lt;li&gt;Deterministic and probabilistic linear-programming bounds&lt;/li&gt;
-&lt;li&gt;LP duality, opportunity costs, and bid-price controls&lt;/li&gt;
-&lt;li&gt;Computational comparison of exact, fluid, and bid-price policies&lt;/li&gt;
+&lt;li&gt;Buyer values, surplus, market clearing, and optimal posted prices&lt;/li&gt;
+&lt;li&gt;Demand distributions, elasticity, hazard rates, quantile revenue, and virtual values&lt;/li&gt;
+&lt;li&gt;Learning unknown demand: multi-armed bandits, concentration, regret, and optimism&lt;/li&gt;
+&lt;li&gt;Feedback between pricing decisions and observed data&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!--
-**Materials**
-
-Course notes and slides on network formulations, LP bounds, and bid-price controls will be posted as the course progresses.
+EDITORIAL NOTE:
+- Pricing foundations and learning are central in the Fall 2026 syllabus but were not
+  developed as a unified opening unit in the 2017 materials. Build this unit from the
+  current syllabus and references rather than forcing the archival lecture sequence.
 --&gt;
+
+&lt;h3 id=&#34;unit-2-scarcity-scale-and-online-allocation&#34;&gt;Unit 2: Scarcity, Scale, and Online Allocation&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Tentative topics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Opportunity costs, Littlewood&amp;rsquo;s rule, and dynamic programming&lt;/li&gt;
+&lt;li&gt;Network revenue management, fluid LPs, and bid-price controls&lt;/li&gt;
+&lt;li&gt;Exact, fluid, and clairvoyant benchmarks in small and large markets&lt;/li&gt;
+&lt;li&gt;Confidence-aware allocation and the Bayes Selector viewpoint&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;!--
 PROMISING ARCHIVAL MATERIALS:
+- `Lecture2.pdf`, `Lecture3.pdf`, and `Lecture4.pdf` contain the core single-resource
+  model sequence but need refreshed examples and design.
+- `ProtectionLevelComputation.pdf` is a strong near-direct reuse candidate after
+  checking notation and accessibility; `ProtectionLevels.pdf` should be rebuilt.
 - `Lecture8.pdf` and `Lecture9.pdf` provide a clear introduction and DP formulation and
   are good candidates for refreshed slides.
 - `SingleResourceLPApprox.pdf`, `LPBasedBounds.pdf`, and `NetworkRMApprox.pdf` contain
   the central approximation and bid-price arguments. They should be consolidated into
   a shorter typeset note because the existing versions are handwritten.
-- The computational network-RM problem in `HW3.pdf` is especially promising for an
-  updated Python assignment comparing fluid bounds and bid-price controls.
+- Confidence-aware allocation, large-market benchmarks, and the Bayes Selector require
+  new or substantially updated material.
 --&gt;
 
-&lt;!--
-**Tentative problem-set focus:** LP bounds, dual prices, and simulation of approximate policies
---&gt;
-
-&lt;h3 id=&#34;unit-3-customer-choice-assortment-and-demand-learning&#34;&gt;Unit 3: Customer Choice, Assortment, and Demand Learning&lt;/h3&gt;
+&lt;h3 id=&#34;unit-3-customer-choice-and-assortment&#34;&gt;Unit 3: Customer Choice and Assortment&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Tentative topics&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Substitution, Luce&amp;rsquo;s choice axiom, and the multinomial-logit model&lt;/li&gt;
+&lt;li&gt;Substitution, random utility, and the multinomial-logit model&lt;/li&gt;
 &lt;li&gt;Revenue-ordered assortments and constrained assortment optimization&lt;/li&gt;
-&lt;li&gt;Censored demand, policy feedback, and the spiral-down effect&lt;/li&gt;
-&lt;li&gt;Exploration and exploitation in pricing or assortment decisions, as time permits&lt;/li&gt;
+&lt;li&gt;The spiral-down effect and policy-dependent demand observations&lt;/li&gt;
+&lt;li&gt;Censored-demand estimation, as time permits&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;!--
-**Materials**
-
-Course notes and readings on MNL choice, assortment optimization, and demand-learning feedback will be posted as the course progresses.
---&gt;
 
 &lt;!--
 PROMISING ARCHIVAL MATERIALS:
@@ -164,33 +147,18 @@ PROMISING ARCHIVAL MATERIALS:
   into a consistent typeset packet.
 - `SpiralDown.pdf` remains highly relevant and should be updated as the bridge from
   choice modeling to demand learning.
-- The simulation exercise in `HW4.pdf` is a strong candidate for a modernized coding
-  assignment on censored demand and policy feedback.
-- The choice-model portion of `HW5.pdf` could supply a shorter analytical component.
 --&gt;
 
-&lt;!--
-**Tentative problem-set focus:** Assortment optimization and demand-learning bias
---&gt;
-
-&lt;h3 id=&#34;unit-4-mechanism-design-and-auctions&#34;&gt;Unit 4: Mechanism Design and Auctions&lt;/h3&gt;
+&lt;h3 id=&#34;unit-4-auctions-competition-and-mechanisms&#34;&gt;Unit 4: Auctions, Competition, and Mechanisms&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Tentative topics&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Strategic behavior and the revelation principle&lt;/li&gt;
-&lt;li&gt;Incentive compatibility and individual rationality&lt;/li&gt;
-&lt;li&gt;Welfare maximization and the Vickrey-Clarke-Groves mechanism&lt;/li&gt;
-&lt;li&gt;Single-parameter environments and Myerson&amp;rsquo;s lemma&lt;/li&gt;
-&lt;li&gt;Revenue maximization and optimal auctions&lt;/li&gt;
-&lt;li&gt;Simple mechanisms and the tradeoff between optimality and robustness, as time permits&lt;/li&gt;
+&lt;li&gt;Posted prices versus auctions, strategic interaction, and equilibrium&lt;/li&gt;
+&lt;li&gt;Standard auction formats and single-parameter mechanisms&lt;/li&gt;
+&lt;li&gt;Incentive compatibility, individual rationality, and Myerson&amp;rsquo;s framework&lt;/li&gt;
+&lt;li&gt;Simple versus optimal mechanisms, market thickness, and Bulow–Klemperer&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;!--
-**Materials**
-
-Course notes and readings on incentive compatibility, VCG, Myerson&#39;s lemma, and revenue-optimal auctions will be posted as the course progresses.
---&gt;
 
 &lt;!--
 PROMISING ARCHIVAL MATERIALS:
@@ -199,43 +167,29 @@ PROMISING ARCHIVAL MATERIALS:
 - `MyersonLemma.pdf` and `OptimalRevenueAuction.pdf` cover the right core results but
   should be typeset, streamlined for the UG/Masters audience, and supplied with fresh
   examples.
-- The auction and payment-rule problems in `HW5.pdf` are promising, but the assignment
-  should be split so that choice modeling remains in Unit 3 and mechanisms remain here.
+- Standard auction formats, equilibrium, and market-thickness results need expanded or
+  new material to match the Fall 2026 syllabus.
 --&gt;
 
-&lt;!--
-**Tentative problem-set focus:** Incentive-compatible allocation and payment rules
---&gt;
-
-&lt;h3 id=&#34;unit-5-pricing-and-design-in-two-sided-marketplaces&#34;&gt;Unit 5: Pricing and Design in Two-Sided Marketplaces&lt;/h3&gt;
+&lt;h3 id=&#34;unit-5-information-and-market-design-beyond-posted-prices&#34;&gt;Unit 5: Information and Market Design Beyond Posted Prices&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Tentative topics&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Two-sided platforms and cross-side network effects&lt;/li&gt;
-&lt;li&gt;Participation and platform adoption&lt;/li&gt;
-&lt;li&gt;Price level, price structure, and insulating prices&lt;/li&gt;
-&lt;li&gt;Multiple equilibria and platform coordination&lt;/li&gt;
-&lt;li&gt;Possible extensions involving matching, access, and information&lt;/li&gt;
+&lt;li&gt;Segmentation, screening, self-selection, and information rents&lt;/li&gt;
+&lt;li&gt;Nonlinear pricing, versioning, bundling, and multidimensional values&lt;/li&gt;
+&lt;li&gt;Multi-item allocation and the Vickrey–Clarke–Groves mechanism&lt;/li&gt;
+&lt;li&gt;Selected topics in competition, adverse selection, reputation, matching, and platforms&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!--
-**Materials**
-
-Course notes and readings on cross-side effects, platform participation, and two-sided pricing will be posted as the course progresses.
---&gt;
-
-&lt;!--
 PROMISING ARCHIVAL MATERIALS:
-- `TwoSided.pdf` is a strong, typeset backbone for this unit. Its core model and
-  insulating-price argument can be reused after updating examples, terminology,
-  references, and notation.
+- `TwoSided.pdf` remains useful for the platform portion after updating examples,
+  terminology, references, and notation, but should not define the entire unit.
 - `Wrapup.pdf` is better treated as an instructor planning resource; a new synthesis
   should reflect the actual Fall 2026 sequence rather than reuse it directly.
---&gt;
-
-&lt;!--
-**Tentative problem-set focus:** Cross-side effects, participation, and platform design
+- Richer pricing, information structure, VCG, adverse selection, reputation, and
+  matching require new or substantially updated material.
 --&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
@@ -247,6 +201,8 @@ PROMISING ARCHIVAL MATERIALS:
 &lt;li&gt;Tim Roughgarden, &lt;em&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15983282&#34; target=&#34;_blank&#34;&gt;Twenty Lectures on Algorithmic Game Theory&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;Kalyan Talluri and Garrett van Ryzin, &lt;em&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;The Theory and Practice of Revenue Management&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Selected course notes and papers will supplement these references, particularly for learning, online allocation, reputation, and matching.&lt;/p&gt;
 </description>
     </item>
     
