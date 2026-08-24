@@ -14,8 +14,8 @@ Our main result is the surprising existence of a novel signaling scheme that sim
 
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2310.00528
-url_pdf: https://arxiv.org/pdf/2310.00528.pdf
+  url: https://arxiv.org/abs/2305.07006
+url_pdf: https://arxiv.org/pdf/2305.07006
 
 featured: false
 ---

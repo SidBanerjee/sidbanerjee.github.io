@@ -11,10 +11,10 @@ abstract: ""
 
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/1910.08151
+  url: https://arxiv.org/abs/2110.15843
 - name: Link
-  url: https://pubsonline.informs.org/doi/10.1287/opre.2022.2350
-url_pdf: https://arxiv.org/pdf/1910.08151.pdf
+  url: https://doi.org/10.1287/opre.2022.2396
+url_pdf: https://arxiv.org/pdf/2110.15843
 
 featured: false
 ---
