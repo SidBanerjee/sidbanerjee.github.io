@@ -1,0 +1,18 @@
+{{- $current_courses := where (where .Site.RegularPages "Type" "courses") "Params.current" true -}}
+{{- $current_count := len $current_courses -}}
+
+{{- if gt $current_count 1 -}}
+  {{- $conflicts := slice -}}
+  {{- range $current_courses -}}
+    {{- $conflicts = $conflicts | append (printf "%s - %s (%s)" .Params.number .Title .RelPermalink) -}}
+  {{- end -}}
+  {{- errorf "More than one course has current = true: %s" (delimit $conflicts ", ") -}}
+{{- else if eq $current_count 1 -}}
+  {{- $course := index $current_courses 0 -}}
+  {{- $semester_label := $course.Params.current_semester_label | default $course.Params.semester -}}
+<p><span style="color:red">Teaching {{ $semester_label }}: </span> <a class="btn-sm btn-outline-primary" role="button" href="{{ $course.RelPermalink }}">{{ $course.Params.number }} - {{ $course.Title }}</a></p>
+{{- else -}}
+  {{- with .Site.Params.current_teaching_note -}}
+<p>{{ . | markdownify }}</p>
+  {{- end -}}
+{{- end -}}

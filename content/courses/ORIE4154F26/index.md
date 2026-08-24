@@ -4,6 +4,8 @@ subtitle:
 summary:
 number: ORIE 4154
 semester: Fa 2026
+current: true
+current_semester_label: "Fall ‘26"
 level: UG/Masters
 
 authors:

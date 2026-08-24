@@ -5,12 +5,20 @@
     <link>https://sidbanerjee.orie.cornell.edu/publication/</link>
       <atom:link href="https://sidbanerjee.orie.cornell.edu/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sidbanerjee.orie.cornell.edu/img/sid.jpg</url>
       <title>Publications</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication/</link>
     </image>
+    
+    <item>
+      <title>Online Fair Allocation of Perishable Resources</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-26-or-perishable/</link>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-26-or-perishable/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Erratum to “Online Allocation and Pricing: Constant Regret via Bellman Inequalities”</title>
@@ -153,6 +161,14 @@
       <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-or-adaptive/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-or-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequential Fair Allocation: Achieving the Optimal Envy-Efficiency Trade-off Curve</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-or-sequential/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-or-sequential/</guid>
       <description></description>
     </item>
     
