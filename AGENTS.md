@@ -15,7 +15,9 @@
 - Never edit generated files in `docs/` directly. Edit the source or configuration, then rebuild with Hugo.
 - After any source, layout, style, or configuration change, run `hugo` and report all build warnings.
 - For read-only audits, do not modify files, rebuild `docs/`, or bump `site_version`.
-- Run `git diff --check` before finishing.
+- Run `git diff --check` on source-controlled source, config, layout, style, and content files.
+- If a full-repository `git diff --check` reports whitespace issues only in Hugo-generated files under `docs/`, report them but do not edit generated files directly just to remove whitespace.
+- Treat generated-only whitespace as non-blocking unless it points to an underlying source/template problem.
 - In the final report, list the changed source files separately from generated `docs/` changes.
 
 ## Publications and bibliography
