@@ -42,3 +42,6 @@
 - Use `YYYY-MM-DDa`, `YYYY-MM-DDb`, and so on for multiple deployments on the same date.
 - Do not bump `site_version` for read-only audits.
 - Before finishing a deployment-ready task, bump `site_version`, rebuild with Hugo, and include the resulting generated `docs/` changes.
+- `site_version` is intentionally rendered only on the homepage.
+- A routine `site_version` bump should therefore change only `docs/index.html` because of the version marker itself.
+- Large site-wide generated diffs should not be attributed to the version bump alone; investigate them as real content, layout, or output changes.
