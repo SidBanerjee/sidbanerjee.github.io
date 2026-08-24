@@ -20,6 +20,14 @@
 - Treat generated-only whitespace as non-blocking unless it points to an underlying source/template problem.
 - In the final report, list the changed source files separately from generated `docs/` changes.
 
+### Local preview
+
+- The normal local preview command is `hugo server --disableFastRender --i18n-warnings`.
+- In Codex, the default sandbox may block binding to `127.0.0.1:1313`.
+- With Hugo 0.73.0, that permission failure may misleadingly appear as “port 1313 already in use” followed by a panic.
+- If this happens, do not assume the site or port is broken; rerun the preview with permission to bind localhost.
+- Once binding is allowed, verify the site at `http://localhost:1313/`.
+
 ## Publications and bibliography
 
 - Do not invent or infer publication metadata, including authors, titles, dates, venues, or links.
