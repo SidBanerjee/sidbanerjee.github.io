@@ -1,7 +1,7 @@
 ---
 title: "Optimal resource allocation for remediating networked contagions"
 authors:
-- Michail Papachristou
+- Marios Papachristou
 - Siddhartha Banerjee
 - Jon Kleinberg
 date: "2024-07-01"

@@ -16,6 +16,8 @@ abstract: "We study the trade-off between envy and inefficiency in repeated reso
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2508.21753
+- name: Link
+  url: https://doi.org/10.1145/3801489.3806858
 url_pdf: https://arxiv.org/pdf/2508.21753.pdf
 
 featured: true

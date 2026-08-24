@@ -3,18 +3,22 @@ title: "ORSuite: Benchmarking suite for sequential operations models"
 authors:
 - Christopher Archer
 - Siddhartha Banerjee
-- et al.
+- Mayleen Cortez
+- Carrie Rucker
+- Sean R. Sinclair
+- Max Solberg
+- Qiaomin Xie
+- Christina Lee Yu
 date: "2022-06-01"
-publication_types: ["0"]
-publication: "*Preprint*"
+publication_types: ["2"]
+publication: "*ACM SIGMETRICS Performance Evaluation Review*"
 abstract: ""
 
 links:
-- name: arXiv
-  url: https://arxiv.org/abs/2206.00264
+- name: Link
+  url: https://doi.org/10.1145/3512798.3512819
 - name: code
   url: https://github.com/cornell-orie/ORSuite
-url_pdf: https://arxiv.org/pdf/2206.00264.pdf
 
 featured: false
 ---

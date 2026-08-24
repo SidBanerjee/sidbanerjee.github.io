@@ -13,6 +13,8 @@ abstract: "A canonical setting for non-monetary online resource allocation is on
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2511.09934
+- name: Link
+  url: https://doi.org/10.4230/LIPIcs.ITCS.2026.96
 url_pdf: https://arxiv.org/pdf/2511.09934.pdf
 
 featured: false
