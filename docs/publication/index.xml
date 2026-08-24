@@ -5,12 +5,20 @@
     <link>https://sidbanerjee.orie.cornell.edu/publication/</link>
       <atom:link href="https://sidbanerjee.orie.cornell.edu/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sidbanerjee.orie.cornell.edu/img/sid.jpg</url>
       <title>Publications</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication/</link>
     </image>
+    
+    <item>
+      <title>Erratum to “Online Allocation and Pricing: Constant Regret via Bellman Inequalities”</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Robust Resource Allocation via Competitive Subsidies</title>
@@ -81,14 +89,6 @@
       <link>https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-pomacs/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-pomacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Correction to Online Allocation and Pricing: Constant Regret via Bellman Inequalities</title>
-      <link>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</guid>
       <description></description>
     </item>
     
@@ -191,7 +191,7 @@
     <item>
       <title>Graph searching with predictions</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication/gupta-22-itcs/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://sidbanerjee.orie.cornell.edu/publication/gupta-22-itcs/</guid>
       <description></description>
     </item>

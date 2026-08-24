@@ -21,6 +21,14 @@
     </item>
     
     <item>
+      <title>Erratum to “Online Allocation and Pricing: Constant Regret via Bellman Inequalities”</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Online Decision-Making and Market Design</title>
       <link>https://sidbanerjee.orie.cornell.edu/courses/orie6180s26/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
@@ -292,14 +300,6 @@ Send me a mail if you are concerned about having the appropriate prerequisites.&
     </item>
     
     <item>
-      <title>Correction to Online Allocation and Pricing: Constant Regret via Bellman Inequalities</title>
-      <link>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Majorized Bayesian Persuasion and Fair Selection</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication/shen-25-soda/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
@@ -398,7 +398,7 @@ Send me a mail if you are concerned about having the appropriate prerequisites.&
     <item>
       <title>Graph searching with predictions</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication/gupta-22-itcs/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://sidbanerjee.orie.cornell.edu/publication/gupta-22-itcs/</guid>
       <description></description>
     </item>

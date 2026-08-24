@@ -5,12 +5,20 @@
     <link>https://sidbanerjee.orie.cornell.edu/publication_types/2/</link>
       <atom:link href="https://sidbanerjee.orie.cornell.edu/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sidbanerjee.orie.cornell.edu/img/sid.jpg</url>
       <title>2</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>Erratum to “Online Allocation and Pricing: Constant Regret via Bellman Inequalities”</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Good prophets know when the end is near</title>
@@ -29,14 +37,6 @@
     </item>
     
     <item>
-      <title>Correction to Online Allocation and Pricing: Constant Regret via Bellman Inequalities</title>
-      <link>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Plan your system and price for free: Fast algorithms for multimodal transit operations</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication/samaranayake-25-ts/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
@@ -49,6 +49,14 @@
       <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-or-adaptive/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-or-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ORSuite: Benchmarking suite for sequential operations models</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/archer-22-orsuite/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/archer-22-orsuite/</guid>
       <description></description>
     </item>
     
