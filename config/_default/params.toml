@@ -33,6 +33,9 @@ font_size = "M"
 ## Basic Info
 ############################
 
+# Manually controlled deployment marker displayed in the site footer.
+site_version = "2026-08-24a"
+
 # Website type
 #   Improve how search engines understand your site.
 #   For personal sites, choose "Person".
