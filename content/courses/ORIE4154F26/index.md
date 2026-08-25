@@ -89,7 +89,8 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
 ### Unit 1: Pricing, Demand, and Learning
 
 - **Lecture 1 — Aug. 25:** Pricing with full information: surplus, market clearing, LP dual prices, and congestion tolls<br>
-  [Lec 1 Notes](/docs/ORIE4154F26/files/ORIE4154_Lecture1.pdf) · *Suggested:* [Vohra, Ch. 1 and §§2.1–2.2][Vohra]; [T&vR, §§1.1 and 1.3][T&vR]; [Naor (1969)][Naor]
+  [Lec 1 Notes](/docs/ORIE4154F26/files/ORIE4154_Lecture1.pdf) · *Suggested:* [Vohra, Ch. 1 and §§2.1–2.2][Vohra]; [T&vR, §§1.1 and 1.3][T&vR]; [Naor (1969)][Naor]<br>
+  [Queue Lab: Robot City](/courses/orie4154f26/queue-lab/) — an interactive queueing and pricing simulation.
 - **Lecture 2 — Aug. 27:** From values to demand: quantiles, virtual values, and elasticity<br>
   [Lec 2 Notes](/docs/ORIE4154F26/files/ORIE4154_Lecture2.pdf) · *Suggested:* [Vohra, §§4.1–4.2 and §§4.14.1–4.14.2][Vohra]; [T&vR, selected parts of §§7.2–7.3][T&vR]
 - **Lecture 3 — Sept. 1:** From optimal pricing to learning: markup, greedy failure, and regret<br>
