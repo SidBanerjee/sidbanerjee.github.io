@@ -147,6 +147,7 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
 ### Unit 2: Scarcity, Scale, and Online Allocation
 
 *   **Lecture 5 — Sept. 8:** Single ressource RM and rationing (and a quick DP primer)
+
 <!--
     * Lecture notes: [[Lec 5]](/docs/ORIE4154F26/files/ORIE4154_Lecture5.pdf)
     * Suggested Reading:
@@ -154,6 +155,7 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
 -->
 
 *   **Lecture 6 — Sept. 10:** Network revenue management: fluid LPs and bid prices
+
 <!--
     * Lecture notes: [[Lec 6]](/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf)
     * Suggested Reading:
@@ -162,6 +164,7 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
 -->
 
 *   **Lecture 7 — Sept. 15:** From fluid predictions to confidence-aware decisions
+
 <!--
     * Lecture notes: [[Lec 7]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf)
     * Suggested Reading:
@@ -170,6 +173,7 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
 -->
 
 *   **Lecture 8 — Sept. 17:** Bayes Selector: predicting the clairvoyant
+
 <!--
     * Lecture notes: [[Lec 8]](/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf)
 -->

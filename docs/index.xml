@@ -155,55 +155,44 @@ Assessment details and course policies will be posted in the syllabus.
 &lt;h3 id=&#34;unit-2-scarcity-scale-and-online-allocation&#34;&gt;Unit 2: Scarcity, Scale, and Online Allocation&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 5 — Sept. 8:&lt;/strong&gt; Single ressource RM and rationing (and a quick DP primer)
-&amp;lt;!&amp;ndash;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture5.pdf&#34;&gt;[Lec 5]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Suggested Reading:
-
-&lt;ul&gt;
-&lt;li&gt;T&amp;amp;vR, §§2.1–2.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;
-&amp;ndash;&amp;gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 6 — Sept. 10:&lt;/strong&gt; Network revenue management: fluid LPs and bid prices
-&amp;lt;!&amp;ndash;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf&#34;&gt;[Lec 6]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Suggested Reading:
-
-&lt;ul&gt;
-&lt;li&gt;T&amp;amp;vR, Chs. 2–3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Vera–Banerjee (2019) &lt;a href=&#34;https://arxiv.org/abs/1901.05028&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;
-&amp;ndash;&amp;gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 7 — Sept. 15:&lt;/strong&gt; From fluid predictions to confidence-aware decisions
-&amp;lt;!&amp;ndash;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf&#34;&gt;[Lec 7]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Suggested Reading:
-
-&lt;ul&gt;
-&lt;li&gt;T&amp;amp;vR, Chs. 2–3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Banerjee–Freund (2025), §§1–3 &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3479189&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;
-&amp;ndash;&amp;gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 8 — Sept. 17:&lt;/strong&gt; Bayes Selector: predicting the clairvoyant
-&amp;lt;!&amp;ndash;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf&#34;&gt;[Lec 8]&lt;/a&gt;
-&amp;ndash;&amp;gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lecture 5 — Sept. 8:&lt;/strong&gt; Single ressource RM and rationing (and a quick DP primer)&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;!--
+    * Lecture notes: [[Lec 5]](/docs/ORIE4154F26/files/ORIE4154_Lecture5.pdf)
+    * Suggested Reading:
+        * T&amp;vR, §§2.1–2.2 [[T&amp;vR]][T&amp;vR]
+--&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lecture 6 — Sept. 10:&lt;/strong&gt; Network revenue management: fluid LPs and bid prices&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+    * Lecture notes: [[Lec 6]](/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf)
+    * Suggested Reading:
+        * T&amp;vR, Chs. 2–3 [[T&amp;vR]][T&amp;vR]
+        * Vera–Banerjee (2019) [[paper]][Bayesian Prophet]
+--&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lecture 7 — Sept. 15:&lt;/strong&gt; From fluid predictions to confidence-aware decisions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+    * Lecture notes: [[Lec 7]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf)
+    * Suggested Reading:
+        * T&amp;vR, Chs. 2–3 [[T&amp;vR]][T&amp;vR]
+        * Banerjee–Freund (2025), §§1–3 [[paper]][Good Prophets]
+--&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lecture 8 — Sept. 17:&lt;/strong&gt; Bayes Selector: predicting the clairvoyant&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+    * Lecture notes: [[Lec 8]](/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf)
+--&gt;
 
 &lt;h3 id=&#34;unit-3-customer-choice-and-assortment&#34;&gt;Unit 3: Customer Choice and Assortment&lt;/h3&gt;
 
