@@ -20,6 +20,19 @@
 - Treat generated-only whitespace as non-blocking unless it points to an underlying source/template problem.
 - In the final report, list the changed source files separately from generated `docs/` changes.
 
+### Custom domain and generated-output safety
+
+- `static/CNAME` is the authoritative source for the production custom domain and must contain exactly `sidbanerjee.orie.cornell.edu`.
+- A normal Hugo build must produce a byte-identical `docs/CNAME`.
+- Never remove, rename, overwrite, or omit `static/CNAME` without explicit user approval.
+- Never run `hugo --cleanDestinationDir`, delete `docs/`, or perform destructive generated-output cleanup without explicit user approval.
+- Before finishing any deployment-ready task, verify that both CNAME files exist and match byte-for-byte.
+- Treat deletion or mismatch of either CNAME file as a blocking deployment error.
+- Do not assume restoring `docs/CNAME` alone will restore the GitHub Pages custom-domain association; losing the CNAME can require manual GitHub or domain verification.
+- If a build or cleanup unexpectedly deletes tracked files under `docs/`, stop and report the deletion list before proceeding.
+- For every deployment-ready task, run normal `hugo` only, then run `./scripts/check-site-safety.sh`.
+- Treat any safety-check failure as blocking, and do not recommend committing or pushing until the script passes.
+
 ### ORIE 4154 Fall 2026 lecture PDFs
 
 - Refresh the lecture PDFs with `./scripts/update-orie4154f26-lectures.sh`.
@@ -47,7 +60,7 @@
 - `site_version` in `config/_default/params.toml` is manually incremented once for each deployment-ready batch.
 - Use `YYYY-MM-DDa`, `YYYY-MM-DDb`, and so on for multiple deployments on the same date.
 - Do not bump `site_version` for read-only audits.
-- Before finishing a deployment-ready task, bump `site_version`, rebuild with Hugo, and include the resulting generated `docs/` changes.
+- Before finishing a deployment-ready task, bump `site_version`, rebuild with normal `hugo`, run `./scripts/check-site-safety.sh`, and include the resulting generated `docs/` changes.
 - `site_version` is intentionally rendered only on the homepage.
 - A routine `site_version` bump should therefore change only `docs/index.html` because of the version marker itself.
 - Large site-wide generated diffs should not be attributed to the version bump alone; investigate them as real content, layout, or output changes.
