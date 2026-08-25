@@ -19,30 +19,28 @@
       <guid>https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/</guid>
       <description>
 
-&lt;!--
-EDITORIAL NOTE FOR IMPLEMENTATION:
-The archival source is stored under `ORIE4154F17`, but its front matter says
-`semester: Sp 2017`. This discrepancy has not been silently corrected or used
-to infer the term in which that version of the course was taught.
-
-The current syllabus is titled `ORIE 4154/5154`, but the distinction between the
-two course numbers remains unresolved there. This page therefore retains ORIE 4154.
-
-The featured course illustration was generated with OpenAI.
---&gt;
-
 &lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
 
-&lt;p&gt;Every market must decide &lt;strong&gt;who gets what, and on what terms&lt;/strong&gt;. This course asks: &lt;strong&gt;When do simple prices work, when do they fail, and what replaces them?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Every market must decide &lt;strong&gt;who gets what, and on what terms&lt;/strong&gt;. This course asks:&lt;/p&gt;
 
-&lt;p&gt;We approach this question through two connected perspectives:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;When do simple prices work, when do they fail, and what replaces them?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Revenue management:&lt;/strong&gt; How should firms price and allocate scarce resources when demand is uncertain and must be learned?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Market design:&lt;/strong&gt; How should markets allocate resources when participants interact strategically or have private information?&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Across the course, prices will play a leading role, as tools to &lt;em&gt;extract surplus, ration
+scarcity, decentralize allocations, correct externalities, and experiment and
+learn&lt;/em&gt;. We will combine ideas from &lt;strong&gt;operations research, economics, and computer
+science&lt;/strong&gt; to study demand, scarce capacity, customer choice, strategic behavior,
+private information, and institutions such as auctions and matching. The questions
+we will study are increasingly important in digital platforms, where algorithms &amp;ndash; and
+now increasingly autonomous agents &amp;ndash; both learn from markets and change the data
+the markets generate.&lt;/p&gt;
 
-&lt;p&gt;Drawing on operations research, economics, and computer science, we will study pricing, learning, scarce capacity, customer choice, auctions, matching, and platforms. Throughout the course, we will move between exact models and tractable approximations for large markets.&lt;/p&gt;
+&lt;p&gt;This is intended to be a mathematically substantive, model-driven course for senior OR/CS
+undergraduates and master&amp;rsquo;s students. That said, I will aim to keep our organizing principle
+as &lt;em&gt;economic question first, mathematical machinery second&lt;/em&gt;: we will introduce
+optimization, probability, learning, or game-theoretic tools when a market-design
+problem demands it. Most lectures will begin with concrete market questions, develop a
+model, and try to extract reusable principles rather than presenting the math in
+isolation.&lt;/p&gt;
 
 &lt;h2 id=&#34;course-information&#34;&gt;Course Information&lt;/h2&gt;
 
@@ -63,7 +61,7 @@ The featured course illustration was generated with OpenAI.
 &lt;li&gt;interpret LP dual variables and dynamic marginal values as prices or opportunity costs;&lt;/li&gt;
 &lt;li&gt;analyze demand learning using concentration bounds, regret, optimism, and the feedback between decisions and observations;&lt;/li&gt;
 &lt;li&gt;distinguish exact, fluid, and clairvoyant benchmarks, and explain how scale affects performance and tractability;&lt;/li&gt;
-&lt;li&gt;model substitution using random-utility and multinomial-logit models and optimize simple assortments; and&lt;/li&gt;
+&lt;li&gt;model substitution using random-utility models and optimize simple assortments; and&lt;/li&gt;
 &lt;li&gt;analyze strategic and informational problems and compare prices, auctions, mechanisms, reputation, and matching as market-design interventions.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -71,15 +69,29 @@ The featured course illustration was generated with OpenAI.
 
 &lt;p&gt;&lt;strong&gt;Required background&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Students should be comfortable with linear optimization, basic probability, calculus, and mathematical modeling, approximately at the level of ORIE 3300 and ORIE 3500 (or equivalent). We will use LP duality and complementary slackness; random variables, expectation, conditional probability, and common distributions; and elementary calculus.&lt;/p&gt;
+&lt;p&gt;Comfort with linear optimization, basic probability, calculus, and mathematical modeling, approximately at the level of ORIE 3300 and ORIE 3500 (or equivalent). You should know (or be willing to learn) to use LP duality and complementary slackness; random variables, expectation, conditional probability, and common distributions; and elementary calculus.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Helpful but not required&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Prior exposure to economics, game theory, stochastic processes, or algorithms is useful but not required. Some assignments may involve computation or simulation, so familiarity with Python or a comparable language will be helpful.&lt;/p&gt;
+&lt;p&gt;Prior exposure to economics, game theory, stochastic processes, or algorithms. Some assignments may involve computation or simulation, so familiarity with Python or a comparable language will be helpful.&lt;/p&gt;
 
-&lt;h2 id=&#34;assessment&#34;&gt;Assessment&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
-&lt;p&gt;Assessment details and course policies will be posted in the syllabus.&lt;/p&gt;
+&lt;p&gt;There is no required textbook; however we will assign readings from three main references (all available online through Cornell Library):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rakesh Vohra and Lakshman Krishnamurthi, &lt;em&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;Principles of Pricing&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Tim Roughgarden, &lt;em&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15983282&#34; target=&#34;_blank&#34;&gt;Twenty Lectures on Algorithmic Game Theory&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Kalyan Talluri and Garrett van Ryzin, &lt;em&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;The Theory and Practice of Revenue Management&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Selected course notes and papers will supplement these references, particularly for learning, online allocation, reputation, and matching.&lt;/p&gt;
+
+&lt;!--
+## Assessment
+
+Assessment details and course policies will be posted in the syllabus.
+--&gt;
 
 &lt;h2 id=&#34;tentative-lecture-plan&#34;&gt;Tentative Lecture Plan&lt;/h2&gt;
 
@@ -88,124 +100,100 @@ The featured course illustration was generated with OpenAI.
 &lt;h3 id=&#34;unit-1-pricing-demand-and-learning&#34;&gt;Unit 1: Pricing, Demand, and Learning&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 1 — Aug. 25:&lt;/strong&gt; Pricing with full information: surplus, market clearing, LP dual prices, and congestion tolls&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 1 — Aug. 25:&lt;/strong&gt; Pricing with full information: surplus, market clearing, and congestion tolls&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture1.pdf&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture1.pdf&#34;&gt;[Lec 1]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
-&lt;li&gt;Vohra, Ch. 1 and §§2.1–2.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;T&amp;amp;vR, §§1.1 and 1.3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Naor (1969) &lt;a href=&#34;https://doi.org/10.2307/1909200&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vohra, Ch. 1 and §§2.1–2.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[V&amp;amp;L]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;T&amp;amp;vR, §§1.1 and 1.3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Naor (1969) &lt;a href=&#34;https://doi.org/10.2307/1909200&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Queue Lab: Robot City &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/queue-lab/&#34;&gt;[link]&lt;/a&gt; — an interactive queueing and pricing simulation.&lt;/li&gt;
+&lt;li&gt;Queue Lab: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/queue-lab/&#34;&gt;[game]&lt;/a&gt; — an interactive pricing in queues simulator&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 2 — Aug. 27:&lt;/strong&gt; From values to demand: quantiles, virtual values, and elasticity&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture2.pdf&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture2.pdf&#34;&gt;[Lec 2]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
-&lt;li&gt;Vohra, §§4.1–4.2 and §§4.14.1–4.14.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;T&amp;amp;vR, selected parts of §§7.2–7.3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vohra, §§4.1–4.2 and §§4.14.1–4.14.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[V&amp;amp;L]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;T&amp;amp;vR, selected parts of §§7.2–7.3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 3 — Sept. 1:&lt;/strong&gt; From optimal pricing to learning: markup, greedy failure, and regret&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture3.pdf&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture3.pdf&#34;&gt;[Lec 3]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
-&lt;li&gt;Vohra, §§4.2–4.5 and §4.14.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Slivkins, Ch. 1 &lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vohra, §§4.2–4.5 and §4.14.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[V&amp;amp;L]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slivkins, Ch. 1 &lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;Slivkins&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 4 — Sept. 3:&lt;/strong&gt; Learning to price: optimism under uncertainty and UCB&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture4.pdf&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture4.pdf&#34;&gt;[Lec 4]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
-&lt;li&gt;Slivkins, §§1.3.1–1.3.3 and selected parts of Ch. 2 &lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slivkins, §§1.3.1–1.3.3 and selected parts of Ch. 2 &lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;Slivkins&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;!--
-EDITORIAL NOTE:
-- Pricing foundations and learning are central in the Fall 2026 plan but were not
-  developed as a unified opening unit in the 2017 materials. Build this unit from the
-  current syllabus and references rather than forcing the archival lecture sequence.
---&gt;
-
 &lt;h3 id=&#34;unit-2-scarcity-scale-and-online-allocation&#34;&gt;Unit 2: Scarcity, Scale, and Online Allocation&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 5 — Sept. 8:&lt;/strong&gt; Scarcity and the value of capacity: Littlewood&amp;rsquo;s rule&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 5 — Sept. 8:&lt;/strong&gt; Single ressource RM and rationing (and a quick DP primer)&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture5.pdf&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture5.pdf&#34;&gt;[Lec 5]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
-&lt;li&gt;T&amp;amp;vR, §§2.1–2.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;T&amp;amp;vR, §§2.1–2.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 6 — Sept. 10:&lt;/strong&gt; Network revenue management: fluid LPs and bid prices&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf&#34;&gt;[Lec 6]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
-&lt;li&gt;T&amp;amp;vR, Chs. 2–3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Vera–Banerjee &lt;a href=&#34;https://arxiv.org/abs/1901.05028&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;T&amp;amp;vR, Chs. 2–3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vera–Banerjee (2019) &lt;a href=&#34;https://arxiv.org/abs/1901.05028&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 7 — Sept. 15:&lt;/strong&gt; From fluid predictions to confidence-aware decisions&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf&#34;&gt;[Lec 7]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
-&lt;li&gt;T&amp;amp;vR, Chs. 2–3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Banerjee–Freund, §§1–3 &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3479189&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;T&amp;amp;vR, Chs. 2–3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Banerjee–Freund (2025), §§1–3 &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3479189&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 8 — Sept. 17:&lt;/strong&gt; Bayes Selector: predicting the clairvoyant&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Suggested Reading:
-
-&lt;ul&gt;
-&lt;li&gt;Vera–Banerjee, §§3–4 &lt;a href=&#34;https://arxiv.org/abs/1901.05028&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Banerjee–Freund, §§2–3 &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3479189&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf&#34;&gt;[Lec 8]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;!--
-PROMISING ARCHIVAL MATERIALS:
-- `Lecture2.pdf`, `Lecture3.pdf`, and `Lecture4.pdf` contain the core single-resource
-  model sequence but need refreshed examples and design.
-- `ProtectionLevelComputation.pdf` is a strong near-direct reuse candidate after
-  checking notation and accessibility; `ProtectionLevels.pdf` should be rebuilt.
-- `Lecture8.pdf`, `Lecture9.pdf`, `SingleResourceLPApprox.pdf`, `LPBasedBounds.pdf`,
-  and `NetworkRMApprox.pdf` contain useful network-RM and approximation material.
-- Confidence-aware allocation and the Bayes Selector require new or updated material.
---&gt;
 
 &lt;h3 id=&#34;unit-3-customer-choice-and-assortment&#34;&gt;Unit 3: Customer Choice and Assortment&lt;/h3&gt;
 
@@ -339,7 +327,7 @@ PROMISING ARCHIVAL MATERIALS:
 &lt;!--
     * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture18.pdf)
     * Suggested Reading:
-        * Vohra, §6.2.1 and §6.7.3 [[link]][Vohra]
+        * Vohra, §6.2.1 and §6.7.3 [[Vohra]][Vohra]
         * T&amp;vR, §11.1 [[link]][T&amp;vR]
 --&gt;
 
@@ -487,18 +475,6 @@ PROMISING ARCHIVAL MATERIALS:
 --&gt;
 
 &lt;p&gt;Possible extensions, as time permits, include overbooking, finite-inventory dynamic pricing, proper scoring rules, censored-demand estimation, multi-parameter revenue maximization, and auction extensions.&lt;/p&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-&lt;p&gt;There is no required textbook. Our main references, available online through Cornell Library, are:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Rakesh Vohra and Lakshman Krishnamurthi, &lt;em&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;Principles of Pricing&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Tim Roughgarden, &lt;em&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15983282&#34; target=&#34;_blank&#34;&gt;Twenty Lectures on Algorithmic Game Theory&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Kalyan Talluri and Garrett van Ryzin, &lt;em&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;The Theory and Practice of Revenue Management&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Selected course notes and papers will supplement these references, particularly for learning, online allocation, reputation, and matching.&lt;/p&gt;
 </description>
     </item>
     
@@ -2306,9 +2282,9 @@ For the second half of semester, we will use a commercial simulation package, &l
     
     <item>
       <title>Pricing and Market Design</title>
-      <link>https://sidbanerjee.orie.cornell.edu/courses/orie4154f17/</link>
+      <link>https://sidbanerjee.orie.cornell.edu/courses/orie4154sp17/</link>
       <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://sidbanerjee.orie.cornell.edu/courses/orie4154f17/</guid>
+      <guid>https://sidbanerjee.orie.cornell.edu/courses/orie4154sp17/</guid>
       <description>
 
 &lt;p&gt;&lt;embed src=&#34;https://drive.google.com/viewerng/

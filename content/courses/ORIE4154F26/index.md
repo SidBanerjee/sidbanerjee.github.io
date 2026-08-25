@@ -21,33 +21,34 @@ draft: false
 # The page bundle includes `featured.png`.
 image:
   placement: 2
-  caption: 'Course illustration generated with OpenAI.'
+  caption: 'what codex thinks I will be teaching'
   focal_point: "Center"
   preview_only: false
 ---
 
-<!--
-EDITORIAL NOTE FOR IMPLEMENTATION:
-The archival source is stored under `ORIE4154F17`, but its front matter says
-`semester: Sp 2017`. This discrepancy has not been silently corrected or used
-to infer the term in which that version of the course was taught.
-
-The current syllabus is titled `ORIE 4154/5154`, but the distinction between the
-two course numbers remains unresolved there. This page therefore retains ORIE 4154.
-
-The featured course illustration was generated with OpenAI.
--->
 
 ## Course Description
 
-Every market must decide **who gets what, and on what terms**. This course asks: **When do simple prices work, when do they fail, and what replaces them?**
+Every market must decide **who gets what, and on what terms**. This course asks:
 
-We approach this question through two connected perspectives:
+**When do simple prices work, when do they fail, and what replaces them?**
 
-- **Revenue management:** How should firms price and allocate scarce resources when demand is uncertain and must be learned?
-- **Market design:** How should markets allocate resources when participants interact strategically or have private information?
+Across the course, prices will play a leading role, as tools to *extract surplus, ration
+scarcity, decentralize allocations, correct externalities, and experiment and
+learn*. We will combine ideas from **operations research, economics, and computer
+science** to study demand, scarce capacity, customer choice, strategic behavior,
+private information, and institutions such as auctions and matching. The questions
+we will study are increasingly important in digital platforms, where algorithms -- and
+now increasingly autonomous agents -- both learn from markets and change the data
+the markets generate.
 
-Drawing on operations research, economics, and computer science, we will study pricing, learning, scarce capacity, customer choice, auctions, matching, and platforms. Throughout the course, we will move between exact models and tractable approximations for large markets.
+This is intended to be a mathematically substantive, model-driven course for senior OR/CS
+undergraduates and master's students. That said, I will aim to keep our organizing principle
+as *economic question first, mathematical machinery second*: we will introduce
+optimization, probability, learning, or game-theoretic tools when a market-design
+problem demands it. Most lectures will begin with concrete market questions, develop a
+model, and try to extract reusable principles rather than presenting the math in
+isolation.
 
 ## Course Information
 
@@ -65,22 +66,49 @@ By the end of the course, students should be able to:
 - interpret LP dual variables and dynamic marginal values as prices or opportunity costs;
 - analyze demand learning using concentration bounds, regret, optimism, and the feedback between decisions and observations;
 - distinguish exact, fluid, and clairvoyant benchmarks, and explain how scale affects performance and tractability;
-- model substitution using random-utility and multinomial-logit models and optimize simple assortments; and
+- model substitution using random-utility models and optimize simple assortments; and
 - analyze strategic and informational problems and compare prices, auctions, mechanisms, reputation, and matching as market-design interventions.
 
 ## Prerequisites and Background
 
 **Required background**
 
-Students should be comfortable with linear optimization, basic probability, calculus, and mathematical modeling, approximately at the level of ORIE 3300 and ORIE 3500 (or equivalent). We will use LP duality and complementary slackness; random variables, expectation, conditional probability, and common distributions; and elementary calculus.
+Comfort with linear optimization, basic probability, calculus, and mathematical modeling, approximately at the level of ORIE 3300 and ORIE 3500 (or equivalent). You should know (or be willing to learn) to use LP duality and complementary slackness; random variables, expectation, conditional probability, and common distributions; and elementary calculus.
 
 **Helpful but not required**
 
-Prior exposure to economics, game theory, stochastic processes, or algorithms is useful but not required. Some assignments may involve computation or simulation, so familiarity with Python or a comparable language will be helpful.
+Prior exposure to economics, game theory, stochastic processes, or algorithms. Some assignments may involve computation or simulation, so familiarity with Python or a comparable language will be helpful.
 
+## References
+
+There is no required textbook; however we will assign readings from three main references (all available online through Cornell Library):
+
+- Rakesh Vohra and Lakshman Krishnamurthi, *[Principles of Pricing](https://catalog.library.cornell.edu/catalog/15183141)*.
+- Tim Roughgarden, *[Twenty Lectures on Algorithmic Game Theory](https://catalog.library.cornell.edu/catalog/15983282)*.
+- Kalyan Talluri and Garrett van Ryzin, *[The Theory and Practice of Revenue Management](https://catalog.library.cornell.edu/catalog/15564919)*.
+
+Selected course notes and papers will supplement these references, particularly for learning, online allocation, reputation, and matching.
+
+[Vohra]: https://catalog.library.cornell.edu/catalog/15183141
+[Roughgarden]: https://catalog.library.cornell.edu/catalog/15983282
+[T&vR]: https://catalog.library.cornell.edu/catalog/15564919
+[Slivkins]: https://arxiv.org/abs/1904.07272
+[Karlin–Peres]: https://homes.cs.washington.edu/~karlin/GameTheoryBook.pdf
+[Milgrom]: https://www.gsb.stanford.edu/faculty-research/books/putting-auction-theory-work
+[Naor]: https://doi.org/10.2307/1909200
+[Bayesian Prophet]: https://arxiv.org/abs/1901.05028
+[Good Prophets]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3479189
+[Spiral-Down]: https://pubsonline.informs.org/doi/abs/10.1287/opre.1060.0304
+[Bulow–Klemperer]: https://www.gsb.stanford.edu/faculty-research/publications/auctions-vs-negotiations
+[Roughgarden Multi-Parameter]: https://timroughgarden.org/w14/l/l38.pdf
+[Akerlof]: https://academic.oup.com/qje/article-abstract/84/3/488/1896241
+[Gale–Shapley]: https://www.tandfonline.com/doi/abs/10.1080/00029890.1962.11989827
+
+<!--
 ## Assessment
 
 Assessment details and course policies will be posted in the syllabus.
+-->
 
 ## Tentative Lecture Plan
 
@@ -88,73 +116,54 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
 
 ### Unit 1: Pricing, Demand, and Learning
 
-*   **Lecture 1 — Aug. 25:** Pricing with full information: surplus, market clearing, LP dual prices, and congestion tolls
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture1.pdf)
+*   **Lecture 1 — Aug. 25:** Pricing with full information: surplus, market clearing, and congestion tolls
+    * Lecture notes: [[Lec 1]](/docs/ORIE4154F26/files/ORIE4154_Lecture1.pdf)
     * Suggested Reading:
-        * Vohra, Ch. 1 and §§2.1–2.2 [[link]][Vohra]
-        * T&vR, §§1.1 and 1.3 [[link]][T&vR]
-        * Naor (1969) [[link]][Naor]
-    * Queue Lab: Robot City [[link]](/courses/orie4154f26/queue-lab/) — an interactive queueing and pricing simulation.
+        * Vohra, Ch. 1 and §§2.1–2.2 [[V&L]][Vohra]
+        * T&vR, §§1.1 and 1.3 [[T&vR]][T&vR]
+        * Naor (1969) [[paper]][Naor]
+    * Queue Lab: [[game]](/courses/orie4154f26/queue-lab/) — an interactive pricing in queues simulator
 
 *   **Lecture 2 — Aug. 27:** From values to demand: quantiles, virtual values, and elasticity
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture2.pdf)
+    * Lecture notes: [[Lec 2]](/docs/ORIE4154F26/files/ORIE4154_Lecture2.pdf)
     * Suggested Reading:
-        * Vohra, §§4.1–4.2 and §§4.14.1–4.14.2 [[link]][Vohra]
-        * T&vR, selected parts of §§7.2–7.3 [[link]][T&vR]
+        * Vohra, §§4.1–4.2 and §§4.14.1–4.14.2 [[V&L]][Vohra]
+        * T&vR, selected parts of §§7.2–7.3 [[T&vR]][T&vR]
 
 *   **Lecture 3 — Sept. 1:** From optimal pricing to learning: markup, greedy failure, and regret
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture3.pdf)
+    * Lecture notes: [[Lec 3]](/docs/ORIE4154F26/files/ORIE4154_Lecture3.pdf)
     * Suggested Reading:
-        * Vohra, §§4.2–4.5 and §4.14.2 [[link]][Vohra]
-        * Slivkins, Ch. 1 [[link]][Slivkins]
+        * Vohra, §§4.2–4.5 and §4.14.2 [[V&L]][Vohra]
+        * Slivkins, Ch. 1 [[Slivkins]][Slivkins]
 
 *   **Lecture 4 — Sept. 3:** Learning to price: optimism under uncertainty and UCB
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture4.pdf)
+    * Lecture notes: [[Lec 4]](/docs/ORIE4154F26/files/ORIE4154_Lecture4.pdf)
     * Suggested Reading:
-        * Slivkins, §§1.3.1–1.3.3 and selected parts of Ch. 2 [[link]][Slivkins]
+        * Slivkins, §§1.3.1–1.3.3 and selected parts of Ch. 2 [[Slivkins]][Slivkins]
 
-<!--
-EDITORIAL NOTE:
-- Pricing foundations and learning are central in the Fall 2026 plan but were not
-  developed as a unified opening unit in the 2017 materials. Build this unit from the
-  current syllabus and references rather than forcing the archival lecture sequence.
--->
 
 ### Unit 2: Scarcity, Scale, and Online Allocation
 
-*   **Lecture 5 — Sept. 8:** Scarcity and the value of capacity: Littlewood's rule
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture5.pdf)
+*   **Lecture 5 — Sept. 8:** Single ressource RM and rationing (and a quick DP primer)
+    * Lecture notes: [[Lec 5]](/docs/ORIE4154F26/files/ORIE4154_Lecture5.pdf)
     * Suggested Reading:
-        * T&vR, §§2.1–2.2 [[link]][T&vR]
+        * T&vR, §§2.1–2.2 [[T&vR]][T&vR]
 
 *   **Lecture 6 — Sept. 10:** Network revenue management: fluid LPs and bid prices
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf)
+    * Lecture notes: [[Lec 6]](/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf)
     * Suggested Reading:
-        * T&vR, Chs. 2–3 [[link]][T&vR]
-        * Vera–Banerjee [[link]][Bayesian Prophet]
+        * T&vR, Chs. 2–3 [[T&vR]][T&vR]
+        * Vera–Banerjee (2019) [[paper]][Bayesian Prophet]
 
 *   **Lecture 7 — Sept. 15:** From fluid predictions to confidence-aware decisions
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf)
+    * Lecture notes: [[Lec 7]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf)
     * Suggested Reading:
-        * T&vR, Chs. 2–3 [[link]][T&vR]
-        * Banerjee–Freund, §§1–3 [[link]][Good Prophets]
+        * T&vR, Chs. 2–3 [[T&vR]][T&vR]
+        * Banerjee–Freund (2025), §§1–3 [[paper]][Good Prophets]
 
 *   **Lecture 8 — Sept. 17:** Bayes Selector: predicting the clairvoyant
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf)
-    * Suggested Reading:
-        * Vera–Banerjee, §§3–4 [[link]][Bayesian Prophet]
-        * Banerjee–Freund, §§2–3 [[link]][Good Prophets]
+    * Lecture notes: [[Lec 8]](/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf)
 
-<!--
-PROMISING ARCHIVAL MATERIALS:
-- `Lecture2.pdf`, `Lecture3.pdf`, and `Lecture4.pdf` contain the core single-resource
-  model sequence but need refreshed examples and design.
-- `ProtectionLevelComputation.pdf` is a strong near-direct reuse candidate after
-  checking notation and accessibility; `ProtectionLevels.pdf` should be rebuilt.
-- `Lecture8.pdf`, `Lecture9.pdf`, `SingleResourceLPApprox.pdf`, `LPBasedBounds.pdf`,
-  and `NetworkRMApprox.pdf` contain useful network-RM and approximation material.
-- Confidence-aware allocation and the Bayes Selector require new or updated material.
--->
 
 ### Unit 3: Customer Choice and Assortment
 
@@ -268,7 +277,7 @@ PROMISING ARCHIVAL MATERIALS:
 <!--
     * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture18.pdf)
     * Suggested Reading:
-        * Vohra, §6.2.1 and §6.7.3 [[link]][Vohra]
+        * Vohra, §6.2.1 and §6.7.3 [[Vohra]][Vohra]
         * T&vR, §11.1 [[link]][T&vR]
 -->
 
@@ -396,28 +405,3 @@ PROMISING ARCHIVAL MATERIALS:
 -->
 
 Possible extensions, as time permits, include overbooking, finite-inventory dynamic pricing, proper scoring rules, censored-demand estimation, multi-parameter revenue maximization, and auction extensions.
-
-## References
-
-There is no required textbook. Our main references, available online through Cornell Library, are:
-
-- Rakesh Vohra and Lakshman Krishnamurthi, *[Principles of Pricing](https://catalog.library.cornell.edu/catalog/15183141)*.
-- Tim Roughgarden, *[Twenty Lectures on Algorithmic Game Theory](https://catalog.library.cornell.edu/catalog/15983282)*.
-- Kalyan Talluri and Garrett van Ryzin, *[The Theory and Practice of Revenue Management](https://catalog.library.cornell.edu/catalog/15564919)*.
-
-Selected course notes and papers will supplement these references, particularly for learning, online allocation, reputation, and matching.
-
-[Vohra]: https://catalog.library.cornell.edu/catalog/15183141
-[Roughgarden]: https://catalog.library.cornell.edu/catalog/15983282
-[T&vR]: https://catalog.library.cornell.edu/catalog/15564919
-[Slivkins]: https://arxiv.org/abs/1904.07272
-[Karlin–Peres]: https://homes.cs.washington.edu/~karlin/GameTheoryBook.pdf
-[Milgrom]: https://www.gsb.stanford.edu/faculty-research/books/putting-auction-theory-work
-[Naor]: https://doi.org/10.2307/1909200
-[Bayesian Prophet]: https://arxiv.org/abs/1901.05028
-[Good Prophets]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3479189
-[Spiral-Down]: https://pubsonline.informs.org/doi/abs/10.1287/opre.1060.0304
-[Bulow–Klemperer]: https://www.gsb.stanford.edu/faculty-research/publications/auctions-vs-negotiations
-[Roughgarden Multi-Parameter]: https://timroughgarden.org/w14/l/l38.pdf
-[Akerlof]: https://academic.oup.com/qje/article-abstract/84/3/488/1896241
-[Gale–Shapley]: https://www.tandfonline.com/doi/abs/10.1080/00029890.1962.11989827
