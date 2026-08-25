@@ -20,6 +20,12 @@
 - Treat generated-only whitespace as non-blocking unless it points to an underlying source/template problem.
 - In the final report, list the changed source files separately from generated `docs/` changes.
 
+### ORIE 4154 Fall 2026 lecture PDFs
+
+- Refresh the lecture PDFs with `./scripts/update-orie4154f26-lectures.sh`.
+- The script dynamically discovers and validates PDFs in the course-planning `Lecture*/` directories, rejects missing PDFs or duplicate destination filenames, copies changed PDFs, bumps `site_version`, runs Hugo, and verifies the generated copies.
+- Use this script rather than manually copying those lecture PDFs.
+
 ### Local preview
 
 - The normal local preview command is `hugo server --disableFastRender --i18n-warnings`.

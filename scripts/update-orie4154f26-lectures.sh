@@ -14,11 +14,46 @@ if [[ ! -d "$source_root" ]]; then
 fi
 
 shopt -s nullglob
+lecture_dirs=("$source_root"/Lecture*/)
 lecture_pdfs=("$source_root"/Lecture*/ORIE4154_Lecture*.pdf)
 shopt -u nullglob
 
+preflight_failed=false
+
+if [[ ${#lecture_dirs[@]} -eq 0 ]]; then
+  echo "No Lecture* directories found under: $source_root" >&2
+  preflight_failed=true
+fi
+
+for lecture_dir in "${lecture_dirs[@]}"; do
+  lecture_name=$(basename "${lecture_dir%/}")
+  expected_pdf="${lecture_dir}ORIE4154_${lecture_name}.pdf"
+  if [[ ! -f "$expected_pdf" ]]; then
+    echo "Missing expected lecture PDF: $expected_pdf" >&2
+    preflight_failed=true
+  fi
+done
+
 if [[ ${#lecture_pdfs[@]} -eq 0 ]]; then
   echo "No lecture PDFs found under: $source_root" >&2
+  preflight_failed=true
+fi
+
+destination_names=()
+for source_pdf in "${lecture_pdfs[@]}"; do
+  pdf_name=$(basename "$source_pdf")
+  for ((index=0; index<${#destination_names[@]}; index++)); do
+    if [[ "$pdf_name" == "${destination_names[index]}" ]]; then
+      echo "Duplicate destination filename discovered: $pdf_name" >&2
+      preflight_failed=true
+      break
+    fi
+  done
+  destination_names+=("$pdf_name")
+done
+
+if [[ "$preflight_failed" == true ]]; then
+  echo "Lecture PDF preflight failed; no files were changed." >&2
   exit 1
 fi
 
