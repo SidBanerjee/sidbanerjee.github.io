@@ -19,6 +19,8 @@
       <guid>https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/</guid>
       <description>
 
+&lt;p&gt;&lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_5154_syllabus_F26.pdf&#34;&gt;[Syllabus]&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
 
 &lt;p&gt;Every market must decide &lt;strong&gt;who gets what, and on what terms&lt;/strong&gt;. This course asks:&lt;/p&gt;
@@ -108,7 +110,7 @@ Assessment details and course policies will be posted in the syllabus.
 
 &lt;ul&gt;
 &lt;li&gt;Vohra, Ch. 1 and §§2.1–2.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[V&amp;amp;L]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;T&amp;amp;vR, §§1.1 and 1.3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;T&amp;amp;vR, §§1.1 and 1.3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;[T&amp;amp;vR]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Naor (1969) &lt;a href=&#34;https://doi.org/10.2307/1909200&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Queue Lab: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/queue-lab/&#34;&gt;[game]&lt;/a&gt; — an interactive pricing in queues simulator&lt;/li&gt;
@@ -122,7 +124,7 @@ Assessment details and course policies will be posted in the syllabus.
 
 &lt;ul&gt;
 &lt;li&gt;Vohra, §§4.1–4.2 and §§4.14.1–4.14.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[V&amp;amp;L]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;T&amp;amp;vR, selected parts of §§7.2–7.3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;T&amp;amp;vR, selected parts of §§7.2–7.3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;[T&amp;amp;vR]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
@@ -134,7 +136,7 @@ Assessment details and course policies will be posted in the syllabus.
 
 &lt;ul&gt;
 &lt;li&gt;Vohra, §§4.2–4.5 and §4.14.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[V&amp;amp;L]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Slivkins, Ch. 1 &lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;Slivkins&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slivkins, Ch. 1 &lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;[Slivkins]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
@@ -153,18 +155,21 @@ Assessment details and course policies will be posted in the syllabus.
 &lt;h3 id=&#34;unit-2-scarcity-scale-and-online-allocation&#34;&gt;Unit 2: Scarcity, Scale, and Online Allocation&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 5 — Sept. 8:&lt;/strong&gt; Single ressource RM and rationing (and a quick DP primer)&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 5 — Sept. 8:&lt;/strong&gt; Single ressource RM and rationing (and a quick DP primer)
+&amp;lt;!&amp;ndash;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture5.pdf&#34;&gt;[Lec 5]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
-&lt;li&gt;T&amp;amp;vR, §§2.1–2.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;T&amp;amp;vR, §§2.1–2.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;
+&amp;ndash;&amp;gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 6 — Sept. 10:&lt;/strong&gt; Network revenue management: fluid LPs and bid prices&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 6 — Sept. 10:&lt;/strong&gt; Network revenue management: fluid LPs and bid prices
+&amp;lt;!&amp;ndash;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf&#34;&gt;[Lec 6]&lt;/a&gt;&lt;/li&gt;
@@ -172,11 +177,13 @@ Assessment details and course policies will be posted in the syllabus.
 
 &lt;ul&gt;
 &lt;li&gt;T&amp;amp;vR, Chs. 2–3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Vera–Banerjee (2019) &lt;a href=&#34;https://arxiv.org/abs/1901.05028&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vera–Banerjee (2019) &lt;a href=&#34;https://arxiv.org/abs/1901.05028&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;
+&amp;ndash;&amp;gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 7 — Sept. 15:&lt;/strong&gt; From fluid predictions to confidence-aware decisions&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 7 — Sept. 15:&lt;/strong&gt; From fluid predictions to confidence-aware decisions
+&amp;lt;!&amp;ndash;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf&#34;&gt;[Lec 7]&lt;/a&gt;&lt;/li&gt;
@@ -184,14 +191,17 @@ Assessment details and course policies will be posted in the syllabus.
 
 &lt;ul&gt;
 &lt;li&gt;T&amp;amp;vR, Chs. 2–3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Banerjee–Freund (2025), §§1–3 &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3479189&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Banerjee–Freund (2025), §§1–3 &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3479189&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;
+&amp;ndash;&amp;gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 8 — Sept. 17:&lt;/strong&gt; Bayes Selector: predicting the clairvoyant&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 8 — Sept. 17:&lt;/strong&gt; Bayes Selector: predicting the clairvoyant
+&amp;lt;!&amp;ndash;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf&#34;&gt;[Lec 8]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf&#34;&gt;[Lec 8]&lt;/a&gt;
+&amp;ndash;&amp;gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

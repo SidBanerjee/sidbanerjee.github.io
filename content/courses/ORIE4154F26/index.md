@@ -27,6 +27,8 @@ image:
 ---
 
 
+[[Syllabus]](/docs/ORIE4154F26/files/ORIE4154_5154_syllabus_F26.pdf)
+
 ## Course Description
 
 Every market must decide **who gets what, and on what terms**. This course asks:
@@ -120,7 +122,7 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
     * Lecture notes: [[Lec 1]](/docs/ORIE4154F26/files/ORIE4154_Lecture1.pdf)
     * Suggested Reading:
         * Vohra, Ch. 1 and §§2.1–2.2 [[V&L]][Vohra]
-        * T&vR, §§1.1 and 1.3 [[T&vR]][T&vR]
+        * T&vR, §§1.1 and 1.3 [\[T&vR\]][T&vR]
         * Naor (1969) [[paper]][Naor]
     * Queue Lab: [[game]](/courses/orie4154f26/queue-lab/) — an interactive pricing in queues simulator
 
@@ -128,13 +130,13 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
     * Lecture notes: [[Lec 2]](/docs/ORIE4154F26/files/ORIE4154_Lecture2.pdf)
     * Suggested Reading:
         * Vohra, §§4.1–4.2 and §§4.14.1–4.14.2 [[V&L]][Vohra]
-        * T&vR, selected parts of §§7.2–7.3 [[T&vR]][T&vR]
+        * T&vR, selected parts of §§7.2–7.3 [\[T&vR\]][T&vR]
 
 *   **Lecture 3 — Sept. 1:** From optimal pricing to learning: markup, greedy failure, and regret
     * Lecture notes: [[Lec 3]](/docs/ORIE4154F26/files/ORIE4154_Lecture3.pdf)
     * Suggested Reading:
         * Vohra, §§4.2–4.5 and §4.14.2 [[V&L]][Vohra]
-        * Slivkins, Ch. 1 [[Slivkins]][Slivkins]
+        * Slivkins, Ch. 1 [\[Slivkins\]][Slivkins]
 
 *   **Lecture 4 — Sept. 3:** Learning to price: optimism under uncertainty and UCB
     * Lecture notes: [[Lec 4]](/docs/ORIE4154F26/files/ORIE4154_Lecture4.pdf)
@@ -145,24 +147,32 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
 ### Unit 2: Scarcity, Scale, and Online Allocation
 
 *   **Lecture 5 — Sept. 8:** Single ressource RM and rationing (and a quick DP primer)
+<!--
     * Lecture notes: [[Lec 5]](/docs/ORIE4154F26/files/ORIE4154_Lecture5.pdf)
     * Suggested Reading:
         * T&vR, §§2.1–2.2 [[T&vR]][T&vR]
+-->
 
 *   **Lecture 6 — Sept. 10:** Network revenue management: fluid LPs and bid prices
+<!--
     * Lecture notes: [[Lec 6]](/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf)
     * Suggested Reading:
         * T&vR, Chs. 2–3 [[T&vR]][T&vR]
         * Vera–Banerjee (2019) [[paper]][Bayesian Prophet]
+-->
 
 *   **Lecture 7 — Sept. 15:** From fluid predictions to confidence-aware decisions
+<!--
     * Lecture notes: [[Lec 7]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf)
     * Suggested Reading:
         * T&vR, Chs. 2–3 [[T&vR]][T&vR]
         * Banerjee–Freund (2025), §§1–3 [[paper]][Good Prophets]
+-->
 
 *   **Lecture 8 — Sept. 17:** Bayes Selector: predicting the clairvoyant
+<!--
     * Lecture notes: [[Lec 8]](/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf)
+-->
 
 
 ### Unit 3: Customer Choice and Assortment
