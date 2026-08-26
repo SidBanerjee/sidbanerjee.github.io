@@ -6,4 +6,5 @@ publication_types = ["1"]
 abstract = ""
 featured = false
 publication = "*48th Annual Allerton Conference on Communication, Control, and Computing (Allerton 2010)*"
+publication_short = "*Allerton '10*"
 +++

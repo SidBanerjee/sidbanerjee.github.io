@@ -6,4 +6,5 @@ publication_types = ["1"]
 abstract = ""
 featured = false
 publication = "*2014 IEEE Conference on Computer Communications (INFOCOM)*"
+publication_short = "*INFOCOM '14*"
 +++

@@ -6,4 +6,5 @@ publication_types = ["1"]
 abstract = ""
 featured = false
 publication = "*2013 IEEE Information Theory Workshop (ITW)*"
+publication_short = "*ITW '13*"
 +++

@@ -8,4 +8,5 @@ authors = ["admin", "Ramesh Johari", "Carlos Riquelme"]
 publication_types = ["1"]
 abstract = ""
 publication = "*2015 ACM Conference on Economics and Computation*"
+publication_short = "*EC '15*"
 +++
