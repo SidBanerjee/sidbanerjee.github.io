@@ -99,7 +99,7 @@ user_groups = []
 <blockquote class=quotation>
 For wisdom, nothing to do, <br>
 Other than know directly how things are.<br><br>
-<a href="http://unfetteredmind.org/the-six-perfections/">A Song on the Six Perfections</a>, Milarepa
+<a href="https://justdharma.org/song-on-the-six-perfections/">A Song on the Six Perfections</a>, Milarepa
 </blockquote>
 
 

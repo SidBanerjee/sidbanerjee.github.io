@@ -13,13 +13,13 @@
 	{{ $page.Content }}
 
     <div class="row comment">
-      <h5>Current PhD Advisees</h5>
+      <h5>Current Advisees</h5>
     </div>
 
 
       {{ with $page.Params.mygroup }}
         <br>
-        <ul class="ul-students">
+        <ul class="ul-students current-advisees">
           {{ range .students }}
             <li class="ul-students" title="{{ .name }}">
               <a href="{{ .website }}"><img class="studentpic" src="{{ $.Site.BaseURL }}img/students/{{ .photo }}"></a>

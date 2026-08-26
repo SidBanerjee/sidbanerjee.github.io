@@ -292,9 +292,20 @@ ul.ul-edu li .description p.institution {
 }
 
 .past-advisees .studentpic {
-  width: 120px;
+  width: 105px;
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .current-advisees .studentpic {
+    width: 90px;
+    max-width: 100%;
+  }
+
+  .past-advisees .studentpic {
+    width: 82px;
+  }
 }
 
 .other-student-collaborator {
