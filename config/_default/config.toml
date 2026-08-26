@@ -53,8 +53,15 @@ preserveTaxonomyNames = true
 
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS", "JSON" ]
+  home = [ "HTML", "CSS", "RSS", "JSON", "WebAppManifest" ]
   section = [ "HTML", "RSS" ]
+
+[mediaTypes."application/manifest+json"]
+  suffixes = ["webmanifest"]
+
+[outputFormats.WebAppManifest]
+  mediaType = "application/manifest+json"
+  rel = "manifest"
 
 
 [markup]
