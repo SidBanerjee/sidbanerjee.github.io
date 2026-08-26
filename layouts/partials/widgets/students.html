@@ -45,7 +45,7 @@
 
       {{ with $page.Params.mygroup }}
         <br>
-        <ul class="ul-students">
+        <ul class="ul-students past-advisees">
           {{ range .oldstudents }}
             <li class="ul-students" title="{{ .name }}">
               <a href="{{ .website }}"><img class="studentpic" src="{{ $.Site.BaseURL }}img/students/{{ .photo }}"></a>
@@ -68,13 +68,12 @@
 
 
     <div class="row comment">
-      <h5>Other Past Student Collaborators</h5>
+      <h5>Other Student Collaborators</h5>
     </div>
 
     {{ with $page.Params.mygroup }}
       {{ range .others }}
-        <br>
-        <div class="row comment">
+        <div class="row comment other-student-collaborator">
           <div class="col-xs-3">
             <a href="{{ .website }}" class=comment>
               {{ .name }}&nbsp;&nbsp;

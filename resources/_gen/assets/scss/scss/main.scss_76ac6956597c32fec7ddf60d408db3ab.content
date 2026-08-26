@@ -9397,6 +9397,14 @@ ul.ul-edu li .description p.institution {
   max-width: 75%;
   vertical-align: top; }
 
+.past-advisees .studentpic {
+  width: 120px;
+  max-width: 100%;
+  height: auto; }
+
+.other-student-collaborator {
+  margin-bottom: 0.5rem; }
+
 /* FOR CLASS LIST IN TEACHING */
 .teaching {
   /* font-family: 'Raleway', sans-serif; */
