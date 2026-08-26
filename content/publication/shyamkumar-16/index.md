@@ -15,7 +15,6 @@ url_pdf = "../../docs/Allerton_Sublinear.pdf"
 links= [{name="link",url="https://ieeexplore.ieee.org/abstract/document/7852323"}]
 
 
-publication = "*54th Annual Allerton Conference on Communication, Control, and Computing, 2016 *"
+publication = "*54th Annual Allerton Conference on Communication, Control, and Computing (Allerton 2016)*"
 publication_short= "Allerton '16"
 +++
-

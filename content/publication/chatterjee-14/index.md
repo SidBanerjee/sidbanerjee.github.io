@@ -5,6 +5,5 @@ authors = ["admin", " A.Chatterjee", "S. Shakkottai"]
 publication_types = ["1"]
 abstract = ""
 featured = false
-publication = "*INFOCOM '14*"
+publication = "*2014 IEEE Conference on Computer Communications (INFOCOM)*"
 +++
-

@@ -5,6 +5,5 @@ authors = ["P. Netrapalli", "admin", "S. Sanghavi", "S. Shakkottai"]
 publication_types = ["1"]
 abstract = ""
 featured = false
-publication = "*Proceedings of the 48th Allerton Conference*"
+publication = "*48th Annual Allerton Conference on Communication, Control, and Computing (Allerton 2010)*"
 +++
-

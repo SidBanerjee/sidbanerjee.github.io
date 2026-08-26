@@ -16,6 +16,6 @@ url_pdf = "https://ieeexplore.ieee.org/iel7/7027307/7039338/07039932.pdf?casa_to
 links= [{name="link",url="https://ieeexplore.ieee.org/abstract/document/7039932"}]
 
 
-publication = "*IEEE Conference on Decision and Control, 2014*"
+publication = "*53rd IEEE Conference on Decision and Control (CDC 2014)*"
 publication_short= "CDC '14"
 +++

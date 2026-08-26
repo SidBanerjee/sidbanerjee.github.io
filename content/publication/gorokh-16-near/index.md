@@ -8,7 +8,7 @@ date = 2016-12-01
 authors = ["Artur Gorokh", "admin", "Krishnamurthy Iyer"]
 publication_types = ["1"]
 
-publication = "*Proceedings of the 12th International Conference on Web and Internet Economics*"
+publication = "*12th International Conference on Web and Internet Economics (WINE 2016)*"
 publication_short= "*WINE '16*"
 
 abstract = "We study the design of mechanisms without money for repeated allocation of resources among competing agents. Such mechanisms are gaining widespread use in allocating physical and/or computing resources in universities and companies, and also distributing of public goods like vaccines among hospitals and food donations among food banks. We consider repeated allocation mechanisms based on artificial currencies, wherein we first allot each agent a chosen endowment of credits, which they can then use over time to bid for the item in a chosen auction format. Our main contribution is in showing that a simple mechanism, based on a repeated all-pay auction with personalized endowments and static pricing rules, simultaneously guarantees vanishing gains from non-truthful bidding as well as vanishing loss in efficiency. Our work lies at the intersection of dynamic mechanism design and mechanisms without money, and the techniques we develop here may prove of independent interest in these settings."

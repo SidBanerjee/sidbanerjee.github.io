@@ -5,6 +5,5 @@ authors = ["A. K. Das", "admin", "S. Vishwanath"]
 publication_types = ["1"]
 abstract = ""
 featured = false
-publication = "*IEEE Information Theory Workshop (ITW) 2013*"
+publication = "*2013 IEEE Information Theory Workshop (ITW)*"
 +++
-
