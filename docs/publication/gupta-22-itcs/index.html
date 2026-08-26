@@ -27,7 +27,9 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Consider an agent exploring an unknown graph in search of some goal state. As it walks around the graph, it learns the nodes and their neighbors. The agent only knows where the goal state is when it reaches it. How do we reach this goal while moving only a small distance? This problem seems hopeless, even on trees of bounded degree, unless we give the agent some help. This setting with &#39;&#39;help&#39;&#39; often arises in exploring large search spaces (e.g., huge game trees) where we assume access to some score/quality function for each node, which we use to guide us towards the goal. In our case, we assume the help comes in the form of distance predictions: each node $v$ provides a prediction $f(v)$ of its distance to the goal vertex. Naturally if these predictions are correct, we can reach the goal along a shortest path. What if the predictions are unreliable and some of them are erroneous? Can we get an algorithm whose performance relates to the error of the predictions?
+
+In this work, we consider the problem on trees and give deterministic algorithms whose total movement cost is only $O(OPT &#43; Δ\cdot ERR)$, where $OPT$ is the distance from the start to the goal vertex, $Δ$ the maximum degree, and the $ERR$ is the total number of vertices whose predictions are erroneous. We show this guarantee is optimal. We then consider a &#39;&#39;planning&#39;&#39; version of the problem where the graph and predictions are known at the beginning, so the agent can use this global information to devise a search strategy of low cost. For this planning version, we go beyond trees and give an algorithms which gets good performance on (weighted) graphs with bounded doubling dimension.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://sidbanerjee.orie.cornell.edu/publication/gupta-22-itcs/">
@@ -276,7 +278,9 @@
   <meta property="og:site_name" content="Sid Banerjee">
   <meta property="og:url" content="https://sidbanerjee.orie.cornell.edu/publication/gupta-22-itcs/">
   <meta property="og:title" content="Graph searching with predictions | Sid Banerjee">
-  <meta property="og:description" content=""><meta property="og:image" content="https://sidbanerjee.orie.cornell.edu/img/sid.jpg">
+  <meta property="og:description" content="Consider an agent exploring an unknown graph in search of some goal state. As it walks around the graph, it learns the nodes and their neighbors. The agent only knows where the goal state is when it reaches it. How do we reach this goal while moving only a small distance? This problem seems hopeless, even on trees of bounded degree, unless we give the agent some help. This setting with &#39;&#39;help&#39;&#39; often arises in exploring large search spaces (e.g., huge game trees) where we assume access to some score/quality function for each node, which we use to guide us towards the goal. In our case, we assume the help comes in the form of distance predictions: each node $v$ provides a prediction $f(v)$ of its distance to the goal vertex. Naturally if these predictions are correct, we can reach the goal along a shortest path. What if the predictions are unreliable and some of them are erroneous? Can we get an algorithm whose performance relates to the error of the predictions?
+
+In this work, we consider the problem on trees and give deterministic algorithms whose total movement cost is only $O(OPT &#43; Δ\cdot ERR)$, where $OPT$ is the distance from the start to the goal vertex, $Δ$ the maximum degree, and the $ERR$ is the total number of vertices whose predictions are erroneous. We show this guarantee is optimal. We then consider a &#39;&#39;planning&#39;&#39; version of the problem where the graph and predictions are known at the beginning, so the agent can use this global information to devise a search strategy of low cost. For this planning version, we go beyond trees and give an algorithms which gets good performance on (weighted) graphs with bounded doubling dimension."><meta property="og:image" content="https://sidbanerjee.orie.cornell.edu/img/sid.jpg">
   <meta property="twitter:image" content="https://sidbanerjee.orie.cornell.edu/img/sid.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -324,7 +328,7 @@
       "url": "https://sidbanerjee.orie.cornell.edu/images/icon_hu0a4abc24b746267d1c0a611494e730ff_74202_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "Consider an agent exploring an unknown graph in search of some goal state. As it walks around the graph, it learns the nodes and their neighbors. The agent only knows where the goal state is when it reaches it. How do we reach this goal while moving only a small distance? This problem seems hopeless, even on trees of bounded degree, unless we give the agent some help. This setting with ''help'' often arises in exploring large search spaces (e.g., huge game trees) where we assume access to some score/quality function for each node, which we use to guide us towards the goal. In our case, we assume the help comes in the form of distance predictions: each node $v$ provides a prediction $f(v)$ of its distance to the goal vertex. Naturally if these predictions are correct, we can reach the goal along a shortest path. What if the predictions are unreliable and some of them are erroneous? Can we get an algorithm whose performance relates to the error of the predictions?\n\nIn this work, we consider the problem on trees and give deterministic algorithms whose total movement cost is only $O(OPT + Δ\\cdot ERR)$, where $OPT$ is the distance from the start to the goal vertex, $Δ$ the maximum degree, and the $ERR$ is the total number of vertices whose predictions are erroneous. We show this guarantee is optimal. We then consider a ''planning'' version of the problem where the graph and predictions are known at the beginning, so the agent can use this global information to devise a search strategy of low cost. For this planning version, we go beyond trees and give an algorithms which gets good performance on (weighted) graphs with bounded doubling dimension."
 }
 </script>
 
@@ -747,6 +751,12 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract"><p>Consider an agent exploring an unknown graph in search of some goal state. As it walks around the graph, it learns the nodes and their neighbors. The agent only knows where the goal state is when it reaches it. How do we reach this goal while moving only a small distance? This problem seems hopeless, even on trees of bounded degree, unless we give the agent some help. This setting with &ldquo;help&rdquo; often arises in exploring large search spaces (e.g., huge game trees) where we assume access to some score/quality function for each node, which we use to guide us towards the goal. In our case, we assume the help comes in the form of distance predictions: each node $v$ provides a prediction $f(v)$ of its distance to the goal vertex. Naturally if these predictions are correct, we can reach the goal along a shortest path. What if the predictions are unreliable and some of them are erroneous? Can we get an algorithm whose performance relates to the error of the predictions?</p>
+
+<p>In this work, we consider the problem on trees and give deterministic algorithms whose total movement cost is only $O(OPT + Δ\cdot ERR)$, where $OPT$ is the distance from the start to the goal vertex, $Δ$ the maximum degree, and the $ERR$ is the total number of vertices whose predictions are erroneous. We show this guarantee is optimal. We then consider a &ldquo;planning&rdquo; version of the problem where the graph and predictions are known at the beginning, so the agent can use this global information to devise a search strategy of low cost. For this planning version, we go beyond trees and give an algorithms which gets good performance on (weighted) graphs with bounded doubling dimension.</p>
+</p>
     
 
     
