@@ -1,5 +1,5 @@
 +++
-tags = ["information structures"]
+tags = ["information structures", "market design"]
 featured = false
 
 

@@ -23,6 +23,16 @@
   </url>
   
   <url>
+    <loc>https://sidbanerjee.orie.cornell.edu/tags/fair-allocation/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidbanerjee.orie.cornell.edu/tags/online-decision-making/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sidbanerjee.orie.cornell.edu/publication/sinclair-26-or-perishable/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url>
@@ -38,7 +48,17 @@
   </url>
   
   <url>
+    <loc>https://sidbanerjee.orie.cornell.edu/tags/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sidbanerjee.orie.cornell.edu/publication/vera-25-correction/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidbanerjee.orie.cornell.edu/tags/market-design/</loc>
     <lastmod>2026-03-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,28 +78,8 @@
   </url>
   
   <url>
-    <loc>https://sidbanerjee.orie.cornell.edu/tags/fair-allocation/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sidbanerjee.orie.cornell.edu/tags/market-design/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sidbanerjee.orie.cornell.edu/publication/lin-25-itcs-subsidies/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sidbanerjee.orie.cornell.edu/tags/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sidbanerjee.orie.cornell.edu/tags/online-decision-making/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -118,6 +118,11 @@
   </url>
   
   <url>
+    <loc>https://sidbanerjee.orie.cornell.edu/tags/information-structures/</loc>
+    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sidbanerjee.orie.cornell.edu/publication/shen-25-disclosure/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url>
@@ -135,6 +140,11 @@
   <url>
     <loc>https://sidbanerjee.orie.cornell.edu/publication/hssaine-24-lexicographic/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidbanerjee.orie.cornell.edu/tags/network-science/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -158,7 +168,17 @@
   </url>
   
   <url>
+    <loc>https://sidbanerjee.orie.cornell.edu/tags/transportation-systems/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-or-adaptive/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidbanerjee.orie.cornell.edu/tags/reinforcement-learning/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -189,6 +209,11 @@
   
   <url>
     <loc>https://sidbanerjee.orie.cornell.edu/publication/gupta-22-itcs/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidbanerjee.orie.cornell.edu/tags/large-scale-algorithms/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -253,11 +278,6 @@
   </url>
   
   <url>
-    <loc>https://sidbanerjee.orie.cornell.edu/tags/information-structures/</loc>
-    <lastmod>2021-07-01T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sidbanerjee.orie.cornell.edu/publication/kempe-21-testing/</loc>
     <lastmod>2021-07-01T00:00:00-04:00</lastmod>
   </url>
@@ -270,11 +290,6 @@
   <url>
     <loc>https://sidbanerjee.orie.cornell.edu/publication/freund-21/</loc>
     <lastmod>2021-04-01T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sidbanerjee.orie.cornell.edu/tags/large-scale-algorithms/</loc>
-    <lastmod>2021-03-01T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -324,11 +339,6 @@
   
   <url>
     <loc>https://sidbanerjee.orie.cornell.edu/publication/alijani-20-sigmetrics/</loc>
-    <lastmod>2020-05-27T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sidbanerjee.orie.cornell.edu/tags/reinforcement-learning/</loc>
     <lastmod>2020-05-27T00:00:00-04:00</lastmod>
   </url>
   
@@ -540,6 +550,11 @@
   <url>
     <loc>https://sidbanerjee.orie.cornell.edu/publication/chatterjee-14/</loc>
     <lastmod>2014-01-01T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidbanerjee.orie.cornell.edu/tags/communication-networks/</loc>
+    <lastmod>2013-01-01T00:00:00-05:00</lastmod>
   </url>
   
   <url>

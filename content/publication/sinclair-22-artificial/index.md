@@ -1,4 +1,5 @@
 ---
+tags: ["online decision-making", "reinforcement learning"]
 title: "Artificial replay: a meta-algorithm for harnessing historical data in bandits"
 authors:
 - Siddhartha Banerjee

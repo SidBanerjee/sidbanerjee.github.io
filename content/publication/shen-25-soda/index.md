@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "information structures"]
 title: "Majorized Bayesian Persuasion and Fair Selection"
 authors:
 - Siddhartha Banerjee

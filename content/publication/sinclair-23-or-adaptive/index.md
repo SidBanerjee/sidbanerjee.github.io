@@ -1,4 +1,5 @@
 ---
+tags: ["online decision-making", "reinforcement learning"]
 title: "Adaptive discretization in online reinforcement learning"
 authors:
 - Sean R. Sinclair

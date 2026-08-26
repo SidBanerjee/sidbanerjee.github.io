@@ -1,6 +1,6 @@
 +++
 
-tags = ["online decision-making"]
+tags = ["online decision-making", "market design"]
 featured = false
 
 title = "Online Allocation and Pricing: Constant Regret via Bellman Inequalities"

@@ -1,4 +1,5 @@
 ---
+tags: ["market design"]
 title: "Price Competition Under A Consider-Then-Choose Model With Lexicographic Choice"
 authors:
 - Siddhartha Banerjee

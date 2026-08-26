@@ -1,4 +1,5 @@
 +++
+tags = ["market design"]
 title = "When Bribes are Harmless: The Power and Limits of Collusion-Resilient Mechanism Design"
 date = 2018-05-01
 authors = ["Artur Gorokh", "admin", "Krishnamurthy Iyer"]

@@ -1,6 +1,6 @@
 +++
 
-tags = ["market design","fair allocation"]
+tags = ["market design", "fair allocation", "online decision-making"]
 featured = false
 
 title = "From Monetary to Non-Monetary Mechanism Design via Artificial Currencies"

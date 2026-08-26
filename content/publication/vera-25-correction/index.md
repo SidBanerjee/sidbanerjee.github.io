@@ -1,4 +1,5 @@
 ---
+tags: ["market design", "online decision-making"]
 title: "Erratum to “Online Allocation and Pricing: Constant Regret via Bellman Inequalities”"
 authors:
 - Alberto Vera

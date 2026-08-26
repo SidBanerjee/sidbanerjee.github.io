@@ -5,7 +5,7 @@
     <link>https://sidbanerjee.orie.cornell.edu/tags/reinforcement-learning/</link>
       <atom:link href="https://sidbanerjee.orie.cornell.edu/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>reinforcement learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Wed, 27 May 2020 00:00:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sidbanerjee.orie.cornell.edu/img/sid.jpg</url>
       <title>reinforcement learning</title>
@@ -13,11 +13,52 @@
     </image>
     
     <item>
+      <title>Adaptive discretization in online reinforcement learning</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-or-adaptive/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-or-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial replay: a meta-algorithm for harnessing historical data in bandits</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-22-artificial/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-22-artificial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ORSuite: Benchmarking suite for sequential operations models</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/archer-22-orsuite/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/archer-22-orsuite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Discretization for Model-Based Reinforcement Learning</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-20-neurips/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-20-neurips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Adaptive Discretization for Episodic Reinforcement Learning in Metric Spaces</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-20-sigmetrics/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-20-sigmetrics/</guid>
       <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/publication/sinclair-19-pomacs/&#34;&gt;Sinclair et al. (2020)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive Discretization for Episodic Reinforcement Learning in Metric Spaces</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-19-pomacs/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-19-pomacs/</guid>
+      <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/publication/sinclair-20-sigmetrics/&#34;&gt;Sinclair et al. (2020)&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,4 +1,5 @@
 ---
+tags: ["large-scale algorithms", "online decision-making"]
 title: "Graph searching with predictions"
 authors:
 - Siddhartha Banerjee

@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "market design"]
 title: "Allocating with priorities and quotas: Algorithms, complexity, and dynamics"
 authors:
 - Siddhartha Banerjee

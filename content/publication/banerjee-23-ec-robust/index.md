@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "market design", "online decision-making"]
 title: "Robust pseudo-markets for reusable public resources"
 authors:
 - Siddhartha Banerjee

@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "market design", "online decision-making"]
 title: "Online Resource Sharing: Better Robust Guarantees via Randomized Strategies"
 authors:
 - David X. Lin

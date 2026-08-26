@@ -1,5 +1,5 @@
 +++
-tags = ["online decision-making"]
+tags = ["network science"]
 featured = false
 
 title = "Epidemic Spreading With External Agents"

@@ -1,6 +1,6 @@
 +++
 
-tags = ["large-scale algorithms"]
+tags = ["large-scale algorithms", "network science"]
 featured = false
 
 

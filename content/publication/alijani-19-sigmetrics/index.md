@@ -1,4 +1,5 @@
 +++
+tags = ["market design", "online decision-making"]
 featured = false
 
 title = "The Segmentation-Thickness Tradeoff in Online Marketplaces"

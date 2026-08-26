@@ -1,5 +1,5 @@
 +++
-tags = ["online decision-making"]
+tags = ["online decision-making", "communication networks"]
 featured = true
 
 title = "Towards a queueing-based framework for in-network function computation"

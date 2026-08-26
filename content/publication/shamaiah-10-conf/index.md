@@ -1,5 +1,5 @@
 +++
-tags = ["online decision-making"]
+tags = ["communication networks"]
 featured = true
 
 title = "Greedy Sensor Selection: Leveraging Submodularity"

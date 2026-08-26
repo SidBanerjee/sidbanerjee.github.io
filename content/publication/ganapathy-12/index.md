@@ -1,4 +1,5 @@
 +++
+tags = ["communication networks"]
 title = "Feedback Allocation for OFDMA Systems With Slow Frequency-Domain Scheduling"
 date = 2012-01-01
 authors = ["H. Ganapathy", "admin", "N. B. Dimitrov", "C. Caramanis"]

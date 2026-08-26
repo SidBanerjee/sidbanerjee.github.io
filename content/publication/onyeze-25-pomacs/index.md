@@ -15,13 +15,12 @@ commons' outcome, the robust policies require that an agent defend against arbit
 Our work aims to bridge this gap by studying the existence and properties of equilibria under DMMF. To this end, we first show that despite the strong robustness guarantees of the threshold based strategies, no Nash equilibrium exists when agents participate in DMMF, each using some fixed threshold-based policy. On the positive side, however, we show that for the symmetric case, a simple data-driven request policy guarantees that no agent benefits from deviating to a different fixed threshold policy. In our proposed policy agents aim to match the historical allocation rate with a vanishing drift towards the rate optimizing overall welfare for all users. Furthermore, the resulting equilibrium outcome can be significantly better compared to what follows from the robustness guarantees."
 
 featured: false
-tags: ["market-design","fair-allocation"]
 
+tags: ["market design", "fair allocation", "online decision-making"]
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2501.14916
 url_pdf: https://arxiv.org/pdf/2501.14916.pdf
 
-tags: ["market-design","fair-allocation"]
 
 ---

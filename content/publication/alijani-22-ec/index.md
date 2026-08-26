@@ -1,4 +1,5 @@
 ---
+tags: ["information structures", "market design"]
 title: "The limits of an information intermediary in auction design"
 authors:
 - Reza Alijani

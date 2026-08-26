@@ -1,6 +1,6 @@
 +++
 
-tags = ["online decision-making"]
+tags = ["online decision-making", "reinforcement learning"]
 featured = true
 
 title = "Adaptive Discretization for Episodic Reinforcement Learning in Metric Spaces"

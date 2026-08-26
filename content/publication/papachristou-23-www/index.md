@@ -1,4 +1,5 @@
 ---
+tags: ["online decision-making", "network science"]
 title: "Dynamic interventions for networked contagions"
 authors:
 - Marios Papachristou

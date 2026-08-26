@@ -21,6 +21,6 @@ links:
 url_pdf: https://arxiv.org/pdf/2508.21753.pdf
 
 featured: true
-tags: ["online-decision-making","fair-allocation"]
 
+tags: ["online decision-making", "fair allocation"]
 ---

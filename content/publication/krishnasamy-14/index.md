@@ -1,5 +1,5 @@
 +++
-tags = ["online decision-making"]
+tags = ["network science"]
 featured = false
 
 title = "The behavior of epidemics under bounded susceptibility"

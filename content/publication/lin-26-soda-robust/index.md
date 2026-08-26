@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "market design", "online decision-making"]
 title: "Robust equilibria in shared resource allocation via strengthening Border's theorem"
 authors:
 - David X. Lin

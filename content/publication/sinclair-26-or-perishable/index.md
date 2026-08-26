@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "online decision-making"]
 title: "Online Fair Allocation of Perishable Resources"
 authors:
 - Siddhartha Banerjee

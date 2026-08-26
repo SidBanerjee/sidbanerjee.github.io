@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>transportation systems | Sid Banerjee</title>
+    <link>https://sidbanerjee.orie.cornell.edu/tags/transportation-systems/</link>
+      <atom:link href="https://sidbanerjee.orie.cornell.edu/tags/transportation-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>transportation systems</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sidbanerjee.orie.cornell.edu/img/sid.jpg</url>
+      <title>transportation systems</title>
+      <link>https://sidbanerjee.orie.cornell.edu/tags/transportation-systems/</link>
+    </image>
+    
+    <item>
+      <title>Plan your system and price for free: Fast algorithms for multimodal transit operations</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/samaranayake-25-ts/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/samaranayake-25-ts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing constrained shortest-paths at scale</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/vera-22-or/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/vera-22-or/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pricing and Optimization in Shared Vehicle Systems: An Approximation Framework</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/freund-21/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/freund-21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-Time Approximate Routing for Smart Transit Systems</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/perivier-21-pomacs/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/perivier-21-pomacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-Time Approximate Routing for Smart Transit Systems</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/perivier-21-sigmetrics/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/perivier-21-sigmetrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing Constrained Shortest-Paths at Scale</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/vera-18/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/vera-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Assignment Control of a Closed Queueing Network under Complete Resource Pooling</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/qian-20/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/qian-20/</guid>
+      <description>&lt;p&gt;Earlier conference version: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/publication/qian-17-conf/&#34;&gt;Banerjee et al. (2018)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ride Sharing</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/ridesharechapter-19/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/ridesharechapter-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State Dependent Control of Closed Queueing Networks</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/qian-17-conf/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/qian-17-conf/</guid>
+      <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/publication/qian-20/&#34;&gt;Banerjee et al. (2020)&lt;/a&gt; (under submission).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Price of Fragmentation in Mobility-on-Demand Services</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sejourne-17-conf/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sejourne-17-conf/</guid>
+      <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/publication/sejourne-17/&#34;&gt;Sejourne et al. (2018)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Price of Fragmentation in Mobility-on-Demand Services</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sejourne-17/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sejourne-17/</guid>
+      <description>&lt;p&gt;Journal version of &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/publication/sejourne-17-conf/&#34;&gt;Sejourne et al. (2018)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pricing and Optimization in Shared Vehicle Systems: An Approximation Framework</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/freund-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/freund-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pricing in Ride-Sharing Platforms: A Queueing-Theoretic Approach</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/riquelme-16/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/riquelme-16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

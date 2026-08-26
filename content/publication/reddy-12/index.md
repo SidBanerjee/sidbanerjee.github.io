@@ -1,5 +1,5 @@
 +++
-tags = ["online decision-making"]
+tags = ["online decision-making", "communication networks"]
 featured = true
 
 title = "On distributed scheduling with heterogeneously delayed network-state information"

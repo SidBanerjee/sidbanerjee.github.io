@@ -5,12 +5,44 @@
     <link>https://sidbanerjee.orie.cornell.edu/tags/information-structures/</link>
       <atom:link href="https://sidbanerjee.orie.cornell.edu/tags/information-structures/index.xml" rel="self" type="application/rss+xml" />
     <description>information structures</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Thu, 01 Jul 2021 00:00:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sidbanerjee.orie.cornell.edu/img/sid.jpg</url>
       <title>information structures</title>
       <link>https://sidbanerjee.orie.cornell.edu/tags/information-structures/</link>
     </image>
+    
+    <item>
+      <title>The Price of Competitive Information Disclosure</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/shen-25-disclosure/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/shen-25-disclosure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Majorized Bayesian Persuasion and Fair Selection</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/shen-25-soda/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/shen-25-soda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair price discrimination</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/shen-24-soda/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/shen-24-soda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The limits of an information intermediary in auction design</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/alijani-22-ec/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/alijani-22-ec/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Threshold Tests as Quality Signals: Optimal Strategies, Equilibria, and Price of Anarchy</title>

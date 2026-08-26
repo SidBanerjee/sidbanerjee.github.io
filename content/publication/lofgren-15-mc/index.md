@@ -1,5 +1,5 @@
 +++
-tags = ["online decision-making"]
+tags = ["large-scale algorithms", "network science"]
 featured = true
 
 title = "Fast Bidirectional Probability Estimation in Markov Models"

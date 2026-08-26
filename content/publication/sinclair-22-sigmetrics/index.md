@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "online decision-making"]
 title: "Sequential fair allocation: Achieving the optimal envy-efficiency tradeoff curve"
 authors:
 - Sean R. Sinclair

@@ -1,4 +1,5 @@
 ---
+tags: ["information structures", "market design"]
 title: "The Price of Competitive Information Disclosure"
 authors:
 - Siddhartha Banerjee

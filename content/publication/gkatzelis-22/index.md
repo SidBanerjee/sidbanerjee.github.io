@@ -1,6 +1,6 @@
 +++
 
-tags = ["market design","fair allocation"]
+tags = ["market design", "fair allocation", "online decision-making"]
 featured = false
 
 title = "Online Nash Social Welfare with Predictions"

@@ -1,5 +1,5 @@
 +++
-tags = ["market-design"]
+tags = ["market design", "online decision-making"]
 featured = false
 
 title = "The Importance of Exploration in Online Marketplaces"

@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "online decision-making"]
 title: "Proportionally fair online allocation of public goods with predictions"
 authors:
 - Siddhartha Banerjee

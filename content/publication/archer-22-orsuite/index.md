@@ -1,4 +1,5 @@
 ---
+tags: ["online decision-making", "reinforcement learning"]
 title: "ORSuite: Benchmarking suite for sequential operations models"
 authors:
 - Christopher Archer

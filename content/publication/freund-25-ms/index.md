@@ -1,4 +1,5 @@
 ---
+tags: ["online decision-making"]
 title: "Good prophets know when the end is near"
 authors:
 - Siddhartha Banerjee

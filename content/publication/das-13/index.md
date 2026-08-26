@@ -1,4 +1,5 @@
 +++
+tags = ["large-scale algorithms", "communication networks"]
 title = "Linear network coding for multiple groupcast sessions: An interference alignment approach"
 date = 2013-01-01
 authors = ["A. K. Das", "admin", "S. Vishwanath"]

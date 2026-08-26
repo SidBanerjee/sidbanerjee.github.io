@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "market design", "online decision-making"]
 title: "Dynamic Allocation of Public Goods with Approximate Core Equilibria"
 authors:
 - Chido Onyeze

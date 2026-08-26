@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "online decision-making"]
 title: "Water-Filling is Universally Minimax Optimal"
 authors:
 - Siddhartha Banerjee

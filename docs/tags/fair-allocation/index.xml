@@ -5,7 +5,7 @@
     <link>https://sidbanerjee.orie.cornell.edu/tags/fair-allocation/</link>
       <atom:link href="https://sidbanerjee.orie.cornell.edu/tags/fair-allocation/index.xml" rel="self" type="application/rss+xml" />
     <description>fair allocation</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sidbanerjee.orie.cornell.edu/img/sid.jpg</url>
       <title>fair allocation</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>Online Fair Allocation of Perishable Resources</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-26-or-perishable/</link>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-26-or-perishable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Water-Filling is Universally Minimax Optimal</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/banerjee-26-water-filling/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/banerjee-26-water-filling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Robust Resource Allocation via Competitive Subsidies</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication/lin-25-itcs-subsidies/</link>
       <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://sidbanerjee.orie.cornell.edu/publication/lin-25-itcs-subsidies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust equilibria in shared resource allocation via strengthening Border&#39;s theorem</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/lin-26-soda-robust/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/lin-26-soda-robust/</guid>
       <description></description>
     </item>
     
@@ -29,10 +53,106 @@
     </item>
     
     <item>
+      <title>Dynamic Allocation of Public Goods with Approximate Core Equilibria</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-core/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Resource Sharing: Better Robust Guarantees via Randomized Strategies</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/lin-25-ijcai/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/lin-25-ijcai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-pomacs/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-pomacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Majorized Bayesian Persuasion and Fair Selection</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/shen-25-soda/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/shen-25-soda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair price discrimination</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/shen-24-soda/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/shen-24-soda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequential Fair Allocation: Achieving the Optimal Envy-Efficiency Trade-off Curve</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-or-sequential/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-or-sequential/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Allocating with priorities and quotas: Algorithms, complexity, and dynamics</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/eichhorn-23-ec/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/eichhorn-23-ec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online fair allocation of perishable resources</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-sigmetrics-perishable/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-23-sigmetrics-perishable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust pseudo-markets for reusable public resources</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/banerjee-23-ec-robust/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/banerjee-23-ec-robust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proportionally fair online allocation of public goods with predictions</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/hossain-22-ijcai/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/hossain-22-ijcai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequential fair allocation: Achieving the optimal envy-efficiency tradeoff curve</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/sinclair-22-sigmetrics/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/sinclair-22-sigmetrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair and efficient allocation with quotas</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/eichhorn-22-quotas/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/eichhorn-22-quotas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online nash social welfare maximization with predictions</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/gkatzelis-22-soda/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/gkatzelis-22-soda/</guid>
       <description></description>
     </item>
     
@@ -61,14 +181,6 @@
       <guid>https://sidbanerjee.orie.cornell.edu/publication/gorokh-20/</guid>
       <description>&lt;p&gt;Combines results from &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/publication/gorokh-17-monetary/&#34;&gt;Gorokh et al. (2017)&lt;/a&gt; and &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/publication/gorokh-17-monetary/&#34;&gt;Gorokh et al. (2017)&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Segmenting Two-Sided Markets</title>
-      <link>https://sidbanerjee.orie.cornell.edu/publication/munagala-17/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 -0400</pubDate>
-      <guid>https://sidbanerjee.orie.cornell.edu/publication/munagala-17/</guid>
-      <description></description>
     </item>
     
     <item>

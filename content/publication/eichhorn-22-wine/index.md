@@ -1,4 +1,5 @@
 ---
+tags: ["market design", "online decision-making"]
 title: "Online team formation under different synergies"
 authors:
 - Matthew Eichhorn

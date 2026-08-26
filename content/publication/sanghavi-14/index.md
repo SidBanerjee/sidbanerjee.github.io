@@ -1,5 +1,5 @@
 +++
-tags = ["online decision-making"]
+tags = ["online decision-making", "network science"]
 featured = true
 
 title = "Online Collaborative-Filtering on Graphs"

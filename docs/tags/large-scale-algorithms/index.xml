@@ -5,12 +5,28 @@
     <link>https://sidbanerjee.orie.cornell.edu/tags/large-scale-algorithms/</link>
       <atom:link href="https://sidbanerjee.orie.cornell.edu/tags/large-scale-algorithms/index.xml" rel="self" type="application/rss+xml" />
     <description>large-scale algorithms</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Mon, 01 Mar 2021 00:00:00 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© [Sid Banerjee](mailto:sbanerjee@cornell.edu) 2020&amp;ensp;&amp;ensp;&amp;middot; &amp;ensp;&amp;ensp;&amp;ensp;229 Rhodes Hall &amp;ensp;&amp;ensp; </copyright><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sidbanerjee.orie.cornell.edu/img/sid.jpg</url>
       <title>large-scale algorithms</title>
       <link>https://sidbanerjee.orie.cornell.edu/tags/large-scale-algorithms/</link>
     </image>
+    
+    <item>
+      <title>Graph searching with predictions</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/gupta-22-itcs/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/gupta-22-itcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing constrained shortest-paths at scale</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/vera-22-or/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/vera-22-or/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Real-Time Approximate Routing for Smart Transit Systems</title>
@@ -57,6 +73,38 @@
       <link>https://sidbanerjee.orie.cornell.edu/publication/lofgren-16-worstcase/</link>
       <pubDate>Tue, 30 Jun 2015 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.orie.cornell.edu/publication/lofgren-16-worstcase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Bidirectional Probability Estimation in Markov Models</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/lofgren-15-mc/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/lofgren-15-mc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAST-PPR: scaling personalized pagerank estimation for large graphs</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/lofgren-14-ppr/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0400</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/lofgren-14-ppr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linear network coding for multiple groupcast sessions: An interference alignment approach</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/das-13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/das-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greedy learning of Markov network structure</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/netrapalli-10/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 -0500</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/netrapalli-10/</guid>
       <description></description>
     </item>
     

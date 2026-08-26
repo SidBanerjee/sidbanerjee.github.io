@@ -1,5 +1,5 @@
 +++
-tags = ["online decision-making"]
+tags = ["online decision-making", "market design", "transportation systems"]
 featured = false
 
 title = "Pricing in Ride-Sharing Platforms: A Queueing-Theoretic Approach"

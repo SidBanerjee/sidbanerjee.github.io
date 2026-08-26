@@ -1,4 +1,5 @@
 +++
+tags = ["network science"]
 title = "Epidemic thresholds with external agents"
 date = 2014-01-01
 authors = ["admin", " A.Chatterjee", "S. Shakkottai"]

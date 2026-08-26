@@ -1,5 +1,5 @@
 +++
-tags = ["market-design","information structures"]
+tags = ["market design", "information structures"]
 featured = false
 title = "Re-incentivizing discovery: Mechanisms for partial-progress sharing in research"
 date = 2014-07-01

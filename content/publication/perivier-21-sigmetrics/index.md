@@ -1,5 +1,5 @@
 +++
-tags = ["large-scale-algorithms"]
+tags = ["large-scale algorithms", "online decision-making", "transportation systems"]
 featured = false
 
 title = "Real-Time Approximate Routing for Smart Transit Systems"

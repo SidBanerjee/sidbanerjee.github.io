@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "market design", "online decision-making"]
 title: "Online nash social welfare maximization with predictions"
 authors:
 - Siddhartha Banerjee

@@ -1,6 +1,6 @@
 +++
 
-tags = ["market design","fair allocation"]
+tags = ["market design"]
 featured = true
 
 title = "Segmenting Two-Sided Markets"

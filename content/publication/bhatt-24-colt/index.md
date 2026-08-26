@@ -1,4 +1,5 @@
 ---
+tags: ["online decision-making"]
 title: "The SMART approach to instance-optimal online learning"
 authors:
 - Siddhartha Banerjee

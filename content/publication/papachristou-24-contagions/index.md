@@ -1,4 +1,5 @@
 ---
+tags: ["network science"]
 title: "Optimal resource allocation for remediating networked contagions"
 authors:
 - Marios Papachristou

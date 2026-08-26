@@ -1,4 +1,5 @@
 +++
+tags = ["market design"]
 title = "Pseudo-Competitive Games and Algorithmic Price Competition"
 date = 2021-09-01
 authors = ["Chamsi Hssaine","admin","Vijay Kamble"]

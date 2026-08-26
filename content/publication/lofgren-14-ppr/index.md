@@ -1,5 +1,5 @@
 +++
-tags = ["online decision-making"]
+tags = ["large-scale algorithms", "network science"]
 featured = false
 
 title = "FAST-PPR: scaling personalized pagerank estimation for large graphs"

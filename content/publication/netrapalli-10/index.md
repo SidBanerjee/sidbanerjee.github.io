@@ -1,4 +1,5 @@
 +++
+tags = ["large-scale algorithms", "network science"]
 title = "Greedy learning of Markov network structure"
 date = 2010-01-01
 authors = ["P. Netrapalli", "admin", "S. Sanghavi", "S. Shakkottai"]

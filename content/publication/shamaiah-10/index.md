@@ -1,5 +1,5 @@
 +++
-tags = ["online decision-making"]
+tags = ["online decision-making", "communication networks"]
 featured = true
 
 title = "Greedy Sensor Selection under Channel Uncertainty"

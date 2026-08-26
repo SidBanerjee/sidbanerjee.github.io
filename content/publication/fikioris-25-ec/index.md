@@ -1,4 +1,5 @@
 ---
+tags: ["online decision-making"]
 title: "Beyond Worst-Case Online Allocation via Dynamic Max-min Fairness"
 authors:
 - Giannis Fikioris

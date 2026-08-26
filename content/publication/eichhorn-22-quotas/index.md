@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "market design"]
 title: "Fair and efficient allocation with quotas"
 authors:
 - Siddhartha Banerjee

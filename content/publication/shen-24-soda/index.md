@@ -1,4 +1,5 @@
 ---
+tags: ["fair allocation", "information structures", "market design"]
 title: "Fair price discrimination"
 authors:
 - Siddhartha Banerjee

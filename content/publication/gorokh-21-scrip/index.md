@@ -1,5 +1,5 @@
 +++
-tags = ["market design","fair allocation"]
+tags = ["market design", "fair allocation", "online decision-making"]
 title = "The Remarkable Robustness of the Repeated Fisher Market"
 featured = true
 

@@ -19,5 +19,5 @@ links:
 url_pdf: https://arxiv.org/pdf/2511.09934.pdf
 
 featured: false
-tags: ["market-design","fair-allocation"]
+tags: ["market design", "fair allocation", "online decision-making"]
 ---
