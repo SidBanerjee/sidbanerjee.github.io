@@ -3,7 +3,7 @@
 tags = ["market design", "fair allocation", "online decision-making"]
 featured = false
 
-title = "Online Nash Social Welfare with Predictions"
+title = "Online Nash Social Welfare Maximization with Predictions"
 date = 2021-10-03
 authors = ["admin", "Vasilis Gkatzelis", "Artur Gorokh", "Billy Jin"]
 publication_types = ["1"]
