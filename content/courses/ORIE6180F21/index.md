@@ -50,7 +50,7 @@ Our approach will be primarily theoretical, focusing on mathematical techniques 
 
 - **Instructor**: [Sid Banerjee](http://people.orie.cornell.edu/sbanerjee), 229 Rhodes Hall, [email](mailto:sbanerjee@cornell.edu)
 
-- **Piazza Link** [ORIE 6180 Fall 21](piazza.com/cornell/fall2021/orie6180) (Please join even if you are not registered, but plan on auditing)
+- **Piazza Link** [ORIE 6180 Fall 21](https://piazza.com/cornell/fall2021/orie6180) (Please join even if you are not registered, but plan on auditing)
 
 ## References
 

@@ -112,6 +112,6 @@ I work on topics at the intersection of data-driven decision-making and stochast
 * Equity and fairness in decision-making [[seminar]](https://vod.video.cornell.edu/media/3.12.21+Sid+Banerjee%2C+Cornell+University/1_clje1p9x)
 * Stochastic coupling techniques in control (tutorial: [[part 1]](https://www.youtube.com/watch?v=3GB7I6-lym8), [[part 2]](https://www.youtube.com/watch?v=7Kbr2N49-Bo))
 
-I was a technical consultant at [Lyft](http://lyft.com/) in 2014-18, where I helped develop and implement Lyft's primetime pricing; the following [tutorial](https://simons.berkeley.edu/talks/banerjee-ridesharing) and [book chapter](publication/ridesharechapter-19) give an overview of my work on ridesharing platforms. 
+I was a technical consultant at [Lyft](http://lyft.com/) in 2014-18, where I helped develop and implement Lyft's primetime pricing; the following [tutorial](https://simons.berkeley.edu/talks/banerjee-ridesharing) and [book chapter](/publication/ridesharechapter-19/) give an overview of my work on ridesharing platforms.
 
 {{< current_teaching >}}

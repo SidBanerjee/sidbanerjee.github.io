@@ -106,13 +106,13 @@ Note though that since the course will discuss mostly active research, with read
     *   **Lecture 12**: Posted prices vs. auctions on eBay [[Scribe notes]](../../docs/ORIE6180/files/Scribe_Notes_12.pdf) [[Sales Mechanisms in Online Markets]](http://www.nber.org/papers/w19021)
     *   **Lecture 13**: Randomization as a tool for price discrimination in ad auctions [[Scribe notes]](../../docs/ORIE6180/files/Scribe_Notes_13.pdf) [[Celis et al.]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1958032)
     *   **Lecture 14**: Mechanism design for many-to-many matching marketplaces [[Gomes-Pavan]](http://www.econstor.eu/handle/10419/119416)
-    *   **Lecture 15**: Dynamic pricing in rideshare platforms [[Slides]](RidesharePricing_RJSlides.pdf) [[Banerjee et al.]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2568258)
+    *   **Lecture 15**: Dynamic pricing in rideshare platforms [[Slides]](/docs/ORIE6180/files/RidesharePricing_RJSlides.pdf) [[Banerjee et al.]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2568258)
 
     **Search and Recommendation**  
 
     *   **Lectures 16**: Information disclosure and matching [[Tadelis-Zetterlmeyer]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1872465)
     *   **Lectures 17**: Restricted access and the choice-competition tradeoff [[Halaburda et al.]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1610187)  
-    *   **Lecture 18**: Congestion in matching markets [[Slides]](Congestion_RJSlides.pdf) [[Arnosti et al.]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2427960)  
+    *   **Lecture 18**: Congestion in matching markets [[Slides]](/docs/ORIE6180/files/Congestion_RJSlides.pdf) [[Arnosti et al.]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2427960)
     *   Additional references: [[Fradkin]](http://andreyfradkin.com/assets/SearchFrictions.pdf) [[Coles et al.]](https://www.aeaweb.org/articles?id=10.1257/jep.24.4.187) [[Lee-Niederle]](http://link.springer.com/article/10.1007/s10683-014-9425-9) [Rogerson et al.](http://www.nber.org/papers/w10655) [Hoppe et al.](http://restud.oxfordjournals.org/content/76/1/253.short).
 
     **Reputation and Feedback**  

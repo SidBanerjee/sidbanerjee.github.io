@@ -55,7 +55,7 @@ We will draw on a rich body of research spanning three disciplines - operations 
 
 - **Teaching Assistants**: 
     * [Alberto Vera](mailto:aav39@cornell.edu)
-	* [James Dong](href="mailto:jd748@cornell.edu)
+	* [James Dong](mailto:jd748@cornell.edu)
 
 ## References
 
@@ -88,8 +88,8 @@ There is no required textbook for the course; we will cover materials from a var
 - Lecture 15: Assortment Optimization under the MNL model [[Notes]](../../docs/ORIE4154/files/AssortmentOptimization.pdf)
 - Lecture 16,17: Constrained assortment optimization under MNL [[Notes]](../../docs/ORIE4154/files/ConstrainedAssortmentOpt.pdf)
 - Lecture 18: Strategic models and mechanism design [[Notes]](../../docs/ORIE4154/files/StrategicCustomers.pdf)
-- Lecture 19,20: Single-parameter settings and Myerson's Lemma [[Notes]](MyersonLemma.pdf)
-- Lecture 21,22: Optimal revenue mechanisms [[notes]](OptimalRevenueAuction.pdf)
+- Lecture 19,20: Single-parameter settings and Myerson's Lemma [[Notes]](/docs/ORIE4154/files/MyersonLemma.pdf)
+- Lecture 21,22: Optimal revenue mechanisms [[notes]](/docs/ORIE4154/files/OptimalRevenueAuction.pdf)
 - Lecture 23,24: Pricing in two-sided marketplaces [[Notes]](../../docs/ORIE4154/files/TwoSided.pdf)
 - Lecture 25: Course summary, and beyond... [[Notes]](../../docs/ORIE4154/files/Wrapup.pdf)
 

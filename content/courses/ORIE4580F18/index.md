@@ -53,11 +53,11 @@ Stochastic simulation deals with predicting certain aspects of the behavior of s
 - **Instructor**: [Sid Banerjee](http://people.orie.cornell.edu/sbanerjee), 229 Rhodes Hall, [email](mailto:sbanerjee@cornell.edu)
 - **Teaching Assistants**: 
     * [Chamsi Hssaine](mailto:ch822@cornell.edu)
-	* [Marc Finzi](href="mailto:)
+	* Marc Finzi
 	* [Venus Lo](mailto:vhl8@cornell.edu)
-	* [Auston Li](mailto:)
-	* [Cean Park](mailto:)
-	* [Eric Wu](mailto:)
+	* Auston Li
+	* Cean Park
+	* Eric Wu
 	* [Evan Solomonides](mailto:egs73@cornell.edu)  
 Recitation and office hours schedule available on Piazza.  
 
@@ -102,4 +102,3 @@ Recitation and office hours schedule available on Piazza.
 Familiarity with the topics covered in ENGRD 2700 and ORIE 3500/5500 is required, but ORIE 3500/5500 may be taken concurrently. The initial part of the course includes a short review of probability and statistics; if this material is unfamiliar to you, then you should study Chapters 1 through 6 of Introduction to Probability and Statistics for Engineers and Scientists, 2nd ed., by Sheldon Ross, or Chapters 1-5 and Chapter 7 of Probability and Statistics for Engineering and the Sciences, 8th ed., by Devore. This material is standard, and can be found in other books at a similar level.
 
 The course involves some coding, and some prior programming experience is useful. The programming in the first part of the course can be done using any high-level language of your choice (in particular, Python, MATLAB, R, Julia, C++ or Java); our preference is that students use **Python**, and submit iPython notebooks with annotated code and plots. There will be a recitation section introducing these for interested students, and students can use them in the lab computers in 571 Rhodes Hall and 453 Rhodes Hall. The second half of the course will be based on Simio, a commercial simulation package, which we will teach in class.
-

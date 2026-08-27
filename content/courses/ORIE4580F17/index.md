@@ -51,7 +51,7 @@ Stochastic simulation deals with predicting certain aspects of the behavior of s
 - **Instructor**: [Sid Banerjee](http://people.orie.cornell.edu/sbanerjee), 229 Rhodes Hall, [email](mailto:sbanerjee@cornell.edu)
 - **Teaching Assistants**: 
     * [David Eckman](mailto:dje88@cornell.edu)
-	* [James Dong](href="mailto:jd748@cornell.edu)
+	* [James Dong](mailto:jd748@cornell.edu)
 	* [Ivy Wu](mailto:sw677@cornell.edu)
 	* [James Dong](mailto:jd748@cornell.edu)
 	* [Zeyu Huang](mailto:zh289@cornell.edu)
@@ -90,7 +90,7 @@ The assignments in the first half of semester can be done in any high-level lang
     - For students using these for the first time, we highly recommend installing a packaga manager like [Anaconda](https://www.continuum.io/downloads), which conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science. 
     - The [python tutorial](https://docs.python.org/2.7/tutorial/index.html) is a good place to look up basic and advanced syntax. It should help you map other programming knowledge to Python, and learn the basic data types.
 	- Use [library reference](https://docs.python.org/2.7/library/index.html) to find standard library modules to help get your work done quickly. 
-	- The power of Python lies in the many packages that are available for different applications - we in particular will extensively use numpy, scipy and Matplotlib. Use (https://docs.python.org/2.7/library/index.html">library reference</a> to find standard library modules to help get your work done quickly.
+	- The power of Python lies in the many packages that are available for different applications - we in particular will extensively use numpy, scipy and Matplotlib. Use [library reference](https://docs.python.org/2.7/library/index.html) to find standard library modules to help get your work done quickly.
 	- Read [numpy for MATLAB users](http://wiki.scipy.org/NumPy_for_Matlab_Users) if you are familiar with MATLAB.
 	- There are many more functions in scipy and numpy than you can remember.  For a given task, you can look at the [scipy reference](http://docs.scipy.org/doc/scipy/reference/) or [numpy reference](http://docs.scipy.org/doc/numpy/reference) to find the tool you are looking for. More generally, searching online for a task often brings up excellent suggestions in sites like [StackExchange](https://stackexchange.com/).
 	- Matplotlib has many built-in plotting capabilities. Usually, I use the [matplotlib gallery](http://matplotlib.org/gallery.html) to find something similar to what I want, and edit the code provided there. Another great visualization package is [Seaborn](https://seaborn.pydata.org/index.html).\
@@ -105,4 +105,3 @@ Familiarity with the topics covered in ENGRD 2700 and ORIE 3500/5500 is required
 
 
 The course involves some coding, and some prior programming experience is useful. The programming in the first part of the course can be done using any high-level language of your choice (in particular, Python, MATLAB, R, Julia, C++ or Java); our preference is that students use **Python**, and submit iPython notebooks with annotated code and plots. There will be a recitation section introducing these for interested students, and students can use them in the lab computers in 571 Rhodes Hall and 453 Rhodes Hall. The second half of the course will be based on Simio, a commercial simulation package, which we will teach in class.
-

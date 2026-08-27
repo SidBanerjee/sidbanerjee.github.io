@@ -69,7 +69,7 @@ Knowledge of basic probability (at the level of [ORIE 3500](http://courses.corne
 ## Lectures
 
 
-*   Unit 1: Basic probability and randomized algorithms ([Notes](Notes2-5.pdf))  
+*   Unit 1: Basic probability and randomized algorithms ([Notes](/docs/ORIE4520/files/Notes2-5.pdf))
 
     *   Lecture 1: Introduction, linearity of expectation, indicator random variables, coupon collector
     *   Lecture 2: Birthday paradox, law of total probability and deferred decisions, verifying matrix multiplication (Freivald's algorithm)

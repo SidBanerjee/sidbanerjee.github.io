@@ -43,7 +43,7 @@ viewer?embedded=true&url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE4742
 <!-- <iframe src="../../docs/ORIE4742S20/files/Lec3-4-Information_Annotated.pdf#toolbar=0&view=FitH" width="640" height="480"></iframe>
 -->
 
-*   **Set 3**: Data compression and source coding [[notes]](../../docs/ORIE4742S20S20/files/Lec5-6-Source_Coding_Annotated.pdf)
+*   **Set 3**: Data compression and source coding [[notes]](/docs/ORIE4742S20/files/Lec5-6-Source_Coding_Annotated.pdf)
 	
 <!-- <iframe src="../../docs/ORIE4742S20/files/Lec5-6-Source_Coding_Annotated.pdf#toolbar=0&view=FitH" width="640" height="480"></iframe>
 -->
@@ -92,4 +92,3 @@ viewer?embedded=true&url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE4742
 
 <!-- <iframe src="../../docs/ORIE4742S20/files/Lec20-Decision_Theory-annotated.pdf#toolbar=0&view=FitH" width="640" height="480"></iframe>
 -->
-
