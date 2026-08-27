@@ -1,7 +1,5 @@
 +++
-# A Featured Publications section created with the Featured Content widget.
-# This section displays publications from `content/publication/` which have
-# `featured = true` in their front matter.
+# A metadata-filtered Recent Publications section.
 
 widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -15,8 +13,13 @@ subtitle = ""
   # Page type to display. E.g. post, talk, or publication.
   page_type = "publication"
   
-  # Choose how much pages you would like to display (0 = all pages)
-  count = 10
+  # Display all publications matching the metadata rules below.
+  count = 0
+
+  # Select recent publications by date and venue rather than `featured` status.
+  selection = "metadata"
+  min_year = 2023
+  venue_patterns = ["STOC", "SODA", "COLT", "EC '", "ACM Conference on Economics and Computation", "SIGMETRICS", "Operations Research", "Management Science"]
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"

@@ -102,6 +102,42 @@ small,
 
 
 /*************************************************
+ *  Compact homepage publications
+ **************************************************/
+
+#featured .home-recent-publication {
+  margin-bottom: .6rem;
+}
+
+#featured .home-recent-publication-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+#featured .home-recent-publication-meta {
+  margin: .08rem 0 0;
+  font-size: .78rem;
+  line-height: 1.25;
+}
+
+#featured .home-recent-publication-venue {
+  white-space: nowrap;
+}
+
+#featured .home-recent-publication-links {
+  margin-top: .05rem;
+  line-height: 1;
+}
+
+#featured .home-recent-publication-links .btn {
+  margin-top: .15rem !important;
+  margin-bottom: 0 !important;
+}
+
+
+/*************************************************
  *  About widget
  **************************************************/
 

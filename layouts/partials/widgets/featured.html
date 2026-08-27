@@ -8,7 +8,27 @@
 {{ $items_sort := $st.Params.content.order| default "desc" }}
 
 {{/* Query */}}
-{{ $query := where (where site.RegularPages "Type" $items_type) "Params.featured" true }}
+{{ $query := where site.RegularPages "Type" $items_type }}
+{{ if eq ($st.Params.content.selection | default "featured") "metadata" }}
+  {{ $eligible := slice }}
+  {{ $min_year := $st.Params.content.min_year | default 0 }}
+  {{ $venue_patterns := $st.Params.content.venue_patterns | default (slice) }}
+  {{ range $post := $query }}
+    {{ $venue_metadata := printf "%s %s" ($post.Params.publication_short | default "") ($post.Params.publication | default "") }}
+    {{ $venue_match := false }}
+    {{ range $pattern := $venue_patterns }}
+      {{ if in $venue_metadata $pattern }}
+        {{ $venue_match = true }}
+      {{ end }}
+    {{ end }}
+    {{ if and (ge $post.Date.Year $min_year) $venue_match }}
+      {{ $eligible = $eligible | append $post }}
+    {{ end }}
+  {{ end }}
+  {{ $query = $eligible }}
+{{ else }}
+  {{ $query = where $query "Params.featured" true }}
+{{ end }}
 {{ $archive_page := site.GetPage "Section" $items_type }}
 
 {{/* Filters */}}
@@ -76,7 +96,7 @@
       {{ else if eq $st.Params.design.view 3 }}
         {{ partial "li_card" . }}
       {{ else if eq $st.Params.design.view 4 | and (eq $items_type "publication") }}
-        {{ partial "li_citation" . }}
+        {{ partial "home_recent_publication" . }}
       {{ else }}
         {{ partial "li_compact" . }}
       {{ end }}

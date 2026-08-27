@@ -1,0 +1,18 @@
+<article class="home-recent-publication">
+  <div class="home-recent-publication-title">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </div>
+
+  <div class="home-recent-publication-meta article-metadata">
+    <span class="home-recent-publication-authors">
+      {{ partial "page_metadata_authors" . }}
+    </span>
+    {{ with .Params.publication_short }}
+      <span class="home-recent-publication-venue">&middot; {{ . | markdownify }}</span>
+    {{ end }}
+  </div>
+
+  <div class="home-recent-publication-links">
+    {{ partial "page_links" (dict "page" . "is_list" 1) }}
+  </div>
+</article>
