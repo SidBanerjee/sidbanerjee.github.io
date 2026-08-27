@@ -709,7 +709,7 @@ Our approach will be primarily theoretical, focusing on mathematical techniques 
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Instructor&lt;/strong&gt;: &lt;a href=&#34;http://people.orie.cornell.edu/sbanerjee&#34; target=&#34;_blank&#34;&gt;Sid Banerjee&lt;/a&gt;, 229 Rhodes Hall, &lt;a href=&#34;mailto:sbanerjee@cornell.edu&#34; target=&#34;_blank&#34;&gt;email&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Piazza Link&lt;/strong&gt; &lt;a href=&#34;piazza.com/cornell/fall2021/orie6180&#34; target=&#34;_blank&#34;&gt;ORIE 6180 Fall 21&lt;/a&gt; (Please join even if you are not registered, but plan on auditing)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Piazza Link&lt;/strong&gt; &lt;a href=&#34;https://piazza.com/cornell/fall2021/orie6180&#34; target=&#34;_blank&#34;&gt;ORIE 6180 Fall 21&lt;/a&gt; (Please join even if you are not registered, but plan on auditing)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
@@ -1312,7 +1312,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
 --&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Set 3&lt;/strong&gt;: Data compression and source coding &lt;a href=&#34;../../docs/ORIE4742S20S20/files/Lec5-6-Source_Coding_Annotated.pdf&#34;&gt;[notes]&lt;/a&gt;
+&lt;li&gt;&lt;strong&gt;Set 3&lt;/strong&gt;: Data compression and source coding &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4742S20/files/Lec5-6-Source_Coding_Annotated.pdf&#34;&gt;[notes]&lt;/a&gt;
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1516,11 +1516,11 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;mailto:ch822@cornell.edu&#34; target=&#34;_blank&#34;&gt;Chamsi Hssaine&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;href=&amp;quot;mailto:&#34; target=&#34;_blank&#34;&gt;Marc Finzi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Marc Finzi&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;mailto:vhl8@cornell.edu&#34; target=&#34;_blank&#34;&gt;Venus Lo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;mailto:&#34; target=&#34;_blank&#34;&gt;Auston Li&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;mailto:&#34; target=&#34;_blank&#34;&gt;Cean Park&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;mailto:&#34; target=&#34;_blank&#34;&gt;Eric Wu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Auston Li&lt;/li&gt;
+&lt;li&gt;Cean Park&lt;/li&gt;
+&lt;li&gt;Eric Wu&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;mailto:egs73@cornell.edu&#34; target=&#34;_blank&#34;&gt;Evan Solomonides&lt;/a&gt;&lt;br /&gt;
 Recitation and office hours schedule available on Piazza.&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -1685,7 +1685,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;mailto:dje88@cornell.edu&#34; target=&#34;_blank&#34;&gt;David Eckman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;href=&amp;quot;mailto:jd748@cornell.edu&#34; target=&#34;_blank&#34;&gt;James Dong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:jd748@cornell.edu&#34; target=&#34;_blank&#34;&gt;James Dong&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;mailto:sw677@cornell.edu&#34; target=&#34;_blank&#34;&gt;Ivy Wu&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;mailto:jd748@cornell.edu&#34; target=&#34;_blank&#34;&gt;James Dong&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;mailto:zh289@cornell.edu&#34; target=&#34;_blank&#34;&gt;Zeyu Huang&lt;/a&gt;&lt;/li&gt;
@@ -1740,7 +1740,7 @@ The assignments in the first half of semester can be done in any high-level lang
 &lt;li&gt;For students using these for the first time, we highly recommend installing a packaga manager like &lt;a href=&#34;https://www.continuum.io/downloads&#34; target=&#34;_blank&#34;&gt;Anaconda&lt;/a&gt;, which conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.&lt;/li&gt;
 &lt;li&gt;The &lt;a href=&#34;https://docs.python.org/2.7/tutorial/index.html&#34; target=&#34;_blank&#34;&gt;python tutorial&lt;/a&gt; is a good place to look up basic and advanced syntax. It should help you map other programming knowledge to Python, and learn the basic data types.&lt;/li&gt;
 &lt;li&gt;Use &lt;a href=&#34;https://docs.python.org/2.7/library/index.html&#34; target=&#34;_blank&#34;&gt;library reference&lt;/a&gt; to find standard library modules to help get your work done quickly.&lt;/li&gt;
-&lt;li&gt;The power of Python lies in the many packages that are available for different applications - we in particular will extensively use numpy, scipy and Matplotlib. Use (&lt;a href=&#34;https://docs.python.org/2.7/library/index.html&amp;quot;&amp;gt;library&#34; target=&#34;_blank&#34;&gt;https://docs.python.org/2.7/library/index.html&amp;quot;&amp;gt;library&lt;/a&gt; reference&lt;/a&gt; to find standard library modules to help get your work done quickly.&lt;/li&gt;
+&lt;li&gt;The power of Python lies in the many packages that are available for different applications - we in particular will extensively use numpy, scipy and Matplotlib. Use &lt;a href=&#34;https://docs.python.org/2.7/library/index.html&#34; target=&#34;_blank&#34;&gt;library reference&lt;/a&gt; to find standard library modules to help get your work done quickly.&lt;/li&gt;
 &lt;li&gt;Read &lt;a href=&#34;http://wiki.scipy.org/NumPy_for_Matlab_Users&#34; target=&#34;_blank&#34;&gt;numpy for MATLAB users&lt;/a&gt; if you are familiar with MATLAB.&lt;/li&gt;
 &lt;li&gt;There are many more functions in scipy and numpy than you can remember.  For a given task, you can look at the &lt;a href=&#34;http://docs.scipy.org/doc/scipy/reference/&#34; target=&#34;_blank&#34;&gt;scipy reference&lt;/a&gt; or &lt;a href=&#34;http://docs.scipy.org/doc/numpy/reference&#34; target=&#34;_blank&#34;&gt;numpy reference&lt;/a&gt; to find the tool you are looking for. More generally, searching online for a task often brings up excellent suggestions in sites like &lt;a href=&#34;https://stackexchange.com/&#34; target=&#34;_blank&#34;&gt;StackExchange&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Matplotlib has many built-in plotting capabilities. Usually, I use the &lt;a href=&#34;http://matplotlib.org/gallery.html&#34; target=&#34;_blank&#34;&gt;matplotlib gallery&lt;/a&gt; to find something similar to what I want, and edit the code provided there. Another great visualization package is &lt;a href=&#34;https://seaborn.pydata.org/index.html&#34; target=&#34;_blank&#34;&gt;Seaborn&lt;/a&gt;.&lt;br /&gt;
@@ -1795,7 +1795,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;mailto:aav39@cornell.edu&#34; target=&#34;_blank&#34;&gt;Alberto Vera&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;href=&amp;quot;mailto:jd748@cornell.edu&#34; target=&#34;_blank&#34;&gt;James Dong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:jd748@cornell.edu&#34; target=&#34;_blank&#34;&gt;James Dong&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1847,8 +1847,8 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
 &lt;li&gt;Lecture 15: Assortment Optimization under the MNL model &lt;a href=&#34;../../docs/ORIE4154/files/AssortmentOptimization.pdf&#34;&gt;[Notes]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Lecture 16,17: Constrained assortment optimization under MNL &lt;a href=&#34;../../docs/ORIE4154/files/ConstrainedAssortmentOpt.pdf&#34;&gt;[Notes]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Lecture 18: Strategic models and mechanism design &lt;a href=&#34;../../docs/ORIE4154/files/StrategicCustomers.pdf&#34;&gt;[Notes]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 19,20: Single-parameter settings and Myerson&amp;rsquo;s Lemma &lt;a href=&#34;MyersonLemma.pdf&#34; target=&#34;_blank&#34;&gt;[Notes]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 21,22: Optimal revenue mechanisms &lt;a href=&#34;OptimalRevenueAuction.pdf&#34; target=&#34;_blank&#34;&gt;[notes]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture 19,20: Single-parameter settings and Myerson&amp;rsquo;s Lemma &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154/files/MyersonLemma.pdf&#34;&gt;[Notes]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture 21,22: Optimal revenue mechanisms &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154/files/OptimalRevenueAuction.pdf&#34;&gt;[notes]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Lecture 23,24: Pricing in two-sided marketplaces &lt;a href=&#34;../../docs/ORIE4154/files/TwoSided.pdf&#34;&gt;[Notes]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Lecture 25: Course summary, and beyond&amp;hellip; &lt;a href=&#34;../../docs/ORIE4154/files/Wrapup.pdf&#34;&gt;[Notes]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2131,7 +2131,7 @@ Another great set of related courses are Tim Roughgarden&amp;rsquo;s &lt;a href=
 &lt;li&gt;&lt;strong&gt;Lecture 12&lt;/strong&gt;: Posted prices vs. auctions on eBay &lt;a href=&#34;../../docs/ORIE6180/files/Scribe_Notes_12.pdf&#34;&gt;[Scribe notes]&lt;/a&gt; &lt;a href=&#34;http://www.nber.org/papers/w19021&#34; target=&#34;_blank&#34;&gt;[Sales Mechanisms in Online Markets]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Lecture 13&lt;/strong&gt;: Randomization as a tool for price discrimination in ad auctions &lt;a href=&#34;../../docs/ORIE6180/files/Scribe_Notes_13.pdf&#34;&gt;[Scribe notes]&lt;/a&gt; &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1958032&#34; target=&#34;_blank&#34;&gt;[Celis et al.]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Lecture 14&lt;/strong&gt;: Mechanism design for many-to-many matching marketplaces &lt;a href=&#34;http://www.econstor.eu/handle/10419/119416&#34; target=&#34;_blank&#34;&gt;[Gomes-Pavan]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lecture 15&lt;/strong&gt;: Dynamic pricing in rideshare platforms &lt;a href=&#34;RidesharePricing_RJSlides.pdf&#34; target=&#34;_blank&#34;&gt;[Slides]&lt;/a&gt; &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2568258&#34; target=&#34;_blank&#34;&gt;[Banerjee et al.]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lecture 15&lt;/strong&gt;: Dynamic pricing in rideshare platforms &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE6180/files/RidesharePricing_RJSlides.pdf&#34;&gt;[Slides]&lt;/a&gt; &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2568258&#34; target=&#34;_blank&#34;&gt;[Banerjee et al.]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Search and Recommendation&lt;/strong&gt;&lt;/p&gt;
@@ -2139,7 +2139,7 @@ Another great set of related courses are Tim Roughgarden&amp;rsquo;s &lt;a href=
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Lectures 16&lt;/strong&gt;: Information disclosure and matching &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1872465&#34; target=&#34;_blank&#34;&gt;[Tadelis-Zetterlmeyer]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Lectures 17&lt;/strong&gt;: Restricted access and the choice-competition tradeoff &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1610187&#34; target=&#34;_blank&#34;&gt;[Halaburda et al.]&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lecture 18&lt;/strong&gt;: Congestion in matching markets &lt;a href=&#34;Congestion_RJSlides.pdf&#34; target=&#34;_blank&#34;&gt;[Slides]&lt;/a&gt; &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2427960&#34; target=&#34;_blank&#34;&gt;[Arnosti et al.]&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lecture 18&lt;/strong&gt;: Congestion in matching markets &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE6180/files/Congestion_RJSlides.pdf&#34;&gt;[Slides]&lt;/a&gt; &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2427960&#34; target=&#34;_blank&#34;&gt;[Arnosti et al.]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Additional references: &lt;a href=&#34;http://andreyfradkin.com/assets/SearchFrictions.pdf&#34; target=&#34;_blank&#34;&gt;[Fradkin]&lt;/a&gt; &lt;a href=&#34;https://www.aeaweb.org/articles?id=10.1257/jep.24.4.187&#34; target=&#34;_blank&#34;&gt;[Coles et al.]&lt;/a&gt; &lt;a href=&#34;http://link.springer.com/article/10.1007/s10683-014-9425-9&#34; target=&#34;_blank&#34;&gt;[Lee-Niederle]&lt;/a&gt; &lt;a href=&#34;http://www.nber.org/papers/w10655&#34; target=&#34;_blank&#34;&gt;Rogerson et al.&lt;/a&gt; &lt;a href=&#34;http://restud.oxfordjournals.org/content/76/1/253.short&#34; target=&#34;_blank&#34;&gt;Hoppe et al.&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -2221,7 +2221,7 @@ viewer?embedded=true&amp;url=https://people.orie.cornell.edu/sbanerjee/docs/ORIE
 &lt;h2 id=&#34;lectures&#34;&gt;Lectures&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Unit 1: Basic probability and randomized algorithms (&lt;a href=&#34;Notes2-5.pdf&#34; target=&#34;_blank&#34;&gt;Notes&lt;/a&gt;)&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Unit 1: Basic probability and randomized algorithms (&lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4520/files/Notes2-5.pdf&#34;&gt;Notes&lt;/a&gt;)&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Lecture 1: Introduction, linearity of expectation, indicator random variables, coupon collector&lt;/li&gt;
