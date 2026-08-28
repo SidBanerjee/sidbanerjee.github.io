@@ -1,0 +1,27 @@
+<article class="publication-archive-entry">
+  <div class="publication-archive-title">
+    {{ if in .Params.publication_types "1" }}
+      <span style="font-size: 0.6rem; color:rgba(1,1,1,0.4)">[conf]</span>
+    {{ else if in .Params.publication_types "2" }}
+      <span style="font-size: 0.6rem; color:rgba(1,1,1,0.4)">[jour]</span>
+    {{ else if in .Params.publication_types "0" }}
+      <span style="font-size: 0.6rem; color:rgba(1,1,1,0.4)">[preprint]</span>
+    {{ else if in .Params.publication_types "6" }}
+      <span style="font-size: 0.6rem; color:rgba(1,1,1,0.4)">[chapter]</span>
+    {{ end }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{- .Date.Format "2006" -}})
+  </div>
+
+  {{ $venue := .Params.publication_short | default .Params.publication }}
+  {{ $authors := partial "page_metadata_authors" . }}
+  {{ $authors = replaceRE "^\\s+|\\s+$" "" $authors }}
+  <div class="publication-archive-meta article-metadata">
+    <span class="publication-archive-authors">{{ $authors | safeHTML }}</span>{{ with $venue -}}
+      <span class="publication-archive-venue">, {{ . | markdownify }}</span>
+    {{- end }}
+  </div>
+
+  <div class="publication-archive-links">
+    {{ partial "page_links" (dict "page" . "is_list" 1) }}
+  </div>
+</article>
