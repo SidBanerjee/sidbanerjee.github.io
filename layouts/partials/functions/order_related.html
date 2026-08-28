@@ -1,0 +1,28 @@
+{{- /*
+  Hugo 0.73 orders related pages by relevance, publish date, and title. Group
+  exact date/title ties so RelPermalink can provide a deterministic final key.
+*/ -}}
+{{- $groups := newScratch -}}
+{{- range .pages -}}
+  {{- $key := md5 (printf "%s\n%s" (.PublishDate.Format "2006-01-02T15:04:05Z07:00") .Title) -}}
+  {{- $group := $groups.Get $key -}}
+  {{- if $group -}}
+    {{- $groups.Set $key ($group | append .) -}}
+  {{- else -}}
+    {{- $groups.Set $key (slice .) -}}
+  {{- end -}}
+{{- end -}}
+{{- $ordered := slice -}}
+{{- $rendered := newScratch -}}
+{{- range .pages -}}
+  {{- $key := md5 (printf "%s\n%s" (.PublishDate.Format "2006-01-02T15:04:05Z07:00") .Title) -}}
+  {{- if not ($rendered.Get $key) -}}
+    {{- $rendered.Set $key true -}}
+    {{- $ordered = $ordered | append (sort ($groups.Get $key) "RelPermalink") -}}
+  {{- end -}}
+{{- end -}}
+{{- $result := $ordered -}}
+{{- with $ordered -}}
+  {{- $result = first $.limit . -}}
+{{- end -}}
+{{- return $result -}}
