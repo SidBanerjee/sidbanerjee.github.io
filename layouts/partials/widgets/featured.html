@@ -13,6 +13,7 @@
   {{ $eligible := slice }}
   {{ $min_year := $st.Params.content.min_year | default 0 }}
   {{ $venue_patterns := $st.Params.content.venue_patterns | default (slice) }}
+  {{ $exclude_paths := $st.Params.content.exclude_paths | default (slice) }}
   {{ range $post := $query }}
     {{ $venue_metadata := printf "%s %s" ($post.Params.publication_short | default "") ($post.Params.publication | default "") }}
     {{ $venue_match := false }}
@@ -21,7 +22,7 @@
         {{ $venue_match = true }}
       {{ end }}
     {{ end }}
-    {{ if and (ge $post.Date.Year $min_year) $venue_match }}
+    {{ if and (ge $post.Date.Year $min_year) $venue_match (not (in $exclude_paths $post.RelPermalink)) }}
       {{ $eligible = $eligible | append $post }}
     {{ end }}
   {{ end }}

@@ -20,6 +20,7 @@ subtitle = ""
   selection = "metadata"
   min_year = 2023
   venue_patterns = ["STOC", "SODA", "COLT", "EC '", "ACM Conference on Economics and Computation", "SIGMETRICS", "Operations Research", "Management Science"]
+  exclude_paths = ["/publication/vera-25-correction/"]
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
