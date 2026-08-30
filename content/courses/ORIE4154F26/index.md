@@ -123,6 +123,7 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
     * Lecture notes: [[Lec 4]](/docs/ORIE4154F26/files/ORIE4154_Lecture4.pdf)
     * Suggested Reading:
         * Slivkins, §§1.3.1–1.3.3 and selected parts of Ch. 2 [[Slivkins]][Slivkins]
+    * Bandit Lab: [[simulation]](/courses/orie4154f26/bandit-lab/) — compare Greedy, UCB, and Thompson sampling
 
 
 ### Unit 2: Scarcity, Scale, and Online Allocation

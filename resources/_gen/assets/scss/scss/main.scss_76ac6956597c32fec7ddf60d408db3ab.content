@@ -9251,6 +9251,50 @@ small,
   max-width: 100%; }
 
 /*************************************************
+ *  Compact publication lists
+ **************************************************/
+#featured .home-recent-publication,
+#container-publications .publication-archive-entry {
+  margin-bottom: .75rem; }
+
+#featured .home-recent-publication-title,
+#container-publications .publication-archive-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25; }
+
+#featured .home-recent-publication-meta,
+#container-publications .publication-archive-meta {
+  margin: .08rem 0 0;
+  font-size: .78rem;
+  line-height: 1.25; }
+
+#featured .home-recent-publication-venue {
+  white-space: nowrap; }
+
+#container-publications .publication-archive-venue {
+  font-style: italic; }
+
+#featured .home-recent-publication-links,
+#container-publications .publication-archive-links {
+  margin-top: .05rem;
+  line-height: 1; }
+
+#featured .home-recent-publication-links .btn,
+#container-publications .publication-archive-links .btn {
+  margin-top: .05rem !important;
+  margin-bottom: 0 !important; }
+
+@media screen and (max-width: 768px) {
+  .publication-archive-wrapper > .row {
+    margin-right: 0;
+    margin-left: 0; }
+  .publication-archive-wrapper > .row > .col-lg-12 {
+    padding-right: 0;
+    padding-left: 0; } }
+
+/*************************************************
  *  About widget
  **************************************************/
 #profile {
