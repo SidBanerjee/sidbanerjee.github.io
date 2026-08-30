@@ -1,0 +1,15 @@
+# Conference start dates used to order metadata-selected homepage publications.
+# Keep labels aligned with publication_short and verify dates against official conference sites.
+"EC '23": "2023-07-09"
+"SIGMETRICS '23": "2023-06-19"
+"ITCS '23": "2023-01-10"
+"COLT '24": "2024-06-30"
+"SODA '24": "2024-01-07"
+"EC '25": "2025-07-07"
+"SIGMETRICS '25": "2025-06-09"
+"SODA '25": "2025-01-12"
+"EC '26": "2026-07-06"
+"STOC '26": "2026-06-22"
+"SIGMETRICS '26": "2026-06-08"
+"ITCS '26": "2026-01-27"
+"SODA '26": "2026-01-11"

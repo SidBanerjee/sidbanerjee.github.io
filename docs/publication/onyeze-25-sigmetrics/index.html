@@ -27,14 +27,12 @@
   
     
   
-  <meta name="description" content="We consider the problem of selling perishable items to a stream of buyers in order to maximize social welfare. A seller starts with a set of identical items, and each arriving buyer wants any one item, and has a valuation drawn i.i.d. from a known distribution. Each item, however, disappears after an a priori unknown amount of time that we term the horizon for that item. The seller knows the (possibly different) distribution of the horizon for each item, but not its realization till the item actually disappears. As with the classic prophet inequalities, the goal is to design an online pricing scheme that competes with the prophet that knows the horizon and extracts full social surplus (or welfare).
+  <meta name="description" content="Dynamic max-min fair allocation (DMMF) is a simple and popular mechanism for the repeated allocation of a shared resource among competing agents: in each round, each agent can choose to request or not for the resource, which is then allocated to the requesting agent with the least number of allocations received till then. Recent work has shown that under DMMF, a simple threshold-based request policy enjoys surprisingly strong robustness properties, wherein each agent can realize a significant fraction of her optimal utility irrespective of how other agents&#39; behave. While this goes some way in mitigating the possibility of a &#39;tragedy of the commons&#39; outcome, the robust policies require that an agent defend against arbitrary (possibly adversarial) behavior by other agents. This however may be far from optimal compared to real world settings, where other agents are selfish optimizers rather than adversaries. Therefore, robust guarantees give no insight on how agents behave in an equilibrium, and whether outcomes are improved under one.
 
-Our main results are for the setting where items have independent horizon distributions satisfying the monotone-hazard-rate (MHR) condition. Here, for any number of items, we achieve a constant-competitive bound via a conceptually simple policy that balances the rate at which buyers are accepted with the rate at which items are removed from the system. We implement this policy via a novel technique of matching via probabilistically simulating departures of the items at future times. Moreover, for a single item and MHR horizon distribution with mean $μ$, we show a tight result: There is a fixed pricing scheme that has competitive ratio at most $2 - 1/μ$, and this is the best achievable in this class.
-
-We further show that our results are best possible. First, we show that the competitive ratio is unbounded without the MHR assumption even for one item. Further, even when the horizon distributions are i.i.d. MHR and the number of items becomes large, the competitive ratio of any policy is lower bounded by a constant greater than $1$, which is in sharp contrast to the setting with identical deterministic horizons.">
+Our work aims to bridge this gap by studying the existence and properties of equilibria under DMMF. To this end, we first show that despite the strong robustness guarantees of the threshold based strategies, no Nash equilibrium exists when agents participate in DMMF, each using some fixed threshold-based policy. On the positive side, however, we show that for the symmetric case, a simple data-driven request policy guarantees that no agent benefits from deviating to a different fixed threshold policy. In our proposed policy agents aim to match the historical allocation rate with a vanishing drift towards the rate optimizing overall welfare for all users. Furthermore, the resulting equilibrium outcome can be significantly better compared to what follows from the robustness guarantees.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://sidbanerjee.orie.cornell.edu/publication/alijani-20-sigmetrics/">
+  <link rel="alternate" hreflang="en-us" href="https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-sigmetrics/">
 
   
 
@@ -260,7 +258,7 @@ We further show that our results are best possible. First, we show that the comp
   <link rel="icon" type="image/png" href="/images/icon_hu0a4abc24b746267d1c0a611494e730ff_74202_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0a4abc24b746267d1c0a611494e730ff_74202_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://sidbanerjee.orie.cornell.edu/publication/alijani-20-sigmetrics/">
+  <link rel="canonical" href="https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-sigmetrics/">
 
   
   
@@ -278,19 +276,17 @@ We further show that our results are best possible. First, we show that the comp
   <meta property="twitter:creator" content="@banerjee_sid">
   
   <meta property="og:site_name" content="Sid Banerjee">
-  <meta property="og:url" content="https://sidbanerjee.orie.cornell.edu/publication/alijani-20-sigmetrics/">
-  <meta property="og:title" content="Predict and Match: Prophet Inequalities with Uncertain Supply | Sid Banerjee">
-  <meta property="og:description" content="We consider the problem of selling perishable items to a stream of buyers in order to maximize social welfare. A seller starts with a set of identical items, and each arriving buyer wants any one item, and has a valuation drawn i.i.d. from a known distribution. Each item, however, disappears after an a priori unknown amount of time that we term the horizon for that item. The seller knows the (possibly different) distribution of the horizon for each item, but not its realization till the item actually disappears. As with the classic prophet inequalities, the goal is to design an online pricing scheme that competes with the prophet that knows the horizon and extracts full social surplus (or welfare).
+  <meta property="og:url" content="https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-sigmetrics/">
+  <meta property="og:title" content="Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria | Sid Banerjee">
+  <meta property="og:description" content="Dynamic max-min fair allocation (DMMF) is a simple and popular mechanism for the repeated allocation of a shared resource among competing agents: in each round, each agent can choose to request or not for the resource, which is then allocated to the requesting agent with the least number of allocations received till then. Recent work has shown that under DMMF, a simple threshold-based request policy enjoys surprisingly strong robustness properties, wherein each agent can realize a significant fraction of her optimal utility irrespective of how other agents&#39; behave. While this goes some way in mitigating the possibility of a &#39;tragedy of the commons&#39; outcome, the robust policies require that an agent defend against arbitrary (possibly adversarial) behavior by other agents. This however may be far from optimal compared to real world settings, where other agents are selfish optimizers rather than adversaries. Therefore, robust guarantees give no insight on how agents behave in an equilibrium, and whether outcomes are improved under one.
 
-Our main results are for the setting where items have independent horizon distributions satisfying the monotone-hazard-rate (MHR) condition. Here, for any number of items, we achieve a constant-competitive bound via a conceptually simple policy that balances the rate at which buyers are accepted with the rate at which items are removed from the system. We implement this policy via a novel technique of matching via probabilistically simulating departures of the items at future times. Moreover, for a single item and MHR horizon distribution with mean $μ$, we show a tight result: There is a fixed pricing scheme that has competitive ratio at most $2 - 1/μ$, and this is the best achievable in this class.
-
-We further show that our results are best possible. First, we show that the competitive ratio is unbounded without the MHR assumption even for one item. Further, even when the horizon distributions are i.i.d. MHR and the number of items becomes large, the competitive ratio of any policy is lower bounded by a constant greater than $1$, which is in sharp contrast to the setting with identical deterministic horizons."><meta property="og:image" content="https://sidbanerjee.orie.cornell.edu/img/sid.jpg">
+Our work aims to bridge this gap by studying the existence and properties of equilibria under DMMF. To this end, we first show that despite the strong robustness guarantees of the threshold based strategies, no Nash equilibrium exists when agents participate in DMMF, each using some fixed threshold-based policy. On the positive side, however, we show that for the symmetric case, a simple data-driven request policy guarantees that no agent benefits from deviating to a different fixed threshold policy. In our proposed policy agents aim to match the historical allocation rate with a vanishing drift towards the rate optimizing overall welfare for all users. Furthermore, the resulting equilibrium outcome can be significantly better compared to what follows from the robustness guarantees."><meta property="og:image" content="https://sidbanerjee.orie.cornell.edu/img/sid.jpg">
   <meta property="twitter:image" content="https://sidbanerjee.orie.cornell.edu/img/sid.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-05-27T00:00:00-04:00">
+      <meta property="article:published_time" content="2025-06-09T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-05-27T00:00:00-04:00">
+    <meta property="article:modified_time" content="2025-06-09T00:00:00&#43;00:00">
   
 
   
@@ -312,16 +308,16 @@ We further show that our results are best possible. First, we show that the comp
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://sidbanerjee.orie.cornell.edu/publication/alijani-20-sigmetrics/"
+    "@id": "https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-sigmetrics/"
   },
-  "headline": "Predict and Match: Prophet Inequalities with Uncertain Supply",
+  "headline": "Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria",
   
-  "datePublished": "2020-05-27T00:00:00-04:00",
-  "dateModified": "2020-05-27T00:00:00-04:00",
+  "datePublished": "2025-06-09T00:00:00Z",
+  "dateModified": "2025-06-09T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Reza Alijani"
+    "name": "Chido Onyeze"
   },
   
   "publisher": {
@@ -332,7 +328,7 @@ We further show that our results are best possible. First, we show that the comp
       "url": "https://sidbanerjee.orie.cornell.edu/images/icon_hu0a4abc24b746267d1c0a611494e730ff_74202_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "We consider the problem of selling perishable items to a stream of buyers in order to maximize social welfare. A seller starts with a set of identical items, and each arriving buyer wants any one item, and has a valuation drawn i.i.d. from a known distribution. Each item, however, disappears after an a priori unknown amount of time that we term the horizon for that item. The seller knows the (possibly different) distribution of the horizon for each item, but not its realization till the item actually disappears. As with the classic prophet inequalities, the goal is to design an online pricing scheme that competes with the prophet that knows the horizon and extracts full social surplus (or welfare).\n\nOur main results are for the setting where items have independent horizon distributions satisfying the monotone-hazard-rate (MHR) condition. Here, for any number of items, we achieve a constant-competitive bound via a conceptually simple policy that balances the rate at which buyers are accepted with the rate at which items are removed from the system. We implement this policy via a novel technique of matching via probabilistically simulating departures of the items at future times. Moreover, for a single item and MHR horizon distribution with mean $μ$, we show a tight result: There is a fixed pricing scheme that has competitive ratio at most $2 - 1/μ$, and this is the best achievable in this class.\n\nWe further show that our results are best possible. First, we show that the competitive ratio is unbounded without the MHR assumption even for one item. Further, even when the horizon distributions are i.i.d. MHR and the number of items becomes large, the competitive ratio of any policy is lower bounded by a constant greater than $1$, which is in sharp contrast to the setting with identical deterministic horizons."
+  "description": "Dynamic max-min fair allocation (DMMF) is a simple and popular mechanism for the repeated allocation of a shared resource among competing agents: in each round, each agent can choose to request or not for the resource, which is then allocated to the requesting agent with the least number of allocations received till then. Recent work has shown that under DMMF, a simple threshold-based request policy enjoys surprisingly strong robustness properties, wherein each agent can realize a significant fraction of her optimal utility irrespective of how other agents' behave. While this goes some way in mitigating the possibility of a 'tragedy of the commons' outcome, the robust policies require that an agent defend against arbitrary (possibly adversarial) behavior by other agents. This however may be far from optimal compared to real world settings, where other agents are selfish optimizers rather than adversaries. Therefore, robust guarantees give no insight on how agents behave in an equilibrium, and whether outcomes are improved under one.\n\nOur work aims to bridge this gap by studying the existence and properties of equilibria under DMMF. To this end, we first show that despite the strong robustness guarantees of the threshold based strategies, no Nash equilibrium exists when agents participate in DMMF, each using some fixed threshold-based policy. On the positive side, however, we show that for the symmetric case, a simple data-driven request policy guarantees that no agent benefits from deviating to a different fixed threshold policy. In our proposed policy agents aim to match the historical allocation rate with a vanishing drift towards the rate optimizing overall welfare for all users. Furthermore, the resulting equilibrium outcome can be significantly better compared to what follows from the robustness guarantees."
 }
 </script>
 
@@ -347,7 +343,7 @@ We further show that our results are best possible. First, we show that the comp
   <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="/favicon.ico?v=20260826">
 
 
-  <title>Predict and Match: Prophet Inequalities with Uncertain Supply | Sid Banerjee</title>
+  <title>Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria | Sid Banerjee</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -606,7 +602,7 @@ We further show that our results are best possible. First, we show that the comp
   
   
 <div class="article-container pt-3">
-  <h1>Predict and Match: Prophet Inequalities with Uncertain Supply</h1>
+  <h1>Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria</h1>
 
   
 
@@ -624,7 +620,7 @@ We further show that our results are best possible. First, we show that the comp
     
 
   
-  <span >Reza Alijani</span>, <span class="font-weight-bold">Siddhartha Banerjee</span>, <span >Sreenivas Gollapudi</span>, <span >Kamesh Munagala</span>, <span >Kangning Wang</span>
+  <span >Chido Onyeze</span>, <span >Siddhartha Banerjee</span>, <span >Giannis Fikioris</span>, <span >Éva Tardos</span>
   </div>
   
   
@@ -635,7 +631,7 @@ We further show that our results are best possible. First, we show that the comp
     
       
     
-    May 2020
+    June 2025
   </span>
   
 
@@ -685,14 +681,14 @@ We further show that our results are best possible. First, we show that the comp
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2001.06779" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2501.14916.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/alijani-20-sigmetrics/cite.bib">
+        data-filename="/publication/onyeze-25-sigmetrics/cite.bib">
   Cite
 </button>
 
@@ -720,9 +716,9 @@ We further show that our results are best possible. First, we show that the comp
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://dl.acm.org/doi/abs/10.1145/3393691.3394212" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2501.14916" target="_blank" rel="noopener">
     
-    Link
+    arXiv
   </a>
 
   
@@ -736,9 +732,9 @@ We further show that our results are best possible. First, we show that the comp
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2001.06779" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1145/3726854.3727271" target="_blank" rel="noopener">
     
-    arXiv
+    Link
   </a>
 
 
@@ -754,11 +750,9 @@ We further show that our results are best possible. First, we show that the comp
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract"><p>We consider the problem of selling perishable items to a stream of buyers in order to maximize social welfare. A seller starts with a set of identical items, and each arriving buyer wants any one item, and has a valuation drawn i.i.d. from a known distribution. Each item, however, disappears after an a priori unknown amount of time that we term the horizon for that item. The seller knows the (possibly different) distribution of the horizon for each item, but not its realization till the item actually disappears. As with the classic prophet inequalities, the goal is to design an online pricing scheme that competes with the prophet that knows the horizon and extracts full social surplus (or welfare).</p>
+    <p class="pub-abstract"><p>Dynamic max-min fair allocation (DMMF) is a simple and popular mechanism for the repeated allocation of a shared resource among competing agents: in each round, each agent can choose to request or not for the resource, which is then allocated to the requesting agent with the least number of allocations received till then. Recent work has shown that under DMMF, a simple threshold-based request policy enjoys surprisingly strong robustness properties, wherein each agent can realize a significant fraction of her optimal utility irrespective of how other agents&rsquo; behave. While this goes some way in mitigating the possibility of a &lsquo;tragedy of the commons&rsquo; outcome, the robust policies require that an agent defend against arbitrary (possibly adversarial) behavior by other agents. This however may be far from optimal compared to real world settings, where other agents are selfish optimizers rather than adversaries. Therefore, robust guarantees give no insight on how agents behave in an equilibrium, and whether outcomes are improved under one.</p>
 
-<p>Our main results are for the setting where items have independent horizon distributions satisfying the monotone-hazard-rate (MHR) condition. Here, for any number of items, we achieve a constant-competitive bound via a conceptually simple policy that balances the rate at which buyers are accepted with the rate at which items are removed from the system. We implement this policy via a novel technique of matching via probabilistically simulating departures of the items at future times. Moreover, for a single item and MHR horizon distribution with mean $μ$, we show a tight result: There is a fixed pricing scheme that has competitive ratio at most $2 - 1/μ$, and this is the best achievable in this class.</p>
-
-<p>We further show that our results are best possible. First, we show that the competitive ratio is unbounded without the MHR assumption even for one item. Further, even when the horizon distributions are i.i.d. MHR and the number of items becomes large, the competitive ratio of any policy is lower bounded by a constant greater than $1$, which is in sharp contrast to the setting with identical deterministic horizons.</p>
+<p>Our work aims to bridge this gap by studying the existence and properties of equilibria under DMMF. To this end, we first show that despite the strong robustness guarantees of the threshold based strategies, no Nash equilibrium exists when agents participate in DMMF, each using some fixed threshold-based policy. On the positive side, however, we show that for the symmetric case, a simple data-driven request policy guarantees that no agent benefits from deviating to a different fixed threshold policy. In our proposed policy agents aim to match the historical allocation rate with a vanishing drift towards the rate optimizing overall welfare for all users. Furthermore, the resulting equilibrium outcome can be significantly better compared to what follows from the robustness guarantees.</p>
 </p>
     
 
@@ -789,7 +783,7 @@ We further show that our results are best possible. First, we show that the comp
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>2020 SIGMETRICS/Performance Joint International Conference on Measurement and Modeling of Computer Systems</em></div>
+          <div class="col-12 col-md-9"><em>2025 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -799,7 +793,7 @@ We further show that our results are best possible. First, we show that the comp
 
     <div class="space-below"></div>
 
-    <div class="article-style"><p>Journal version: <a href="/publication/alijani-20-pomacs/">Alijani et al. (2020)</a></p>
+    <div class="article-style"><p>Journal version: <a href="/publication/onyeze-25-pomacs/">Onyeze et al. (2025)</a>.</p>
 </div>
 
     
@@ -811,9 +805,11 @@ We further show that our results are best possible. First, we show that the comp
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/online-decision-making/">online decision-making</a>
-  
   <a class="badge badge-light" href="/tags/market-design/">market design</a>
+  
+  <a class="badge badge-light" href="/tags/fair-allocation/">fair allocation</a>
+  
+  <a class="badge badge-light" href="/tags/online-decision-making/">online decision-making</a>
   
 </div>
 
@@ -837,135 +833,6 @@ We further show that our results are best possible. First, we show that the comp
 
 
 
-
-
-  
-    
-    
-
-
-
-
-
-  
-    
-    
-    
-      
-    
-    
-    
-    <div class="media author-card content-widget-hr">
-      
-        
-        <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu7688e16c4615c7f6d55f1d88bc6dab17_18493_270x270_fill_q90_lanczos_center.jpg" alt="Siddhartha Banerjee">
-      
-
-      <div class="media-body">
-        <h5 class="card-title"><a href="https://sidbanerjee.orie.cornell.edu/">Siddhartha Banerjee</a></h5>
-        <h6 class="card-subtitle">Associate Professor</h6>
-        <p class="card-text">Sid Banerjee is an associate professor in the <a href="http://www.orie.cornell.edu/" target="_blank">School of Operations Research</a> at Cornell, working on topics at the intersection of data-driven decision-making, market design, and algorithms for large-scale networks.</p>
-        <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:sbanerjee@cornell.edu" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/banerjee_sid_" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.com/citations?user=_kqpoHIAAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/SidBanerjee" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://orcid.org/0000-0002-8954-4578" target="_blank" rel="noopener">
-        <i class="ai ai-orcid"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/files/SidBanerjeeCV.pdf" >
-        <i class="ai ai-cv"></i>
-      </a>
-    </li>
-  
-</ul>
-
-      </div>
-    </div>
-  
 
 
   
@@ -1014,15 +881,15 @@ We further show that our results are best possible. First, we show that the comp
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/alijani-20-pomacs/">Predict and Match</a></li>
+      <li><a href="/publication/lin-25-ijcai/">Online Resource Sharing: Better Robust Guarantees via Randomized Strategies</a></li>
       
-      <li><a href="/publication/gorokh-20/">From Monetary to Non-Monetary Mechanism Design via Artificial Currencies</a></li>
+      <li><a href="/publication/onyeze-25-pomacs/">Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria</a></li>
       
-      <li><a href="/publication/alijani-19-sigmetrics/">The Segmentation-Thickness Tradeoff in Online Marketplaces</a></li>
+      <li><a href="/publication/banerjee-23-ec-robust/">Robust pseudo-markets for reusable public resources</a></li>
       
-      <li><a href="/publication/alijani-19-pomacs/">The Segmentation-Thickness Tradeoff in Online Marketplaces</a></li>
+      <li><a href="/publication/gkatzelis-22-soda/">Online nash social welfare maximization with predictions</a></li>
       
-      <li><a href="/publication/ridesharechapter-19/">Ride Sharing</a></li>
+      <li><a href="/publication/gkatzelis-22/">Online Nash Social Welfare Maximization with Predictions</a></li>
       
     </ul>
   </div>

@@ -20,7 +20,7 @@ publication_short = "*SIGMETRICS '18*"
 
 url_pdf = "https://arxiv.org/pdf/1711.10963.pdf"
 
-links = [{name = "ArXiv", url = "https://arxiv.org/abs/1711.10963"}]
+links = [{name="Link", url="https://doi.org/10.1145/3219617.3219623"},{name = "ArXiv", url = "https://arxiv.org/abs/1711.10963"}]
 
 +++
 

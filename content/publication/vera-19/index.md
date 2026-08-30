@@ -26,7 +26,7 @@ url_video = "https://www.youtube.com/watch?v=l03LnfBUiww&feature=emb_title"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Link", url = "https://arxiv.org/abs/1901.05028"},{name = "arXiv", url = "https://arxiv.org/abs/1901.05028"}]
+links = [{name = "Link", url = "https://doi.org/10.1287/mnsc.2020.3624"},{name = "arXiv", url = "https://arxiv.org/abs/1901.05028"}]
 
 
 +++

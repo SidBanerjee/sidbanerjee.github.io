@@ -25,7 +25,7 @@ url_video = "https://www.youtube.com/watch?v=UxKb5D248xw&feature=youtu.be"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Link", url = "https://dl.acm.org/doi/abs/10.1145/3366703"},{name = "arXiv", url = "https://arxiv.org/abs/1910.08151"},{name="code",url="https://github.com/seanrsinclair/AdaptiveQLearning"}]
+links = [{name = "Link", url = "https://doi.org/10.1145/3393691.3394176"},{name = "arXiv", url = "https://arxiv.org/abs/1910.08151"},{name="code",url="https://github.com/seanrsinclair/AdaptiveQLearning"}]
 
 
 +++

@@ -6,10 +6,11 @@
 {{ $items_type := $st.Params.content.page_type | default "post" }}
 {{ $items_count := $st.Params.content.count | default 65535 }}
 {{ $items_sort := $st.Params.content.order| default "desc" }}
+{{ $metadata_selection := eq ($st.Params.content.selection | default "featured") "metadata" }}
 
 {{/* Query */}}
 {{ $query := where site.RegularPages "Type" $items_type }}
-{{ if eq ($st.Params.content.selection | default "featured") "metadata" }}
+{{ if $metadata_selection }}
   {{ $eligible := slice }}
   {{ $min_year := $st.Params.content.min_year | default 0 }}
   {{ $venue_patterns := $st.Params.content.venue_patterns | default (slice) }}
@@ -51,8 +52,26 @@
 {{ end }}
 
 {{/* Sort */}}
-{{ $sort_by := "Date" }}
-{{ $query = sort $query $sort_by $items_sort }}
+{{ if $metadata_selection }}
+  {{ $dated_query := slice }}
+  {{ range $post := $query }}
+    {{ $sort_date := $post.Date.Format "2006-01-02" }}
+    {{ if in $post.Params.publication_types "1" }}
+      {{ $venue_label := replace ($post.Params.publication_short | default "") "*" "" }}
+      {{ with index site.Data.conference_dates $venue_label }}
+        {{ $sort_date = . }}
+      {{ end }}
+    {{ end }}
+    {{ $dated_query = $dated_query | append (dict "page" $post "sort_date" $sort_date) }}
+  {{ end }}
+  {{ $dated_query = sort $dated_query "sort_date" $items_sort }}
+  {{ $query = slice }}
+  {{ range $item := $dated_query }}
+    {{ $query = $query | append $item.page }}
+  {{ end }}
+{{ else }}
+  {{ $query = sort $query "Date" $items_sort }}
+{{ end }}
 
 {{/* Limit */}}
 {{ $query = first $items_count $query }}

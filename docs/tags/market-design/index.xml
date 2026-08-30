@@ -45,6 +45,15 @@
     </item>
     
     <item>
+      <title>Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria</title>
+      <link>https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-sigmetrics/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-sigmetrics/</guid>
+      <description>&lt;p&gt;Journal version: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-pomacs/&#34;&gt;Onyeze et al. (2025)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Online Resource Sharing: Better Robust Guarantees via Randomized Strategies</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication/lin-25-ijcai/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
@@ -65,7 +74,8 @@
       <link>https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-pomacs/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-pomacs/</guid>
-      <description></description>
+      <description>&lt;p&gt;Conference version: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/publication/onyeze-25-sigmetrics/&#34;&gt;Onyeze et al. (2025)&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -200,7 +210,7 @@
     </item>
     
     <item>
-      <title>Predict and Match: Prophet Inequalities with Uncertain Supply</title>
+      <title>Predict and Match</title>
       <link>https://sidbanerjee.orie.cornell.edu/publication/alijani-20-pomacs/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 -0400</pubDate>
       <guid>https://sidbanerjee.orie.cornell.edu/publication/alijani-20-pomacs/</guid>

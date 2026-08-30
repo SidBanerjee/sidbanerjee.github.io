@@ -2,7 +2,7 @@
 tags = ["online decision-making", "market design"]
 featured = false
 
-title = "Predict and Match: Prophet Inequalities with Uncertain Supply"
+title = "Predict and Match"
 date = 2020-05-01
 authors = ["Reza Alijani", "admin", "Sreenivas Gollapudi", "Kamesh Munagala", "Kangning Wang"]
 publication_types = ["2"]

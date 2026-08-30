@@ -5,10 +5,11 @@ authors:
 - Siddhartha Banerjee
 - Giannis Fikioris
 - Éva Tardos
-date: "2025-03-01"
-publication_types: ["2"]
-publication: "*ACM POMACS*"
-abstract: "Dynamic max-min fair allocation (DMMF) is a simple and popular mechanism for the repeated allocation of a shared resource among competing agents: in each round, each agent can choose to request or not for the resource, which is then allocated to the requesting agent with the least number of allocations received till then. Recent work has shown that under DMMF, a simple threshold-based request policy enjoys surprisingly strong robustness properties, wherein each agent can realize a significant fraction of her optimal utility irrespective of how other agents' behave. While this goes some way in mitigating the possibility of a 'tragedy of the 
+date: "2025-06-09"
+publication_types: ["1"]
+publication: "*2025 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems*"
+publication_short: "*SIGMETRICS '25*"
+abstract: "Dynamic max-min fair allocation (DMMF) is a simple and popular mechanism for the repeated allocation of a shared resource among competing agents: in each round, each agent can choose to request or not for the resource, which is then allocated to the requesting agent with the least number of allocations received till then. Recent work has shown that under DMMF, a simple threshold-based request policy enjoys surprisingly strong robustness properties, wherein each agent can realize a significant fraction of her optimal utility irrespective of how other agents' behave. While this goes some way in mitigating the possibility of a 'tragedy of the
 commons' outcome, the robust policies require that an agent defend against arbitrary (possibly adversarial) behavior by other agents. This however may be far from optimal compared to real world settings, where other agents are selfish optimizers rather than adversaries. Therefore, robust guarantees give no insight on how agents behave in an equilibrium, and whether outcomes are improved under one.
 
 
@@ -21,10 +22,8 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2501.14916
 - name: Link
-  url: https://doi.org/10.1145/3711695
+  url: https://doi.org/10.1145/3726854.3727271
 url_pdf: https://arxiv.org/pdf/2501.14916.pdf
-
-
 ---
 
-Conference version: [Onyeze et al. (2025)](/publication/onyeze-25-sigmetrics/).
+Journal version: [Onyeze et al. (2025)](/publication/onyeze-25-pomacs/).
