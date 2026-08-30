@@ -282,7 +282,7 @@
     
       <meta property="article:published_time" content="2026-08-24T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2026-08-24T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2026-08-30T00:00:00&#43;00:00">
   
 
   
@@ -595,8 +595,10 @@
     
     
       
+          Last updated on
+      
     
-    Aug 24, 2026
+    Aug 30, 2026
   </span>
   
 
@@ -686,29 +688,6 @@ isolation.</p>
 
 <p>Detailed dates, assessment information, and course policies will be posted when finalized.</p>
 
-<h2 id="learning-goals">Learning Goals</h2>
-
-<p>By the end of the course, students should be able to:</p>
-
-<ul>
-<li>formulate and solve basic pricing and allocation models using buyer values, demand, choice, and resource constraints;</li>
-<li>interpret LP dual variables and dynamic marginal values as prices or opportunity costs;</li>
-<li>analyze demand learning using concentration bounds, regret, optimism, and the feedback between decisions and observations;</li>
-<li>distinguish exact, fluid, and clairvoyant benchmarks, and explain how scale affects performance and tractability;</li>
-<li>model substitution using random-utility models and optimize simple assortments; and</li>
-<li>analyze strategic and informational problems and compare prices, auctions, mechanisms, reputation, and matching as market-design interventions.</li>
-</ul>
-
-<h2 id="prerequisites-and-background">Prerequisites and Background</h2>
-
-<p><strong>Required background</strong></p>
-
-<p>Comfort with linear optimization, basic probability, calculus, and mathematical modeling, approximately at the level of ORIE 3300 and ORIE 3500 (or equivalent). You should know (or be willing to learn) to use LP duality and complementary slackness; random variables, expectation, conditional probability, and common distributions; and elementary calculus.</p>
-
-<p><strong>Helpful but not required</strong></p>
-
-<p>Prior exposure to economics, game theory, stochastic processes, or algorithms. Some assignments may involve computation or simulation, so familiarity with Python or a comparable language will be helpful.</p>
-
 <h2 id="references">References</h2>
 
 <p>There is no required textbook; however we will assign readings from three main references (all available online through Cornell Library):</p>
@@ -727,7 +706,7 @@ isolation.</p>
 Assessment details and course policies will be posted in the syllabus.
 -->
 
-<h2 id="tentative-lecture-plan">Tentative Lecture Plan</h2>
+<h2 id="lectures-and-notes">Lectures and Notes</h2>
 
 <p>The plan below is tentative. Topics, dates, and the division between lectures may change with pace. Lecture-note links will be activated as materials are posted.</p>
 
@@ -747,6 +726,8 @@ Assessment details and course policies will be posted in the syllabus.
 </ul></li>
 <li>Queue Lab: <a href="/courses/orie4154f26/queue-lab/">[game]</a> — an interactive pricing in queues simulator</li>
 </ul></li>
+
+<li><p><strong>LP Toolkit</strong> <a href="/docs/ORIE4154F26/files/ORIE4154_LP_Toolkit.pdf">[notes]</a></p></li>
 
 <li><p><strong>Lecture 2 — Aug. 27:</strong> From values to demand: quantiles, virtual values, and elasticity</p>
 
@@ -787,60 +768,70 @@ Assessment details and course policies will be posted in the syllabus.
 <h3 id="unit-2-scarcity-scale-and-online-allocation">Unit 2: Scarcity, Scale, and Online Allocation</h3>
 
 <ul>
-<li><strong>Lecture 5 — Sept. 8:</strong> Single ressource RM and rationing (and a quick DP primer)</li>
-</ul>
-
-<!--
-    * Lecture notes: [[Lec 5]](/docs/ORIE4154F26/files/ORIE4154_Lecture5.pdf)
-    * Suggested Reading:
-        * T&vR, §§2.1–2.2 [[T&vR]][T&vR]
--->
+<li><p><strong>Lecture 5 — Sept. 8:</strong> Scarcity and the value of capacity: Littlewood&rsquo;s rule</p>
 
 <ul>
-<li><strong>Lecture 6 — Sept. 10:</strong> Network revenue management: fluid LPs and bid prices</li>
-</ul>
-
-<!--
-    * Lecture notes: [[Lec 6]](/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf)
-    * Suggested Reading:
-        * T&vR, Chs. 2–3 [[T&vR]][T&vR]
-        * Vera–Banerjee (2019) [[paper]][Bayesian Prophet]
--->
+<li>Lecture notes: <a href="/docs/ORIE4154F26/files/ORIE4154_Lecture5.pdf">[Lec 5]</a></li>
+<li>Suggested Reading:
 
 <ul>
-<li><strong>Lecture 7 — Sept. 15:</strong> From fluid predictions to confidence-aware decisions</li>
-</ul>
+<li>T&amp;vR, §2.2.1 and §§2.5.1–2.5.2 <a href="https://catalog.library.cornell.edu/catalog/15564919" target="_blank"><a href="https://catalog.library.cornell.edu/catalog/15564919" target="_blank">T&amp;vR</a></a></li>
+</ul></li>
+</ul></li>
 
-<!--
-    * Lecture notes: [[Lec 7]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf)
-    * Suggested Reading:
-        * T&vR, Chs. 2–3 [[T&vR]][T&vR]
-        * Banerjee–Freund (2025), §§1–3 [[paper]][Good Prophets]
--->
+<li><p><strong>Lecture 6 — Sept. 10:</strong> Network revenue management: fluid LPs and bid prices</p>
 
 <ul>
-<li><strong>Lecture 8 — Sept. 17:</strong> Bayes Selector: predicting the clairvoyant</li>
-</ul>
+<li>Lecture notes: <a href="/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf">[Lec 6]</a></li>
+<li>Suggested Reading:
 
-<!--
-    * Lecture notes: [[Lec 8]](/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf)
--->
+<ul>
+<li>T&amp;vR, §3.1.2.3, §§3.2.2–3.2.5, and §3.3.1 <a href="https://catalog.library.cornell.edu/catalog/15564919" target="_blank"><a href="https://catalog.library.cornell.edu/catalog/15564919" target="_blank">T&amp;vR</a></a></li>
+<li>Vera–Banerjee (2019) <a href="https://arxiv.org/abs/1901.05028" target="_blank">[paper]</a></li>
+</ul></li>
+</ul></li>
+
+<li><p><strong>Lecture 7 — Sept. 15:</strong> Confidence-aware revenue management</p>
+
+<ul>
+<li>Lecture notes: <a href="/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf">[Lec 7]</a></li>
+<li>Suggested Reading:
+
+<ul>
+<li>Vera–Banerjee (2019) <a href="https://arxiv.org/abs/1901.05028" target="_blank">[paper]</a></li>
+<li>Banerjee–Freund (2025), §§1–3 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3479189" target="_blank">[paper]</a></li>
+</ul></li>
+</ul></li>
+
+<li><p><strong>Lecture 8 — Sept. 17:</strong> Bayes Selector: predicting the clairvoyant</p>
+
+<ul>
+<li>Lecture notes: <a href="/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf">[Lec 8]</a></li>
+<li>Suggested Reading:
+
+<ul>
+<li>Vera–Banerjee (2019), §§3–4 <a href="https://arxiv.org/abs/1901.05028" target="_blank">[paper]</a></li>
+<li>Banerjee–Freund (2025), §§2–3 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3479189" target="_blank">[paper]</a></li>
+</ul></li>
+</ul></li>
+</ul>
 
 <h3 id="unit-3-customer-choice-and-assortment">Unit 3: Customer Choice and Assortment</h3>
 
 <ul>
-<li><strong>Lecture 9 — Sept. 22:</strong> The spiral-down effect: when availability corrupts demand data</li>
-</ul>
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture9.pdf)
-    * Suggested Reading:
-        * Cooper–Homem-de-Mello–Kleywegt [[link]][Spiral-Down]
-        * T&vR, choice-based RM chapters [[link]][T&vR]
--->
+<li><p><strong>Lecture 9 — Sept. 22:</strong> The spiral-down effect: when availability corrupts demand data</p>
 
 <ul>
-<li><strong>Lecture 10 — Sept. 24:</strong> Choice models and substitution</li>
+<li>Lecture notes: <a href="/docs/ORIE4154F26/files/ORIE4154_Lecture9.pdf">[Lec 9]</a></li>
+<li>Suggested Reading:
+
+<ul>
+<li>Cooper–Homem-de-Mello–Kleywegt <a href="https://pubsonline.informs.org/doi/abs/10.1287/opre.1060.0304" target="_blank">[link]</a></li>
+<li>T&amp;vR, §§2.6.1–2.6.2 and §7.2.2.3 <a href="https://catalog.library.cornell.edu/catalog/15564919" target="_blank">[link]</a></li>
+</ul></li>
+</ul></li>
+
+<li><p><strong>Lecture 10 — Sept. 24:</strong> Choice models and substitution</p></li>
 </ul>
 
 <!--
@@ -1106,6 +1097,35 @@ PROMISING ARCHIVAL MATERIALS:
 -->
 
 <p>Possible extensions, as time permits, include overbooking, finite-inventory dynamic pricing, proper scoring rules, censored-demand estimation, multi-parameter revenue maximization, and auction extensions.</p>
+
+<h2 id="assignments">Assignments</h2>
+
+<ul>
+<li><strong>Assignment 1</strong> <a href="/docs/ORIE4154F26/files/HW1.pdf">[questions]</a>: due on September 8 at 1:00 p.m. ET</li>
+</ul>
+
+<h2 id="learning-goals">Learning Goals</h2>
+
+<p>By the end of the course, students should be able to:</p>
+
+<ul>
+<li>formulate and solve basic pricing and allocation models using buyer values, demand, choice, and resource constraints;</li>
+<li>interpret LP dual variables and dynamic marginal values as prices or opportunity costs;</li>
+<li>analyze demand learning using concentration bounds, regret, optimism, and the feedback between decisions and observations;</li>
+<li>distinguish exact, fluid, and clairvoyant benchmarks, and explain how scale affects performance and tractability;</li>
+<li>model substitution using random-utility models and optimize simple assortments; and</li>
+<li>analyze strategic and informational problems and compare prices, auctions, mechanisms, reputation, and matching as market-design interventions.</li>
+</ul>
+
+<h2 id="prerequisites-and-background">Prerequisites and Background</h2>
+
+<p><strong>Required background</strong></p>
+
+<p>Comfort with linear optimization, basic probability, calculus, and mathematical modeling, approximately at the level of ORIE 3300 and ORIE 3500 (or equivalent). You should know (or be willing to learn) to use LP duality and complementary slackness; random variables, expectation, conditional probability, and common distributions; and elementary calculus.</p>
+
+<p><strong>Helpful but not required</strong></p>
+
+<p>Prior exposure to economics, game theory, stochastic processes, or algorithms. Some assignments may involve computation or simulation, so familiarity with Python or a comparable language will be helpful.</p>
 
     </div>
 
