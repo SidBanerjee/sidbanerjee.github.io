@@ -55,6 +55,14 @@
 - Clearly distinguish confirmed errors from uncertain or conflicting evidence.
 - Ask before making an ambiguous bibliographic change.
 
+## Deployment / push policy
+
+- Treat “deploy,” “prepare for deployment,” “build and deploy,” and “get this ready to deploy” as local preparation only: make the requested source changes, run normal `hugo`, run repository safety and validation checks, ensure generated `docs/` output is ready, and leave the repository ready for user review and a manual push.
+- Create a local git commit only when requested or clearly appropriate.
+- Unless the user explicitly requests it in that specific task, do not run `git push`, push to GitHub or another remote, trigger a remote deployment, authenticate to GitHub, change remotes or HTTPS/SSH protocols to enable a push, or change GitHub Pages settings.
+- Push only in response to an unambiguous instruction such as “push,” “push to GitHub,” “push main,” or “commit and push.”
+- If the user says only “deploy,” stop after the local build, validation, and any authorized commit, then report that the repository is ready for the user to push manually.
+
 ## Deployment version
 
 - `site_version` in `config/_default/params.toml` is manually incremented once for each deployment-ready batch.
