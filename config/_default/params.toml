@@ -34,7 +34,7 @@ font_size = "M"
 ############################
 
 # Manually controlled deployment marker displayed in the site footer.
-site_version = "2026-08-30d"
+site_version = "2026-08-31a"
 current_teaching_note = ""
 
 # Website type
