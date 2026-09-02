@@ -83,12 +83,10 @@ Assessment details and course policies will be posted in the syllabus.
 
 &lt;ul&gt;
 &lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture1.pdf&#34;&gt;[Lec 1]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Suggested Reading:
+&lt;li&gt;Recommended Reading:
 
 &lt;ul&gt;
 &lt;li&gt;Vohra, Ch. 1 and §§2.1–2.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[V&amp;amp;L]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;T&amp;amp;vR, §§1.1 and 1.3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;[T&amp;amp;vR]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Naor (1969) &lt;a href=&#34;https://doi.org/10.2307/1909200&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Queue Lab: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/queue-lab/&#34;&gt;[game]&lt;/a&gt; — an interactive pricing in queues simulator&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -99,11 +97,10 @@ Assessment details and course policies will be posted in the syllabus.
 
 &lt;ul&gt;
 &lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture2.pdf&#34;&gt;[Lec 2]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Suggested Reading:
+&lt;li&gt;Recommended Reading:
 
 &lt;ul&gt;
-&lt;li&gt;Vohra, §§4.1–4.2 and §§4.14.1–4.14.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[V&amp;amp;L]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;T&amp;amp;vR, selected parts of §§7.2–7.3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;[T&amp;amp;vR]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;T&amp;amp;vR, §§7.2.1 and 7.3.1 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;[T&amp;amp;vR]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
@@ -111,11 +108,10 @@ Assessment details and course policies will be posted in the syllabus.
 
 &lt;ul&gt;
 &lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture3.pdf&#34;&gt;[Lec 3]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Suggested Reading:
+&lt;li&gt;Recommended Reading:
 
 &lt;ul&gt;
-&lt;li&gt;Vohra, §§4.2–4.5 and §4.14.2 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15183141&#34; target=&#34;_blank&#34;&gt;[V&amp;amp;L]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Slivkins, Ch. 1 &lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;[Slivkins]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slivkins, Ch. 1, §§1.1–1.3 &lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;[Slivkins]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
@@ -123,12 +119,11 @@ Assessment details and course policies will be posted in the syllabus.
 
 &lt;ul&gt;
 &lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture4.pdf&#34;&gt;[Lec 4]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Suggested Reading:
+&lt;li&gt;Recommended Reading:
 
 &lt;ul&gt;
-&lt;li&gt;Slivkins, §§1.3.1–1.3.3 and selected parts of Ch. 2 &lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;Slivkins&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slivkins, §§1.3.1–1.3.3 &lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://arxiv.org/abs/1904.07272&#34; target=&#34;_blank&#34;&gt;Slivkins&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Bandit Lab: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/bandit-lab/&#34;&gt;[simulation]&lt;/a&gt; — compare Greedy, Lecture UCB, Anytime UCB, KL-UCB, and Thompson sampling&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

@@ -99,31 +99,26 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
 
 *   **Lecture 1 — Aug. 25:** Pricing with full information: surplus, market clearing, and congestion tolls
     * Lecture notes: [[Lec 1]](/docs/ORIE4154F26/files/ORIE4154_Lecture1.pdf)
-    * Suggested Reading:
+    * Recommended Reading:
         * Vohra, Ch. 1 and §§2.1–2.2 [[V&L]][Vohra]
-        * T&vR, §§1.1 and 1.3 [\[T&vR\]][T&vR]
-        * Naor (1969) [[paper]][Naor]
     * Queue Lab: [[game]](/courses/orie4154f26/queue-lab/) — an interactive pricing in queues simulator
 
 *   **LP Toolkit** [[notes]](/docs/ORIE4154F26/files/ORIE4154_LP_Toolkit.pdf)
 
 *   **Lecture 2 — Aug. 27:** From values to demand: quantiles, virtual values, and elasticity
     * Lecture notes: [[Lec 2]](/docs/ORIE4154F26/files/ORIE4154_Lecture2.pdf)
-    * Suggested Reading:
-        * Vohra, §§4.1–4.2 and §§4.14.1–4.14.2 [[V&L]][Vohra]
-        * T&vR, selected parts of §§7.2–7.3 [\[T&vR\]][T&vR]
+    * Recommended Reading:
+        * T&vR, §§7.2.1 and 7.3.1 [\[T&vR\]][T&vR]
 
 *   **Lecture 3 — Sept. 1:** From optimal pricing to learning: markup, greedy failure, and regret
     * Lecture notes: [[Lec 3]](/docs/ORIE4154F26/files/ORIE4154_Lecture3.pdf)
-    * Suggested Reading:
-        * Vohra, §§4.2–4.5 and §4.14.2 [[V&L]][Vohra]
-        * Slivkins, Ch. 1 [\[Slivkins\]][Slivkins]
+    * Recommended Reading:
+        * Slivkins, Ch. 1, §§1.1–1.3 [\[Slivkins\]][Slivkins]
 
 *   **Lecture 4 — Sept. 3:** Learning to price: optimism under uncertainty and UCB
     * Lecture notes: [[Lec 4]](/docs/ORIE4154F26/files/ORIE4154_Lecture4.pdf)
-    * Suggested Reading:
-        * Slivkins, §§1.3.1–1.3.3 and selected parts of Ch. 2 [[Slivkins]][Slivkins]
-    * Bandit Lab: [[simulation]](/courses/orie4154f26/bandit-lab/) — compare Greedy, Lecture UCB, Anytime UCB, KL-UCB, and Thompson sampling
+    * Recommended Reading:
+        * Slivkins, §§1.3.1–1.3.3 [[Slivkins]][Slivkins]
 
 
 ### Unit 2: Scarcity, Scale, and Online Allocation
