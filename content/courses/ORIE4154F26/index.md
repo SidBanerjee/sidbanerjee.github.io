@@ -125,7 +125,7 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
 ### Unit 2: Scarcity, Scale, and Online Allocation
 
 *   **Lecture 6 — Sept. 10:** Scarcity and the value of capacity: Littlewood's rule
-    <!-- * Lecture notes: [[Lec 6]](/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf) -->
+    * Lecture notes: [[Lec 6]](/docs/ORIE4154F26/files/ORIE4154_Lecture6.pdf)
     * Suggested Reading:
         * T&vR, §2.2.1 and §§2.5.1–2.5.2 [[T&vR]][T&vR]
 
