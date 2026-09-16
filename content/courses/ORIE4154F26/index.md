@@ -130,7 +130,7 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
         * T&vR, §2.2.1 and §§2.5.1–2.5.2 [[T&vR]][T&vR]
 
 *   **Lecture 7 — Sept. 15:** Network revenue management: fluid LPs and bid prices
-    <!-- * Lecture notes: [[Lec 7]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf) -->
+    * Lecture notes: [[Lec 7]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf)
     * Suggested Reading:
         * T&vR, §3.1.2.3, §§3.2.2–3.2.5, and §3.3.1 [[T&vR]][T&vR]
         * Vera–Banerjee (2019) [[paper]][Bayesian Prophet]
