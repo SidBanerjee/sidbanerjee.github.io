@@ -378,7 +378,8 @@ Possible extensions, as time permits, include overbooking, finite-inventory dyna
 
 ## Assignments
 
-- **Assignment 1** [[questions]](/docs/ORIE4154F26/files/HW1.pdf): due on September 8 at 1:00 p.m. ET
+- **Assignment 1** [[questions]](/docs/ORIE4154F26/files/HW1.pdf) [[solutions]](/docs/ORIE4154F26/files/HW1_Solns.pdf): due on September 8 at 1:00 p.m. ET
+- **Assignment 2** [[questions]](/docs/ORIE4154F26/files/HW2.pdf): due on October 1 at 1:00 p.m. ET
 
 ## Learning Goals
 
