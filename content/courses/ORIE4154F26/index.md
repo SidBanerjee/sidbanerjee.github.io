@@ -13,7 +13,7 @@ authors:
 tags:
 categories:
 date: "2026-08-24T00:00:00Z"
-lastmod: "2026-08-30T00:00:00Z"
+lastmod: "2026-09-25T00:00:00Z"
 featured: false
 draft: false
 
@@ -129,46 +129,44 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
     * Suggested Reading:
         * T&vR, §2.2.1 and §§2.5.1–2.5.2 [[T&vR]][T&vR]
 
-*   **Lecture 7 — Sept. 15:** Network revenue management: fluid LPs and bid prices
-    * Lecture notes: [[Lec 7]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf)
+*   **Lectures 7–8 — Sept. 15 and Sept. 17:** Static and dynamic revenue management at scale
+    * Lecture notes: [[Lecs 7–8]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf)
+    * Suggested Reading:
+        * T&vR, §§2.5.1–2.5.2 [[T&vR]][T&vR]
+
+*   **Lectures 9–10 — Sept. 22 and Sept. 24:** Fluid models and network revenue management
+    * Lecture notes: [[Lecs 9–10]](/docs/ORIE4154F26/files/ORIE4154_Lecture9.pdf)
     * Suggested Reading:
         * T&vR, §3.1.2.3, §§3.2.2–3.2.5, and §3.3.1 [[T&vR]][T&vR]
-        * Vera–Banerjee (2019) [[paper]][Bayesian Prophet]
 
-*   **Lecture 8 — Sept. 17:** Confidence-aware revenue management
-    <!-- * Lecture notes: [[Lec 8]](/docs/ORIE4154F26/files/ORIE4154_Lecture8.pdf) -->
-    * Suggested Reading:
-        * Vera–Banerjee (2019) [[paper]][Bayesian Prophet]
-        * Banerjee–Freund (2025), §§1–3 [[paper]][Good Prophets]
-
-*   **Lecture 9 — Sept. 22:** Bayes Selector: predicting the clairvoyant
-    <!-- * Lecture notes: [[Lec 9]](/docs/ORIE4154F26/files/ORIE4154_Lecture9.pdf) -->
+*   **Lecture 11 — Sept. 29:** Bayes Selector: confidence-aware revenue management
+    * Lecture notes: [[Lec 11]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
     * Suggested Reading:
         * Vera–Banerjee (2019), §§3–4 [[paper]][Bayesian Prophet]
-        * Banerjee–Freund (2025), §§2–3 [[paper]][Good Prophets]
+        * Banerjee–Freund (2025) [[paper]][Good Prophets]
 
 
 ### Unit 3: Customer Choice and Assortment
 
-*   **Lecture 10 — Sept. 24:** The spiral-down effect: when availability corrupts demand data
-    <!-- * Lecture notes: [[Lec 10]](/docs/ORIE4154F26/files/ORIE4154_Lecture10.pdf) -->
+*   **Lecture 12 — Oct. 1:** The spiral-down effect: when availability corrupts demand data
+    * Lecture notes: [[Lec 12]](/docs/ORIE4154F26/files/ORIE4154_Lecture12.pdf)
     * Suggested Reading:
         * Cooper–Homem-de-Mello–Kleywegt [[link]][Spiral-Down]
-        * T&vR, §§2.6.1–2.6.2 and §7.2.2.3 [[link]][T&vR]
+        * T&vR, §§2.6.1–2.6.2 and §7.2.2.3 [[T&vR]][T&vR]
 
-*   **Lecture 11 — Sept. 29:** Choice models and substitution
+*   **Lecture 13 — Oct. 6:** Choice models and substitution
 
 <!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
+    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture13.pdf)
     * Suggested Reading:
         * T&vR, choice-based RM chapters [[link]][T&vR]
         * Vohra, discrete-choice material [[link]][Vohra]
 -->
 
-*   **Lecture 12 — Oct. 1:** Assortment optimization under MNL
+*   **Lecture 14 — Oct. 8:** Assortment optimization under MNL
 
 <!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture12.pdf)
+    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture14.pdf)
     * Suggested Reading:
         * T&vR, choice-based RM chapters [[link]][T&vR]
 -->
@@ -182,55 +180,14 @@ PROMISING ARCHIVAL MATERIALS:
 
 ### Unit 4: Auctions, Game Theory, and Mechanisms
 
-*   **Lecture 13 — Oct. 6:** Posted prices versus auctions
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture13.pdf)
-    * Suggested Reading:
-        * Roughgarden [[link]][Roughgarden]
-        * Milgrom [[link]][Milgrom]
-        * Karlin–Peres [[link]][Karlin–Peres]
--->
-
-*   **Lecture 14 — Oct. 8:** Game theory for market design
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture14.pdf)
-    * Suggested Reading:
-        * Karlin–Peres [[link]][Karlin–Peres]
-        * Roughgarden [[link]][Roughgarden]
--->
-
 *Oct. 13: Fall Break — no class*
 
-*   **Lecture 15 — Oct. 15:** Auction formats and strategic bidding
+The remaining sequence is tentative; topics and their allocation across class meetings may change.
 
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture15.pdf)
-    * Suggested Reading:
-        * Milgrom [[link]][Milgrom]
-        * Roughgarden [[link]][Roughgarden]
-        * Karlin–Peres [[link]][Karlin–Peres]
--->
-
-*   **Lecture 16 — Oct. 20:** Truthful allocation in single-parameter environments and Myerson's lemma
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture16.pdf)
-    * Suggested Reading:
-        * Roughgarden, §§2.4–2.5 and Ch. 3 [[link]][Roughgarden]
-        * Karlin–Peres, §§15.1–15.3 [[link]][Karlin–Peres]
--->
-
-*   **Lecture 17 — Oct. 22:** Monopoly reserves, Myerson, and simple near-optimal auctions
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture17.pdf)
-    * Suggested Reading:
-        * Roughgarden, Chs. 5–6 [[link]][Roughgarden]
-        * Karlin–Peres, §§14.9–14.10 [[link]][Karlin–Peres]
-        * Bulow–Klemperer [[link]][Bulow–Klemperer]
--->
+- Posted prices versus auctions
+- Game theory, auction formats, and strategic bidding
+- Truthful allocation in single-parameter environments and Myerson's lemma
+- Monopoly reserves and simple near-optimal auctions
 
 <!--
 PROMISING ARCHIVAL MATERIALS:
@@ -243,32 +200,9 @@ PROMISING ARCHIVAL MATERIALS:
 
 ### Unit 5: Segmentation and Richer Pricing
 
-*   **Lecture 18 — Oct. 27:** Observable and hidden customer types: segmentation and screening
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture18.pdf)
-    * Suggested Reading:
-        * Vohra, §6.1 and §6.2.1 [[link]][Vohra]
-        * T&vR, selected parts of §8.3.3 [[link]][T&vR]
--->
-
-*   **Lecture 19 — Oct. 29:** Menus and self-selection: versioning and nonlinear pricing
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture19.pdf)
-    * Suggested Reading:
-        * Vohra, §6.2.1 and §6.7.3 [[Vohra]][Vohra]
-        * T&vR, §11.1 [[link]][T&vR]
--->
-
-*   **Lecture 20 — Nov. 3:** Multidimensional values: bundling and multi-product pricing
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture20.pdf)
-    * Suggested Reading:
-        * Vohra, §6.2.2 and §6.7.2 [[link]][Vohra]
-        * Roughgarden's multi-parameter revenue note [[link]][Roughgarden Multi-Parameter]
--->
+- Observable and hidden customer types: segmentation and screening
+- Menus and self-selection: versioning and nonlinear pricing
+- Multidimensional values: bundling and multi-product pricing
 
 <!--
 EDITORIAL NOTE:
@@ -278,53 +212,11 @@ EDITORIAL NOTE:
 
 ### Unit 6: Allocation, Competition, and Information
 
-*   **Lecture 21 — Nov. 5:** Multi-item allocation and combinatorial auctions
+- Multi-item allocation, combinatorial auctions, and VCG
+- Pricing under competition
+- Adverse selection, reputation, and information in markets
 
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture21.pdf)
-    * Suggested Reading:
-        * Vohra, §5.2.5 [[link]][Vohra]
-        * Roughgarden, §§8.2–8.4 [[link]][Roughgarden]
-        * Milgrom, Ch. 8 [[link]][Milgrom]
--->
-
-*   **Lecture 22 — Nov. 10:** VCG: optimization plus incentives in multi-parameter environments
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture22.pdf)
-    * Suggested Reading:
-        * Roughgarden, §7.2 [[link]][Roughgarden]
-        * Karlin–Peres, §§16.1–16.2 [[link]][Karlin–Peres]
-        * Milgrom, §§2.1–2.2 [[link]][Milgrom]
--->
-
-*   **Lecture 23 — Nov. 12:** Pricing under competition: capacity, differentiation, and repeated interaction
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture23.pdf)
-    * Suggested Reading:
-        * Vohra, selected parts of §§7.1–7.4 [[link]][Vohra]
-        * T&vR, selected parts of §§8.4.1 and 8.4.3 [[link]][T&vR]
--->
-
-*   **Lecture 24 — Nov. 17:** Adverse selection and the market for lemons
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture24.pdf)
-    * Suggested Reading:
-        * Karlin–Peres, §4.6 [[link]][Karlin–Peres]
-        * Vohra, §4.11 [[link]][Vohra]
-        * Akerlof (1970) [[link]][Akerlof]
--->
-
-*   **Lecture 25 — Nov. 19:** Reputation, trust, and information in markets
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture25.pdf)
-    * Suggested Reading:
-        * Karlin–Peres, §§6.3.1 and 6.4 [[link]][Karlin–Peres]
-        * Vohra, §7.2 [[link]][Vohra]
--->
+*Nov. 26: Thanksgiving Break — no class*
 
 <!--
 EDITORIAL NOTE:
@@ -334,36 +226,9 @@ EDITORIAL NOTE:
 
 ### Unit 7: Matching, Platforms, and Synthesis
 
-*   **Lecture 26 — Nov. 24:** Matching and markets without money
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture26.pdf)
-    * Suggested Reading:
-        * Karlin–Peres, §§10.1–10.3 [[link]][Karlin–Peres]
-        * Roughgarden, §§10.2–10.3 [[link]][Roughgarden]
-        * Gale–Shapley (1962) [[link]][Gale–Shapley]
--->
-
-*Nov. 26: Thanksgiving Break — no class*
-
-*   **Lecture 27 — Dec. 1:** Platforms and market-design synthesis
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture27.pdf)
-    * Suggested Reading:
-        * Vohra, Ch. 8 [[link]][Vohra]
-        * Roughgarden, §1.1 [[link]][Roughgarden]
--->
-
-*   **Lecture 28 — Dec. 3:** Course synthesis, review, or project presentations, depending on the final assessment plan
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture28.pdf)
-    * Suggested Reading:
-        * Vohra, Ch. 8 [[link]][Vohra]
-        * T&vR, §§1.3 and 1.6 [[link]][T&vR]
-        * Roughgarden, §1.1 [[link]][Roughgarden]
--->
+- Matching and markets without money
+- Platforms and two-sided markets
+- Course synthesis and review
 
 <!--
 PROMISING ARCHIVAL MATERIALS:
