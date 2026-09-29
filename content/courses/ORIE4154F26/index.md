@@ -20,7 +20,7 @@ draft: false
 # Featured image
 # The page bundle includes `featured.png`.
 image:
-  placement: 2
+  placement: 1
   caption: 'what codex thinks I will be teaching'
   focal_point: "Center"
   preview_only: false
