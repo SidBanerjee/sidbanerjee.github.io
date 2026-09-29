@@ -144,6 +144,7 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
     * Suggested Reading:
         * Vera–Banerjee (2019), §§3–4 [[paper]][Bayesian Prophet]
         * Banerjee–Freund (2025) [[paper]][Good Prophets]
+    * Bayes Selector Lab: [[simulation]](/courses/orie4154f26/bayes-selector-lab/) — compare static fluid, re-solved fluid, and Bayes selection against hindsight
 
 
 ### Unit 3: Customer Choice and Assortment
