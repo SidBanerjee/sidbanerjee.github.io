@@ -13,7 +13,7 @@ authors:
 tags:
 categories:
 date: "2026-08-24T00:00:00Z"
-lastmod: "2026-09-25T00:00:00Z"
+lastmod: "2026-10-08T00:00:00Z"
 featured: false
 draft: false
 
@@ -129,54 +129,66 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
     * Suggested Reading:
         * T&vR, §2.2.1 and §§2.5.1–2.5.2 [[T&vR]][T&vR]
 
-*   **Lectures 7–8 — Sept. 15 and Sept. 17:** Static and dynamic revenue management at scale
+*   **Lecture 7 — Sept. 15:** Static versus dynamic revenue management
+    * Topics: single-resource RM, dynamic programming, static policies, and square-root scaling
     * Lecture notes: [[Lecs 7–8]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf)
     * Suggested Reading:
         * T&vR, §§2.5.1–2.5.2 [[T&vR]][T&vR]
 
-*   **Lectures 9–10 — Sept. 22 and Sept. 24:** Fluid models and network revenue management
+*   **Lecture 8 — Sept. 17:** Static versus dynamic revenue management, continued
+    * Lecture notes: [[Lecs 7–8]](/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf)
+
+*   **Lecture 9 — Sept. 22:** Fluid models and Jensen's inequality
+    * Topics: fluid benchmarks, concavity, and Jensen's inequality
     * Lecture notes: [[Lecs 9–10]](/docs/ORIE4154F26/files/ORIE4154_Lecture9.pdf)
     * Suggested Reading:
         * T&vR, §3.1.2.3, §§3.2.2–3.2.5, and §3.3.1 [[T&vR]][T&vR]
 
-*   **Lecture 11 — Sept. 29:** Bayes Selector: confidence-aware revenue management
-    * Lecture notes: [[Lec 11]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
+*   **Lecture 10 — Sept. 24:** Network RM: fluid LPs, bid prices, and static controls
+    * Topics: network RM, LP duality, bid prices, and static randomized controls
+    * Lecture notes: [[Lecs 9–10]](/docs/ORIE4154F26/files/ORIE4154_Lecture9.pdf)
+
+*   **Lecture 11 — Sept. 29:** Bayes Selector and compensated coupling
+    * Format: Online (Zoom)
+    * Topics: hindsight prediction, compensated coupling, and satisfying actions
+    * Lecture notes: [[Lecs 11 and 13; Lec 14 planned]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
     * Suggested Reading:
         * Vera–Banerjee (2019), §§3–4 [[paper]][Bayesian Prophet]
         * Banerjee–Freund (2025) [[paper]][Good Prophets]
     * Bayes Selector Lab: [[simulation]](/courses/orie4154f26/bayes-selector-lab/) — compare static fluid, re-solved fluid, and Bayes selection against hindsight
 
+*   **Oct. 1 — Class canceled (no lecture)**
+
+*   **Lecture 13 — Oct. 6:** Compensated coupling: Uniform[0,1] example and regret bounds
+    * Lecture notes: [[Lecs 11 and 13; Lec 14 planned]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
+    * Suggested Reading:
+        * Banerjee, *The Compensated Coupling*, Simons Institute talk, slides 14–20 and 24–34
+        * Vera–Banerjee, §§3–4 [[paper]][Bayesian Prophet]
+
+*   **Lecture 14 — Oct. 8 (planned):** Bayes Selector (discrete types); introduction to the Spiral-Down Effect
+    * Topics: discrete examples and regret bounds; demand learning, endogenous data, and spiral down
+    * Bayes Selector notes: [[combined notes]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
+    * Spiral-Down draft: [[notes]](/docs/ORIE4154F26/files/ORIE4154_Lecture14.pdf)
+    * Suggested Reading:
+        * Vera–Banerjee, Theorem 2 and Appendix B.3 [[paper]][Bayesian Prophet]
+        * Cooper–Homem-de-Mello–Kleywegt [[link]][Spiral-Down]
 
 ### Unit 3: Customer Choice and Assortment
 
-*   **Lecture 12 — Oct. 1:** The spiral-down effect: when availability corrupts demand data
-    * Lecture notes: [[Lec 12]](/docs/ORIE4154F26/files/ORIE4154_Lecture12.pdf)
-    * Suggested Reading:
-        * Cooper–Homem-de-Mello–Kleywegt [[link]][Spiral-Down]
-        * T&vR, §§2.6.1–2.6.2 and §7.2.2.3 [[T&vR]][T&vR]
-
-*   **Lecture 13 — Oct. 6:** Choice models and substitution
+Choice models and assortment optimization follow the Spiral-Down discussion;
+their meeting dates will be updated after Lecture 14.
 
 <!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture13.pdf)
-    * Suggested Reading:
-        * T&vR, choice-based RM chapters [[link]][T&vR]
-        * Vohra, discrete-choice material [[link]][Vohra]
--->
-
-*   **Lecture 14 — Oct. 8:** Assortment optimization under MNL
-
-<!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture14.pdf)
-    * Suggested Reading:
-        * T&vR, choice-based RM chapters [[link]][T&vR]
+*   **Upcoming:** Choice models, substitution, and MNL assortment optimization
+    * Suggested Reading: T&vR, choice-based RM chapters [[link]][T&vR]
 -->
 
 <!--
 PROMISING ARCHIVAL MATERIALS:
 - `AssortmentOptimization.pdf` and `ConstrainedAssortmentOpt.pdf` should be converted
   from handwritten notes into a consistent typeset packet.
-- `SpiralDown.pdf` remains highly relevant and should be updated.
+- The Spiral-Down draft is now the separate Lecture 14 notes and remains
+  labeled as planned for October 8.
 -->
 
 ### Unit 4: Auctions, Game Theory, and Mechanisms

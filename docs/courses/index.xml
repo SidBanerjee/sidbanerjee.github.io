@@ -142,9 +142,10 @@ Assessment details and course policies will be posted in the syllabus.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lectures 7–8 — Sept. 15 and Sept. 17:&lt;/strong&gt; Static and dynamic revenue management at scale&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 7 — Sept. 15:&lt;/strong&gt; Static versus dynamic revenue management&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;Topics: single-resource RM, dynamic programming, static policies, and square-root scaling&lt;/li&gt;
 &lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf&#34;&gt;[Lecs 7–8]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
@@ -153,9 +154,16 @@ Assessment details and course policies will be posted in the syllabus.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lectures 9–10 — Sept. 22 and Sept. 24:&lt;/strong&gt; Fluid models and network revenue management&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 8 — Sept. 17:&lt;/strong&gt; Static versus dynamic revenue management, continued&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture7.pdf&#34;&gt;[Lecs 7–8]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 9 — Sept. 22:&lt;/strong&gt; Fluid models and Jensen&amp;rsquo;s inequality&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Topics: fluid benchmarks, concavity, and Jensen&amp;rsquo;s inequality&lt;/li&gt;
 &lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture9.pdf&#34;&gt;[Lecs 9–10]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
@@ -164,10 +172,19 @@ Assessment details and course policies will be posted in the syllabus.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 11 — Sept. 29:&lt;/strong&gt; Bayes Selector: confidence-aware revenue management&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 10 — Sept. 24:&lt;/strong&gt; Network RM: fluid LPs, bid prices, and static controls&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf&#34;&gt;[Lec 11]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Topics: network RM, LP duality, bid prices, and static randomized controls&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture9.pdf&#34;&gt;[Lecs 9–10]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 11 — Sept. 29:&lt;/strong&gt; Bayes Selector and compensated coupling&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Format: Online (Zoom)&lt;/li&gt;
+&lt;li&gt;Topics: hindsight prediction, compensated coupling, and satisfying actions&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf&#34;&gt;[Lecs 11 and 13; Lec 14 planned]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
@@ -176,48 +193,52 @@ Assessment details and course policies will be posted in the syllabus.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Bayes Selector Lab: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/bayes-selector-lab/&#34;&gt;[simulation]&lt;/a&gt; — compare static fluid, re-solved fluid, and Bayes selection against hindsight&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Oct. 1 — Class canceled (no lecture)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 13 — Oct. 6:&lt;/strong&gt; Compensated coupling: Uniform[0,1] example and regret bounds&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf&#34;&gt;[Lecs 11 and 13; Lec 14 planned]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Suggested Reading:
+
+&lt;ul&gt;
+&lt;li&gt;Banerjee, &lt;em&gt;The Compensated Coupling&lt;/em&gt;, Simons Institute talk, slides 14–20 and 24–34&lt;/li&gt;
+&lt;li&gt;Vera–Banerjee, §§3–4 &lt;a href=&#34;https://arxiv.org/abs/1901.05028&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 14 — Oct. 8 (planned):&lt;/strong&gt; Bayes Selector (discrete types); introduction to the Spiral-Down Effect&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Topics: discrete examples and regret bounds; demand learning, endogenous data, and spiral down&lt;/li&gt;
+&lt;li&gt;Bayes Selector notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf&#34;&gt;[combined notes]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spiral-Down draft: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture14.pdf&#34;&gt;[notes]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Suggested Reading:
+
+&lt;ul&gt;
+&lt;li&gt;Vera–Banerjee, Theorem 2 and Appendix B.3 &lt;a href=&#34;https://arxiv.org/abs/1901.05028&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cooper–Homem-de-Mello–Kleywegt &lt;a href=&#34;https://pubsonline.informs.org/doi/abs/10.1287/opre.1060.0304&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;unit-3-customer-choice-and-assortment&#34;&gt;Unit 3: Customer Choice and Assortment&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 12 — Oct. 1:&lt;/strong&gt; The spiral-down effect: when availability corrupts demand data&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture12.pdf&#34;&gt;[Lec 12]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Suggested Reading:
-
-&lt;ul&gt;
-&lt;li&gt;Cooper–Homem-de-Mello–Kleywegt &lt;a href=&#34;https://pubsonline.informs.org/doi/abs/10.1287/opre.1060.0304&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;T&amp;amp;vR, §§2.6.1–2.6.2 and §7.2.2.3 &lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://catalog.library.cornell.edu/catalog/15564919&#34; target=&#34;_blank&#34;&gt;T&amp;amp;vR&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 13 — Oct. 6:&lt;/strong&gt; Choice models and substitution&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Choice models and assortment optimization follow the Spiral-Down discussion;
+their meeting dates will be updated after Lecture 14.&lt;/p&gt;
 
 &lt;!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture13.pdf)
-    * Suggested Reading:
-        * T&amp;vR, choice-based RM chapters [[link]][T&amp;vR]
-        * Vohra, discrete-choice material [[link]][Vohra]
---&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Lecture 14 — Oct. 8:&lt;/strong&gt; Assortment optimization under MNL&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--
-    * Lecture notes: [[link]](/docs/ORIE4154F26/files/ORIE4154_Lecture14.pdf)
-    * Suggested Reading:
-        * T&amp;vR, choice-based RM chapters [[link]][T&amp;vR]
+*   **Upcoming:** Choice models, substitution, and MNL assortment optimization
+    * Suggested Reading: T&amp;vR, choice-based RM chapters [[link]][T&amp;vR]
 --&gt;
 
 &lt;!--
 PROMISING ARCHIVAL MATERIALS:
 - `AssortmentOptimization.pdf` and `ConstrainedAssortmentOpt.pdf` should be converted
   from handwritten notes into a consistent typeset packet.
-- `SpiralDown.pdf` remains highly relevant and should be updated.
+- The Spiral-Down draft is now the separate Lecture 14 notes and remains
+  labeled as planned for October 8.
 --&gt;
 
 &lt;h3 id=&#34;unit-4-auctions-game-theory-and-mechanisms&#34;&gt;Unit 4: Auctions, Game Theory, and Mechanisms&lt;/h3&gt;
