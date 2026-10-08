@@ -169,6 +169,7 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
     * Topics: discrete examples and regret bounds; demand learning, endogenous data, and spiral down
     * Bayes Selector notes: [[combined notes]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
     * Spiral-Down draft: [[notes]](/docs/ORIE4154F26/files/ORIE4154_Lecture14.pdf)
+    * Interactive demo: [The Spiral-Down Lab](/courses/orie4154f26/spiral-down-lab/)
     * Suggested Reading:
         * Vera–Banerjee, Theorem 2 and Appendix B.3 [[paper]][Bayesian Prophet]
         * Cooper–Homem-de-Mello–Kleywegt [[link]][Spiral-Down]
