@@ -184,7 +184,7 @@ Assessment details and course policies will be posted in the syllabus.
 &lt;ul&gt;
 &lt;li&gt;Format: Online (Zoom)&lt;/li&gt;
 &lt;li&gt;Topics: hindsight prediction, compensated coupling, and satisfying actions&lt;/li&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf&#34;&gt;[Lecs 11 and 13; Lec 14 planned]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf&#34;&gt;[Lecs 11, 13–14]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
@@ -194,12 +194,12 @@ Assessment details and course policies will be posted in the syllabus.
 &lt;li&gt;Bayes Selector Lab: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/bayes-selector-lab/&#34;&gt;[simulation]&lt;/a&gt; — compare static fluid, re-solved fluid, and Bayes selection against hindsight&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Oct. 1 — Class canceled (no lecture)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 12 — Oct. 1:&lt;/strong&gt; CANCELED — no class&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 13 — Oct. 6:&lt;/strong&gt; Compensated coupling: Uniform[0,1] example and regret bounds&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 13 — Oct. 6:&lt;/strong&gt; Compensated Coupling: Uniform[0,1] Values and Regret Bounds&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf&#34;&gt;[Lecs 11 and 13; Lec 14 planned]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf&#34;&gt;[Lecs 11, 13–14]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
@@ -208,26 +208,40 @@ Assessment details and course policies will be posted in the syllabus.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 14 — Oct. 8 (planned):&lt;/strong&gt; Bayes Selector (discrete types); introduction to the Spiral-Down Effect&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lecture 14 — Oct. 8:&lt;/strong&gt; Bayes Selector: Discrete Types and Constant Regret&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Topics: discrete examples and regret bounds; demand learning, endogenous data, and spiral down&lt;/li&gt;
-&lt;li&gt;Bayes Selector notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf&#34;&gt;[combined notes]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Spiral-Down draft: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture14.pdf&#34;&gt;[notes]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Interactive demo: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/spiral-down-lab/&#34;&gt;The Spiral-Down Lab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Topics: re-solved fluid LPs, half-threshold acceptance, satisfying actions, concentration inequalities, and a constant expected regret bound&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf&#34;&gt;[Lecs 11, 13–14]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Suggested Reading:
 
 &lt;ul&gt;
 &lt;li&gt;Vera–Banerjee, Theorem 2 and Appendix B.3 &lt;a href=&#34;https://arxiv.org/abs/1901.05028&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Cooper–Homem-de-Mello–Kleywegt &lt;a href=&#34;https://pubsonline.informs.org/doi/abs/10.1287/opre.1060.0304&#34; target=&#34;_blank&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Oct. 13 — Fall Break:&lt;/strong&gt; No class&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;unit-3-customer-choice-and-assortment&#34;&gt;Unit 3: Customer Choice and Assortment&lt;/h3&gt;
 
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lecture 15 — Oct. 15 (planned):&lt;/strong&gt; The Spiral-Down Effect
+
+&lt;ul&gt;
+&lt;li&gt;Topics: how booking controls change observed sales, why independent-demand forecasts can become biased, and how repeated forecasting and optimization produce a self-reinforcing downward spiral&lt;/li&gt;
+&lt;li&gt;Lecture notes: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/docs/ORIE4154F26/files/ORIE4154_Lecture15.pdf&#34;&gt;[Lec 15]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Interactive demo: &lt;a href=&#34;https://sidbanerjee.orie.cornell.edu/courses/orie4154f26/spiral-down-lab/&#34;&gt;Spiral-Down Lab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Suggested Reading:
+
+&lt;ul&gt;
+&lt;li&gt;Cooper, Homem-de-Mello, and Kleywegt (2006), “Models of the Spiral-Down Effect in Revenue Management” &lt;a href=&#34;https://pubsonline.informs.org/doi/abs/10.1287/opre.1060.0304&#34; target=&#34;_blank&#34;&gt;[paper]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;Choice models and assortment optimization follow the Spiral-Down discussion;
-their meeting dates will be updated after Lecture 14.&lt;/p&gt;
+their meeting dates will be updated after Lecture 15.&lt;/p&gt;
 
 &lt;!--
 *   **Upcoming:** Choice models, substitution, and MNL assortment optimization
@@ -238,13 +252,11 @@ their meeting dates will be updated after Lecture 14.&lt;/p&gt;
 PROMISING ARCHIVAL MATERIALS:
 - `AssortmentOptimization.pdf` and `ConstrainedAssortmentOpt.pdf` should be converted
   from handwritten notes into a consistent typeset packet.
-- The Spiral-Down draft is now the separate Lecture 14 notes and remains
-  labeled as planned for October 8.
+- The Spiral-Down draft is now the separate Lecture 15 notes and remains
+  labeled as planned for October 15.
 --&gt;
 
 &lt;h3 id=&#34;unit-4-auctions-game-theory-and-mechanisms&#34;&gt;Unit 4: Auctions, Game Theory, and Mechanisms&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Oct. 13: Fall Break — no class&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The remaining sequence is tentative; topics and their allocation across class meetings may change.&lt;/p&gt;
 

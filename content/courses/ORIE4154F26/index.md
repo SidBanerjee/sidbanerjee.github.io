@@ -13,7 +13,7 @@ authors:
 tags:
 categories:
 date: "2026-08-24T00:00:00Z"
-lastmod: "2026-10-08T00:00:00Z"
+lastmod: "2026-10-16T00:00:00Z"
 featured: false
 draft: false
 
@@ -151,33 +151,39 @@ The plan below is tentative. Topics, dates, and the division between lectures ma
 *   **Lecture 11 — Sept. 29:** Bayes Selector and compensated coupling
     * Format: Online (Zoom)
     * Topics: hindsight prediction, compensated coupling, and satisfying actions
-    * Lecture notes: [[Lecs 11 and 13; Lec 14 planned]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
+    * Lecture notes: [[Lecs 11, 13–14]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
     * Suggested Reading:
         * Vera–Banerjee (2019), §§3–4 [[paper]][Bayesian Prophet]
         * Banerjee–Freund (2025) [[paper]][Good Prophets]
     * Bayes Selector Lab: [[simulation]](/courses/orie4154f26/bayes-selector-lab/) — compare static fluid, re-solved fluid, and Bayes selection against hindsight
 
-*   **Oct. 1 — Class canceled (no lecture)**
+*   **Lecture 12 — Oct. 1:** CANCELED — no class
 
-*   **Lecture 13 — Oct. 6:** Compensated coupling: Uniform[0,1] example and regret bounds
-    * Lecture notes: [[Lecs 11 and 13; Lec 14 planned]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
+*   **Lecture 13 — Oct. 6:** Compensated Coupling: Uniform[0,1] Values and Regret Bounds
+    * Lecture notes: [[Lecs 11, 13–14]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
     * Suggested Reading:
         * Banerjee, *The Compensated Coupling*, Simons Institute talk, slides 14–20 and 24–34
         * Vera–Banerjee, §§3–4 [[paper]][Bayesian Prophet]
 
-*   **Lecture 14 — Oct. 8 (planned):** Bayes Selector (discrete types); introduction to the Spiral-Down Effect
-    * Topics: discrete examples and regret bounds; demand learning, endogenous data, and spiral down
-    * Bayes Selector notes: [[combined notes]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
-    * Spiral-Down draft: [[notes]](/docs/ORIE4154F26/files/ORIE4154_Lecture14.pdf)
-    * Interactive demo: [The Spiral-Down Lab](/courses/orie4154f26/spiral-down-lab/)
+*   **Lecture 14 — Oct. 8:** Bayes Selector: Discrete Types and Constant Regret
+    * Topics: re-solved fluid LPs, half-threshold acceptance, satisfying actions, concentration inequalities, and a constant expected regret bound
+    * Lecture notes: [[Lecs 11, 13–14]](/docs/ORIE4154F26/files/ORIE4154_Lecture11.pdf)
     * Suggested Reading:
         * Vera–Banerjee, Theorem 2 and Appendix B.3 [[paper]][Bayesian Prophet]
-        * Cooper–Homem-de-Mello–Kleywegt [[link]][Spiral-Down]
+
+*   **Oct. 13 — Fall Break:** No class
 
 ### Unit 3: Customer Choice and Assortment
 
+*   **Lecture 15 — Oct. 15 (planned):** The Spiral-Down Effect
+    * Topics: how booking controls change observed sales, why independent-demand forecasts can become biased, and how repeated forecasting and optimization produce a self-reinforcing downward spiral
+    * Lecture notes: [[Lec 15]](/docs/ORIE4154F26/files/ORIE4154_Lecture15.pdf)
+    * Interactive demo: [Spiral-Down Lab](/courses/orie4154f26/spiral-down-lab/)
+    * Suggested Reading:
+        * Cooper, Homem-de-Mello, and Kleywegt (2006), “Models of the Spiral-Down Effect in Revenue Management” [[paper]][Spiral-Down]
+
 Choice models and assortment optimization follow the Spiral-Down discussion;
-their meeting dates will be updated after Lecture 14.
+their meeting dates will be updated after Lecture 15.
 
 <!--
 *   **Upcoming:** Choice models, substitution, and MNL assortment optimization
@@ -188,13 +194,11 @@ their meeting dates will be updated after Lecture 14.
 PROMISING ARCHIVAL MATERIALS:
 - `AssortmentOptimization.pdf` and `ConstrainedAssortmentOpt.pdf` should be converted
   from handwritten notes into a consistent typeset packet.
-- The Spiral-Down draft is now the separate Lecture 14 notes and remains
-  labeled as planned for October 8.
+- The Spiral-Down draft is now the separate Lecture 15 notes and remains
+  labeled as planned for October 15.
 -->
 
 ### Unit 4: Auctions, Game Theory, and Mechanisms
-
-*Oct. 13: Fall Break — no class*
 
 The remaining sequence is tentative; topics and their allocation across class meetings may change.
 
